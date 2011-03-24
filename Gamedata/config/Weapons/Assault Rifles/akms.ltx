@@ -1,0 +1,234 @@
+;;; Rewritten by Panzerdraco for L.U.R.K Mod.
+;;; A line with one or more ";"'s before it indicates a comment, and won't be read by the script.
+
+;-----AKM-S-----;
+;-----Base Setup-----;
+[wpn_akms_sk1]:identity_immunities
+$spawn                   	= "weapons\akms"
+$npc                     	= on
+$prefetch 		         	= 8
+scheduled                	= off
+cform                    	= skeleton
+class                    	= WP_AK74
+min_radius               	= 0
+max_radius               	= 100
+
+inv_name	        		= name_wpn_akms_7.62x39mm
+inv_name_short				= name_wpn_akms_7.62x39mm
+description					= desc_wpn_akms_7.62x39mm
+
+cost						= 9000
+inv_weight					= 3.1
+
+visual                   	= Arsenal_Mod\wpn_akms_sk1.ogf
+
+ef_main_weapon_type			= 2
+ef_weapon_type				= 6
+
+holder_range_modifier		= 1
+holder_fov_modifier			= 1
+
+hand_dependence				= 1
+single_handed				= 0
+
+sprint_allowed				= true
+
+slot 			         	= 2
+animation_slot			 	= 2
+
+inv_grid_width				= 5
+inv_grid_height				= 2
+inv_grid_x					= 66
+inv_grid_y					= 8
+
+kill_msg_x					= 0
+kill_msg_y					= 28
+kill_msg_width				= 84
+kill_msg_height				= 28
+
+ammo_limit		         	= 210
+ammo_current		     	= 90
+ammo_elapsed		     	= 30
+
+ph_mass						= 5
+
+
+;-----Ballistics, Handling & Accuracy-----;
+hit_power                	= 1.0
+hit_impulse		        	= 1
+hit_type 					= fire_wound
+
+fire_distance            	= 1
+bullet_speed				= 700
+rpm                      	= 600
+
+ammo_mag_size				= 30
+ammo_class					= ammo_7.62x39_fmj, ammo_7.62x39_ap, ammo_7.62x39_ap2, ammo_7.62x39_inc
+fire_modes					= 1, -1
+	
+tri_state_reload			= off
+
+control_inertion_factor		= 1.05f
+
+fire_dispersion_base		= 0.55
+handling_factor				= 1.00
+use_aim_bullet				= true
+time_to_aim					= 0.50
+
+PDM_disp_base 				= 2.00
+PDM_disp_vel_factor 		= 0.75
+PDM_disp_accel_factor 		= 1.75
+PDM_crouch	 				= 0.50
+PDM_crouch_no_acc 			= 0.50
+
+cam_relax_speed        	 	= 0.0
+cam_relax_speed_ai      	= 360
+cam_dispersion         	 	= 2.55
+cam_step_angle_horz			= 1.50
+cam_dispersion_inc			= 0.25
+cam_dispertion_frac			= 1.50
+cam_max_angle				= 180.0
+cam_max_angle_horz			= 180.0
+
+fire_dispersion_condition_factor 	= 2.000
+misfire_probability 				= 0.0025
+misfire_condition_k					= 0.15
+condition_shot_dec 					= 0.00020
+
+
+;-----Sights & Attachments-----;
+;--Scope & Sight--
+zoom_enabled				= true
+
+scope_status				= 2
+scope_name 					= wpn_addon_scope
+scope_x 					= 42
+scope_y 					= 1
+
+scope_zoom_factor = 70;	    	= 90.0
+;max_zoom_factor			= 5
+;scope_texture				= wpn\wpn_crosshair_g36
+
+;--Silencer--
+silencer_status				= 2
+
+silencer_name  				= wpn_addon_sil_762_ar
+silencer_x 					= 195
+silencer_y 					= 18
+
+;--Grenade Launcher--
+grenade_launcher_status		= 2
+grenade_vel					= 75
+grenade_class				= ammo_vog-25, ammo_vog-25p
+launch_speed				= 75
+
+grenade_launcher_name 		= wpn_addon_grenade_launcher
+grenade_launcher_x 			= 105
+grenade_launcher_y 			= 21
+
+
+;-----Sounds, Particles, Muzzleflash & Miscellaneous-----;
+
+snd_draw					= wpn\Rifle\AK47\ak47_draw
+snd_holster					= wpn\rifle_holster
+snd_shoot					= wpn\Rifle\AK47\ak47_shoot
+snd_empty					= wpn\rifle_empty
+snd_reload					= wpn\Rifle\AK47\ak47_reload
+snd_shoot_grenade			= wpn\Misc\Grenade\gp25_grenshoot
+snd_reload_grenade			= wpn\Misc\Grenade\gp25_grenload
+snd_switch					= wpn\Misc\Grenade\gp25_switch
+snd_silncer_shot			= wpn\Rifle\AK47\ak47_shoot_sil, 0.5
+
+rpm_empty_click 	 		= 200
+
+light_disabled				= false
+
+light_color					= 1.0,1.0,0.4
+light_range					= 1.0
+light_var_color				= 0.0
+light_var_range				= 0.5
+light_time 					= 0.1
+
+silencer_light_color		= 0.0,0.0,0.0
+silencer_light_range		= 0.00
+silencer_light_var_color	= 0.00
+silencer_light_var_range	= 0.0
+silencer_light_time 		= 0.0
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+grenade_flame_particles		= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+shell_point		 			= 0,0.216,0.174
+;shell_dir		 			= 0.0, 0.0, 0.4
+shell_particles	 			= weapons\arsenal_shells1
+
+normal                   	= 0, 1, 0
+position         	    	= -0.026,-0.172,0
+orientation              	= 0, 0, 0
+
+direction                	= 0, 0, 1
+
+fire_point               	= 0,0.216,0.575
+fire_point2            		= 0,0.216,0.730
+
+weapon_remove_time			= 1000
+
+strap_position         		= -0.16,-0.40,0.15
+strap_orientation      		= -10,-5,10
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+
+hud                      	= wpn_akms_hud
+[wpn_akms_hud]
+shell_point          		= 0,0,-0.6
+shell_dir			 		= 0.0, 1.0, 0.0
+
+fire_point               	= 0,0,-0.5
+fire_bone                	= muzzle
+grenade_bone            	= wpn_grenade
+orientation              	= 0, 0, 0
+position                	= 0.10,-0.06,-0.05
+visual                   	= Arsenal_Mod\wpn_akms_sk1_hud.ogf
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+; attached grenade launcher
+anim_idle_g					= idle_grenade
+anim_idle_g_aim				= idle_grenade
+anim_reload_g				= reload_grenade
+anim_shoot_g				= idle_grenade
+anim_switch_grenade_on		= grenade_on
+anim_switch_grenade_off		= grenade_off
+anim_draw_g					= draw_grenade
+anim_holster_g				= holster_grenade
+
+; attached grenade launcher [NORMAL fire mode]
+anim_idle_gl				= idle_w_gl
+anim_idle_gl_aim			= idle_w_gl_aim
+anim_reload_gl				= reload_w_gl
+anim_draw_gl				= draw_w_gl
+anim_holster_gl				= holster_w_gl
+anim_shoot_gl				= shoot_w_gl
+
+zoom_hide_crosshair			= true
+zoom_rotate_time			= 0.30
+zoom_offset					= -0.10,0.06,-0.05
+zoom_rotate_x				= 0.0
+zoom_rotate_y				= 0.0
+
+grenade_normal_zoom_offset		= -0.10,0.06,-0.05
+grenade_normal_zoom_rotate_x	= -0.00000
+grenade_normal_zoom_rotate_y	= 0.00000
+
+grenade_zoom_offset			= -0.10,0.06,-0.05
+grenade_zoom_rotate_x		= 0
+grenade_zoom_rotate_y		= -0

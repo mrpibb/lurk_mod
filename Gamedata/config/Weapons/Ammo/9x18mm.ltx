@@ -1,0 +1,132 @@
+;---9x18mm Standard---
+[ammo_9x18_fmj]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn				= "weapons\ammo\ammo_9x18_fmj"
+class				= AMMO
+cform				= skeleton
+visual				= weapons\ammo\ammo_9x18_fmj.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_9x18mm_stnd
+inv_name_short		= name_ammo_9x18mm_stnd_s
+description			= desc_ammo_9x18mm_stnd
+
+cost				= 100
+box_size			= 25
+inv_weight			= 0.50
+
+k_dist				= 100
+k_disp				= 1
+k_hit				= 0.45
+k_impulse			= 10
+k_pierce			= 0.9
+impair				= 1
+buck_shot			= 1
+tracer				= off
+wm_size         	= 0.03
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 11
+inv_grid_y			= 12
+
+;---9x18mm Hollowpoint---
+[ammo_9x18_pbp]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn				= "weapons\ammo\ammo_9x18_pbp"
+class				= AMMO
+cform				= skeleton
+visual				= weapons\ammo\ammo_9x18_pbp.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_9x18mm_hp
+inv_name_short		= name_ammo_9x18mm_hp_s
+description			= desc_ammo_9x18mm_hp
+
+cost				= 200
+box_size			= 25
+inv_weight			= 0.50
+
+k_dist				= 100
+k_disp				= 1.5
+k_hit				= 0.50
+k_impulse			= 10
+k_pierce			= 0.67
+impair				= 1
+buck_shot			= 1
+tracer				= off
+wm_size         	= 0.03
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 12
+inv_grid_y			= 12
+
+;---9x18mm Armour Piercing---
+[ammo_9x18_pmm]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn				= "weapons\ammo\ammo_9x18_pmm"
+class				= AMMO
+cform				= skeleton
+visual				= weapons\ammo\ammo_9x18_pmm.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_9x18mm_ap
+inv_name_short		= name_ammo_9x18mm_ap_s
+description			= desc_ammo_9x18mm_ap
+
+cost				= 200
+box_size			= 25
+inv_weight			= 0.50
+
+k_dist				= 100
+k_disp				= 0.5
+k_hit				= 0.42
+k_impulse			= 10
+k_pierce			= 1.57
+impair				= 1
+buck_shot			= 1
+tracer				= off
+wm_size         	= 0.03
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 12
+inv_grid_y			= 12
+
+;---9x18mm Incendiary---
+[ammo_9x18_inc]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn				= "weapons\ammo\ammo_9x18_inc"
+class				= AMMO
+cform				= skeleton
+visual				= weapons\ammo\ammo_9x18_pmm.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_9x18mm_incen
+inv_name_short		= name_ammo_9x18mm_incen_s
+description			= desc_ammo_9x18mm_incen
+
+cost				= 400
+box_size			= 25
+inv_weight			= 0.50
+
+k_dist				= 100
+k_disp				= 2.0
+k_hit				= 0.54
+k_impulse			= 10
+k_pierce			= 0.9
+impair				= 1
+buck_shot			= 1
+tracer				= on
+wm_size         	= 0.03
+explosive			= on
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 12
+inv_grid_y			= 12

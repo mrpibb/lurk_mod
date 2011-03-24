@@ -1,0 +1,63 @@
+[protection_base]
+; delete full_scale_icon	next update- obsolete, use  full_icon_name instead !!!
+
+additional_inventory_weight		= 0		; +max_walk_weight
+additional_inventory_weight2	= 0	;	+40 kg
+full_icon_name					= npc_icon_without_outfit
+
+
+
+[protection_lurk_outfit]:protection_base
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn 			= "outfit\protection_outfit"
+$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\scientist_suit.ogf	
+actor_visual	= actors\hero\stalker_chemical.ogf
+
+ef_equipment_type	= 2
+
+inv_name			= lurk_name_outfit_protection
+inv_name_short		= lurk_name_outfit_protection
+description			= lurk_desc_outfit_protection
+inv_weight			= 7.0
+slot				= 6
+inv_grid_width		= 3
+inv_grid_height		= 4
+inv_grid_x			= 37
+inv_grid_y			= 8
+full_icon_name		= npc_icon_protection_outfit
+nightvision_sect	= effector_nightvision_tactical_better
+
+cost				= 100000
+full_scale_icon		= 12,6			;икБEБE сталБEра БEБEстюБE БEБEБEый рост
+
+immunities_sect			= sect_protection_outfit_immunities
+
+; HIGH RESISTANCE
+burn_protection 			= 0.45
+strike_protection 			= 0.1
+shock_protection 			= 0.5
+wound_protection			= 0.1
+radiation_protection 			= 0.85
+telepatic_protection 			= 0.3
+chemical_burn_protection 		= 0.35
+explosion_protection 			= 0.15
+fire_wound_protection  			= 0.25
+
+bones_koeff_protection = kombez_kupol_damage
+
+
+[sect_protection_outfit_immunities]
+burn_immunity				= 0.0001			;БEэффициеыQБEимБEыGтета саБEго БEстюБE
+strike_immunity				= 0.00001
+shock_immunity				= 0.0001
+wound_immunity				= 0.00001
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.0001
+explosion_immunity			= 0.0001
+fire_wound_immunity			= 0.0175
+

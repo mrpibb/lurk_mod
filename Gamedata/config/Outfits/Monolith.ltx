@@ -1,0 +1,62 @@
+[monolith_base]
+; delete full_scale_icon	next update- obsolete, use  full_icon_name instead !!!
+
+additional_inventory_weight		= 0		; +max_walk_weight
+additional_inventory_weight2	= 0		;	+40 kg
+full_icon_name					= npc_icon_without_outfit
+
+
+[monolit_lurk_outfit]:monolith_base
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn 			= "outfit\monolit_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\monolit_suit
+actor_visual	= actors\hero\stalker_monolit.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= lurk_name_outfit_monolith
+inv_name_short		= lurk_name_outfit_monolith
+description			= lurk_desc_outfit_monolith
+inv_weight			= 5.0
+inv_grid_width		= 3
+inv_grid_height		= 4
+inv_grid_x			= 37
+inv_grid_y			= 20
+full_icon_name		= npc_icon_monolit_outfit
+
+cost				= 50000
+slot				= 6
+full_scale_icon		= 6,11			;икБEБE сталБEра БEБEстюБE БEБEБEый рост
+
+nightvision_sect	= effector_nightvision_tactical_bad
+
+immunities_sect			= sect_monolit_outfit_immunities
+
+; LOW RESISTANCE
+burn_protection 			= 0.1
+strike_protection 			= 0.2
+shock_protection 			= 0.2
+wound_protection			= 0.2
+radiation_protection 			= 0.25
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.05
+explosion_protection 			= 0.2
+fire_wound_protection  			= 0.125
+
+bones_koeff_protection = kombez_mask_damage
+
+[sect_monolit_outfit_immunities]
+burn_immunity				= 0.0001			;БEэффициеыQБEимБEыGтета саБEго БEстюБE
+strike_immunity				= 0.00001
+shock_immunity				= 0.0001
+wound_immunity				= 0.00001
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.0001
+explosion_immunity			= 0.0001
+fire_wound_immunity			= 0.06
+

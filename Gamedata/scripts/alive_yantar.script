@@ -1,0 +1,271 @@
+--STALKER aliVe BETA
+--by gannebamm www.oblivion-lost.de
+--YANTAR SCRIPTS
+--------------------------------------------------------------------- PRECONDITIONS :
+
+--MONEY
+
+local money_amount_x = 35000
+function bunker_check2( actor, npc )
+	if db.actor:money() >= money_amount_x then 
+		return false
+	end
+	return true
+end
+
+--ITEM
+
+function bunker_check1( actor, npc )
+	if actor:object("af_dummy_battery") and
+		actor:object("af_dummy_glassbeads")
+		then
+		return true
+	end
+	return false
+end
+
+---------------------------------------------------------------------------- REWARDS :
+
+--ITEM
+
+function bunker_trade (actor, trader)
+	dialogs.relocate_item_section(trader, "af_dummy_battery", "out")
+	dialogs.relocate_item_section(trader, "af_dummy_glassbeads", "out")
+	dialogs.relocate_item_section(trader, "wpn_gauss", "in")
+	
+end
+
+--------------------------------------------------------------------------- SPAWNING :
+-- orig from PROTON @ GSC-FORUM : THX to you for youre help !
+-- edited by gannebamm
+
+--INITIALIZE CONSOLE
+local logf_console = nil
+
+function logf( fmt, ... )
+	logf_console = get_console()
+	logf = logf_main
+	logf_main( fmt, ... )
+end
+
+function logf_main( fmt, ... )
+    local c = select( "#", ... )
+    if c <= 0 then -- nothing to format
+        logf_console:execute( ":" .. string.gsub( fmt, " ", "\160" ) )
+    else
+        logf_console:execute( ":" .. string.gsub( string.format( fmt, ... ), " ", "\160" ) )
+    end
+end
+
+--'END of init console
+
+-- MUTANT / NPC SPAWNING
+-- LISTE VON MONSTERn DIE SPAWNEN :
+-- snork_weak / normal / snork_jumper <- JUMP JUMP JUMP ^^ neuer liebling rofl
+-- sucker_weak / normal
+-- boar_strong / rest?
+-- dog_strong / rest ?
+-- flesh_strong / rest ?
+-- gigant_strong / rest ?
+-- m_poltergeist_strong_flame / m_poltergeist_normal_tele (doesnt attack!)
+-- tushkano_normal (is for all other NSCs and Mutants neutral, were not been attacked by others then the player!)
+-- pseudodog_strong / rest ?
+-- stalker_trader / Stalker with antigas Armor and bm-16 : roaming the zone
+--	+ NPCs = levelname_classname_respawn_number : eg. esc_stalker_respawn_1
+----------------------------------- bunker1-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bunker1_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+
+        local height = 10
+
+	--' logf("start adding gigant_strong")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -125
+		z_offset = 10
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("gigant_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "gigant_strong %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bunker1_spawn ( actor, npc )
+
+	--' logf("init_spawn_bunker1() called")
+	local spawn_point1 = db.actor:position()  -- relativer spawn 0,0,0= player
+	bunker1_spawn( spawn_point1, 2 )
+	
+	--' logf("init_spawn_bunker1() completed")
+	
+end
+
+--' x niedriger auf PDA Karte nach Westen, z höher nach Norden
+--' END OF SPAWNinit function
+------------------------------ END bunker1-aliVe-EBEN ^^ ----------------------
+----------------------------------- bunker2-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bunker2_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 290, 290 --' x and y coordinates
+        local height = 4
+
+	--' logf("start adding m_poltergeist_strong_flame")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = math.random(-(area_longitude),(area_longitude))
+		z_offset = math.random(-(area_latitude),(area_latitude))
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("m_poltergeist_strong_flame", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "m_poltergeist_strong_flame %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bunker2_spawn ( actor, npc )
+
+	--' logf("init_spawn_bunker2() called")
+	local spawn_point2 = vector():set( 0, 0, 0 ) --'specific location
+	bunker2_spawn( spawn_point2, 1 )
+	
+	--' logf("init_spawn_bunker2() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END bunker2-aliVe-EVENT ----------------------
+----------------------------------- bunker3-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bunker3_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        
+        local height = 15
+
+	--' logf("start adding stalkergroup")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = 120
+		z_offset = 60
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("bar_stalker_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("bar_stalker_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("bar_stalker_respawn_3", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("bar_stalker_respawn_4", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "stalkergroupmembers %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bunker3_spawn ( actor, npc )
+
+	--' logf("init_spawn_bunker3() called")
+	local spawn_point3 = db.actor:position()  -- Wäre ein spawn direkt neben dem Spieler
+	bunker3_spawn( spawn_point3, 1 )
+	
+	--' logf("init_spawn_bunker3() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END bunker3-aliVe-EVENT ----------------------
+----------------------------------- bunker4-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bunker4_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local height = 25
+
+	--' logf("start adding tushkano_normal")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = 20
+		z_offset = 235
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("tushkano_normal", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "tushkano_normal %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bunker4_spawn ( actor, npc )
+
+	--' logf("init_spawn_bunker4() called")
+	local spawn_point4 = db.actor:position()  -- Spieler als (0,0,0)
+	bunker4_spawn( spawn_point4, 10 )
+	
+	--' logf("init_spawn_bunker4() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END bunker4-aliVe-EVENT ----------------------

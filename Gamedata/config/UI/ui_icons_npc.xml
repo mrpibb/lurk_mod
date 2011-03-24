@@ -1,0 +1,21 @@
+<ui_texture>
+    <file_name>ui\ui_actor_armor</file_name>
+
+    <texture id="npc_icon_without_outfit"			x="600" y="600"   width="300" height="150" />
+    <texture id="npc_icon_novice_outfit" 			x="600" y="150" width="300" height="150" />
+    <texture id="npc_icon_bandit_outfit" 			x="600" y="0" width="300" height="150" />
+    <texture id="npc_icon_killer_outfit" 			x="600" y="300" width="300" height="150" />
+    <texture id="npc_icon_monolit_outfit"			x="0" y="600" width="300" height="150" />
+    <texture id="npc_icon_specops_outfit"			x="300" y="150" width="300" height="150" />
+    <texture id="npc_icon_military_outfit"			x="0" y="0" width="300" height="150" />
+    <texture id="npc_icon_stalker_outfit"			x="300" y="0" width="300" height="150" />
+    <texture id="npc_icon_scientific_outfit"		x="600" y="450" width="300" height="150" />
+    <texture id="npc_icon_exo_outfit"				x="300" y="300" width="300" height="150" />
+    <texture id="npc_icon_svoboda_light_outfit" 	x="0" y="450" width="300" height="150" />
+    <texture id="npc_icon_svoboda_heavy_outfit" 	x="0" y="450" width="300" height="150" />
+    <texture id="npc_icon_dolg_outfit"				x="0" y="150" width="300" height="150" />
+    <texture id="npc_icon_dolg_scientific_outfit"	x="0" y="300" width="300" height="150" />
+    <texture id="npc_icon_ecolog_outfit"			x="300" y="450" width="300" height="150" />
+    <texture id="npc_icon_protection_outfit"		x="300" y="600" width="300" height="150" />
+   
+</ui_texture>

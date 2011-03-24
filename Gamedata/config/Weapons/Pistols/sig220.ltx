@@ -1,0 +1,283 @@
+;-----SIG SAUER P226-----;
+;-----Base Setup-----;
+[wpn_sig220]:identity_immunities
+$spawn                   	= "weapons\sig220"
+$npc                     	= on
+$prefetch 		         	= 8
+scheduled                	= off
+cform                    	= skeleton
+class                    	= WP_PM
+min_radius               	= 0
+max_radius               	= 50
+
+inv_name	        		= name_wpn_sigsauerp226_9x19mm
+inv_name_short				= name_wpn_sigsauerp226_9x19mm
+description					= desc_wpn_sigsauerp226_9x19mm
+
+cost						= 8500
+inv_weight					= 0.80
+
+visual                   	= weapons\sig220\wpn_sig220.ogf
+
+;ef_main_weapon_type		= 3
+ef_weapon_type				= 5
+
+holder_range_modifier		= 1
+holder_fov_modifier			= 1
+
+hand_dependence		    	= 1
+single_handed				= 1
+
+sprint_allowed				= true
+
+slot 			         	= 1
+animation_slot			 	= 1
+
+inv_grid_width				= 1
+inv_grid_height				= 1
+inv_grid_x					= 58
+inv_grid_y					= 6
+
+kill_msg_x					= 72
+kill_msg_y					= 177
+kill_msg_width				= 31
+kill_msg_height				= 24
+
+ammo_limit		         	= 120
+ammo_current		     	= 96
+ammo_elapsed		     	= 16
+
+ph_mass						= 2
+
+
+;-----Ballistics, Handling & Accuracy-----;
+hit_power                	= 1.15
+hit_impulse		        	= 1
+hit_type 					= fire_wound
+
+fire_distance            	= 1
+bullet_speed				= 430
+rpm                      	= 300
+
+ammo_mag_size				= 15
+ammo_class					= ammo_9x19_fmj, ammo_9x19_pbp, ammo_9x19_ap, ammo_9x19_hydra
+fire_modes					= 1
+	
+tri_state_reload			= off
+
+control_inertion_factor		= 1.00f
+
+fire_dispersion_base		= 0.85
+handling_factor				= 1.00
+use_aim_bullet				= true
+time_to_aim					= 0.50
+
+PDM_disp_base 				= 1.50
+PDM_disp_vel_factor 		= 0.50
+PDM_disp_accel_factor 		= 1.25
+PDM_crouch	 				= 0.25
+PDM_crouch_no_acc 			= 0.25
+
+cam_relax_speed        	 	= 0.0
+cam_relax_speed_ai      	= 360
+cam_dispersion         	 	= 0.90
+cam_step_angle_horz			= 1.50
+cam_dispersion_inc			= 0.25
+cam_dispertion_frac			= 1.25
+cam_max_angle				= 180.0
+cam_max_angle_horz			= 180.0
+
+fire_dispersion_condition_factor 	= 2.000
+misfire_probability 				= 0.0055
+misfire_condition_k					= 0.15
+condition_shot_dec 					= 0.00040
+
+
+;-----Sights & Attachments-----;
+;--Scope & Sight--
+zoom_enabled				= true
+
+scope_status				= 0
+scope_name 					= wpn_addon_scope
+scope_x 					= 42
+scope_y 					= 3
+
+scope_zoom_factor	    	= 70.0
+;max_zoom_factor			= 5
+;scope_texture				= wpn\wpn_crosshair_g36
+
+;--Silencer--
+silencer_status				= 2
+
+silencer_name  				= wpn_addon_sil_919_p
+silencer_x 					= 46
+silencer_y 					= -12
+
+;--Grenade Launcher--
+grenade_launcher_status		= 0
+;grenade_vel				= 76
+;grenade_class				= ammo_m209
+
+grenade_launcher_name 		= wpn_addon_grenade_launcher_m203
+grenade_launcher_x 			= 130
+grenade_launcher_y 			= 31
+
+;-----Sounds, Particles, Muzzleflash & Miscellaneous-----;
+hud                      	= wpn_sig220_hud
+visual                   	= weapons\sig220\wpn_sig220.ogf
+
+normal                   	= 0, 1, 0
+position                 	= -0.021, -0.085, 0.0
+orientation              	= 0, 0, 0
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+;strap_position         		= -0.1,-0.45,0.2			; position (offset) and orientation of the weapon when it is strapped
+;strap_orientation      		= 1.57,0,0						; (3rd person view)
+;strap_bone0					= bip01_spine2
+;strap_bone1					= bip01_spine1
+
+direction           	    = 0, 0, 1
+fire_point               	= 0.0, 0.133, 0.161
+
+flame_particles		   		= weapons\generic_weapon03
+smoke_particles		   		= weapons\generic_shoot_00
+
+shell_point		 			= 0.0, 0.133, 0.047
+shell_dir		 			= 0.0, 0.0, 0.4
+shell_particles	 			= weapons\generic_shells
+
+;-----------------------------------------------------------------------------------
+;startup_ammo            	= 90
+
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 3.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 			= 0.2
+
+ph_mass			 			= 1
+;cost			 			= 350
+
+;addons
+scope_status				= 0
+silencer_status				= 2
+grenade_launcher_status		= 0
+
+zoom_enabled				= true
+scope_zoom_factor	    	= 70
+
+;звуки
+snd_draw					= weapons\p228\draw
+snd_holster					= weapons\p228\holster
+snd_shoot					= weapons\p228\shot
+snd_shoot1					= weapons\p228\shot1
+snd_shoot2					= weapons\p228\shot2
+snd_shoot3					= weapons\p228\shot3
+snd_empty					= weapons\p228\empty
+snd_reload					= weapons\p228\reload
+snd_close					= weapons\p228\draw
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; silencer
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+silencer_name  				= wpn_addon_silencer		; section name for the attachable silencer
+silencer_x 					= 41						; offset in inventory icon
+silencer_y 					= -12					
+
+;params when silencer is attached 
+;similar to corresponding params without prefix silencer_
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+snd_silncer_shot			= weapons\silshot\45cal-2 
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+
+ 
+[wpn_sig220_hud]
+shell_point			= 0,0,-0.5
+fire_point			= 0,0,-0.62
+fire_bone                	= muzzle
+orientation              	= 0,0,0
+position                 	= 0.10,-0.06,-0.0
+;visual                   	=weapons\fort\wpn_fort.ogf
+visual                   	= weapons\sig220\wpn_sig220_hud.ogf 
+
+anim_holster				= holster
+anim_idle					= idle
+anim_empty					= empty
+anim_reload					= reload_full
+anim_reload_empty			      = reload
+anim_draw					= draw
+anim_draw_empty				= draw_empty
+anim_shoot					= shoot1
+anim_shot_last				= shoot_last
+anim_close					= holster
+anim_idle_aim				= idle_aim
+anim_idle_sprint			      = idle_sprint
+
+;смещения HUD для режима приближения
+zoom_offset			= -0.10,0.06,0
+zoom_rotate_x		= 0
+zoom_rotate_y		= 0
+
+;-----SIG SAUER P226 .40 S&W-----;
+[wpn_sig220_40sw]:wpn_sig220
+
+inv_name	        		= name_wpn_sigsauerp226_.40sw
+inv_name_short				= name_wpn_sigsauerp226_.40sw
+description					= desc_wpn_sigsauerp226_.40sw
+
+inv_grid_x					= 58
+inv_grid_y					= 47
+
+cost						= 10750
+
+ammo_mag_size				= 13
+ammo_class					= ammo_.40sw_stnd, ammo_.40sw_hp, ammo_.40sw_ap, ammo_.40sw_hydra
+
+silencer_name  				= wpn_addon_sil_40sw_p
+
+cam_dispersion         	 	= 1.45
+
+condition_shot_dec 			= 0.00044
+
+
+;-----SIG SAUER P220 .45 ACP-----;
+[wpn_sig220_45acp]:wpn_sig220
+
+inv_name	        		= name_wpn_sigsauerp220_.45acp
+inv_name_short				= name_wpn_sigsauerp220_.45acp
+description					= desc_wpn_sigsauerp220_.45acp
+
+inv_grid_x					= 58
+inv_grid_y					= 46
+
+cost						= 13000
+
+ammo_mag_size				= 9
+ammo_class					= ammo_11.43x23_fmj, ammo_11.43x23_hydro, ammo_11.43x23_ap, ammo_11.43x23_hydra
+
+silencer_name  				= wpn_addon_sil_1143_p
+silencer_light_color		= 0.0,0.0,0.0
+silencer_light_range		= 0.00
+silencer_light_var_color	= 0.00
+silencer_light_var_range	= 0.0
+silencer_light_time 		= 0.0
+
+hit_power                	= 0.97
+
+cam_dispersion         	 	= 2.35
+
+fire_dispersion_base		= 0.90
+
+condition_shot_dec 			= 0.00050
+
+

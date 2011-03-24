@@ -1,0 +1,79 @@
+[af_medusa_anim]:identity_immunities
+hud							= medusa_artefact_hud
+animation_slot				= 11
+allow_inertion				= true
+;slot						= 10
+attach_angle_offset			= 0,0,0
+attach_position_offset		= -0.1,-0.1,0
+attach_bone_name			= bip01_root
+inv_grid_width				= 1
+inv_grid_height				= 1
+belt						= false
+af_actor_properties			= on
+actor_properties			= on
+
+[medusa_artefact_hud]
+orientation             	= 0, 0, 0		
+position                	= 0, 0, 0
+visual                  	= weapons\artefact\wpn_artefact_hud.ogf
+anim_idle					= idle
+anim_idle_sprint			= idle_sprint
+anim_hide					= holster
+anim_show					= draw
+anim_activate				= activate
+
+[af_medusa]:af_medusa_anim
+GroupControlSection	= spawn_group
+$spawn				= "artifacts\moscito medusa"
+
+$prefetch 			= 64
+cform				= skeleton
+class				= ARTEFACT
+
+visual				= physics\anomaly\artefact_blackdrip.ogf  
+description			= enc_zone_artifact_af-medusa
+inv_name			= af-medusa
+inv_name_short		= 
+inv_weight			= 0.5
+
+inv_grid_x			= 9
+inv_grid_y			= 4
+
+cost				= 2500
+
+jump_height			= .5
+
+particles			= anomaly2\artefact\artefact_gravi
+
+lights_enabled = false
+
+
+;скорости увеличения (уменьшения) 
+health_restore_speed		= 0.0			
+radiation_restore_speed		= 0.0005
+satiety_restore_speed		= 0.0
+power_restore_speed			= 0.0
+bleeding_restore_speed		= 0.0
+hit_absorbation_sect		= af_medusa_absorbation
+
+artefact_activation_seq		= af_activation_bold
+
+[af_medusa_absorbation]
+burn_immunity = 1.0				;коэффициенты иммунитета 
+strike_immunity = 1.0
+shock_immunity = 1.0
+wound_immunity = 1.0		
+radiation_immunity = 1.0
+telepatic_immunity = 1.0
+chemical_burn_immunity = 1.0
+explosion_immunity = 1.0
+fire_wound_immunity  = 0.98
+
+
+
+
+
+
+
+
+

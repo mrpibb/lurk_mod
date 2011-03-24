@@ -1,0 +1,317 @@
+function commands()
+
+-------------------------------------------------------
+------------------ Base Settings ----------------------
+-------------------------------------------------------
+
+get_console():execute("r2_gloss_factor 2")
+get_console():execute("r2_sun_lumscale 1.5")
+get_console():execute("r2_sun_lumscale_amb 1")
+get_console():execute("r2_ls_bloom_fast on")
+get_console():execute("r2_ls_bloom_threshold 0.25")
+get_console():execute("r2_tonemap_middlegray 0.8")
+get_console():execute("r2_tonemap_lowlum 0.1")
+get_console():execute("r2_tonemap_amount 1.0")
+get_console():execute("r2_tonemap_adaptation 1")
+get_console():execute("r2_sun_near_border 1")
+get_console():execute("r2_tf_mipbias -0.5")
+get_console():execute("r2_sun_lumscale_hemi 1")
+
+get_console():execute("r2_ls_bloom_kernel_g 3.")
+get_console():execute("r2_ls_bloom_kernel_scale 0.7")
+get_console():execute("r2_ls_bloom_speed 100.")
+get_console():execute("r2_ls_depth_bias -0.0003")
+get_console():execute("r2_ssa_lod_a 64.")
+get_console():execute("r2_ssa_lod_b 48.")
+get_console():execute("r2_sun_depth_far_bias -0.00001")
+get_console():execute("r2_sun_depth_near_bias 0.00001")
+get_console():execute("r2_sun_depth_near_scale 1.")
+get_console():execute("r2_sun_focus on")
+get_console():execute("r2_sun_near 12.")
+get_console():execute("r2_sun_tsm on")
+get_console():execute("r2_sun_tsm_bias 0.0")
+get_console():execute("r2_sun_tsm_proj 0.55")
+get_console():execute("r2_tonemap on")
+get_console():execute("r2_tonemap_amount 0.7")
+get_console():execute("r2_zfill_depth 0.5")
+get_console():execute("r2em 2.2")
+
+get_console():execute("ph_frequency 75.000")
+get_console():execute("ph_iterations 24")
+get_console():execute("r2_ls_depth_bias -0.0003")
+get_console():execute("r2_ls_depth_scale 1.00001")
+get_console():execute("r2_sun_depth_far_bias -0.00001")
+get_console():execute("r2_sun_depth_near_bias 0.00001")
+get_console():execute("r2_sun_depth_near_scale 1")
+
+end
+
+--------------------------------------------------------------------
+------------------------ Cloudy Shift ------------------------------
+--------------------------------------------------------------------
+
+function weather_change_cloudy ()
+		
+	if level.get_time_hours()>=16 and level.get_time_hours()<=17 then
+		if level.get_time_minutes() <=30 then
+			get_console():execute("r2_gloss_factor "..math.clamp(level.get_time_minutes(),2,10))
+		else
+			get_console():execute("r2_gloss_factor "..math.clamp(120/level.get_time_minutes(),2,10))
+		end
+	end
+	
+	if level.get_time_hours()>=9 and level.get_time_hours()<=11 then
+		if level.get_time_minutes() <=30 then
+			get_console():execute("r2_gloss_factor "..math.clamp(level.get_time_minutes(),2,10))
+		else
+			get_console():execute("r2_gloss_factor "..math.clamp(120/level.get_time_minutes(),2,10))
+		end
+	end
+	
+	if level.get_time_hours()>=0 and level.get_time_hours()<=2 then
+		if level.get_time_minutes() <=30 then
+			get_console():execute("r2_gloss_factor "..math.clamp(level.get_time_minutes(),2,10))
+		else
+			get_console():execute("r2_gloss_factor "..math.clamp(120/level.get_time_minutes(),2,10))
+		end
+	end
+	
+	if level.get_time_hours()>=4 and level.get_time_hours()<=7 then
+		get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.0001,0.125))
+	end
+	
+	if level.get_time_hours()>=7 and level.get_time_hours()<=10 then
+		get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.125,0.20))
+	end
+	
+	if level.get_time_hours()>=10 and level.get_time_hours()<=19 then
+		get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.20,0.075))
+		get_console():execute("r2_tonemap_middlegray "..math.clamp(level.get_time_minutes(),0.8,0.4))
+	end
+	
+	if level.get_time_hours()>=19 and level.get_time_hours()<=21 then
+		get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.20,0.075))
+		get_console():execute("r2_tonemap_middlegray "..math.clamp(level.get_time_minutes(),0.8,0.4))
+	end
+	
+	if level.get_time_hours()>=21 or level.get_time_hours()<=4 then
+		get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.075,0.0001))
+	end
+		
+end
+
+--------------------------------------------------------------------
+------------------------ Default Shift -----------------------------
+--------------------------------------------------------------------
+
+
+function weather_change_default ()
+		if level.get_time_hours()>=16 and level.get_time_hours()<=17 then
+			if level.get_time_minutes() <=30 then
+				get_console():execute("r2_gloss_factor "..math.clamp(level.get_time_minutes(),2,10))
+			else
+				get_console():execute("r2_gloss_factor "..math.clamp(120/level.get_time_minutes(),2,10))
+			end
+		end
+		
+		if level.get_time_hours()>=0 and level.get_time_hours()<=2 then
+			if level.get_time_minutes() <=30 then
+				get_console():execute("r2_gloss_factor "..math.clamp(level.get_time_minutes(),2,10))
+			else
+				get_console():execute("r2_gloss_factor "..math.clamp(120/level.get_time_minutes(),2,10))
+			end
+		end
+		
+		if level.get_time_hours()>=4 and level.get_time_hours()<=7 then
+			get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.0001,0.125))
+		end
+		
+		if level.get_time_hours()>=7 and level.get_time_hours()<=10 then
+			get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.125,0.20))
+		end
+		
+		if level.get_time_hours()>=10 and level.get_time_hours()<=12 then
+			get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.20,0.25))
+			get_console():execute("r2_tonemap_middlegray "..math.clamp(level.get_time_minutes(),0.8,1.25))
+			get_console():execute("r2_sun_lumscale "..math.clamp(level.get_time_minutes(),1.5,1.0))
+
+		end
+		
+		if level.get_time_hours()>=12 and level.get_time_hours()<=14 then
+			get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.25,0.20))
+			get_console():execute("r2_tonemap_middlegray "..math.clamp(level.get_time_minutes(),1.25,0.8))
+		end
+		
+		if level.get_time_hours()>=14 and level.get_time_hours()<=18 then
+			if level.get_time_minutes() <=30 then
+				get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.20,0.075))
+				get_console():execute("r2_tonemap_middlegray "..math.clamp(level.get_time_minutes(),0.8,0.4))
+				get_console():execute("r2_sun_lumscale "..math.clamp(level.get_time_minutes(),1.0,1.5))
+			else
+				get_console():execute("r2_ls_bloom_threshold "..math.clamp(120/level.get_time_minutes(),0.25,0.075))
+				get_console():execute("r2_tonemap_middlegray "..math.clamp(120/level.get_time_minutes(),0.8,0.4))
+			end
+		end
+		
+		if level.get_time_hours()>=18 and level.get_time_hours()<=19 then
+			get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.075,0.2))
+			get_console():execute("r2_tonemap_middlegray "..math.clamp(level.get_time_minutes(),0.4,0.8))
+		end
+		
+		if level.get_time_hours()>=19 and level.get_time_hours()<=21 then
+			get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.20,0.125))
+		end
+		
+		if level.get_time_hours()>=21 or level.get_time_hours()<=4 then
+			get_console():execute("r2_ls_bloom_threshold "..math.clamp(level.get_time_minutes(),0.125,0.0001))
+		end
+			
+	end
+
+--------------------------------------------------------------------------------------
+--------------------------------- Match Clamp Function -------------------------------
+--------------------------------------------------------------------------------------
+
+function math.clamp (value,mini,maxi)
+local clamped = value
+        if clamped < mini then clamped = mini end
+        if clamped > maxi then clamped = maxi end
+return clamped
+end
+
+
+-----------------------------------------------------------
+--------------      Miscellaneous Settings   --------------
+-----------------------------------------------------------
+
+function settings_bunker()
+
+get_console():execute("r2_sun_lumscale 1.5")
+get_console():execute("r2_sun_lumscale_amb 0.325")
+get_console():execute("r2_ls_bloom_fast on")
+get_console():execute("r2_tonemap_amount 1.0")
+get_console():execute("r2_tonemap_adaptation 1")
+get_console():execute("r2_sun_near_border 1")
+get_console():execute("r2_tf_mipbias -0.5")
+get_console():execute("r2_sun_lumscale_hemi 1")
+
+get_console():execute("r2_ls_bloom_kernel_g 3.")
+get_console():execute("r2_ls_bloom_kernel_scale 0.7")
+get_console():execute("r2_ls_bloom_speed 100.")
+get_console():execute("r2_ls_depth_bias -0.0003")
+get_console():execute("r2_ssa_lod_a 64.")
+get_console():execute("r2_ssa_lod_b 48.")
+get_console():execute("r2_sun_depth_far_bias -0.00001")
+get_console():execute("r2_sun_depth_near_bias 0.00001")
+get_console():execute("r2_sun_depth_near_scale 1.")
+get_console():execute("r2_sun_focus on")
+get_console():execute("r2_sun_near 25.")
+get_console():execute("r2_sun_tsm on")
+get_console():execute("r2_sun_tsm_bias 0.0")
+get_console():execute("r2_sun_tsm_proj 0.55")
+get_console():execute("r2_tonemap on")
+get_console():execute("r2_tonemap_amount 0.7")
+get_console():execute("r2_zfill_depth 0.5")
+get_console():execute("r2em 2.2")
+
+get_console():execute("ph_frequency 75.000")
+get_console():execute("ph_iterations 24")
+get_console():execute("r2_ls_depth_bias -0.0003")
+get_console():execute("r2_ls_depth_scale 1.00001")
+get_console():execute("r2_sun_depth_far_bias -0.00001")
+get_console():execute("r2_sun_depth_near_bias 0.00001")
+get_console():execute("r2_sun_depth_near_scale 1")
+
+get_console():execute("r2_tonemap_middlegray 0.8")
+get_console():execute("r2_tonemap_lowlum 0.9")
+get_console():execute("r2_ls_bloom_threshold 0.0001")
+
+end
+
+function settings_underground()
+
+get_console():execute("r2_sun_lumscale 1.5")
+get_console():execute("r2_sun_lumscale_amb 0.75")
+get_console():execute("r2_ls_bloom_fast on")
+get_console():execute("r2_tonemap_middlegray 0.8")
+get_console():execute("r2_tonemap_lowlum 0.1")
+get_console():execute("r2_tonemap_amount 1.0")
+get_console():execute("r2_tonemap_adaptation 1")
+get_console():execute("r2_sun_near_border 1")
+get_console():execute("r2_tf_mipbias -0.5")
+get_console():execute("r2_sun_lumscale_hemi 1")
+
+get_console():execute("r2_ls_bloom_kernel_g 3.")
+get_console():execute("r2_ls_bloom_kernel_scale 0.7")
+get_console():execute("r2_ls_bloom_speed 100.")
+get_console():execute("r2_ls_depth_bias -0.0003")
+get_console():execute("r2_ssa_lod_a 64.")
+get_console():execute("r2_ssa_lod_b 48.")
+get_console():execute("r2_sun_depth_far_bias -0.00001")
+get_console():execute("r2_sun_depth_near_bias 0.00001")
+get_console():execute("r2_sun_depth_near_scale 1.")
+get_console():execute("r2_sun_focus on")
+get_console():execute("r2_sun_near 25.")
+get_console():execute("r2_sun_tsm on")
+get_console():execute("r2_sun_tsm_bias 0.0")
+get_console():execute("r2_sun_tsm_proj 0.55")
+get_console():execute("r2_tonemap on")
+get_console():execute("r2_tonemap_amount 0.7")
+get_console():execute("r2_zfill_depth 0.5")
+get_console():execute("r2em 2.2")
+
+get_console():execute("ph_frequency 75.000")
+get_console():execute("ph_iterations 24")
+get_console():execute("r2_ls_depth_bias -0.0003")
+get_console():execute("r2_ls_depth_scale 1.00001")
+get_console():execute("r2_sun_depth_far_bias -0.00001")
+get_console():execute("r2_sun_depth_near_bias 0.00001")
+get_console():execute("r2_sun_depth_near_scale 1")
+
+get_console():execute("r2_ls_bloom_threshold 0.0001")
+
+end
+
+function settings_rostok()
+
+get_console():execute("r2_sun_lumscale 1.5")
+get_console():execute("r2_sun_lumscale_amb 1")
+get_console():execute("r2_ls_bloom_fast on")
+get_console():execute("r2_tonemap_middlegray 0.8")
+get_console():execute("r2_tonemap_lowlum 0.1")
+get_console():execute("r2_tonemap_amount 1.0")
+get_console():execute("r2_tonemap_adaptation 1")
+get_console():execute("r2_sun_near_border 1")
+get_console():execute("r2_tf_mipbias -0.5")
+get_console():execute("r2_sun_lumscale_hemi 1")
+
+get_console():execute("r2_ls_bloom_kernel_g 3.")
+get_console():execute("r2_ls_bloom_kernel_scale 0.7")
+get_console():execute("r2_ls_bloom_speed 100.")
+get_console():execute("r2_ls_depth_bias -0.0003")
+get_console():execute("r2_ssa_lod_a 64.")
+get_console():execute("r2_ssa_lod_b 48.")
+get_console():execute("r2_sun_depth_far_bias -0.00001")
+get_console():execute("r2_sun_depth_near_bias 0.00001")
+get_console():execute("r2_sun_depth_near_scale 1.")
+get_console():execute("r2_sun_focus on")
+get_console():execute("r2_sun_near 25.")
+get_console():execute("r2_sun_tsm on")
+get_console():execute("r2_sun_tsm_bias 0.0")
+get_console():execute("r2_sun_tsm_proj 0.55")
+get_console():execute("r2_tonemap on")
+get_console():execute("r2_tonemap_amount 0.7")
+get_console():execute("r2_zfill_depth 0.5")
+get_console():execute("r2em 2.2")
+
+get_console():execute("ph_frequency 75.000")
+get_console():execute("ph_iterations 24")
+get_console():execute("r2_ls_depth_bias -0.0003")
+get_console():execute("r2_ls_depth_scale 1.00001")
+get_console():execute("r2_sun_depth_far_bias -0.00001")
+get_console():execute("r2_sun_depth_near_bias 0.00001")
+get_console():execute("r2_sun_depth_near_scale 1")
+
+get_console():execute("r2_ls_bloom_threshold 0.325")
+
+end

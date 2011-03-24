@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="Weapons1">
+		<text>Weapon</text>
+	</string>
+
+	<!-- 10/10 - 250,0,225,0 -->
+	<!-- 9/10 - 250,25,200,0 -->
+	<!-- 8/10 - 250,50,175,0 -->
+	<!-- 7/10 - 250,75,150,0 -->
+	<!-- 6/10 - 250,100,125,0 -->
+	<!-- 5/10 - 250,125,100,0 -->
+	<!-- 4/10 - 250,150,75,0 -->
+	<!-- 3/10 - 250,175,50,0 -->
+	<!-- 2/10 - 250,200,25,0 -->
+	<!-- 1/10 - 250,225,0,0 -->
+	<!-- MISC - 250,150,150,250 -->
+	
+
+<!-- ########## -->
+<!-- PISTOLS START -->
+<!-- ########## -->
+
+<!-- 9x18mm Pistols -->
+
+	<string id="name_wpn_makarovpm_9x18mm">
+		<text>Makarov PM</text>
+	</string>
+	<string id="desc_wpn_makarovpm_9x18mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,200,25,0]Ballistics: 2/10.\n%c[250,225,0,0]Accuracy: 1/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 8 Cartridges.\nAmmunition Caliber: 9x18mm Makarov.\nAttachable: 9x18mm Suppressor.\n
+	%c[default]The Makarov PM is a semi-automatic pistol, designed in the late 1940s by Nikolai Makarov to replace the Tokarev TT-33, and was the standard sidearm for the Soviet Union Military until being replaced by the Yarygin PYa in 2003. For simplicity and efficiency, Nikolai designed the Makarov with a straight blowback operation, and the frame is fixed. The 9x18mm Makarov caliber was originally designed by Nikolai for the Makarov PM, as the name suggests.</text>
+	</string>
+	
+	<string id="name_wpn_makarovpmm_9x18mm">
+		<text>Makarov PMm</text>
+	</string>
+	<string id="desc_wpn_makarovpmm_9x18mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 12 Cartridges.\nAmmunition Caliber: 9x18mm Makarov.\nAttachable: 9x18mm Suppressor.\n
+	%c[default]The Makarov PMm is an updated version of the Makarov PM pistol, developed by a team of Russian engineers in 1990 to improve the original design. Changes include a new 12 round magazine, improved hand grip and threaded grooves inside the chamber.</text>
+	</string>
+	
+	<string id="name_wpn_pb6p9_9x18mm">
+		<text>PB-6P9</text>
+	</string>
+	<string id="desc_wpn_pb6p9_9x18mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 8 Cartridges.\nAmmunition Caliber: 9x18mm Makarov.\nIntergrated: Suppressor.\n
+	%c[default]The PB-6P9 is a special operations pistol, developed for Spetsnaz and KGB agents in 1967. The design is based on the Makarov PM pistol, and features an intergral two part suppressor. The first stage is intergrated into the pistol itself and has drilling to decrease the velocity of fired rounds to subsonic levels, while the second stage is detachable and has baffles to contain the sound signature of firing. Without the second stage attached however, the firing report is much louder and accuracy is poor.</text>
+	</string>
+	
+	<string id="name_wpn_fort12_9x18mm">
+		<text>RPC Fort-12</text>
+	</string>
+	<string id="desc_wpn_fort12_9x18mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,25,200,0]Ballistics: 9/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 12 Cartridges.\nAmmunition Caliber: 9x18mm Makarov.\nAttachable: 9x18mm Suppressor.\n
+	%c[default]The RPC Fort-12 is a police issued pistol developed in Ukraine in 1997 to replace the aging Makarov PM pistols in service. The pistols have gone through several revisions to eliminate reliability problems present in the initial model, and large quantities were sold to civilians within Ukraine and internationally.</text>
+	</string>
+	
+	<string id="name_wpn_stechkinaps_9x18mm">
+		<text>Stechkin APS (9x18mm)</text>
+	</string>
+	<string id="desc_wpn_stechkinaps_9x18mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,125,100,0]Reliability: 5/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, 3-Round Burst, Automatic.\nAmmunition Caliber: 9x18mm Makarov.\nAttachable: 9x18mm Suppressor.\n
+	%c[default]The Stechkin APS is a selective fire Russian machine pistol, designed by Igor Stechkin in 1948 and issued alongside the Makarov PM pistol, of which it shared a large similarity in parts and design. The machine pistols were issued as a sidearm to tank crews and artillery teams, frequently with a stock. It was phased out of military service and replaced by the AKS-74U which offered much greater power, but continued to be used by KGB and GRU agents who valued the stopping power and accuracy.</text>
+	</string>
+	
+	<string id="name_wpn_mp444bagira_9x18mm">
+		<text>MP-444 Bagira (9x18mm)</text>
+	</string>
+	<string id="desc_wpn_mp444bagira_9x18mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 17 Cartridges.\nAmmunition Caliber: 9x18mm Makarov.\nAttachable: 9x18mm Suppressor.\n
+	%c[default]The MP-444 "Bagira" is a self loading pistol, developed as one of many alternatives to the Makarov PMM pistol in 1989. The Bagira was intended to be issued to the bulk of Russian soldiers and to the Ministry of Internal Affairs (MVD), and went through several trials and modifications which lead to the creation of the Yarygin PYa MP-443, which was subsequently adopted as the standard sidearm of the Russian military.</text>
+	</string>
+	
+	<string id="name_wpn_ots33pernach_9x18mm">
+		<text>OTs-33 Pernach</text>
+	</string>
+	<string id="desc_wpn_ots33pernach_9x18mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 27 Cartridges.\nRounds Per Minute: 900RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 9x18mm Makarov.\nAttachable: 9x18mm Suppressor.\n
+	%c[default]The OTs-33 "Pernach" is a selective fire Russian machine pistol, developed by Igor Stechkin in 1995, who also developed the Stechkin APS machine pistol, which the OTs-33 replaced. It features a simplified design which is easier to manufacture, and a heavier slide which made automatic fire more controllable than its predecessor. The pistol is used in certain OMON units within the Russian police force.</text>
+	</string>
+
+
+<!-- 9x19mm Pistols -->
+
+	<string id="name_wpn_stechkinaps_9x19mm">
+		<text>Stechkin APS (9x19mm)</text>
+	</string>
+	<string id="desc_wpn_stechkinaps_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,125,100,0]Reliability: 5/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, 3-Round Burst, Automatic.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The Stechkin APS is a selective fire Russian machine pistol, designed by Igor Stechkin in 1948 and issued alongside the Makarov PM pistol, of which it shared a large similarity in parts and design. The machine pistols were issued as a sidearm to tank crews and artillery teams, frequently with a stock. It was phased out of military service and replaced by the AKS-74U which offered much greater power, but continued to be used by KGB and GRU agents who valued the stopping power and accuracy.</text>
+	</string>
+	
+	<string id="name_wpn_mp444bagira_9x19mm">
+		<text>MP-444 Bagira (9x19mm)</text>
+	</string>
+	<string id="desc_wpn_mp444bagira_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 17 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The MP-444 "Bagira" is a self loading pistol, developed as one of many alternatives to the Makarov PMM pistol in 1989. The Bagira was intended to be issued to the bulk of Russian soldiers and to the Ministry of Internal Affairs (MVD), and went through several trials and modifications which lead to the creation of the Yarygin PYa MP-443, which was subsequently adopted as the standard sidearm of the Russian military.</text>
+	</string>
+	
+	<string id="name_wpn_yaryginpya_9x19mm">
+		<text>Yarygin PYa MP-443</text>
+	</string>
+	<string id="desc_wpn_yaryginpya_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 17 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The Yarygin PYa MP-443 "Grach" is a semi automatic pistol, developed by Vladimir Yarygin at Izhevsk in 1996 to replace the Makarov PMM in Russian military service. Initially known as the 6P35 Pistol, it was trialled among several other competing models and eventually won out, becoming the Russian military's new sidearm.</text>
+	</string>
+	
+	<string id="name_wpn_browninghipower_9x19mm">
+		<text>Browning Hi-Power (9x19mm)</text>
+	</string>
+	<string id="desc_wpn_browninghipower_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,25,200,0]Reliability: 9/10.\n%c[250,150,150,250]Magazine Capacity: 13 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The Browning Hi-Power, Browning GP or Browning P-35 is a semi-automatic pistol developed by famous arms designer John Browning in 1935, however he died several years before the completion of the pistol, whereupon the design was taken up and completed by Dieudonnй Saive of Fabrique Nationale de Herstal. The HP was developed to specifications set by the French military for a new sidearm, and was one of the first pistols to utilize a double-stacked magazine design.</text>
+	</string>
+	
+	<string id="name_wpn_waltherp99_9x19mm">
+		<text>Walther P99 (9x19mm)</text>
+	</string>
+	<string id="desc_wpn_waltherp99_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 15 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The Walther P99 is a pistol developed by German company Carl Walther GmbH Sportwaffen in 1996, intended for law enforcement and military applications, and to replace the Walther P88 and P5 pistols. Soon after its introduction, the P99 was adopted by German police forces, followed by Polish police and the Finnish Army's special forces.</text>
+	</string>
+	
+	<string id="name_wpn_waltherp38_9x19mm">
+		<text>Walther P38</text>
+	</string>
+	<string id="desc_wpn_waltherp38_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,0,225,0]Accuracy: 10/10.\n%c[250,200,25,0]Handling: 2/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 8 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The Walther P38 is a pistol developed by Carl Walther GmbH Sportwaffen in 1938 to replace the Luger P08 in the service of the Wehrmacht in World War II, which was costly to produce. The P38 was the first pistol to ever use a double action trigger in a locked breech pistol design, a feature which is now used in almost all modern pistols.</text>
+	</string>
+	
+	<string id="name_wpn_hkusp_9x19mm">
+		<text>HK USP (9x19mm)</text>
+	</string>
+	<string id="desc_wpn_hkusp_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,25,200,]Handling: 9/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 15 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The USP is a self loading pistol, developed by Heckler and Koch GmbH in 1993 to replace their P7 pistol series. It was intended primarily for civilian and law enforcement use, but soon after production, the German military adopted it as their standard sidearm, and was quickly followed by Australia, France, Ireland, U.S. and many other countries for various applications.</text>
+	</string>
+	
+	<string id="name_wpn_hkuspexp_9x19mm">
+		<text>HK USP Expert (9x19mm)</text>
+	</string>
+	<string id="desc_wpn_hkuspexp_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,0,225,0]Handling: 10/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 18 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The USP "Expert" model pistol is a variant of the original Heckler and Koch USP introduced in 1998. Several modifications include a slightly longer slide and barrel and the adjustment of the magazine well to accept larger capacity magazines.</text>
+	</string>
+	
+	<string id="name_wpn_beretta92_9x19mm">
+		<text>Beretta 92</text>
+	</string>
+	<string id="desc_wpn_beretta92_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,0,225,0]Handling: 10/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 15 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The Beretta 92 is a semi automatic pistol designed by Italian company Fabbrica d'Armi Pietro Beretta in 1972, and has had a large number of upgrades and variants produced since its release. The U.S. Military trialled the 92, and after severa modifications, adopted it as the M9 to replace the Colt M1911A1 pistol as the standard issue sidearm of the Army.</text>
+	</string>
+	
+	<string id="name_wpn_sigsauerp226_9x19mm">
+		<text>SIG Sauer P226 (9x19mm)</text>
+	</string>
+	<string id="desc_wpn_sigsauerp226_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,0,225,0]Ballistics: 10/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 15 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The P226 is a service pistol developed by SIG Sauer in 1984 to compete in the U.S. Military trials for a new standard issue sidearm to replace the M1911A1, and was the only pistol to complete the trials alongside the Beretta 92. While the Beretta 92 was chosen as the standard sidearm, the Navy SEALs chose to adopt the P226 after repeated reliability issues with the 92.</text>
+	</string>
+	
+	<string id="name_wpn_gsh18_9x19mm">
+		<text>GSh-18</text>
+	</string>
+	<string id="desc_wpn_gsh18_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,225,0,0]Accuracy: 1/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 18 Cartridges.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The GSh-18 is a pistol developed by the KBP Equipment Design Bureau in 1997 by Gryazev and Shipunov. The pistol was designed as a military sidearm capable of penetrating modern body armour using a special 9x19mm "hot" loading. While the GSh-18 was never adopted by the Russian military, it was purchased in small by several law enforcement agencies and internal ministries around Russia, and produced mixed reviews.</text>
+	</string>
+	
+	<string id="name_wpn_glock18_9x19mm">
+		<text>Glock 18</text>
+	</string>
+	<string id="desc_wpn_glock18_9x19mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 33 Cartridges.\nRounds Per Minute: 1100RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The Glock Model 18 is a select-fire machine pistol variant of the Glock 17, developed under commission for EKO Cobra, an Austrian counter-terrorist force. It uses standard 33 round extended magazines, and also has gas ports cut into the barrel to help control recoil during fully automatic firing.</text>
+	</string>
+	
+	
+<!-- 7.62x25mm Pistols -->
+
+	<string id="name_wpn_stechkinaps_7.62x25mm">
+		<text>Stechkin APS (7.62x25mm)</text>
+	</string>
+	<string id="desc_wpn_stechkinaps_7.62x25mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,125,100,0]Reliability: 5/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, 3-Round Burst, Automatic.\nAmmunition Caliber: 7.62x25mm Tokarev.\nAttachable: 7.62x25mm Suppressor.\n
+	%c[default]The Stechkin APS is a selective fire Russian machine pistol, designed by Igor Stechkin in 1948 and issued alongside the Makarov PM pistol, of which it shared a large similarity in parts and design. The machine pistols were issued as a sidearm to tank crews and artillery teams, frequently with a stock. It was phased out of military service and replaced by the AKS-74U which offered much greater power, but continued to be used by KGB and GRU agents who valued the stopping power and accuracy.</text>
+	</string>
+	
+	<string id="name_wpn_tt33tokarev_7.62x25mm">
+		<text>Tokarev TT-33</text>
+	</string>
+	<string id="desc_wpn_tt33tokarev_7.62x25mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,25,200,0]Ballistics: 9/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,0,225,0]Reliability: 10/10.\n%c[250,150,150,250]Magazine Capacity: 8 Cartridges.\nAmmunition Caliber: 7.62x25mm Tokarev.\nAttachable: 7.62x25mm Suppressor.\n
+	%c[default]The Tokarev TT-33 is a semi automatic Russian pistol designed by Fedor Tokarev in 1930 to replace the Nagant M1895 revolver as the Russian military's standard sidearm, which had been in use since the Tsarist era. Originally designated the TT-30, the pistol had several modifications just before production, which simplified the design and made production cheaper, making the new designation the TT-33.</text>
+	</string>
+	
+	<string id="name_wpn_czvz52_7.62x25mm">
+		<text>CZ vz. 52</text>
+	</string>
+	<string id="desc_wpn_czvz52_7.62x25mm">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 8 Cartridges.\nAmmunition Caliber: 7.62x25mm Tokarev.\nAttachable: 7.62x25mm Suppressor.\n
+	%c[default]The CZ vz. 52, or CZ-52, is a Czechoslovakian pistol, designed in 1952 by the brothers Jan and Jaroslav Kratochvнl to replace the Vz.50 in Czechoslovakian armouries, which was unreliable and underpowered as a military sidearm. However, the CZ vz. 52 proved highly popular among civilian firearm owners, where it gained a reputation for reliability and power.</text>
+	</string>
+
+
+<!-- .40 SW Pistols -->
+
+	<string id="name_wpn_mp445varjag_.40sw">
+		<text>MP-445 Varjag</text>
+	</string>
+	<string id="desc_wpn_mp445varjag_.40sw">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 15 Cartridges.\nAmmunition Caliber: .40 Smith and Wesson.\nAttachable: .40 SW Suppressor.\n
+	%c[default]The MP-445 "Varjag" is a variant of the MP-444 "Bagira" pistol, chambered in .40 Smith and Wesson. It provides more firepower than that of the MP-444, and was meant to be issued to tank crews and similar units, but was not accepted into service alongside its predecessor.</text>
+	</string>
+
+	<string id="name_wpn_browninghipower_.40sw">
+		<text>Browning Hi-Power (.40 SW)</text>
+	</string>
+	<string id="desc_wpn_browninghipower_.40sw">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,25,200,0]Reliability: 9/10.\n%c[250,150,150,250]Magazine Capacity: 13 Cartridges.\nAmmunition Caliber: .40 Smith and Wesson.\nAttachable: .40 SW Suppressor.\n
+	%c[default]The Browning Hi-Power, Browning GP or Browning P-35 is a semi-automatic pistol developed by famous arms designer John Browning in 1935, however he died several years before the completion of the pistol, whereupon the design was taken up and completed by Dieudonnй Saive of Fabrique Nationale de Herstal. The HP was developed to specifications set by the French military for a new sidearm, and was one of the first pistols to utilize a double-stacked magazine design.</text>
+	</string>
+
+	<string id="name_wpn_waltherp99_.40sw">
+		<text>Walther P99 (.40 SW)</text>
+	</string>
+	<string id="desc_wpn_waltherp99_.40sw">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 12 Cartridges.\nAmmunition Caliber: .40 Smith and Wesson.\nAttachable: .40 SW Suppressor.\n
+	%c[default]The Walther P99 is a pistol developed by German company Carl Walther GmbH Sportwaffen in 1996, intended for law enforcement and military applications, and to replace the Walther P88 and P5 pistols. Soon after its introduction, the P99 was adopted by German police forces, followed by Polish police and the Finnish Army's special forces.</text>
+	</string>
+
+	<string id="name_wpn_hkusp_.40sw">
+		<text>HK USP (.40 SW)</text>
+	</string>
+	<string id="desc_wpn_hkusp_.40sw">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 13 Cartridges.\nAmmunition Caliber: .40 Smith and Wesson.\nAttachable: .40 SW Suppressor.\n
+	%c[default]The USP is a self loading pistol, developed by Heckler and Koch GmbH in 1993 to replace their P7 pistol series. It was intended primarily for civilian and law enforcement use, but soon after production, the German military adopted it as their standard sidearm, and was quickly followed by Australia, France, Ireland, U.S. and many other countries for various applications.</text>
+	</string>
+	
+	<string id="name_wpn_hkuspexp_.40sw">
+		<text>HK USP Expert (.40 SW)</text>
+	</string>
+	<string id="desc_wpn_hkuspexp_.40sw">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,0,225,0]Handling: 10/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 16 Cartridges.\nAmmunition Caliber: .40 Smith and Wesson.\nAttachable: .40 SW Suppressor.\n
+	%c[default]The USP "Expert" model pistol is a variant of the original Heckler and Koch USP introduced in 1998. Several modifications include a slightly longer slide and barrel and the adjustment of the magazine well to accept larger capacity magazines.</text>
+	</string>
+	
+	<string id="name_wpn_beretta96_.40sw">
+		<text>Beretta 96</text>
+	</string>
+	<string id="desc_wpn_beretta96_.40sw">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 11 Cartridges.\nAmmunition Caliber: .40 Smith and Wesson.\nAttachable: .40 SW Suppressor.\n
+	%c[default]The Beretta 96 is a variant of the original Beretta 92 pistol introduced in 1990. Changes include a new barrel, frame and magazine designed to accomodate the more powerful .40 Smith and Wesson caliber.</text>
+	</string>
+	
+	<string id="name_wpn_sigsauerp226_.40sw">
+		<text>SIG Sauer P226 (.40 SW)</text>
+	</string>
+	<string id="desc_wpn_sigsauerp226_.40sw">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,0,225,0]Ballistics: 10/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 13 Cartridges.\nAmmunition Caliber: .40 Smith and Wesson.\nAttachable: .40 SW Suppressor.\n
+	%c[default]The P226 is a service pistol developed by SIG Sauer in 1984 to compete in the U.S. Military trials for a new standard issue sidearm to replace the M1911A1, and was the only pistol to complete the trials alongside the Beretta 92. While the Beretta 92 was chosen as the standard sidearm, the Navy SEALs chose to adopt the P226 after repeated reliability issues with the 92.</text>
+	</string>
+	
+	
+<!-- .357 SIG Pistols -->
+
+	<string id="name_wpn_browninghipower_.357sig">
+		<text>Browning Hi-Power (.357 SIG)</text>
+	</string>
+	<string id="desc_wpn_browninghipower_.357sig">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,25,200,0]Reliability: 9/10.\n%c[250,150,150,250]Magazine Capacity: 13 Cartridges.\nAmmunition Caliber: .357 SIG.\nAttachable: .357 SIG Suppressor.\n
+	%c[default]The Browning Hi-Power, Browning GP or Browning P-35 is a semi-automatic pistol developed by famous arms designer John Browning in 1935, however he died several years before the completion of the pistol, whereupon the design was taken up and completed by Dieudonnй Saive of Fabrique Nationale de Herstal. The HP was developed to specifications set by the French military for a new sidearm, and was one of the first pistols to utilize a double-stacked magazine design.</text>
+	</string>
+	
+	<string id="name_wpn_sigsauerp226_.357sig">
+		<text>SIG Sauer P226 (.357 SIG)</text>
+	</string>
+	<string id="desc_wpn_sigsauerp226_.357sig">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,0,225,0]Ballistics: 10/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 12 Cartridges.\nAmmunition Caliber: .357 SIG.\nAttachable: .357 SIG Suppressor.\n
+	%c[default]The P226 is a service pistol developed by SIG Sauer in 1984 to compete in the U.S. Military trials for a new standard issue sidearm to replace the M1911A1, and was the only pistol to complete the trials alongside the Beretta 92. While the Beretta 92 was chosen as the standard sidearm, the Navy SEALs chose to adopt the P226 after repeated reliability issues with the 92.</text>
+	</string>
+	
+	<string id="name_wpn_hkusp_.357sig">
+		<text>HK USP (.357 SIG)</text>
+	</string>
+	<string id="desc_wpn_hkusp_.357sig">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 10 Cartridges.\nAmmunition Caliber: .357 SIG.\nAttachable: .357 SIG Suppressor.\n
+	%c[default]The USP is a self loading pistol, developed by Heckler and Koch GmbH in 1993 to replace their P7 pistol series. It was intended primarily for civilian and law enforcement use, but soon after production, the German military adopted it as their standard sidearm, and was quickly followed by Australia, France, Ireland, U.S. and many other countries for various applications.</text>
+	</string>
+
+	<string id="name_wpn_hkuspexp_.357sig">
+		<text>HK USP Expert (.357 SIG)</text>
+	</string>
+	<string id="desc_wpn_hkuspexp_.357sig">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,0,225,0]Handling: 10/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 12 Cartridges.\nAmmunition Caliber: .357 SIG.\nAttachable: .357 SIG Suppressor.\n
+	%c[default]The USP "Expert" model pistol is a variant of the original Heckler and Koch USP introduced in 1998. Several modifications include a slightly longer slide and barrel and the adjustment of the magazine well to accept larger capacity magazines.</text>
+	</string>
+
+
+<!-- .45 ACP Pistols -->
+
+	<string id="name_wpn_hkusp_.45acp">
+		<text>HK USP (.45 ACP)</text>
+	</string>
+	<string id="desc_wpn_hkusp_.45acp">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 12 Cartridges.\nAmmunition Caliber: .45 ACP.\nAttachable: .45 ACP Suppressor.\n
+	%c[default]The USP is a self loading pistol, developed by Heckler and Koch GmbH in 1993 to replace their P7 pistol series. It was intended primarily for civilian and law enforcement use, but soon after production, the German military adopted it as their standard sidearm, and was quickly followed by Australia, France, Ireland, U.S. and many other countries for various applications.</text>
+	</string>
+
+	<string id="name_wpn_hkuspexp_.45acp">
+		<text>HK USP Expert (.45 ACP)</text>
+	</string>
+	<string id="desc_wpn_hkuspexp_.45acp">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,0,225,0]Handling: 10/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 12 Cartridges.\nAmmunition Caliber: .45 ACP.\nAttachable: .45 ACP Suppressor.\n
+	%c[default]The USP "Expert" model pistol is a variant of the original Heckler and Koch USP introduced in 1998. Several modifications include a slightly longer slide and barrel and the adjustment of the magazine well to accept larger capacity magazines.</text>
+	</string>
+
+	<string id="name_wpn_m1911_.45acp">
+		<text>Browning M1911</text>
+	</string>
+	<string id="desc_wpn_m1911_.45acp">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,0,225,0]Ballistics: 10/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,200,25,0]Handling: 2/10.\n%c[250,25,200,0]Reliability: 9/10.\n%c[250,150,150,250]Magazine Capacity: 7 Cartridges.\nAmmunition Caliber: .45 ACP.\nAttachable: .45 ACP Suppressor.\n
+	%c[default]The M1911 is a semi automatic pistol, designed by John Browning in 1911 in response to a request by the U.S. Military for a new sidearm in .45 ACP, to replace the underpowered .38 Colt Revolver. In trials, the M1911 was found to be very powerful and highly reliable, and was soon adopted by almost all sections of the U.S. Military and saw use in both World Wars, the Korean War and the Vietnam War. The M1911 is still in use today by various military and law enforcement agencies, and is popular among civilians.</text>
+	</string>
+	
+	<string id="name_wpn_sigsauerp220_.45acp">
+		<text>SIG Sauer P220 (.45 ACP)</text>
+	</string>
+	<string id="desc_wpn_sigsauerp220_.45acp">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 9 Cartridges.\nAmmunition Caliber: .45 ACP.\nAttachable: .45 ACP Suppressor.\n
+	%c[default]The P220 is a semi automatic pistol designed by Swiss Arms AG in 1974 to replace the SIG P210, which had been in service with the Swiss Army since World War II. Several other nations also adopted it in varying roles, including Japan and Denmark. The design was very successful and the P220 was succeeded with a large number of variants and improved models.</text>
+	</string>
+
+	
+<!-- .357 Magnum Pistols -->
+
+	<string id="name_wpn_imideserteagle_.357mag">
+		<text>IMI Desert Eagle (.357 Magnum)</text>
+	</string>
+	<string id="desc_wpn_imideserteagle_.357mag">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 9 Cartridges.\nAmmunition Caliber: .357 Magnum.\nAttachable: .357 Magnum Suppressor.\n
+	%c[default]The Desert Eagle is a large-caliber pistol, designed by Israel Military Industries in 1982. Originally designed as a revolver, the Desert Eagle was later redesigned as a semi automatic pistol, and put in production. It uses a gas system usually found in rifles to cycle the large caliber rounds, however this resulted in a very large frame, high weight and a penchant for unreliability. Nonetheless, the Desert Eagle became popular as a prop in movies and videogames, due to its distinctive shape and size.</text>
+	</string>
+	
+
+<!-- .44 Magnum Pistols -->
+	
+	<string id="name_wpn_imideserteagle_.44magnum">
+		<text>IMI Desert Eagle (.44 Magnum)</text>
+	</string>
+	<string id="desc_wpn_imideserteagle_.44magnum">
+		<text>%c[250,150,150,250]Type: Pistol.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 8 Cartridges.\nAmmunition Caliber: .44 Magnum.\nAttachable: .44 Magnum Suppressor.\n
+	%c[default]The Desert Eagle is a large-caliber pistol, designed by Israel Military Industries in 1982. Originally designed as a revolver, the Desert Eagle was later redesigned as a semi automatic pistol, and put in production. It uses a gas system usually found in rifles to cycle the large caliber rounds, however this resulted in a very large frame, high weight and a penchant for unreliability. Nonetheless, the Desert Eagle became popular as a prop in movies and videogames, due to its distinctive shape and size.</text>
+	</string>
+	
+	
+<!-- ################# -->
+<!-- SUBMACHINE GUNS START -->
+<!-- ################# -->
+
+<!-- 9x18mm Submachine Guns -->
+	
+	<string id="name_wpn_pp19bizon_9x18mm">
+		<text>PP-19 Bizon (9x18mm)</text>
+	</string>
+	<string id="desc_wpn_pp19bizon_9x18mm">
+		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 64 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 9x18mm Makarov.\nAttachable: 9x18mm Suppressor.\n
+	%c[default]The PP-19 "Bizon" is a submachine gun developed in 1993 by an Izhmash team of engineers, headed by Victor Kalashnikov, the son of AK-47 designer Mikhail Kalashnikov. Developed at the request of the MVD (Ministry of Internal Affairs), it entered service among special counter terrorist agencies in 1996 and has seen use since then. The Bizon uses a unique helical-stacked magazine, which means that it can store a large number of cartridges in a relatively small magazine, but this system suffers reliability issues.</text>
+	</string>
+
+	
+<!-- 9x19mm Submachine Guns -->
+	
+	<string id="name_wpn_pp19bizon_9x19mm">
+		<text>PP-19 Bizon (9x19mm)</text>
+	</string>
+	<string id="desc_wpn_pp19bizon_9x19mm">
+		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 53 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The PP-19 "Bizon" is a submachine gun developed in 1993 by an Izhmash team of engineers, headed by Victor Kalashnikov, the son of AK-47 designer Mikhail Kalashnikov. Developed at the request of the MVD (Ministry of Internal Affairs), it entered service among special counter terrorist agencies in 1996 and has seen use since then. The Bizon uses a unique helical-stacked magazine, which means that it can store a large number of cartridges in a relatively small magazine, but this system suffers reliability issues.</text>
+	</string>
+	
+	<string id="name_wpn_hkmp5_9x19mm">
+		<text>HK MP5 (9x19mm)</text>
+	</string>
+	<string id="desc_wpn_hkmp5_9x19mm">
+		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 800RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 9x19mm Parabellum.\nAttachable: 9x19mm Suppressor.\n
+	%c[default]The MP5, or "Maschinenpistole 5", is a submachine gun developed by Heckler and Koch in 1966. Using the successful HK G3 rifle as a base, HK developed the initial prototype, the HK54, which soon entered production as the MP5, and production rights were sold to a large number of weapons producers. It was quickly tested and adopted by over 40 countries, and remains in use with special forces globally, and many variants were created in various calibers and styles.</text>
+	</string>
+	
+	<string id="name_wpn_hkmp5sd_9x19mm">
+		<text>HK MP5SD</text>
+	</string>
+	<string id="desc_wpn_hkmp5sd_9x19mm">
+		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 800RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 9x19mm Parabellum.\nIntergrated: Suppressor.\n
+	%c[default]The MP5, or "Maschinenpistole 5", is a submachine gun developed by Heckler and Koch in 1966. Using the successful HK G3 rifle as a base, HK developed the initial prototype, the HK54, which soon entered production as the MP5, and production rights were sold to a large number of weapons producers. It was quickly tested and adopted by over 40 countries, and remains in use with special forces globally, and many variants were created in various calibers and styles. The MP5SD is a variant of the MP5, featuring an intergrated suppressor for stealth operation.</text>
+	</string>
+	
+	
+<!-- 5.7x28mm Submachine Guns -->
+
+		<string id="name_wpn_fnp90_5.7x28mm">
+		<text>FN P90</text>
+	</string>
+	<string id="desc_wpn_fnp90_5.7x28mm">
+		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 50 Cartridges.\nRounds Per Minute: 900RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.7x28mm.\nAttachable: 5.7x28mm Suppressor.\n
+	%c[default]The P90 is a bullpup submachine gun developed by Fabrique Nationale de Herstal in 1987. It was designed for law enforcement and special forces teams using a proprietary ammunition type to pierce armour, as standard calibers such as 9x19mm Parabellum had been found to be ineffective against armoured targets. Since the P90's release, it has been used by a large number of agencies globally, and is popular among civilians as well.</text>
+	</string>
+	
+	
+<!-- 7.62x25mm Submachine Guns -->
+	
+	<string id="name_wpn_ppsh41_7.62x25mm">
+		<text>PPSh-41</text>
+	</string>
+	<string id="desc_wpn_ppsh41_7.62x25mm">
+		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 71 Cartridges.\nRounds Per Minute: 900RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x25mm Tokarev.\n
+	%c[default]The PPSh-41 is a submachine gun developed by Georgi Shpagin of the Soviet Union in 1941 as an inexpensive and improved alternative to the PPD-40. The PPSh-41 became one of the most mass produced weapons of World War II, with factories producing roughly 3000 submachine guns a day, and was issued to the bulk of the Soviet forces, who quickly outgunned German troops, the most of which still used Karabiner 98k rifles. It became admired by the Soviet forces as a simple, reliable and low recoil weapon.</text>
+	</string>
+	
+	<string id="name_wpn_pp19bizon_7.62x25mm">
+		<text>PP-19 Bizon (7.62x25mm)</text>
+	</string>
+	<string id="desc_wpn_pp19bizon_7.62x25mm">
+		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 35 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x25mm Tokarev.\nAttachable: 7.62x25mm Suppressor.\n
+	%c[default]The PP-19 "Bizon" is a submachine gun developed in 1993 by an Izhmash team of engineers, headed by Victor Kalashnikov, the son of AK-47 designer Mikhail Kalashnikov. Developed at the request of the MVD (Ministry of Internal Affairs), it entered service among special counter terrorist agencies in 1996 and has seen use since then. The Bizon uses a unique helical-stacked magazine, which means that it can store a large number of cartridges in a relatively small magazine, but this system suffers reliability issues.</text>
+	</string>
+	
+	
+<!-- .40 SW Submachine Guns -->
+	
+	<string id="name_wpn_hkmp5_.40sw">
+		<text>HK MP5 (.40 SW)</text>
+	</string>
+	<string id="desc_wpn_hkmp5_.40sw">
+		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 800RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: .40 Smith and Wesson.\nAttachable: .40 SW Suppressor.\n
+	%c[default]The MP5, or "Maschinenpistole 5", is a submachine gun developed by Heckler and Koch in 1966. Using the successful HK G3 rifle as a base, HK developed the initial prototype, the HK54, which soon entered production as the MP5, and production rights were sold to a large number of weapons producers. It was quickly tested and adopted by over 40 countries, and remains in use with special forces globally, and many variants were created in various calibers and styles.</text>
+	</string>
+
+	
+<!-- ############### -->
+<!-- RIFLES START -->
+<!-- ############### -->
+	
+<!-- 7.62x39mm Rifles -->
+
+	<string id="name_wpn_sks_7.62x39mm">
+		<text>SKS</text>
+	</string>
+	<string id="desc_wpn_sks_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Semi-Automatic Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,0,225,0]Accuracy: 10/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 10 Cartridges.\nAmmunition Caliber: 7.62x39mm.\nAttachable: PSO Telescopic Sight.\n
+	%c[default]The SKS (Samozaryadniy Karabin sistemi Simonova) is a Soviet semi-automatic rifle, designed by Sergei Gavrilovich Simonov in 1945 to replace the Mosin-Nagant, which was beginning to be seen as too heavy and cumbersome to operate and use, and while they were very accurate, most engagements fell within relatively close range, making extreme accuracy unessecary. The SKS entered service during the last stages of World War II, and while it was effective, it was quickly replaced by the AK-47 assault rifle in Russian service.</text>
+	</string>
+	
+	
+<!-- 7.62x54mmR Rifles -->
+	
+	<string id="name_wpn_mosinnagant_7.62x54mmR">
+		<text>Mosin-Nagant 1891/30</text>
+	</string>
+	<string id="desc_wpn_mosinnagant_7.62x54mmR">
+		<text>%c[250,150,150,250]Type: Bolt-Action Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,200,25,0]Handling: 2/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 5 Cartridges.\nAmmunition Caliber: 7.62x54mmR.\n
+	%c[default]The Mosin-Nagant 1891/30, or the "Three-Line Rifle" is a Russian bolt-action rifle developed in 1981 by Sergei Ivanovich Mosin, who designed the bolt and reciever, and Lйon Nagant, who designed the magazine system. It is one of the most mass produced firearms of all time, totalling in approximately 37,000,000 built by Russia alone, and served in World War I and II on many sides, with variants produced by a number of countries.</text>
+	</string>
+	
+	<string id="name_wpn_mosinnagantsniper_7.62x54mmR">
+		<text>Mosin-Nagant 1891/30 (Sniper)</text>
+	</string>
+	<string id="desc_wpn_mosinnagantsniper_7.62x54mmR">
+		<text>%c[250,150,150,250]Type: Bolt-Action Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,0,225,0]Accuracy: 10/10.\n%c[250,200,25,0]Handling: 2/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 5 Cartridges.\nAmmunition Caliber: 7.62x54mmR.\nIntegrated: x4.0 PEM Telescopic Sight.\n
+	%c[default]The Mosin-Nagant 1891/30, or the "Three-Line Rifle" is a Russian bolt-action rifle developed in 1981 by Sergei Ivanovich Mosin, who designed the bolt and reciever, and Lйon Nagant, who designed the magazine system. It is one of the most mass produced firearms of all time, totalling in approximately 37,000,000 built by Russia alone, and served in World War I and II on many sides, with variants produced by a number of countries. The sniper model of the Mosin-Nagant has a precision barrel and an intergrated PEM scope, and has an infamous history being used by the world's most reknowned marksmen.\n</text>
+	</string>
+
+
+<!-- ############### -->
+<!-- ASSAULT RIFLES START -->
+<!-- ############### -->
+	
+<!-- 5.45x39mm Assault Rifles -->
+	
+	<string id="name_wpn_ak74_5.45x39mm">
+		<text>AK-74</text>
+	</string>
+	<string id="desc_wpn_ak74_5.45x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.45x39mm.\nAttachable: 5.45x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AK-74 is a Russian assault rifle developed in 1974 by Mikhail Kalashnikov from his previous work, the infamous AKM. The main difference between the two rifles is the rechambering to the intermediate 5.45x39mm caliber which is easier to control and more accurate than the AKM's 7.62x39mm, but other improvements include a chrome lined barrel, new sights and stock. The AK-74 is in use by Russia and many former USSR states like Ukraine.</text>
+	</string>
+	
+	<string id="name_wpn_aks74_5.45x39mm">
+		<text>AKS-74</text>
+	</string>
+	<string id="desc_wpn_aks74_5.45x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.45x39mm.\nAttachable: 5.45x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AK-74 is a Russian assault rifle developed in 1974 by Mikhail Kalashnikov from his previous work, the infamous AKM. The main difference between the two rifles is the rechambering to the intermediate 5.45x39mm caliber which is easier to control and more accurate than the AKM's 7.62x39mm, but other improvements include a chrome lined barrel, new sights and stock. The AK-74 is in use by Russia and many former USSR states like Ukraine. The AKS-74 has a framed stock, reducing weight but decreasing controllability.</text>
+	</string>
+	
+	<string id="name_wpn_aks74u_5.45x39mm">
+		<text>AKS-74U</text>
+	</string>
+	<string id="desc_wpn_aks74u_5.45x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,200,25,0]Ballistics: 2/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 730RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.45x39mm.\nAttachable: 5.45x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AK-74 is a Russian assault rifle developed in 1974 by Mikhail Kalashnikov from his previous work, the infamous AKM. The main difference between the two rifles is the rechambering to the intermediate 5.45x39mm caliber which is easier to control and more accurate than the AKM's 7.62x39mm, but other improvements include a chrome lined barrel, new sights and stock. The AK-74 is in use by Russia and many former USSR states like Ukraine. The AKS-74U uses a shortened profile and frame stock, making it ideal for close quarters combat, but decreasing accuracy and muzzle velocity.</text>
+	</string>
+	
+	<string id="name_wpn_ak74m_5.45x39mm">
+		<text>AK-74M</text>
+	</string>
+	<string id="desc_wpn_ak74m_5.45x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,125,100,0]Handling: 5/10.\n%c[250,25,200,0]Reliability: 9/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.45x39mm.\nAttachable: 5.45x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AK-74 is a Russian assault rifle developed in 1974 by Mikhail Kalashnikov from his previous work, the infamous AKM. The main difference between the two rifles is the rechambering to the intermediate 5.45x39mm caliber which is easier to control and more accurate than the AKM's 7.62x39mm, but other improvements include a chrome lined barrel, new sights and stock. The AK-74 is in use by Russia and many former USSR states like Ukraine. The AK-74M is an improved variant of the AK-74, designed by engineers at Izhevsk. It uses a new, lighter polymer stock and a reinforced muzzle break and dust cover.</text>
+	</string>
+	
+	<string id="name_wpn_ak105_5.45x39mm">
+		<text>AK-105</text>
+	</string>
+	<string id="desc_wpn_ak105_5.45x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.45x39mm.\nAttachable: 5.45x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AK-105 is a Russian assault rifle, developed as part the AK-100 series, which in turned is designed from the AK-74. The AK-105 is a shortened carbine variant of the AK-74M assault rifle, designed to be intermediate between the AK-74 and AKS-74U, and developed with lighter polymer furniture.</text>
+	</string>
+	
+	<string id="name_wpn_ak107_5.45x39mm">
+		<text>AK-107</text>
+	</string>
+	<string id="desc_wpn_ak107_5.45x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\n
+	Rounds Per Minute: 850RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.45x39mm.\nAttachable: 5.45x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AK-107 is a Russian assault rifle, developed as part the AK-100 series, which in turned is designed from the AK-74. The AK-107 utilizes a unique operating system named Balanced Automatics Recoil System (BARS) developed by Peter Andreevich Tkachev, which dampens recoil by using a piston system to counteract recoil, resulting in greater accuracy in fully automatic fire.</text>
+	</string>
+	
+	<string id="name_wpn_an94_5.45x39mm">
+		<text>AN-94 Abakan</text>
+	</string>
+	<string id="desc_wpn_an94_5.45x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,0,225,0]Ballistics: 10/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Two-Round Burst, Automatic.\nAmmunition Caliber: 5.45x39mm.\nAttachable: 5.45x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AN-94 "Abakan" is an assault rifle developed in 1997 by an engineering team headed by Gennadiy Nikonov, in response to a request from the Russian military to find a successor to the AK-74M rifle. While the AN-94 was found to be superior, the military chose to retain the AK-74M, while issuing the AN-94 to special forces units and MVD agents. It utilizes a "blowback shifted pulse" operating system, which dampens and delays recoil when firing, which helps users accurately fire multiple rounds in succession.</text>
+	</string>
+
+	
+<!-- 5.56x45mm NATO Assault Rifles -->
+
+	<string id="name_wpn_ak108_5.56x45mm">
+		<text>AK-108</text>
+	</string>
+	<string id="desc_wpn_ak108_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 900RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AK-107 is a Russian assault rifle, developed as part the AK-100 series, which in turned is designed from the AK-74. The AK-100 series utilizes a unique operating system named Balanced Automatics Recoil System (BARS) developed by Peter Andreevich Tkachev, which dampens recoil by using a piston system to counteract recoil, resulting in greater accuracy in fully automatic fire. The AK-108 is a variant of the AK-107 model, chambered in 5.56x45mm NATO.</text>
+	</string>
+	
+	<string id="name_wpn_steyrauga1_5.56x45mm">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="desc_wpn_steyrauga1_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, AUG A1 Telescopic Sight.\n
+	%c[default]The AUG A1 is an Austrian bullpup assault rifle, developed in 1977 by Steyr Mannlicher GmbH and Co KG. It features a design made almost exclusively out of lightweight polymers, and a proprietary carrying handle combined with a 1.5x telescopic sight, which can be removed to use conventional ironsights if needed. The AUG is in use with the Austrian military under the StG 77 designation, as well as with Australia, Ireland, New Zealand and other nations.</text>
+	</string>
+	
+	<string id="name_wpn_steyrauga2_5.56x45mm">
+		<text>Steyr AUG A2</text>
+	</string>
+	<string id="desc_wpn_steyrauga2_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,125,100,0]Handling: 5/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG.\n
+	%c[default]The AUG A2 is an Austrian bullpup assault rifle, developed in 1977 by Steyr Mannlicher GmbH and Co KG. The A2 variant of the AUG features a redesigned charging handle and new sight mount which can accept a range of attachments.</text>
+	</string>
+	
+	<string id="name_wpn_famasf1_5.56x45mm">
+		<text>FAMAS F1</text>
+	</string>
+	<string id="desc_wpn_famasf1_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 25 Cartridges.\nRounds Per Minute: 900RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG.\n
+	%c[default]The FAMAS F1 is a bullpup assault rifle, designed by Manufacture d'armes de Saint-Etienne (MAS) in 1971 as a replacement for the MAS 49/56 rifle and MAT-49 submachine gun in the French military, and was adopted in 1978. It saw use in Chad and Kuwait by the French, and nations such as Brazil, Croatia and Sri Lanka have adopted the FAMAS in their arsenals as well. The F1 model was replaced in 1994 by the FAMAS G2, which brought the rifle into line with NATO standards.</text>
+	</string>
+	
+	<string id="name_wpn_famasg2_5.56x45mm">
+		<text>FAMAS G2</text>
+	</string>
+	<string id="desc_wpn_famasg2_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 1000RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG.\n
+	%c[default]The FAMAS G2 is a bullpup assault rifle, designed by Manufacture d'armes de Saint-Etienne (MAS) in 1994 as an update to the original FAMAS F1. The G2 model was created to comply with NATO standards, mainly the ability to use STANAG magazines, but engineers also took the opportunity to add several other updates, including a redesigned hand rail and enlarged trigger guard.</text>
+	</string>
+	
+	<string id="name_wpn_fnfnc_5.56x45mm">
+		<text>FN FNC</text>
+	</string>
+	<string id="desc_wpn_fnfnc_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 625RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The FNC (Fabrique Nationale Carabine) is an assault rifle designed by Fabrique Nationale de Herstal in 1976. It entered NATO trials for a standard rifle in 1975 to 1977, but dropped out due to a turbulent development. This lead Fabrique Nationale to enter the Swedish Armed Forces trials for a new standard rifle in 1981, and was adopted by Belgium in 1989 to replace the FN FAL, while Sweden made a lisenced version named the Ak 5.</text>
+	</string>
+	
+	<string id="name_wpn_boforsak5_5.56x45mm">
+		<text>Bofors Ak 5</text>
+	</string>
+	<string id="desc_wpn_boforsak5_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The Ak 5 is a Swedish variant of the FN FNC assault rifle, developed by Bofors Carl Gustav in 1985 for the Swedish Armed Forces. Changes from the original FNC rifle include a redesigned handguard and stock, lengthened barrel and small modifications to the operation.</text>
+	</string>
+	
+	<string id="name_wpn_imigalilar_5.56x45mm">
+		<text>IMI Galil AR (5.56x45mm NATO)</text>
+	</string>
+	<string id="desc_wpn_imigalilar_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,125,100,0]Handling: 5/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The Galil is an Israeli assault rifle, designed by Yisrael Galili under Israeli Military Industries in 1969. Its design is based on that of the Finnish RK 62 rifle, which in turn is derived from the Russian AK-47. It was adopted by the Israeli Defence Forces (IDF) in 1972, beating out several other rifles and replacing the unreliable FN FAL. The Galil is noted for its reliability in combat conditions, and ease of maintenance.</text>
+	</string>
+	
+	<string id="name_wpn_imigalilarm_5.56x45mm">
+		<text>IMI Galil ARM (5.56x45mm NATO)</text>
+	</string>
+	<string id="desc_wpn_imigalilarm_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Light Machine Gun.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 50 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The Galil is an Israeli assault rifle, designed by Yisrael Galili under Israeli Military Industries in 1969. Its design is based on that of the Finnish RK 62 rifle, which in turn is derived from the Russian AK-47. It was adopted by the Israeli Defence Forces (IDF) in 1972, beating out several other rifles and replacing the unreliable FN FAL. The Galil is noted for its reliability in combat conditions, and ease of maintenance. The ARM variant of the Galil is a light machine gun, with a larger handguard and heavier barrel, and is equipped with a bipod.</text>
+	</string>
+	
+	<string id="name_wpn_imigalilsar_5.56x45mm">
+		<text>IMI Galil SAR</text>
+	</string>
+	<string id="desc_wpn_imigalilsar_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,125,100,0]Handling: 5/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 35 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The Galil is an Israeli assault rifle, designed by Yisrael Galili under Israeli Military Industries in 1969. Its design is based on that of the Finnish RK 62 rifle, which in turn is derived from the Russian AK-47. It was adopted by the Israeli Defence Forces (IDF) in 1972, beating out several other rifles and replacing the unreliable FN FAL. The Galil is noted for its reliability in combat conditions, and ease of maintenance. The SAR variant of the Galil is a carbine, designed for close quarters combat.</text>
+	</string>
+	
+	<string id="name_wpn_imigalilmar_5.56x45mm">
+		<text>IMI Galil MAR</text>
+	</string>
+	<string id="desc_wpn_imigalilmar_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 35 Cartridges.\nRounds Per Minute: 750RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The Galil is an Israeli assault rifle, designed by Yisrael Galili under Israeli Military Industries in 1969. Its design is based on that of the Finnish RK 62 rifle, which in turn is derived from the Russian AK-47. It was adopted by the Israeli Defence Forces (IDF) in 1972, beating out several other rifles and replacing the unreliable FN FAL. The Galil is noted for its reliability in combat conditions, and ease of maintenance. The MAR variant of the Galil is a carbine with a redesigned layout, intended for close quarters combat.</text>
+	</string>
+	
+	<string id="name_wpn_hk416_5.56x45mm">
+		<text>HK HK416 </text>
+	</string>
+	<string id="desc_wpn_hk416_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,0,225,0]Ballistics: 10/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,125,100,0]Reliability: 5/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 850RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The HK416 is an assault rifle developed by Heckler and Koch in 2004 as an improved version of the Colt M4 carbine. It utilizes a gas system similar to that of the HK G36, which was found to significantly decrease malfunctions and increase the lifetime of parts, compared to the direct impingement system of the Colt M4. The U.S. Delta Forces and USSOCOM adopted the HK416 in 2005 following tests proved this reliability, and reports on the performance of the weapon have been highly positive.</text>
+	</string>
+	
+	<string id="name_wpn_ar15_5.56x45mm">
+		<text>ArmaLite AR-15</text>
+	</string>
+	<string id="desc_wpn_ar15_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Semi-Automatic Rifle.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, NATO Telescopic Sight, M203.\n
+	%c[default]The AR-15 is a semi automatic civilian rifle developed by Eugene Stoner under ArmaLite in 1957. It is known as one of the most modular rifles ever created, with thousands of interchangable parts, configurations and variants, and has been adopted by dozens of countries in various configurations, such as the U.S. M16 and M4 rifles.</text>
+	</string>
+	
+	<string id="name_wpn_m16a1_5.56x45mm">
+		<text>Colt M16A1</text>
+	</string>
+	<string id="desc_wpn_m16a1_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, NATO Telescopic Sight, M203.\n
+	%c[default]The M16 is an assault rifle developed by Colt Defense in 1957 to replace the M14 battle rifle in the U.S. Military, and is based on the ArmaLite AR-15 rifle. First seeing use in the Vietnam War in 1963 among certain divisions, it was adopted as the primary rifle of the U.S. Military in 1969, and sees use in various configurations in NATO countries globally. The M16 has a reputation for accuracy and modularity, and is the most produced firearm in the 5.56x45mm NATO caliber, totalling at over 8,000,000 including variants.</text>
+	</string>
+	
+	<string id="name_wpn_m16a2_5.56x45mm">
+		<text>Colt M16A2</text>
+	</string>
+	<string id="desc_wpn_m16a2_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 850RPM.\nFiring Modes: Semi Automatic, Three-Round Burst.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, NATO Telescopic Sight, M203.\n
+	%c[default]The M16 is an assault rifle developed by Colt Defense in 1957 to replace the M14 battle rifle in the U.S. Military, and is based on the ArmaLite AR-15 rifle. First seeing use in the Vietnam War in 1963 among certain divisions, it was adopted as the primary rifle of the U.S. Military in 1969, and sees use in various configurations in NATO countries globally. The M16 has a reputation for accuracy and modularity, and is the most produced firearm in the 5.56x45mm NATO caliber, totalling at over 8,000,000 including variants. The M16A2 variant features a large number of updates to the M16A1 model, including new rifling and barrel, flash suppressor, and the replacement of the automatic firing mode with a three-round burst.</text>
+	</string>
+	
+	<string id="name_wpn_m16a3_5.56x45mm">
+		<text>Colt M16A3</text>
+	</string>
+	<string id="desc_wpn_m16a3_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The M16 is an assault rifle developed by Colt Defense in 1957 to replace the M14 battle rifle in the U.S. Military, and is based on the ArmaLite AR-15 rifle. First seeing use in the Vietnam War in 1963 among certain divisions, it was adopted as the primary rifle of the U.S. Military in 1969, and sees use in various configurations in NATO countries globally. The M16 has a reputation for accuracy and modularity, and is the most produced firearm in the 5.56x45mm NATO caliber, totalling at over 8,000,000 including variants. The M16A3 model is a limited variant of the M16A2 model with a fully automatic setting, replacing the original three-round burst.</text>
+	</string>
+	
+	<string id="name_wpn_m16a4_5.56x45mm">
+		<text>Colt M16A4</text>
+	</string>
+	<string id="desc_wpn_m16a4_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Three-Round Burst.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The M16 is an assault rifle developed by Colt Defense in 1957 to replace the M14 battle rifle in the U.S. Military, and is based on the ArmaLite AR-15 rifle. First seeing use in the Vietnam War in 1963 among certain divisions, it was adopted as the primary rifle of the U.S. Military in 1969, and sees use in various configurations in NATO countries globally. The M16 has a reputation for accuracy and modularity, and is the most produced firearm in the 5.56x45mm NATO caliber, totalling at over 8,000,000 including variants. The M16A4 variant removes the carrying handle and replaces it with an accessory rail which can attach a telescopic or reflex sight.</text>
+	</string>
+	
+	<string id="name_wpn_m4a1_5.56x45mm">
+		<text>Colt M4A1</text>
+	</string>
+	<string id="desc_wpn_m4a1_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 800RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, NATO Telescopic Sight, M203.\n
+	%c[default]The M16 is an assault rifle developed by Colt Defense in 1957 to replace the M14 battle rifle in the U.S. Military, and is based on the ArmaLite AR-15 rifle. First seeing use in the Vietnam War in 1963 among certain divisions, it was adopted as the primary rifle of the U.S. Military in 1969, and sees use in various configurations in NATO countries globally. The M16 has a reputation for accuracy and modularity, and is the most produced firearm in the 5.56x45mm NATO caliber, totalling at over 8,000,000 including variants. The M4A1 is a carbine variant of the M16A2 rifle, intended for special forces in close quarters combat.</text>
+	</string>
+	
+	<string id="name_wpn_sigsg550_5.56x45mm">
+		<text>SIG SG 550</text>
+	</string>
+	<string id="desc_wpn_sigsg550_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,25,200,0]Ballistics: 9/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The SG 550 is an assault rifle designed by Swiss Arms AG in 1978 and trialled by the Swiss Military to replace the Stgw-57 battle rifle, and after lengthy field testing, was officially adopted in 1990. The SG 550 uses a design similar to the AK-47 rifle and is highly modular, with several variants existing. Soon after its adoption, the rifle's popularity exploded due to praise given for its accuracy and reliability, and other countries such as Germany, Spain and the United States adopted it into various roles.</text>
+	</string>
+	
+	<string id="name_wpn_sigsg551_5.56x45mm">
+		<text>SIG SG 551</text>
+	</string>
+	<string id="desc_wpn_sigsg551_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The SG 550 is an assault rifle designed by Swiss Arms AG in 1978 and trialled by the Swiss Military to replace the Stgw-57 battle rifle, and after lengthy field testing, was officially adopted in 1990. The SG 550 uses a design similar to the AK-47 rifle and is highly modular, with several variants existing. Soon after its adoption, the rifle's popularity exploded due to praise given for its accuracy and reliability, and other countries such as Germany, Spain and the United States adopted it into various roles. The SG 551 is a carbine variant of the original SG 550, with a shorter overall profile for close quarters combat.</text>
+	</string>
+	
+	<string id="name_wpn_sigsg552_5.56x45mm">
+		<text>SIG SG 552</text>
+	</string>
+	<string id="desc_wpn_sigsg552_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The SG 550 is an assault rifle designed by Swiss Arms AG in 1978 and trialled by the Swiss Military to replace the Stgw-57 battle rifle, and after lengthy field testing, was officially adopted in 1990. The SG 550 uses a design similar to the AK-47 rifle and is highly modular, with several variants existing. Soon after its adoption, the rifle's popularity exploded due to praise given for its accuracy and reliability, and other countries such as Germany, Spain and the United States adopted it into various roles. The SG 552 "Commando" features a very small frame compared to the original SG 550, with a redesigned flash hider, bolt carrier and several other components.</text>
+	</string>
+	
+	<string id="name_wpn_fnf2000_5.56x45mm">
+		<text>FN F2000</text>
+	</string>
+	<string id="desc_wpn_fnf2000_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,0,225,0]Handling: 10/10.\n%c[250,25,200,0]Reliability: 9/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 850RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor.\nIntergrated: x1.6 Telescopic Sight, 40x46mm GL.\n
+	%c[default]The F2000 is a bullpup assault rifle, designed by Fabrique Nationale de Herstal in 2001. It features a modular design with accessory rails and several intergrated components, including a 40x46mm grenade launcher and telescopic sight. Several components were also taken from the P90 submachine gun, including the safety system and trigger mechanism. The Belgian Special Forces has adopted the F2000 since 2005, and it is being introduced to service with regular forces alongside the FN FNC.</text>
+	</string>
+	
+	<string id="name_wpn_zmlr300_5.56x45mm">
+		<text>Z-M LR-300</text>
+	</string>
+	<string id="desc_wpn_zmlr300_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 950RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The LR-300 (Light Rifle, range of 300m) is an assault rifle based on the AR-15 platform, developed by Z-M Weapons in 2000, and marketed as an entry level rifle for private military contractors and small militaries. It features a modified direct impingement gas system which decreases the profile of the reciever and removes the need for a buffer tube, which allows the LR-300 to use folding and skeletal stocks.</text>
+	</string>
+	
+	<string id="name_wpn_l85a2_5.56x45mm">
+		<text>L85A2</text>
+	</string>
+	<string id="desc_wpn_l85a2_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,0,225,0]Accuracy: 10/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\n%c[250,150,150,250]Rounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor.\nIntergrated: x4.0 SUSAT Telescopic Sight.\n
+	%c[default]The L85A2 is a modified variant of the SA80 bullpup assault rifle, developed by Heckler and Koch in 2000 in response to complaints about reliability issues with the original SA80. Changes include a modified trigger and hammer assembly, redesigned cocking handle, and a new bolt and extractor, all of which amounted to a far more reliable weapon.</text>
+	</string>
+	
+	<string id="name_wpn_hkg36_5.56x45mm">
+		<text>HK G36</text>
+	</string>
+	<string id="desc_wpn_hkg36_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 750RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor.\nIntergrated: x2.0 Telescopic Sight.\n
+	%c[default]The G36 is a German assault rifle developed by Heckler and Koch in 1995 as a replacement for the G3 battle rifle in the German Bundeswehr military. While the original design for the German forces was intended to be the G11 with caseless ammunition, the concept was dropped after the unification of East and West Germany, and interest in a conventional assault rifle grew. The first concept, the HK50, was presented to military trials in 1996, and was found to be superior to contending firearms such as the Steyr AUG, leading to its adoption in 1997 as the G36.</text>
+	</string>
+	
+	<string id="name_wpn_hkg36e_5.56x45mm">
+		<text>HK G36E</text>
+	</string>
+	<string id="desc_wpn_hkg36e_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 750RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor.\nIntergrated: x1.5 Telescopic Sight.\n
+	%c[default]The G36 is a German assault rifle developed by Heckler and Koch in 1995 as a replacement for the G3 battle rifle in the German Bundeswehr military. While the original design for the German forces was intended to be the G11 with caseless ammunition, the concept was dropped after the unification of East and West Germany, and interest in a conventional assault rifle grew. The first concept, the HK50, was presented to military trials in 1996, and was found to be superior to contending firearms such as the Steyr AUG, leading to its adoption in 1997 as the G36. The G36E is an export variant of the G36 rifle, with a simplified sighting system.</text>
+	</string>
+	
+	<string id="name_wpn_hkg36k_5.56x45mm">
+		<text>HK G36K</text>
+	</string>
+	<string id="desc_wpn_hkg36k_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 750RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG.\n
+	%c[default]The G36 is a German assault rifle developed by Heckler and Koch in 1995 as a replacement for the G3 battle rifle in the German Bundeswehr military. While the original design for the German forces was intended to be the G11 with caseless ammunition, the concept was dropped after the unification of East and West Germany, and interest in a conventional assault rifle grew. The first concept, the HK50, was presented to military trials in 1996, and was found to be superior to contending firearms such as the Steyr AUG, leading to its adoption in 1997 as the G36. The G36K or "Kurz" is a shortened variant of the G36 rifle, decreasing the length of the barrel and handguard, and replacing the stnadard G36 with an accessory rail.</text>
+	</string>
+	
+	<string id="name_wpn_hkg36c_5.56x45mm">
+		<text>HK G36C</text>
+	</string>
+	<string id="desc_wpn_hkg36c_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 750RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG.\n
+	%c[default]The G36 is a German assault rifle developed by Heckler and Koch in 1995 as a replacement for the G3 battle rifle in the German Bundeswehr military. While the original design for the German forces was intended to be the G11 with caseless ammunition, the concept was dropped after the unification of East and West Germany, and interest in a conventional assault rifle grew. The first concept, the HK50, was presented to military trials in 1996, and was found to be superior to contending firearms such as the Steyr AUG, leading to its adoption in 1997 as the G36. The G36C "Commando" is a variant of the G36 rifle, with a short overall frame and accessory rail in place of a sight.</text>
+	</string>
+	
+	<string id="name_wpn_fnscarl_5.56x45mm">
+		<text>FN SCAR-L</text>
+	</string>
+	<string id="desc_wpn_fnscarl_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 625RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor, Trijicon ACOG.\n
+	%c[default]The SCAR (Special Forces Combat Assault Rifle) is a modular assault rifle made by Fabrique Nationale de Herstal in 2007 for trials in USSOCOM's "SCAR" contest for a service rifle contract, and later by the U.S. Army and U.S. Marine Corps. The design features several extended Picatinny rails and differing configurations, including marksman, LMG and CQC variants. The "Light" (L, Mk 16 Mod 0) variant of the SCAR is a standard 5.56x45mm NATO configuration using STANAG magazines.</text>
+	</string>
+	
+
+<!-- 7.62x39mm Assault Rifles -->
+	
+	<string id="name_wpn_ak47_7.62x39mm">
+		<text>AK-47</text>
+	</string>
+	<string id="desc_wpn_ak47_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,200,25,0]Accuracy: 2/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The Avtomat Kalashnikova 47 is an assault rifle developed by Mikhail Kalashnikov in 1947 for the Soviet Union. The original design, the AK-46, had a folding stock, but switched to a fixed stock in Soviet military trials, and was accepted into service in 1949. While the AK-47 was found to be highly reliable and performed well, it was deemed too expensive to manufacture in mass, and after several variants were released, the AKM was produced which used a simplified and lightened stamped steel design, which went on to become one of the most prolific firearms in existence, and is used globally as a civilian, military and militant weapon.</text>
+	</string>
+	
+	<string id="name_wpn_aks47_7.62x39mm">
+		<text>AKS-47</text>
+	</string>
+	<string id="desc_wpn_aks47_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,200,25,0]Accuracy: 2/10.\n%c[250,200,25,0]Handling: 2/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The Avtomat Kalashnikova 47 is an assault rifle developed by Mikhail Kalashnikov in 1947 for the Soviet Union. The original design, the AK-46, had a folding stock, but switched to a fixed stock in Soviet military trials, and was accepted into service in 1949. While the AK-47 was found to be highly reliable and performed well, it was deemed too expensive to manufacture in mass, and after several variants were released, the AKM was produced which used a simplified and lightened stamped steel design, which went on to become one of the most prolific firearms in existence, and is used globally as a civilian, military and militant weapon. The AKS-47 was an early development of the original AK-47 with a hollow folding stock, reducing weight.</text>
+	</string>
+	
+	<string id="name_wpn_akm_7.62x39mm">
+		<text>AKM</text>
+	</string>
+	<string id="desc_wpn_akm_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,0,225,0]Reliability: 10/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AKM is an updated "modernized" variant of the original AK-47 assault rifle, developed by Mikhail Kalashnikov in 1959. The main change from the original rifle is the reciever, which has been simplified and improved to be lighter, more reliable and cheaper to produce. The AKM is known as one of the most prolific firearms in existence, with originals and variants used globally in almost all modern conflicts by militaries and militants alike, and its distinctive look has become ubiquitous as a symbol for revolution.</text>
+	</string>
+	
+	<string id="name_wpn_akms_7.62x39mm">
+		<text>AKM-S</text>
+	</string>
+	<string id="desc_wpn_akms_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,0,225,0]Reliability: 10/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AKM is an updated "modernized" variant of the original AK-47 assault rifle, developed by Mikhail Kalashnikov in 1959. The main change from the original rifle is the reciever, which has been simplified and improved to be lighter, more reliable and cheaper to produce. The AKM is known as one of the most prolific firearms in existence, with originals and variants used globally in almost all modern conflicts by militaries and militants alike, and its distinctive look has become ubiquitous as a symbol for revolution. The AKM-S features a folding frame stock in place of a solid one, reducing weight.</text>
+	</string>
+	
+	<string id="name_wpn_ak103_7.62x39mm">
+		<text>AK-103</text>
+	</string>
+	<string id="desc_wpn_ak103_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,25,200,0]Reliability: 9/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AK-103 is a Russian assault rifle, developed as part the AK-100 series, which in turned is designed from the AK-74. Designed as an upgrade of the AKM, it uses mostly polymer furnishings to replace the wooden parts of the AKM, and features improved attachment compatibility, inclusing points for laser sights and optics.</text>
+	</string>
+
+	<string id="name_wpn_ak104_7.62x39mm">
+		<text>AK-104</text>
+	</string>
+	<string id="desc_wpn_ak104_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,25,200,0]Reliability: 9/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The AK-104 is a Russian assault rifle, developed as part the AK-100 series, which in turned is designed from the AK-74. Designed as an upgrade of the AKM, it uses mostly polymer furnishings to replace the wooden parts of the AKM, and features improved attachment compatibility, inclusing points for laser sights and optics. The AK-104 is a compact carbine version of the AK-103.</text>
+	</string>
+	
+	<string id="name_wpn_sakork95_7.62x39mm">
+		<text>SAKO RK-95 TP</text>
+	</string>
+	<string id="desc_wpn_sakork95_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The RK-95 TP is an assault rifle developed by SAKO in 1990 to replace the RK-62 for the Finnish Defence Forces. It is based on the operating system of the Kalashnikov assault rifle, using the same caliber as the AKM and the same magazines, and has a folding frame stock.</text>
+	</string>
+	
+	<string id="name_wpn_vz58_7.62x39mm">
+		<text>Vz. 58</text>
+	</string>
+	<string id="desc_wpn_vz58_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,0,225,0]Ballistics: 10/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 800RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor, PSO Telescopic Sight, GP-30.\n
+	%c[default]The Vz. 58 is Czechoslovakian assault rifle designed in 1958 by Jirн Cermбk to replace the Vz. 52 rifle and Vz. 24 and Vz. 28 submachine guns in Czech military service. It uses a unique gas system which lacks a regulator, directing the full force of the expanding gasses on the piston head when firing, driving it backwards quickly and allowing the Vz. 58 to achieve a higher rate of fire than similar assault rifles, at the cost of increased part wear.</text>
+	</string>
+	
+	<string id="name_wpn_groza_7.62x39mm">
+		<text>OTs-14-4A Groza (7.62x39mm)</text>
+	</string>
+	<string id="desc_wpn_groza_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 750RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor, PSO Telescopic Sight.\nIntergrated: VOG-25 GL.\n
+	%c[default]The OTs-14 Groza is a bullpup Russian specialized assault rifle, developed in 1994 by TsKIB SOO for use by Russian special forces. It is based on the AK-74U carbine, sharing a high percentage of part commonality, and used primarily by MVD agents and certain Russian military divisions. The bullpup design is reputedly well balanced enough that users have found that firing the Groza in a single hand is easily possible, and the addition of an intergrated grenade launcher makes it a versatile weapon.</text>
+	</string>
+	
+	
+<!-- 9x39mm Assault Rifles -->
+	
+	<string id="name_wpn_asval_9x39mm">
+		<text>AS Val</text>
+	</string>
+	<string id="desc_wpn_asval_9x39mm">
+		<text>%c[250,150,150,250]Type: Suppressed Assault Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,0,225,0]Accuracy: 10/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 30 Cartridges.\nRounds Per Minute: 900RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 9x39mm.\nAttachable: PSO Telescopic Sight.\nIntergrated: Suppressor.\n
+	%c[default]The AS Val is a specialized suppressed assault rifle, developed by TsNIITochMash in 1984 for agents within the special forces of Russia, such as Spetsnaz and the MVD. It shares a high part interchangeability with its twin, the VSS Vintorez special marksman weapon, and is able to swap the suppressor, magazines and several other parts, and uses Kalashnikov style controls.</text>
+	</string>
+	
+	<string id="name_wpn_groza_9x39mm">
+		<text>OTs-14-4A Groza (9x39mm)</text>
+	</string>
+	<string id="desc_wpn_groza_9x39mm">
+		<text>%c[250,150,150,250]Type: Assault Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 9x39mm.\nAttachable: 9x39mm Suppressor, PSO Telescopic Sight.\nIntergrated: VOG-25 GL.\n
+	%c[default]The OTs-14 Groza is a bullpup Russian specialized assault rifle, developed in 1994 by TsKIB SOO for use by Russian special forces. It is based on the AK-74U carbine, sharing a high percentage of part commonality, and used primarily by MVD agents and certain Russian military divisions. The bullpup design is reputedly well balanced enough that users have found that firing the Groza in a single hand is easily possible, and the addition of an intergrated grenade launcher makes it a versatile weapon.</text>
+	</string>
+	
+	
+<!-- 7.62x51mm NATO Assault Rifles -->
+
+	<string id="name_wpn_imigalilar_7.62x51mm">
+		<text>IMI Galil AR (7.62x51mm NATO)</text>
+	</string>
+	<string id="desc_wpn_imigalilar_7.62x51mm">
+		<text>%c[250,150,150,250]Type: Battle Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 25 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x51mm NATO.\nAttachable: 7.62x51mm Suppressor, M203.\nIntergrated: x4.0 Telescopic Sight.\n
+	%c[default]The Galil is an Israeli assault rifle, designed by Yisrael Galili under Israeli Military Industries in 1969. Its design is based on that of the Finnish RK 62 rifle, which in turn is derived from the Russian AK-47. It was adopted by the Israeli Defence Forces (IDF) in 1972, beating out several other rifles and replacing the unreliable FN FAL. The Galil is noted for its reliability in combat conditions, and ease of maintenance.</text>
+	</string>
+	
+	<string id="name_wpn_imigalilarm_7.62x51mm">
+		<text>IMI Galil ARM (7.62x51mm NATO)</text>
+	</string>
+	<string id="desc_wpn_imigalilarm_7.62x51mm">
+		<text>%c[250,150,150,250]Type: Light Machine Gun.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 50 Cartridges.\nRounds Per Minute: 650RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x51mm NATO.\nAttachable: 7.62x51mm Suppressor, Trijicon ACOG, M203.\n
+	%c[default]The Galil is an Israeli assault rifle, designed by Yisrael Galili under Israeli Military Industries in 1969. Its design is based on that of the Finnish RK 62 rifle, which in turn is derived from the Russian AK-47. It was adopted by the Israeli Defence Forces (IDF) in 1972, beating out several other rifles and replacing the unreliable FN FAL. The Galil is noted for its reliability in combat conditions, and ease of maintenance. The ARM variant of the Galil is a light machine gun, with a larger handguard and heavier barrel, and is equipped with a bipod.</text>
+	</string>
+	
+	<string id="name_wpn_fnscarh_7.62x51mm">
+		<text>FN SCAR-H</text>
+	</string>
+	<string id="desc_wpn_fnscarh_7.62x51mm">
+		<text>%c[250,150,150,250]Type: Battle Rifle.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nRounds Per Minute: 625RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x51mm NATO.\nAttachable: 7.62x51mm Suppressor, Trijicon ACOG.\n
+	%c[default]The SCAR (Special Forces Combat Assault Rifle) is a modular assault rifle made by Fabrique Nationale de Herstal in 2007 for trials in USSOCOM's "SCAR" contest for a service rifle contract, and later by the U.S. Army and U.S. Marine Corps. The design features several extended Picatinny rails and differing configurations, including marksman, LMG and CQC variants. The "Heavy" (L, Mk 17 Mod 0) variant of the SCAR is a battle rifle chambered in 7.62x51mm NATO and fitted with a heavier barrel.</text>
+	</string>
+
+	<string id="name_wpn_hk417_7.62x51mm">
+		<text>HK HK417</text>
+	</string>
+	<string id="desc_wpn_hk417_7.62x51mm">
+		<text>%c[250,150,150,250]Type: Battle Rifle.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x51mm NATO.\nAttachable: 7.62x51mm Suppressor, M203.\nIntergrated: x4.0 Telescopic Sight.\n
+	%c[default]The HK416 is an assault rifle developed by Heckler and Koch in 2004 as an improved version of the Colt M4 carbine. It utilizes a gas system similar to that of the HK G36, which was found to significantly decrease malfunctions and increase the lifetime of parts, compared to the direct impingement system of the Colt M4. The U.S. Delta Forces and USSOCOM adopted the HK416 in 2005 following tests proved this reliability, and reports on the performance of the weapon have been highly positive. The HK417 is a battle rifle variant of the HK416 chambered in 7.62x51mm NATO.</text>
+	</string>
+
+	<string id="name_wpn_hkg3a3_7.62x51mm">
+		<text>HK G3A3</text>
+	</string>
+	<string id="desc_wpn_hkg3a3_7.62x51mm">
+		<text>%c[250,150,150,250]Type: Battle Rifle.\n%c[250,25,200,0]Ballistics: 9/10.\n%c[250,0,225,0]Accuracy: 10/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Three-Round Burst, Automatic.\nAmmunition Caliber: 7.62x51mm NATO.\nAttachable: 7.62x51mm Suppressor, NATO Telescopic Sight.\n
+	%c[default]The G3A3 is a battle rifle developed by Heckler and Koch in 1953. Originally concepted as an improved StG assault rifle, the design went through a multitude of versions and designers before it found success as the 'CETME Model', and later, in the hands of Heckler and Koch, became the G3 rifle, and was later modernized and improved into the G3A3. The rifle is noticed for its exceptional accuracy, and several 'sniperized' variants have been created.</text>
+	</string>
+	
+	
+<!-- ############## -->
+<!-- LIGHT MACHINE GUNS START -->
+<!-- ############## -->
+
+<!-- 5.45x39mm LMGs -->
+
+	<string id="name_wpn_rpk74_5.45x39mm">
+		<text>RPK-74</text>
+	</string>
+	<string id="desc_wpn_rpk74_5.45x39mm">
+		<text>%c[250,150,150,250]Type: Light Machine Gun.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 75 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.45x39mm.\nAttachable: 5.45x39mm Suppressor.\n
+	%c[default]The RPK is a Soviet light machine gun, developed by Mikhail Kalashnikov in 1961 based on the design of the Kalashnikov assault rifle. Created as part of Soviet efforts to standardize the armoury of the Red Army, the RPK replaced the RPD in service and is still in use to present day. The RPK-74 was produced alongside the AK-74 to chamber tbe new 5.45x39mm intermediate caliber.</text>
+	</string>
+	
+	<string id="name_wpn_rpk74m_5.45x39mm">
+		<text>RPK-74M</text>
+	</string>
+	<string id="desc_wpn_rpk74m_5.45x39mm">
+		<text>%c[250,150,150,250]Type: Light Machine Gun.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 75 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.45x39mm.\nAttachable: 5.45x39mm Suppressor.\n
+	%c[default]The RPK is a Soviet light machine gun, developed by Mikhail Kalashnikov in 1961 based on the design of the Kalashnikov assault rifle. Created as part of Soviet efforts to standardize the armoury of the Red Army, the RPK replaced the RPD in service and is still in use to present day. The RPK-74M was produced alongside the AK-74M as part of an improvement program, replacing metal or wood components with polymers and making small design adjustments.</text>
+	</string>
+	
+	
+<!-- 5.56x45mm LMGs -->
+	
+	<string id="name_wpn_rpk201_5.56x45mm">
+		<text>RPK-201</text>
+	</string>
+	<string id="desc_wpn_rpk201_5.56x45mm">
+		<text>%c[250,150,150,250]Type: Light Machine Gun.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 75 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 5.56x45mm NATO.\nAttachable: 5.56x45mm Suppressor.\n
+	%c[default]The RPK is a Soviet light machine gun, developed by Mikhail Kalashnikov in 1961 based on the design of the Kalashnikov assault rifle. Created as part of Soviet efforts to standardize the armoury of the Red Army, the RPK replaced the RPD in service and is still in use to present day. The RPK-201 is an export variant of the RPK-74M, chambered in 5.56x45mm NATO.</text>
+	</string>
+	
+	
+<!-- 7.62x39mm LMGs -->
+	
+	<string id="name_wpn_rpk_7.62x39mm">
+		<text>RPK</text>
+	</string>
+	<string id="desc_wpn_rpk_7.62x39mm">
+		<text>%c[250,150,150,250]Type: Light Machine Gun.\n%c[250,150,75,0]Ballistics: 4/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 75 Cartridges.\nRounds Per Minute: 600RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x39mm.\nAttachable: 7.62x39mm Suppressor.\n
+	%c[default]The RPK is a Soviet light machine gun, developed by Mikhail Kalashnikov in 1961 based on the design of the Kalashnikov assault rifle. Created as part of Soviet efforts to standardize the armoury of the Red Army, the RPK replaced the RPD in service and is still in use to present day.</text>
+	</string>
+
+
+<!-- ############## -->
+<!-- SHOTGUNS START -->
+<!-- ############## -->
+	
+	<string id="name_wpn_saiga12_12ga">
+		<text>Saiga-12</text>
+	</string>
+	<string id="desc_wpn_saiga12_12ga">
+		<text>%c[250,150,150,250]Type: Semi-Automatic Shotgun.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,175,50,0]Accuracy: 3/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,25,200,0]Reliability: 9/10.\n%c[250,150,150,250]Magazine Capacity: 10 Shells.\nAmmunition Caliber: 12 Gauge.\nAttachable: PSO Telescopic Sight.\n
+	%c[default]The Saiga-12 is a semi automatic shotgun developed in 1992 by Izhmash. Its design is based on that of the Kalashnikov assault rifle, featuring a moderate part commonality, and as such is known as highly reliable, which is much sought after as semi automatic shotguns tend to be unreliable. The overall design is also cheap to manufacture, made almost entirely using stamped steel and is easy to maintain.</text>
+	</string>
+	
+	<string id="name_wpn_toz66long_12ga">
+		<text>TOZ-66</text>
+	</string>
+	<string id="desc_wpn_toz66long_12ga">
+		<text>%c[250,150,150,250]Type: Double-Barreled Shotgun.\n%c[250,100,125,0]Ballistics: 6/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 2 Shells.\nAmmunition Caliber: 12 Gauge.\n
+	%c[default]The TOZ-66 is a double-barreled 'coach gun' designed by Tula Armaments for the civilian market. While the design is old, it is still a common firearm among those living on rural land to defend property, and the availability makes it a common weapon brought into the Zone by rookies.</text>
+	</string>
+	
+	<string id="name_wpn_toz66_12ga">
+		<text>TOZ-66 Sawed-Off</text>
+	</string>
+	<string id="desc_wpn_toz66_12ga">
+		<text>%c[250,150,150,250]Type: Double-Barreled Shotgun.\n%c[250,200,25,0]Ballistics: 2/10.\n%c[250,225,0,0]Accuracy: 1/10.\n%c[250,225,0,0]Handling: 1/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 2 Shells.\nAmmunition Caliber: 12 Gauge.\n
+	%c[default]The TOZ-66 is a double-barreled 'coach gun' designed by Tula Armaments for the civilian market. While the design is old, it is still a common firearm among those living on rural land to defend property, and the availability makes it a common weapon brought into the Zone by rookies. Like most others, the barrel has been sawn off to make the weapon easier to carry, at the expense of vastly increasing recoil and decreasing accuracy.</text>
+	</string>
+	
+	<string id="name_wpn_toz34_12ga">
+		<text>TOZ-34</text>
+	</string>
+	<string id="desc_wpn_toz34_12ga">
+		<text>%c[250,150,150,250]Type: Double-Barreled Shotgun.\n%c[250,50,175,0]Ballistics: 8/10.\n%c[250,0,225,0]Accuracy: 10/10.\n%c[250,150,75,0]Handling: 4/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 2 Shells.\nAmmunition Caliber: 12 Gauge.\n
+	%c[default]The TOZ-34 is a double-barreled, over-under configuration hunting shotgun developed by Tula Armaments for the civilian market. It is popular among farmers and outdoorsmen, and frequently brought into the zone with rookie Stalkers who use it to hunt mutants.</text>
+	</string>
+	
+	<string id="name_wpn_spas12_12ga">
+		<text>Franchi SPAS-12</text>
+	</string>
+	<string id="desc_wpn_spas12_12ga">
+		<text>%c[250,150,150,250]Type: Pump-Action Shotgun.\n%c[250,25,200,0]Ballistics: 9/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,75,150,0]Handling: 7/10.\n%c[250,200,25,0]Reliability: 2/10.\n%c[250,150,150,250]Magazine Capacity: 8 Shells.\nAmmunition Caliber: 12 Gauge.\n
+	%c[default]The SPAS-12 is a combat shotgun developed by Italian company Franchi SpA in 1979. The SPAS-12, like several other designs, has the ability to switch between pump-action and semi-automatic firing modes, however the latter is prone to malfunction, especially when using low-pressure ammunition like riot slugs. While the design never garnered popularity due to its unreliability and weight, it became a common sight in films and games due to its intimidating appearance.</text>
+	</string>
+	
+	<string id="name_wpn_maverick88_12ga">
+		<text>Mossberg Maverick 88</text>
+	</string>
+	<string id="desc_wpn_maverick88_12ga">
+		<text>%c[250,150,150,250]Type: Pump-Action Shotgun.\n%c[250,175,50,0]Ballistics: 3/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,150,75,0]Reliability: 4/10.\n%c[250,150,150,250]Magazine Capacity: 6 Shells.\nAmmunition Caliber: 12 Gauge.\n
+	%c[default]The Maverick 88 is a pump-action shotgun developed by Mossberg as a cheaper, simpler variant of the Mossberg 500 shotgun. While sharing much in common with the Model 500, several notable differences include an adjusted trigger group, simplified safety system and new accessory rail. Maverick 88's are produced using cheaper parts from Mexico which lowers manufacturing expense, but decreasing reliability.</text>
+	</string>
+	
+	<string id="name_wpn_benellim4_12ga">
+		<text>Benelli M4 Super 90</text>
+	</string>
+	<string id="desc_wpn_benellim4_12ga">
+		<text>%c[250,150,150,250]Type: Semi-Automatic Shotgun.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,125,100,0]Accuracy: 5/10.\n%c[250,25,200,0]Handling: 9/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 8 Shells.\nAmmunition Caliber: 12 Gauge.\n
+	%c[default]The Benelli M4 is a selective action shotgun developed by Benelli Armi SpA in 1998 for the U.S. Army who wanted a new 12 gauge semi-automatic combat shotgun for the U.S. Armed Forces, and was adopted as the M1014 after extensive trials. The M4 is noted for its reliability and the usefulness of its collapsible stock.</text>
+	</string>
+	
+	<string id="name_wpn_mossberg590_12ga">
+		<text>Mossberg 590</text>
+	</string>
+	<string id="desc_wpn_mossberg590_12ga">
+		<text>%c[250,150,150,250]Type: Pump-Action Shotgun.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,100,125,0]Accuracy: 6/10.\n%c[250,125,100,0]Handling: 5/10.\n%c[250,100,125,0]Reliability: 6/10.\n%c[250,150,150,250]Magazine Capacity: 8 Shells.\nAmmunition Caliber: 12 Gauge.\n
+	%c[default]The Mossberg 590 is a pump-action combat shotgun designed by Mossberg in 1960, as part of the Model 500 series consisting of a large number of shotguns in varying configurations. The Mossberg 590 features an "open" tubular magazine design allowing easier maintenance and replacement of parts, and improved aluminium trigger guard and safety.</text>
+	</string>
+	
+	<string id="name_wpn_remington870_12ga">
+		<text>Remington 870</text>
+	</string>
+	<string id="desc_wpn_remington870_12ga">
+		<text>%c[250,150,150,250]Type: Pump-Action Shotgun.\n%c[250,100,125,]Ballistics: 6/10.\n%c[250,150,75,0]Accuracy: 4/10.\n%c[250,175,50,0]Handling: 3/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 8 Shells.\nAmmunition Caliber: 12 Gauge.\n
+	%c[default]The Remington 870 is a pump-action shotgun developed by Remington Arms Company in 1951 in competition with Winchester to produce a rugged, streamlined and relatively inexpensive shotgun. It is widely used by sporting shooters, hunters, law enforcement and military personnel, and has enjoyed steady popularity among all markets since its release.</text>
+	</string>
+	
+
+<!-- ############## -->
+<!-- SNIPER RIFLES START -->
+<!-- ############## -->
+
+<!-- 9x39mm Sniper Rifles -->
+	
+	<string id="name_wpn_vssvintorez_9x39mm">
+		<text>VSS Vintorez</text>
+	</string>
+	<string id="desc_wpn_vssvintorez_9x39mm">
+		<text>%c[250,150,150,250]Type: Suppressed Sniper Rifle.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,75,150,0]Accuracy: 7/10.\n%c[250,50,175,0]Handling: 8/10.\n%c[250,175,50,0]Reliability: 3/10.\n%c[250,150,150,250]Magazine Capacity: 20 Cartridges.\nRounds Per Minute: 700RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 9x39mm.\nAttachable: PSO Telescopic Sight.\nIntergrated: Suppressor.\n
+	%c[default]The VSS "Vintorez" is a Vintovka Snayperskaya Spetsialnaya, or Special Sniper Rifle, developed by TSNIITOCHMASH for Spetsnaz, the Russian Special Forces in the 1980s. The 9x39mm cartridge was originally developed for use in the VSS Vintorez. It is a common rifle for use in Chechnya, against separatist factions. While the weapon is intended as a sniper rifle, it has a relatively large magazine capacity and an automatic firing mode, which is largely impractical, but increases its effectiveness in close quarters.</text>
+	</string>
+	
+	
+<!-- 7.62x51mm NATO Sniper Rifles -->
+	
+	<string id="name_wpn_galiltzalafim_7.62x51mm">
+		<text>IMI Galil Tzalafim</text>
+	</string>
+	<string id="desc_wpn_galiltzalafim_7.62x51mm">
+		<text>%c[250,150,150,250]
+	Type: Marksman Rifle.\n
+	Ballistics: 5/10.\n
+	Accuracy: 4/10.\n
+	Handling: 3/10.\n
+	Reliability: 7/10.\n
+	Magazine Capacity: 25 Cartridges.\n
+	Ammunition Caliber: 7.62x51mm NATO.\n
+	Attachable: 7.62x51mm Suppressor.\n
+	Intergrated: x4.0 Optical Scope.\n
+	%c[default]The Galil "Tzalafim", or Galatz, is a sniperized variant of the IMI Galil MAR, using a heavy match barrel, and designed to work in semi-automatic mode only. The Tzalafim also features a muzzle brake combined with a flash suppressor, a two-stage trigger with adjustable weight, a heavy-duty bipod, and a precision adaptor to mount optics.</text>
+	</string>
+	
+	<string id="name_wpn_sr25_7.62x51mm">
+		<text>KAC SR-25</text>
+	</string>
+	<string id="desc_wpn_sr25_7.62x51mm">
+		<text>%c[250,150,150,250]
+	Type: Sniper Rifle.\n
+	Ballistics: 7/10.\n
+	Accuracy: 7/10.\n
+	Handling: 5/10.\n
+	Reliability: 4/10.\n
+	Magazine Capacity: 20 Cartridges.\n
+	Ammunition Caliber: 7.62x51mm NATO.\n
+	Attachable: 7.62x51mm Suppressor.\n
+	Intergrated: x4.0 Optical Scope.\n
+	%c[default]The SR-25 (Stoner Rifle 25) is a marksman rifle developed by Knight's Armament Company in 1990, based on the AR-10 made by Eugene Stoner. Using a rotating bolt and direct-impingement system, it shares roughly a 60% part commonality with the AR-10. The SR-25 uses a Picatinny rail to mount optics on, and an adapter for use with sound suppressors.</text>
+	</string>
+	
+	
+<!-- 7.62x54mmR Sniper Rifles -->
+	
+	<string id="name_wpn_dragunovsvd_7.62x54mmR">
+		<text>Dragunov SVD</text>
+	</string>
+	<string id="desc_wpn_dragunovsvd_7.62x54mmR">
+		<text>%c[250,150,150,250]Type: Sniper Rifle.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,25,200,0]Accuracy: 9/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,50,175,0]Reliability: 8/10.\n%c[250,150,150,250]Magazine Capacity: 10 Cartridges.\nAmmunition Caliber: 7.62x54mmR.\nAttachable: PSO Telescopic Sight, 7.62x54mmR Suppressor.\n
+	%c[default]The Snayperskaya Vintovka Dragunova, or Dragunov Sniper Rifle, is a semi automatic sniper rifle, developed by the former USSR in 1958. It was chosen over two other designs for a service sniper rifle for the Soviet Union. Since then, it has become standard issue to many countries formerly belonging to the Warsaw Pact, including Poland. The Dragunov SVD's design is similar to that of the Kalashnikov assault rifle, or AK-47. It features an intergrated x4.0 PSO-1 scope as standard.</text>
+	</string>
+	
+	
+<!-- Gauss Sniper Rifles -->
+	
+	<string id="name_wpn_gauss">
+		<text>X-C15 Linear Accelerator</text>
+	</string>
+	<string id="desc_wpn_gauss">
+		<text>%c[250,150,150,250]Type: Experimental Gauss Rifle.\n%c[250,125,100,0]Ballistics: 5/10.\n%c[250,0,225,0]Accuracy: 10/10.\n%c[250,0,225,0]Handling: 10/10.\n%c[250,225,0,0]Reliability: 1/10.\n%c[250,150,150,250]Magazine Capacity: 5 Cartridges.\nAmmunition Caliber: 2mm EC.\nIntergrated: x5.0 Optical Scope.\n
+	%c[default]The X-C15 Linear Accelerator is a prototype weapon which uses magnetic coils to propell a tiny projectile at relativistic velocities. The name "Gauss" refers to the creator of the theory of magnetic propelled projectiles, Carl Friedrich Gauss. The unique design makes it a devastating weapon, punching holes through armour and flesh, with deadly accuracy and minimal recoil. The power source for the magnetic coils comes from the projectiles themselves. However, since the weapon is mostly a proof-of-concept, it is unreliable and jams easily, and requires frequent maintenance.</text>
+	</string>
+	
+	
+<!-- ############### -->
+<!-- HEAVY WEAPONS START -->
+<!-- ############### -->
+	
+	<string id="name_wpn_rpg7v2">
+		<text>RPG-7V2</text>
+	</string>
+	<string id="desc_wpn_rpg7v2">
+		<text>%c[250,150,150,250]
+	Type: Heavy Weapon.\n
+	Ammunition Caliber: OG-7V.\n
+	Intergrated: x2.0 Optical Scope.\n
+	%c[default]The RPG-7V2 is a modification of the RPG-7, a rocket propelled grenade launcher developed in 1961 by the former Soviet Union to replace the RPG-3. It is one of the most common rocket propelled grenade launchers in use today, popular among both militaries and guerrilla militias for its ruggedness, reliability and relatively cheap ammunition and maintenance. The RPG-7V2 has the improvement of being able to fire multiple grenade types, and has an intergrated UP-7V x2.0 targeting scope.</text>
+	</string>
+	
+	<string id="wpn-rg-6">
+		<text>RG-6/6G30</text>
+	</string>
+	<string id="enc_weapons1_wpn-rg-6">
+		<text>%c[250,150,150,250]
+	Type: Heavy Weapon.\n
+	Magazine Capacity: 6 Grenades.\n
+	Ammunition Caliber: VOG-25 Grenades.\n
+	%c[default]The RG-6 is a rotary grenade launcher developed in 1994 by TSKIB SOO, designed to increase the average firepower of infantry squads in urban engagements. Holding six 40mm caseless grenades in a revolver-like cylinder, it rotates as each grenade is fired until empty. The design was heavily influenced by the development of the Milkor MGL, minus some differences making it suitable for the 40mm caseless grenades.</text>
+	</string>
+	
+
+<!-- #################### -->
+<!-- WEAPON ATTACHMENTS START -->
+<!-- #################### -->
+	
+<!-- Grenade Launchers -->
+	
+	<string id="wpn_addon_gp30gl">
+		<text>GP-30 Grenade Launcher</text>
+	</string>
+	<string id="desc_addon_gp30gl">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Grenade Launcher.\n
+	Ammunition Caliber: VOG-25 Grenades.\n
+	%c[default]The GP-30 "Obuvka" (Shoe) is an underslung Soviet caseless grenade launcher module developed in 1972, designed to be attached to a variety of Russian developed firearms. The unique design of the GP-30 allows for quick reloading: a grenade is simply inserted into the barrel and is automatically chambered.</text>
+	</string>
+	
+	<string id="wpn_addon_m203gl">
+		<text>M203 Grenade Launcher</text>
+	</string>
+	<string id="desc_addon_m203gl">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Grenade Launcher.\n
+	Ammunition Caliber: 40x46mm Grenades.\n
+	%c[default]The M203 is an underslung grenade launcher module, designed to be attached to a variety of NATO firearms. The M203 mounts on weapons under the barrel, ahead of the magazine, which functions as a makeshift grip when firing. It is designed to fire a large variety of 40x46mm grenades, and is often used to clear out buildings and bunker emplacements.</text>
+	</string>
+
+
+<!-- Scopes -->
+	
+	<string id="wpn_addon_pso1scope2">
+		<text>PSO-1 Telescopic Sight</text>
+	</string>
+	<string id="desc_addon_pso1scope2">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Scope.\n
+	Magnification Level: x2.0.\n
+	%c[default]The PSO-1 Scope is a Soviet optical sight, developed by Novosibirsk Arms in the 1990s. It is presently standard issue in Russia and for countries formerly belonging to the USSR. It is intergrated with many Russian sniper rifles, such as the Dragunov SVD, and can be mounted on most weapons using a Dovetail style mount.</text>
+	</string>
+	
+	<string id="wpn_addon_pso1scope4">
+		<text>PSO-1M2 Telescopic Sight</text>
+	</string>
+	<string id="desc_addon_pso1scope4">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Scope.\n
+	Magnification Level: x4.0.\n
+	%c[default]The PSO-1 Scope is a Soviet optical sight, developed by Novosibirsk Arms in the 1990s. It is presently standard issue in Russia and for countries formerly belonging to the USSR. It is intergrated with many Russian sniper rifles, such as the Dragunov SVD, and can be mounted on most weapons using a Dovetail style mount.</text>
+	</string>
+	
+	<string id="wpn_addon_acog2">
+		<text>Trijicon ACOG (x2.0)</text>
+	</string>
+	<string id="desc_addon_acog2">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Scope.\n
+	Magnification Level: x2.0.\n
+	%c[default]The Advanced Combat Optical Gunsight is a telescopic reflex sight developed by Trijicon. Originally designed for use on the M16 and M4, the ACOG line has since been expanded to include attachments for a large range of firearms. Unlike most reflex sights, the ACOG does not require a battery to operate, and is illuminated by both a light-gathering fiber optic while in brighly lit areas, and by a tritium lamp when in low-light conditions.</text>
+	</string>
+	
+	<string id="wpn_addon_acog4">
+		<text>Trijicon ACOG (x4.0)</text>
+	</string>
+	<string id="desc_addon_acog4">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Scope.\n
+	Magnification Level: x4.0.\n
+	%c[default]The Advanced Combat Optical Gunsight is a telescopic reflex sight developed by Trijicon. Originally designed for use on the M16 and M4, the ACOG line has since been expanded to include attachments for a large range of firearms. Unlike most reflex sights, the ACOG does not require a battery to operate, and is illuminated by both a light-gathering fiber optic while in brighly lit areas, and by a tritium lamp when in low-light conditions.</text>
+	</string>
+	
+	<string id="wpn_addon_natoscope2">
+		<text>NATO Telescopic Sight (x2.0)</text>
+	</string>
+	<string id="desc_addon_natoscope2">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Scope.\n
+	Magnification Level: x2.0.\n
+	%c[default]The standard marksman fixed telescopic sight used by NATO countries. Telescopic sights, often called "scopes", are aiming aids designed to magnify a distant image to appear closer to the marksman in order to make accurate distance firing easier.</text>
+	</string>
+	
+	<string id="wpn_addon_natoscope4">
+		<text>NATO Telescopic Sight (x4.0)</text>
+	</string>
+	<string id="desc_addon_natoscope4">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Scope.\n
+	Magnification Level: x4.0.\n
+	%c[default]The standard marksman fixed telescopic sight used by NATO countries. Telescopic sights, often called "scopes", are aiming aids designed to magnify a distant image to appear closer to the marksman in order to make accurate distance firing easier.</text>
+	</string>
+
+
+<!-- Suppressors -->
+	
+	<string id="wpn_addon_suppressor_9x18mm">
+		<text>9x18mm Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_9x18mm">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 9x18mm.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_9x19mm">
+		<text>9x19mm Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_9x19mm">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 9x19mm.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_7.62x25mm">
+		<text>7.62x25mm Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_7.62x25mm">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 7.62x25mm.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_5.7x28mm">
+		<text>5.7x28mm Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_5.7x28mm">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 5.7x28mm.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_.40sw">
+		<text>.40 SW Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_.40sw">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: .40 SW.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_.357sig">
+		<text>.357 SIG Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_.357sig">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: .357 SIG.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_.45acp">
+		<text>.45 ACP Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_.45acp">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: .45 ACP.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_.357mag">
+		<text>.357 Magnum Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_.357mag">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: .357 Magnum.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_.44mag">
+		<text>.44 Magnum Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_.44mag">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: .44 Magnum.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_5.45x39mm">
+		<text>5.45x39mm Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_5.45x39mm">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 5.45x39mm.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_5.56x45mm">
+		<text>5.56x45mm Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_5.56x45mm">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 5.56x45mm NATO.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_7.62x39mm">
+		<text>7.62x39mm Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_7.62x39mm">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 7.62x39mm.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_9x39mm">
+		<text>9x39mm Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_9x39mm">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 9x39mm.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_7.62x51mm">
+		<text>7.62x51mm Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_7.62x51mm">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 7.62x51mm NATO.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+	
+	<string id="wpn_addon_suppressor_7.62x54mmR">
+		<text>7.62x54mmR Suppressor</text>
+	</string>
+	<string id="desc_addon_suppressor_7.62x54mmR">
+		<text>%c[250,150,150,250]
+	Type: Weapon Attachment: Suppressor.\n
+	Caliber: 7.62x54mmR.\n
+	Ballistics: -5%.\n
+	Velocity: -10%.\n
+	Accuracy: +10%.\n
+	%c[default]A sound suppressor (or silencer) is a firearm attachment designed to reduce the amount of noise and flash emitted by a firing weapon, by capturing escaping gasses and slowing their release, and by lowering the velocity of fired projectiles. Most suppressors use "baffles", rows of circular metal dividers which allow a bullet to pass, but captures the gasses that follow. Some "wet" suppressors use water, oil or grease in addition to baffles to further muffle sound and flash.</text>
+	</string>
+
+
+</string_table>

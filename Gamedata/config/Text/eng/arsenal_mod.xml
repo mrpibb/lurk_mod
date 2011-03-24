@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="ars-ak47">
+		<text>AK-47</text>
+	</string>
+	
+	<string id="enc_arsenal_ak47">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AK-47 assault rifle.\n\nThe AK-47 is a 7.62mm assault rifle developed in the Soviet Union by Mikhail Kalashnikov. It comes in two versions: the fixed stock AK-47 and the AKS-47 variant equipped with an underfolding metal shoulder stock. Design work on the AK began in 1944, and it was officially adopted by the Soviet Armed Forces in 1949. It has also been used by the majority of the member states of the former Warsaw Pact. The AK-47 was also used as a basis for the development of countless many other types of individual and crew-served firearms. It was one of the first true assault rifles and, due to its low price, durability and ease of use, remains the most widely used assault rifle in the world. More AK-type rifles have been produced than all other assault rifles combined.\n
+		</text>
+	</string>
+	<string id="ars-ak47_camo1">
+		<text>AK-47 (Camo)</text>
+	</string>
+	<string id="enc_arsenal_ak47_camo1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AK-47 assault rifle with a camouflage paint job.\n\nThe AK-47 is a 7.62mm assault rifle developed in the Soviet Union by Mikhail Kalashnikov. It comes in two versions: the fixed stock AK-47 and the AKS-47 variant equipped with an underfolding metal shoulder stock. Design work on the AK began in 1944, and it was officially adopted by the Soviet Armed Forces in 1949. It has also been used by the majority of the member states of the former Warsaw Pact. The AK-47 was also used as a basis for the development of countless many other types of individual and crew-served firearms. It was one of the first true assault rifles and, due to its low price, durability and ease of use, remains the most widely used assault rifle in the world. More AK-type rifles have been produced than all other assault rifles combined.\n
+		</text>
+	</string>
+	<string id="ars-ak47_m1">
+		<text>AK-47 (Mini-Dragunov)</text>
+	</string>
+	<string id="enc_arsenal_ak47_m1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]A Romanian modified AK-47 that's often referred to as the "Mini-Dragunov" due to the sniper-like modifications made.\n\nThe AK-47 is a 7.62mm assault rifle developed in the Soviet Union by Mikhail Kalashnikov. It comes in two versions: the fixed stock AK-47 and the AKS-47 variant equipped with an underfolding metal shoulder stock. Design work on the AK began in 1944, and it was officially adopted by the Soviet Armed Forces in 1949. It has also been used by the majority of the member states of the former Warsaw Pact. The AK-47 was also used as a basis for the development of countless many other types of individual and crew-served firearms. It was one of the first true assault rifles and, due to its low price, durability and ease of use, remains the most widely used assault rifle in the world. More AK-type rifles have been produced than all other assault rifles combined.\n
+		</text>
+	</string>
+	<string id="ars-aks47">
+		<text>AKS-47</text>
+	</string>
+	<string id="enc_arsenal_aks47">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AKS-47 assault rifle.\n\nThe AK-47 is a 7.62mm assault rifle developed in the Soviet Union by Mikhail Kalashnikov. It comes in two versions: the fixed stock AK-47 and the AKS-47 variant equipped with an underfolding metal shoulder stock. Design work on the AK began in 1944, and it was officially adopted by the Soviet Armed Forces in 1949. It has also been used by the majority of the member states of the former Warsaw Pact. The AK-47 was also used as a basis for the development of countless many other types of individual and crew-served firearms. It was one of the first true assault rifles and, due to its low price, durability and ease of use, remains the most widely used assault rifle in the world. More AK-type rifles have been produced than all other assault rifles combined.\n
+		</text>
+	</string>
+	<string id="ars-ak74">
+		<text>AK-74</text>
+	</string>
+	<string id="enc_arsenal_ak74">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AK-74 assault rifle.\n\nThe AK-74 is a 5.45mm assault rifle designed in the early 1970s in the Soviet Union as a replacement for the AKM. It was introduced in 1974 and first saw service with Soviet forces engaged in the Afghanistan conflict. Itself a further modification of the AKM, the AK-74 features several important design improvements, primarily due to the conversion to the intermediate-caliber 5.45x39mm cartridge. The result is a more modern, more accurate and even more reliable rifle than the AKM. Like the AKM before it, the AK-74 is also produced in a folding stock configuration, designated the AKS-74, and a carbine version, the AKS-74U, was developed later. The AK-74 is currently in use by the majority of the countries of the former USSR.\n
+		</text>
+	</string>
+	<string id="ars-aks74">
+		<text>AKS-74</text>
+	</string>
+	<string id="enc_arsenal_aks74">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AKS-74 assault rifle.\n\nThe AK-74 is a 5.45mm assault rifle designed in the early 1970s in the Soviet Union as a replacement for the AKM. It was introduced in 1974 and first saw service with Soviet forces engaged in the Afghanistan conflict. Itself a further modification of the AKM, the AK-74 features several important design improvements, primarily due to the conversion to the intermediate-caliber 5.45x39mm cartridge. The result is a more modern, more accurate and even more reliable rifle than the AKM. Like the AKM before it, the AK-74 is also produced in a folding stock configuration, designated the AKS-74, and a carbine version, the AKS-74U, was developed later. The AK-74 is currently in use by the majority of the countries of the former USSR.\n
+		</text>
+	</string>
+	<string id="ars-aks74_m1">
+		<text>AKS-74 (Cobra Scope)</text>
+	</string>
+	<string id="enc_arsenal_aks74_m1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, GP-25 Grenade Launcher\n\n
+	%c[255,255,255,255]An AKS-74 assault rifle fitted with a Cobra reflex sight.\n\nThe AK-74 is a 5.45mm assault rifle designed in the early 1970s in the Soviet Union as a replacement for the AKM. It was introduced in 1974 and first saw service with Soviet forces engaged in the Afghanistan conflict. Itself a further modification of the AKM, the AK-74 features several important design improvements, primarily due to the conversion to the intermediate-caliber 5.45x39mm cartridge. The result is a more modern, more accurate and even more reliable rifle than the AKM. Like the AKM before it, the AK-74 is also produced in a folding stock configuration, designated the AKS-74, and a carbine version, the AKS-74U, was developed later. The AK-74 is currently in use by the majority of the countries of the former USSR.\n
+		</text>
+	</string>
+	<string id="ars-aks74_m1_camo1">
+		<text>AK-74 (Cobra Scope\Camo)</text>
+	</string>
+	<string id="enc_arsenal_aks74_m1_camo1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, GP-25 Grenade Launcher\n\n
+	%c[255,255,255,255]An AKS-74 assault rifle with a custom camouflage paint job and fitted with a Cobra reflex sight.\n\nThe AK-74 is a 5.45mm assault rifle designed in the early 1970s in the Soviet Union as a replacement for the AKM. It was introduced in 1974 and first saw service with Soviet forces engaged in the Afghanistan conflict. Itself a further modification of the AKM, the AK-74 features several important design improvements, primarily due to the conversion to the intermediate-caliber 5.45x39mm cartridge. The result is a more modern, more accurate and even more reliable rifle than the AKM. Like the AKM before it, the AK-74 is also produced in a folding stock configuration, designated the AKS-74, and a carbine version, the AKS-74U, was developed later. The AK-74 is currently in use by the majority of the countries of the former USSR.\n
+		</text>
+	</string>
+	<string id="ars-ak74m">
+		<text>AK-74M</text>
+	</string>
+	<string id="enc_arsenal_ak74m">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AK-74M assault rifle.\n\nIn 1991 the Izhmash factory in the city of Izhevsk began production of an improved variant of the AK-74 – the AK-74M assault rifle. Apart from several minor production improvements the rifle also features a new synthetic stock made from a black, glass-filled polyamide that is shaped like the AK-74's fixed stock, but also folds like that of the AKS-74. Additionally the AK-74M uses a reinforced muzzle device and dust cover. Each AK-74M is fitted with a side-rail bracket for mounting optics. The AK-74M has been accepted as the new service rifle of the Russian Federation.\n
+		</text>
+	</string>
+	<string id="ars-ak101">
+		<text>AK-101</text>
+	</string>
+	<string id="enc_arsenal_ak101">
+		<text>Not in use.</text>
+	</string>
+	<string id="ars-ak102">
+		<text>AK-102</text>
+	</string>
+	<string id="enc_arsenal_ak102">
+		<text>Not in use.</text>
+	</string>
+	<string id="ars-ak103">
+		<text>AK-103</text>
+	</string>
+	<string id="enc_arsenal_ak103">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AK-103 assault rifle.\n\nThe AK-103 is a modern Russian-built version of the famous AKM assault rifle, chambered for the 7.62x39mm M43 round. It combines the developments made in the AK-74 and AK-101 with a use of plastics to replace metal or wooden components wherever possible to reduce overall weight. The AK-103 can be fitted with a tactical light, laser sight, telescopic sight, suppressor, and the GP-30 grenade launcher. The AK-103 is in limited service with selected units in the Russian army, and is already being exported to other countries such as Venezuela. During the recent Red Mosque siege in Islamabad, Pakistani special forces used the AK-103.\n
+		</text>
+	</string>
+	<string id="ars-ak104">
+		<text>AK-104</text>
+	</string>
+	<string id="enc_arsenal_ak104">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AK-104 assault rifle.\n\nThe AK-104 is a compact version of the AK-103. It combines features from the older AKS-74U carbine and the newer versions of the AK-74 rifles, creating a more accurate carbine. It is chambered for 7.62x39mm ammunition. The weapon was developed alongside the AK-103 and AK-101 as an updated version of aging AK-74, AKS-74U and AKM assault rifles.\n
+		</text>
+	</string>
+	<string id="ars-ak105">
+		<text>AK-105</text>
+	</string>
+	<string id="enc_arsenal_ak105">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AK-105 assault rifle.\n\nThe AK-105 is a shortened carbine version of the AK-74M rifle. The AK-105 features a shortened barrel that makes it a middle ground between a full rifle and the more compact AKS-74U. The AK-105 is essentially a more modern equivalent of the AKS-74U, lighter and more accurate. The AK-105 is suitable for use by anti-terrorist special forces or airborne troops.\n
+		</text>
+	</string>
+	<string id="ars-ak107">
+		<text>AK-107</text>
+	</string>
+	<string id="enc_arsenal_ak107">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AK-107 assault rifle.\n\nThe AK-107 is a Russian 5.45 mm assault rifle developed from the AK-100-series and features a "balanced" operating system, similar to that used in the AEK-971. This system uses a recoil-dampening countermass mechanism with two operating rods that move in opposite directions, thereby providing "balance", enhancing accuracy and assisting control during fully automatic fire.\n
+		</text>
+	</string>
+	<string id="ars-ak108">
+		<text>AK-108</text>
+	</string>
+	<string id="enc_arsenal_ak108">
+		<text>Not in use.</text>
+	</string>
+	<string id="ars-akm">
+		<text>AKM</text>
+	</string>
+	<string id="enc_arsenal_akm">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AKM assault rifle.\n\nThe AKM is a 7.62mm assault rifle designed by Mikhail Kalashnikov. It is a modernized version of the AK-47 rifle and was developed in the 1950s. Introduced into service with the Red Army in 1959, the AKM is the most ubiquitous variant of the entire AK series of firearms and it has found widespread use with most member states of the former Warsaw Pact and its many African and Asian allies. It was officially replaced in Soviet service by the AK-74 in the late 70s, but remains in use worldwide.\n
+		</text>
+	</string>
+	<string id="ars-akms">
+		<text>AKMS</text>
+	</string>
+	<string id="enc_arsenal_akms">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AKMS assault rifle.\n\nThe AKM is a 7.62mm assault rifle designed by Mikhail Kalashnikov. It is a modernized version of the AK-47 rifle and was developed in the 1950s. Introduced into service with the Red Army in 1959, the AKM is the most ubiquitous variant of the entire AK series of firearms and it has found widespread use with most member states of the former Warsaw Pact and its many African and Asian allies. It was officially replaced in Soviet service by the AK-74 in the late 70s, but remains in use worldwide.\n
+		</text>
+	</string>
+	<string id="ars-aks74u">
+		<text>AKS-74U</text>
+	</string>
+	<string id="enc_arsenal_aks74u">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AKS-74U carbine.\n\nThe AKS-74U is a carbine derivative of the AK-74 assault rifle that was developed in the late 1970s. The AKS-74U was intended as a personal defense weapon for vehicle crews and for special forces who require a compact but relatively powerful individual automatic weapon. The AKS-74U combines the small size and relatively light weight of a submachine gun with the additional stopping power and range provided by the intermediate 5.45mm cartridge. The AKS-74U is significantly more maneuverable in tight quarters than the full-size AK-74, making it ideal for battle in tight spaces. In the Zone, the AKS-74U is favoured by experienced stalkers due to its combination of assault rifle power, small size, and light weight.\n
+		</text>
+	</string>
+	<string id="ars-aks74u_m1_camo1">
+		<text>AKS-74U (Cobra Sight\Camo)</text>
+	</string>
+	<string id="enc_arsenal_aks74u_m1_camo1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, GP-25 Grenade Launcher\n\n
+	%c[255,255,255,255]A customized AKS-74U carbine with a Cobra reflex sight, a camo finish, an extended barrel, and a mount for a GP-25 Grenade Launcher.\n\nThe AKS-74U is a carbine derivative of the AK-74 assault rifle that was developed in the late 1970s. The AKS-74U was intended as a personal defense weapon for vehicle crews and for special forces who require a compact but relatively powerful individual automatic weapon. The AKS-74U combines the small size and relatively light weight of a submachine gun with the additional stopping power and range provided by the intermediate 5.45mm cartridge. The AKS-74U is significantly more maneuverable in tight quarters than the full-size AK-74, making it ideal for battle in tight spaces. In the Zone, the AKS-74U is favoured by experienced stalkers due to its combination of assault rifle power, small size, and light weight.\n
+		</text>
+	</string>
+	<string id="ars-an94">
+		<text>AN-94 Abakan</text>
+	</string>
+	<string id="enc_arsenal_an94">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AN-94 assault rifle.\n\nThe AN-94 (sometimes called the "Abakan") is a modern Russian assault rifle. The acronym stands for Avtomat Nikonova (after Gennadiy Nikonov) Model 1994, and it was chosen over many other competing firearms in an extensive trial. The AN-94 was designed as a replacement for the AK-74M assault rifle, but the Russian military has chosen to retain the AK-74M as its standard service rifle and the AN-94 is only being issued to the elite forces of the Russian military, some Russian police forces, and the MVD. The AN-94 is chambered in the same 5.45x39mm M74 cartridge as the AK-74. The AN-94's unique mechanism allows a much higher rate of fire than would otherwise be possible. This high rate of fire (1800 rounds/min) is employed in two-round bursts. These form the first two shots on fully automatic fire, with following rounds fired at 600 rounds/min. This is highly effective against body armour; the second round impacts at the same point as the first, enabling the penetration of armour that a conventional 5.45mm system cannot. The rear peep sight is a dramatic improvement over the standard Kalashnikov notch and post. The muzzle brake is much more effective and produces a quieter weapon report than the AK-74.\n
+		</text>
+	</string>
+	<string id="ars-ak5">
+		<text>Bofors Ak 5</text>
+	</string>
+	<string id="enc_arsenal_ak5">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An Ak 5 assault rifle.\n\nThe Ak 5 is the Swedish version of the FN FNC assault rifle with certain modifications, mostly to adapt the weapon to the Swedish climate. The Ak 5 is the service rifle of the Swedish Armed Forces. The rifle is also known as the CGA5, Bofors Carl Gustav Automatic carbine 5. The Ak 5 replaced the Ak 4 (licensed G3 copy) in Swedish service.\n
+		</text>
+	</string>
+	<string id="ars-aug_a1">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="enc_arsenal_aug_a1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor\n\n
+	%c[255,255,255,255]A Steyr AUG A1 assault rifle.\n\nThe Steyr AUG is a 5.56mm bullpup assault rifle designed in the early 1970s. The Steyr AUG is often cited as the first successful bullpup design—achieving service among various services of over twenty countries, and becoming the primary rifle of countries such as Austria and Australia. It was highly advanced for the 1970s, combining in the same weapon the bullpup configuration, a polymer housing, dual vertical grips, an optical sight as standard, and a modular design. A highly reliable, light, and accurate rifle, the Steyr AUG showed clearly the potential of the bullpup layout.\n
+		</text>
+	</string>
+	<string id="ars-aug_a2">
+		<text>Steyr AUG A2</text>
+	</string>
+	<string id="enc_arsenal_aug_a2">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A Steyr AUG A2 assault rifle.\n\nThe A2 variant is similar to the A1, but features a redesigned charging handle and a detachable telescopic sight which can be replaced with a MIL-STD-1913 rail. The Steyr AUG is a 5.56mm bullpup assault rifle designed in the early 1970s. The Steyr AUG is often cited as the first successful bullpup design—achieving service among various services of over twenty countries, and becoming the primary rifle of countries such as Austria and Australia. It was highly advanced for the 1970s, combining in the same weapon the bullpup configuration, a polymer housing, dual vertical grips, an optical sight as standard, and a modular design. A highly reliable, light, and accurate rifle, the Steyr AUG showed clearly the potential of the bullpup layout.\n
+		</text>
+	</string>
+	<string id="ars-aug_a3">
+		<text>Steyr AUG A3</text>
+	</string>
+	<string id="enc_arsenal_aug_a3">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A Steyr AUG A3 assault rifle.\n\nThe A3 variant is similar to the AUG A2, but features a MIL-STD-1913 rail on top of the receiver, and an external bolt release. The Steyr AUG is a 5.56mm bullpup assault rifle designed in the early 1970s. The Steyr AUG is often cited as the first successful bullpup design—achieving service among various services of over twenty countries, and becoming the primary rifle of countries such as Austria and Australia. It was highly advanced for the 1970s, combining in the same weapon the bullpup configuration, a polymer housing, dual vertical grips, an optical sight as standard, and a modular design. A highly reliable, light, and accurate rifle, the Steyr AUG showed clearly the potential of the bullpup layout.\n
+		</text>
+	</string>
+	<string id="ars-famas_f1">
+		<text>FAMAS F1</text>
+	</string>
+	<string id="enc_arsenal_famas_f1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 25 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A FAMAS F1 assault rifle.\n\nThe FAMAS is a bullpup assault rifle designed and manufactured in France by the Saint-Йtienne arms factory, which is a member of the French government-owned Nexter (formerly GIAT Industries) group. The FAMAS assault rifle is a bullpup configuration, with the ammunition feed behind the trigger. The FAMAS first saw service in Chad during Operation Manta and again in desert operations in Kuwait during Operation Desert Storm and in other various peacekeeping missions. Operational conditions proved the weapon to be reliable and trustworthy under combat conditions. The FAMAS was affectionately known by French troops as clairon ("bugle", because of its shape). Though newer versions of this weapon have been developed and deployed, the F1 remains the main service rifle of the French military.\n
+		</text>
+	</string>
+	<string id="ars-famas_g2">
+		<text>FAMAS G2</text>
+	</string>
+	<string id="enc_arsenal_famas_g2">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A FAMAS G2 assault rifle.\n\nThe FAMAS G2 was developed circa 1994 to bring the rifle more in compliance with NATO standards by having tighter rifling and accepting standard NATO magazines, but also included several other upgrades taken from the G1 model, such as the enlarged trigger guard and improved hand guards. The French Navy purchased the FAMAS G2 in 1995, and began distributing it to the Fusiliers Marines and Commandos de la Marine, but the French Army has held off large scale purchase of the G2 to date, and the FAMAS F1 remains the Army's primary service rifle.\n
+		</text>
+	</string>
+	<string id="ars-famas_p3">
+		<text>FAMAS (Felin Prototype 3)</text>
+	</string>
+	<string id="enc_arsenal_famas_p3">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A FAMAS Felin Prototype 3 assault rifle.\n\nThis slightly upgraded FAMAS G2 rifle is used as a platform for the future FELIN system (a French counterpart to the US "Land Warrior" programme), which incorporates a various electronic sights and sensors, connected to the soldier carried equipment, like the helmet mounted displays, ballistic and tactical computers etc.\n
+		</text>
+	</string>
+	<string id="ars-fnc">
+		<text>FN FNC</text>
+	</string>
+	<string id="enc_arsenal_fnc">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An FNC assault rifle.\n\nThe FNC is a 5.56mm assault rifle developed by the Belgian arms manufacturer Fabrique Nationale (FN) of Herstal and introduced in 1979. The FNC is produced in two primary configurations: a standard rifle and short (carbine) length. Currently the FNC has been adopted by the armed forces of Belgium, Nigeria, Indonesia, Sri Lanka and Sweden. The Swedish service rifle built by Bofors Ordnance (currently BAE Systems Bofors) is a modernized carbine that lacks the burst fire control setting. Sri Lanka was one of the first countries to adopt the complete system, converting from the 7.62mm FN FAL to the 5.56mm FN FNC and the Minimi Squad support weapon, as far back as 1981.\n
+		</text>
+	</string>
+	<string id="ars-g3">
+		<text>HK G3</text>
+	</string>
+	<string id="enc_arsenal_g3">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 20 Cartridges\n
+	Ammunition Caliber: 7.62x51mm\n
+	Attachable: None.\n\n
+	%c[255,255,255,255]A G3 assault rifle.The G3 is a 7.62mm battle rifle developed in the 1950s by the German armament manufacturer Heckler & Koch GmbH (H&K) in collaboration with the Spanish state-owned design and development agency CETME. The G3 is a selective-fire automatic weapon that employs a roller-delayed blowback operating system. Initial production G3 rifles differed substantially from more recent models; early rifles featured closed-type mechanical flip-up sights (with two apertures), a lightweight folding bipod, a stamped sheet steel handguard, a wooden buttstock (in fixed stock models) or a telescopic metal stock.\n
+		</text>
+	</string>
+	<string id="ars-g36">
+		<text>HK G36</text>
+	</string>
+	<string id="enc_arsenal_g36">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor\n\n
+	%c[255,255,255,255]A G36 assault rifle.\n\nThe G36 is a German 5.56mm assault rifle, designed in the early 1990s by Heckler and Koch and accepted into service with the German Armed Forces in 1997, replacing the 7.62mm G3 automatic rifle. The G36 is a conventional select-fire assault rifle design, with the SEF trigger group, side-folding skeleton stock, and a built-in dual optical sight that combines a 3x magnified telescopic sight with an unmagnified reflex red-dot sight. Several variants of the G36 exist, including the G36E (Export), the G36K (Kurz - shortened), and the G36C (Compact or Commando). Light, reliable, accurate and ergonomic, the G36 is a first grade specimen of modern weaponry.\n
+		</text>
+	</string>
+	<string id="ars-g36c">
+		<text>HK G36C</text>
+	</string>
+	<string id="enc_arsenal_g36c">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A G36C assault rifle.\n\nThe G36 is a German 5.56mm assault rifle, designed in the early 1990s by Heckler and Koch and accepted into service with the German Armed Forces in 1997, replacing the 7.62mm G3 automatic rifle. The G36 is a conventional select-fire assault rifle design, with the SEF trigger group, side-folding skeleton stock, and a built-in dual optical sight that combines a 3x magnified telescopic sight with an unmagnified reflex red-dot sight. Several variants of the G36 exist, including the G36E (Export), the G36K (Kurz - shortened), and the G36C (Compact or Commando). This rifle, the G36C (C – Compact) is a further development of the G36K. It has a shorter barrel and a shorter, 4-prong open-type flash suppressor. The hand-guard and stock were also reduced in length and the fixed carry handle (with optical sights) was replaced with a carry handle with an integrated Picatinny rail. In place of the dual optical sight found on the regular G36 and G36K, the G36C was equipped with rail-mounted iron sights that consist of a hooded front post and a flip rear aperture sight. Light, reliable, accurate and ergonomic, the G36 is a first grade specimen of modern weaponry.\n
+		</text>
+	</string>
+	<string id="ars-g36e">
+		<text>HK G36E</text>
+	</string>
+	<string id="enc_arsenal_g36e">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor\n\n
+	%c[255,255,255,255]A G36E assault rifle.\n\nThe G36 is a German 5.56mm assault rifle, designed in the early 1990s by Heckler and Koch and accepted into service with the German Armed Forces in 1997, replacing the 7.62mm G3 automatic rifle. The G36 is a conventional select-fire assault rifle design, with the SEF trigger group, side-folding skeleton stock, and a built-in dual optical sight that combines a 3x magnified telescopic sight with an unmagnified reflex red-dot sight. Several variants of the G36 exist, including the G36E (Export), the G36K (Kurz - shortened), and the G36C (Compact or Commando). This rifle, the G36E, is the export version of the G36, manufactured by Heckler and Koch for the international market. It features a simplified sighting system (one 1.5x magnification sight, as opposed to the G36's dual sight system) and a NATO-standard bayonet mount. Light, reliable, accurate and ergonomic, the G36 is a first grade specimen of modern weaponry.\n
+		</text>
+	</string>
+	<string id="ars-g36k">
+		<text>HK G36K</text>
+	</string>
+	<string id="enc_arsenal_g36k">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A G36K assault rifle.\n\nThe G36 is a German 5.56mm assault rifle, designed in the early 1990s by Heckler and Koch and accepted into service with the German Armed Forces in 1997, replacing the 7.62mm G3 automatic rifle. The G36 is a conventional select-fire assault rifle design, with the SEF trigger group, side-folding skeleton stock, and a built-in dual optical sight that combines a 3x magnified telescopic sight with an unmagnified reflex red-dot sight. Several variants of the G36 exist, including the G36E (Export), the G36K (Kurz - shortened), and the G36C (Compact or Commando). This rifle, the G36K, (K for 'Kurz', which is German for 'short') is the carbine version of the G36 with a shorter barrel (fitted with an open-type flash suppressor) and a shorter hand-guard, which includes a bottom rail that can be used to attach tactical accessories. The carbine’s barrel lacks the capability to propel rifle grenades and it cannot mount a bayonet. The weapon retains the ability to be used with the AG36 grenade launcher, however. Light, reliable, accurate and ergonomic, the G36 is a first grade specimen of modern weaponry.\n
+		</text>
+	</string>
+	<string id="ars-galil_ar">
+		<text>IMI Galil AR</text>
+	</string>
+	<string id="enc_arsenal_galil_ar">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 35 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A Galil AR assault rifle.\n\nThe Galil is a family of Israeli small arms designed by Yisrael Galili and Yaacov Lior, produced by Israel Military Industries Ltd. The Galil's design is based on the Finnish RK 62, which itself was derived from the Soviet AK-47 assault rifle. It was selected as the winner of a competitive bid for the Israel Defense Forces that included many other designs and was formally introduced into service in 1972. Depending on the barrel length, magazine capacity and accessories, the Galil is available in the following configurations: a carbine variant known as the SAR (Short Assault Rifle), a compact MAR (Micro Assault Rifle) version, standard-length AR (Assault Rifle) and an ARM (Assault Rifle and Machine gun) light machine gun.\n
+		</text>
+	</string>
+	<string id="ars-galil_arm">
+		<text>IMI Galil ARM</text>
+	</string>
+	<string id="enc_arsenal_galil_arm">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 35 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A Galil ARM assault rifle.\n\nThe Galil is a family of Israeli small arms designed by Yisrael Galili and Yaacov Lior, produced by Israel Military Industries Ltd. The Galil's design is based on the Finnish RK 62, which itself was derived from the Soviet AK-47 assault rifle. It was selected as the winner of a competitive bid for the Israel Defense Forces that included many other designs and was formally introduced into service in 1972. Depending on the barrel length, magazine capacity and accessories, the Galil is available in the following configurations: a carbine variant known as the SAR (Short Assault Rifle), a compact MAR (Micro Assault Rifle) version, standard-length AR (Assault Rifle) and an ARM (Assault Rifle and Machine gun) light machine gun. The ARM light machine gun variant is additionally equipped with a carrying handle, folding bipod and a larger wooden handguard. The wooden handguard remains cooler during sustained automatic fire and has grooves for bipod storage.\n
+		</text>
+	</string>
+	<string id="ars-galil_mar">
+		<text>IMI Galil MAR</text>
+	</string>
+	<string id="enc_arsenal_galil_mar">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 35 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]A Galil MAR assault rifle.\n\nThe Galil is a family of Israeli small arms designed by Yisrael Galili and Yaacov Lior, produced by Israel Military Industries Ltd. The Galil's design is based on the Finnish RK 62, which itself was derived from the Soviet AK-47 assault rifle. It was selected as the winner of a competitive bid for the Israel Defense Forces that included many other designs and was formally introduced into service in 1972. Depending on the barrel length, magazine capacity and accessories, the Galil is available in the following configurations: a carbine variant known as the SAR (Short Assault Rifle), a compact MAR (Micro Assault Rifle) version, standard-length AR (Assault Rifle) and an ARM (Assault Rifle and Machine gun) light machine gun. The MAR compact carbine is the most recent addition. It retains the internal features of the original Galil, with a completely new frame, operating system and an even shorter barrel.\n
+		</text>
+	</string>
+	<string id="ars-hk416">
+		<text>HK416</text>
+	</string>
+	<string id="enc_arsenal_hk416">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An HK416 assault rifle.\n\nThe HK416 is an assault rifle designed and manufactured by Heckler and Koch to be an improved version of the M4 Carbine pattern firearm. It is available as a complete firearm, or as an upper receiver kit that fits on any AR-15 type lower receiver. The US Army’s Delta Force collaborated with the German arms makers to develop the new carbine. It replaced its M4s with the HK416 in 2004 after tests revealed that the piston operating system significantly reduces malfunctions while increasing the life of parts. The project was originally called the HKM4, but this was changed in response to a trademark infringement suit filed by Colt Defense. It is speculated that "416" is a reference to the M4 and M16 it's designed to succeed. So far the weapon has reportedly been tested by the United States military as well as some law enforcement agencies. It is only available to government and military organizations currently.\n
+		</text>
+	</string>
+	<string id="ars-lr300ml">
+		<text>Z-M LR-300 ML</text>
+	</string>
+	<string id="enc_arsenal_lr300ml">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An LR 300 ML assault rifle.\n\nThe LR 300 ML is an assault rifle designed and manufactured by Z-M Weapons. One stated feature of the rifle is its "diverted felt recoil" which helps prevent muzzle rise common to most other select-fire rifles and carbines. Also notable is the rifle's capability to use a fully folding skeletal stock. Most AR-15/M16 rifle variants have a thick, cylindrical recoil buffer tube that protrudes several inches straight back from the rear of the receiver, and the weapon cannot operate without it. This normally precludes the use of anything but fixed or telescoping stocks. The LR-300 ML has a flat top receiver, allowing it to be used with multiple types of sights and accessories. The trigger, as well as the charging handle, magazine button, and hold open device etc., are the same as the M16 and AR-15 rifles. The grip angle of the rifle is the same as that of John Browning's M1911 pistol; as Browning's choice of grip angle on the 1911 pistol is frequently called "perfect" and held by some to be the "gold standard" for pistol grip angles, the reproduction of that firearm's grip angle in the pistol grip of the LR 300 is said to further aid in making it a far more controllable rifle than others.\n
+		</text>
+	</string>
+	<string id="ars-m4a1">
+		<text>Colt M4A1</text>
+	</string>
+	<string id="enc_arsenal_m4a1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher\n\n
+	%c[255,255,255,255]An M4A1 assault rifle.\n\nThe M4 Carbine is a family of firearms tracing its lineage back to earlier carbine versions of the M16, all based on the original AR-15 made by ArmaLite. It is a shorter and lighter version of the M16A2 assault rifle, achieving 80% parts commonality with the M16A2. The M4 has selective fire options including semi-automatic and three-round burst (like the M16A2), while the M4A1 has a "full auto" option in place of the three-round burst. The M4 and variants fire 5.56x45mm NATO ammunition and are gas-operated, air-cooled, magazine-fed firearms with a 4-position telescoping stock. Original M4 models had a flat-ended telescoping stock, but newer models are now equipped with a redesigned telescoping stock that is slightly larger with curvature at the end. As with many carbines, the M4 is handy and more convenient to carry than a full-length rifle. While this makes it a candidate for non-infantry troops (vehicle crews, clerks and staff officers), it also makes it ideal for close quarters combat (CQC), and airborne and special operations. It has been adopted by United States Special Operations Command (USSOCOM) and is the preferred weapon of the U.S. Army Special Forces and Navy SEALs. The M4 is similar to much earlier compact M16 versions, such as the 1960s-era XM177 family.\n
+		</text>
+	</string>
+	<string id="ars-m14">
+		<text>Colt M14</text>
+	</string>
+	<string id="enc_arsenal_m14">
+		<text>%c[200,238,155,23]Type: Battle Rifle\n
+	Magazine Capacity: 20\n
+	Ammunition Caliber: 7.62x51mm\n
+	Attachable: None.\n\n
+	%c[255,255,255,255]The M14 rifle, formally the United States Rifle, Caliber 7.62 mm, M14, is an American selective fire automatic rifle firing 7.62x51mm NATO ammunition. It was the standard issue US rifle until 1970. The M14 was used for US Army and Marine Corps basic and advanced individual training, and was the standard issue infantry rifle in CONUS, Europe, and South Korea, until replaced by the M16 rifle in 1970. It was the last so-called "battle rifle" (a term applied to weapons firing full-power rifle ammunition) issued in quantity to U.S. troops.\n
+		</text>
+	</string>
+	<string id="ars-m16a1">
+		<text>Colt M16A1</text>
+	</string>
+	<string id="enc_arsenal_m16a1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher\n\n
+	%c[255,255,255,255]An M16A1 assault rifle.\n\nM16 (more formally Rifle, Caliber 5.56mm, M16) is the U.S. military designation for a family of rifles derived from the ArmaLite AR-15 and further developed by Colt starting in the mid-20th century.The M16 rifle family including the M16/A1/A2/A3/A4 has been the primary infantry rifle of the United States military since the 1960s. With its variants, it has been in use by 15 NATO countries, and is the most produced firearm in its caliber. The M16 is a lightweight, 5.56mm caliber, air-cooled, gas-operated, magazine-fed assault rifle, made of steel, aluminum, and composite plastics. The M16 entered Army service in 1964, and was replaced by the M16A2 in the late 1980s. The M16A1 remains in service in limited numbers in the United States but is still standard issue in many world armies.\n
+		</text>
+	</string>
+	<string id="ars-m16a2">
+		<text>Colt M16A2</text>
+	</string>
+	<string id="enc_arsenal_m16a2">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher\n\n
+	%c[255,255,255,255]An M16A2 assault rifle.\n\nThe M16A2 rifle entered service in the 1980s, chambered to fired the standard NATO cartridge, the Belgian-designed M855/M856 cartridge. The M16A2 is a select-fire rifle (semi-automatic fire, three-round-burst fire) incorporating design elements requested by the Marine Corps: an adjustable, windage rear-sight; a stock 5/8-inch longer; heavier barrel; case deflector for left-hand shooters; and cylindrical hand guards. The fire mode selector is on the receiver's left side. The M16 is a lightweight, 5.56mm caliber, air-cooled, gas-operated, magazine-fed assault rifle, made of steel, aluminum, and composite plastics.\n
+		</text>
+	</string>
+	<string id="ars-m16a3">
+		<text>Colt M16A3</text>
+	</string>
+	<string id="enc_arsenal_m16a3">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher\n\n
+	%c[255,255,255,255]An M16A3 assault rifle.\n\nThe M16A3 rifle is an M16A2 rifle with an M16A1's fire-mode control (semi-automatic fire, automatic fire) used only by the U.S. Navy. The M16 is a lightweight, 5.56mm caliber, air-cooled, gas-operated, magazine-fed assault rifle, made of steel, aluminum, and composite plastics.\n
+		</text>
+	</string>
+	<string id="ars-m16a4">
+		<text>Colt M16A4</text>
+	</string>
+	<string id="enc_arsenal_m16a4">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher\n\n
+	%c[255,255,255,255]An M16A4 assault rifle.\n\nThe M16A4 rifle was standard issue for the United States Marine Corps in Operation Iraqi Freedom; it replaced the M16A2. In the US Army, the M16A2 rifle is being replaced with two rifle models, the M16A4 and the M4 Carbine, as the standard issue battle rifle. The M16A4 rifle has a flat-top receiver developed for the M4 Carbine, a hand-guard with four Picatinny rails for mounting a sight, laser, night vision device, forward hand-grip, removable handle, and a flashlight. The M16 is a lightweight, 5.56mm caliber, air-cooled, gas-operated, magazine-fed assault rifle, made of steel, aluminum, and composite plastics.\n
+		</text>
+	</string>
+	<string id="ars-vz58">
+		<text>SA Vz.58 V</text>
+	</string>
+	<string id="enc_arsenal_vz58">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, GP-25 Grenade Launcher, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An SA Vz. 58 V assault rifle.\n\nThe SA Vz. 58 is a 7.62mm assault rifle designed and manufactured in Czechoslovakia, accepted into service as the 7,62mm samopal vzor 58 ("7.62mm automatic firearm model 1958"), replacing the 7.62mm vz. 52 self-loading rifle and the 7.62mm Sa 24 and Sa 26 submachine guns. Development of the weapon began in 1956, and leading the project was chief engineer Jirн Cermбk at the Konљtrukta facility in Brno. The vz. 58 bears a superficial resemblance to the Soviet AK-47 but the two weapons are not related. Over the period of 25 years (up until 1984) over 920,000 had been produced, used by the armed forces of the Czech and Slovak Republics, Cuba and several other Asian and African nations.\n
+		</text>
+	</string>
+	<string id="ars-rk95">
+		<text>RK 95 TP</text>
+	</string>
+	<string id="enc_arsenal_rk95">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An RK 95 TP assault rifle.\n\nThe RK 95 TP (Rynnдkkцkivддri 95 Taittoperд, "Assault Rifle 95 Folding Stock") is a 7.62mm assault rifle of Finnish design, accepted into service with the Finnish Defence Forces in the 1990s in relatively small numbers. It is a select-fire, gas-operated firearm with a long-stroke gas piston system using the Kalashnikov AK47 type operating system. A further development of the RK 62 design, the rifle was developed in response to a requirement to replace existing 7.62mm RK 62 service rifles.\n
+		</text>
+	</string>
+	<string id="ars-rk95_camo1">
+		<text>RK 95 TP (Camo)</text>
+	</string>
+	<string id="enc_arsenal_rk95_camo1">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 7.62x39mm\n
+	Attachable: 7.62mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An RK 95 TP assault rifle with a camouflage finish.\n\nThe RK 95 TP (Rynnдkkцkivддri 95 Taittoperд, "Assault Rifle 95 Folding Stock") is a 7.62mm assault rifle of Finnish design, accepted into service with the Finnish Defence Forces in the 1990s in relatively small numbers. It is a select-fire, gas-operated firearm with a long-stroke gas piston system using the Kalashnikov AK47 type operating system. A further development of the RK 62 design, the rifle was developed in response to a requirement to replace existing 7.62mm RK 62 service rifles.\n
+		</text>
+	</string>
+	<string id="ars-sg550">
+		<text>SIG SG550</text>
+	</string>
+	<string id="enc_arsenal_sg550">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm NATO\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An SG 550 assault rifle.\n\nThe SG 550 is a 5.56mm assault rifle manufactured by Swiss Arms AG of Neuhausen, Switzerland. In February 1983, the decision to adopt the SG 541 was publicly announced (the designation of the rifle was changed in October of the following year to SG 550, while the carbine version became known as the SG 551). The rifle was officially accepted into service in 1990. Over 600,000 rifles have been manufactured since then and production continues as of 2008. The SG 550 is a light, reliable, and accurate weapon with a conventional layout, polymer furniture and a side-folding skeleton stock. Variants of the SG 550 include the SG 551 Carbine and SG 552 Commando.\n
+		</text>
+	</string>
+	<string id="ars-sg551">
+		<text>SIG SG551</text>
+	</string>
+	<string id="enc_arsenal_sg551">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm NATO\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An SG 551 assault rifle.\n\nThe SG 550 is a 5.56mm assault rifle manufactured by Swiss Arms AG of Neuhausen, Switzerland. In February 1983, the decision to adopt the SG 541 was publicly announced (the designation of the rifle was changed in October of the following year to SG 550, while the carbine version became known as the SG 551). The rifle was officially accepted into service in 1990. Over 600,000 rifles have been manufactured since then and production continues as of 2008. The SG 550 is a light, reliable, and accurate weapon with a conventional layout, polymer furniture and a side-folding skeleton stock. Variants of the SG 550 include the SG 551 Carbine and SG 552 Commando.\n
+		</text>
+	</string>
+	<string id="ars-sg552">
+		<text>SIG SG552</text>
+	</string>
+	<string id="enc_arsenal_sg552">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm NATO\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An SG 552 assault rifle.\n\nThe SG 550 is a 5.56mm assault rifle manufactured by Swiss Arms AG of Neuhausen, Switzerland. In February 1983, the decision to adopt the SG 541 was publicly announced (the designation of the rifle was changed in October of the following year to SG 550, while the carbine version became known as the SG 551). The rifle was officially accepted into service in 1990. Over 600,000 rifles have been manufactured since then and production continues as of 2008. The SG 550 is a light, reliable, and accurate weapon with a conventional layout, polymer furniture and a side-folding skeleton stock. Variants of the SG 550 include the SG 551 Carbine and SG 552 Commando.\n
+		</text>
+	</string>
+	<string id="ars-xm8">
+		<text>HK XM8</text>
+	</string>
+	<string id="enc_arsenal_xm8">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm NATO\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An XM8 assault rifle.\n\nThe XM8 is a developmental U.S. military designation and project name for a lightweight assault rifle system that was under development by the United States Army from the late 1990s to early 2000s. The Army worked with the small arms manufacturer Heckler and Koch (HK) to develop the system to its requirements in the aftermath of the OICW contract, for which HK had been a subcontractor to ATK. Although there were high hopes that the XM8 would become the Army's new standard infantry rifle, the project was put on hold in April of 2005, and was formally cancelled on October 31, 2005. General Dynamics was involved in latter stages and HK had plans to produce the rifle at a plant in Georgia. HK was British owned at the start of the project, but was later bought back by a group of German investors. Engineering work was done at facilities in the United States and Germany.\n
+		</text>
+	</string>
+	<string id="ars-xm177e2">
+		<text>Colt CAR-15 Commando</text>
+	</string>
+	<string id="enc_arsenal_xm177e2">
+		<text>%c[200,238,155,23]Type:Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm NATO\n
+	Attachable: 5.56mm Suppressor, M203PI Grenade Launcher\n\n
+	%c[255,255,255,255]A CAR-15/XM-177E2 assault rifle.\n\nThe Colt Automatic Rifle-15 (or CAR-15) was a family of AR-15 and M16 rifle-based carbines marketed by Colt in the late 1960s and early 1970s. One of these carbines, the XM177, also known as the Colt Commando, was used by special forces soldiers and vehicle crewmen during and after the Vietnam War. The XM177E2 has an 11.5 inch barrel (compared to the M16's 20 inches and the later M4's 14.5), a telescoping stock, and the same semi/auto trigger group as the M16.\n
+		</text>
+	</string>
+	<string id="ars-mg36">
+		<text>HK MG36</text>
+	</string>
+	<string id="enc_arsenal_mg36">
+		<text>%c[200,238,155,23]Type:Light Machine Gun\n
+	Magazine Capacity: 100 Cartridges\n
+	Ammunition Caliber: 5.56x45mm NATO\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An MG36 light machine gun.\n\nThe G36 is a German 5.56mm assault rifle, designed in the early 1990s by Heckler and Koch and accepted into service with the German Armed Forces in 1997, replacing the 7.62mm G3 automatic rifle. The G36 is a conventional select-fire assault rifle design, with the SEF trigger group, side-folding skeleton stock, and a built-in dual optical sight that combines a 3x magnified telescopic sight with an unmagnified reflex red-dot sight. Several variants of the G36 exist, including the G36E (Export), the G36K (Kurz - shortened), and the G36C (Compact or Commando). This is the MG36 light machine gun variant of the G36, with a heavier barrel more suitable for sustained fire. Light, reliable, accurate and ergonomic, the G36 is a first grade specimen of modern weaponry.\n
+		</text>
+	</string>
+	<string id="ars-rpk74">
+		<text>RPK-74</text>
+	</string>
+	<string id="enc_arsenal_rpk74">
+		<text>%c[200,238,155,23]Type:Light Machine Gun\n
+	Magazine Capacity: 75 Cartridges\n
+	Ammunition Caliber: 5.45x39mm\n
+	Attachable: 5.45mm Suppressor, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An RPK-74 light machine gun.\n\nThe RPK is a 7.62x39mm light machine gun of Soviet design, developed by Mikhail Kalashnikov in the late 1950s, parallel to the AKM assault rifle. It was created as part of a program designed to standardize the small arms inventory of the Red Army, where it replaced the 7.62x39mm RPD light machine gun. Presently the RPK continues to be used by the armed forces of countries of the former Soviet Union and certain African and Asian nations. The Polish Army adopted the weapon in 1974, where it is used in airborne assault, reconnaissance and special operations units. The RPK was also manufactured under license in Bulgaria and Romania.\n
+		</text>
+	</string>
+	<string id="ars-xm8_para">
+		<text>HK XM8 (Beta C-Mag)</text>
+	</string>
+	<string id="enc_arsenal_xm8_para">
+		<text>%c[200,238,155,23]Type:Light Machine Gun\n
+	Magazine Capacity: 100 Cartridges\n
+	Ammunition Caliber: 5.56x45mm NATO\n
+	Attachable: 5.56mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]The XM8 is a developmental U.S. military designation and project name for a lightweight assault rifle system that was under development by the United States Army from the late 1990s to early 2000s. The Army worked with the small arms manufacturer Heckler and Koch (HK) to develop the system to its requirements in the aftermath of the OICW contract, for which HK had been a subcontractor to ATK. Although there were high hopes that the XM8 would become the Army's new standard infantry rifle, the project was put on hold in April of 2005, and was formally cancelled on October 31, 2005. General Dynamics was involved in latter stages and HK had plans to produce the rifle at a plant in Georgia. HK was British owned at the start of the project, but was later bought back by a group of German investors. Engineering work was done at facilities in the United States and Germany.\n
+		</text>
+	</string>
+	<string id="ars-aps">
+		<text>Stechkin APS</text>
+	</string>
+	<string id="enc_arsenal_aps">
+		<text>%c[200,238,155,23]Type:Machine Pistol\n
+	Magazine Capacity: 20 Cartridges\n
+	Ammunition Caliber: 9x18mm Makarov\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]A Stechkin APS machine pistol.\n\nThe APS (Avtomaticheskiy Pistolet Stetchkina), is a Russian selective-fire machine pistol. It bears the name of its developer, Igor Stechkin. The Stechkin pistol was originally chambered for 7.62x25mm Tokarev. Stechkin changed the pistol to the 9mm caliber used in the new Makarov pistol (PM), as it became clear that this cartridge was set to become the new service ammunition for handguns of the Red Army. In 1951, both the Makarov and Stechkin were introduced into the Soviet military arsenal, replacing the trusted Tokarev TT-33. Not only do they look similar but they do indeed have much in common, such as the simple unlocked blow-back mechanism and the double-action trigger. In contrast to the Makarov, the Stechkin APS has an automatic fire mode, which is selected using the safety lever. In burst or automatic fire, the pistol should be fitted with the wooden shoulder stock; otherwise, the weapon is difficult to control. The detachable stock is similar in appearance and design to that of the Mauser C96, and likewise, the pistol can be stored inside when not in use. The extra weight of the stock helps to control the recoil.\n
+		</text>
+	</string>
+	<string id="ars-beretta92">
+		<text>Beretta 92FS</text>
+	</string>
+	<string id="enc_arsenal_beretta92">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 15 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]A Beretta 92FS pistol.\n\nThe Beretta 92 is a 9x19mm semi-automatic pistol designed in 1972 by Beretta of Italy. The Beretta 92 pistol evolved from earlier Beretta designs, most notably the M1922 and M1951. The design has gone through a series of revisions, starting with the 92S, through to the 92FS, which is the latest version. The Beretta 92 has a double-column magazine layout with a standard capacity of 15 rounds. In 1985, the Beretta 92F was adopted by the US military under the designation M9, replacing the M1911 pistol as the standardized sidearm. Beretta 92 pistols are used by many militaries and police forces around the world.\n
+		</text>
+	</string>
+	<string id="ars-cz52">
+		<text>CZ Vz. 52</text>
+	</string>
+	<string id="enc_arsenal_cz52">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 8 Cartridges\n
+	Ammunition Caliber: 7.62x25mm Tokarev\n
+	Attachable: 7.62mm Tokarev Suppressor\n\n
+	%c[255,255,255,255]A CZ vz. 52 pistol.\n\nThe CZ vz. 52 (also known as CZ 482 or CZ-52) is a semi-automatic pistol designed by two brothers, Jan and Jaroslav Kratochvнl, in the early 1950s for Czechoslovakian military. Around 200,000 vz. 52s ("vzor 52" means "model of 1952") were made by Ceskб Zbrojovka in Strakonice from 1952 to 1954. It replaced the 7.65mm Browning caliber (.32 ACP) Vz.50, which had acquired a reputation for unreliability and also was underpowered for its role as a military service sidearm. The vz. 52 was, after 30 years of military service, eventually replaced in service by the vz. 82. The vz. 52 is well known for its very sharp report and the great amount of muzzle flash it produces. Nevertheless, it is regarded by many as a reliable and remarkably powerful weapon as its penetration is effective against body armour.\n
+		</text>
+	</string>
+	<string id="ars-deagle">
+		<text>Desert Eagle Mark XIX</text>
+	</string>
+	<string id="enc_arsenal_deagle">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 7 Cartridges\n
+	Ammunition Caliber: .50 AE (12.7x33)\n\n
+	%c[255,255,255,255]A Desert Eagle Mark XIX .50AE pistol.\n\nThe Desert Eagle is a large caliber semi-automatic pistol designed by Magnum Research in the U.S., and manufactured primarily in Israel by IMI (Israel Military Industries, now Israel Weapon Industries). The Desert Eagle uses a gas-operated mechanism normally found in rifles, as opposed to the short recoil or blow-back designs most commonly seen in semi-automatic pistols. The advantage of the gas-operation is that it allows the use of far more powerful cartridges than traditional semi-automatic pistol designs, and it allows the Desert Eagle to compete in an area that had previously been dominated by magnum revolvers. Downsides of the gas operated mechanism are the large size and weight of the Desert Eagle, and the fact that it discourages the use of unjacketed lead bullets, as lead particles sheared off during firing could clog the gas release tap, preventing proper function. Despite being featured in many video games and action films as the ultimate pistol, in reality the Desert Eagle's combination of heavy recoil, weight, relatively low magazine capacity and high price make it a poor choice for military use. This weapon is chambered in .50 Action Express, with a 7 round magazine capacity.\n
+		</text>
+	</string>
+	<string id="ars-fort12">
+		<text>Fort-12</text>
+	</string>
+	<string id="enc_arsenal_fort12">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 12 Cartridges\n
+	Ammunition Caliber: 9x18mm Makarov\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]A Fort-12 9x18mm pistol.\n\nThe Fort-12 is a semi-automatic pistol which was designed in the late 1990s by Ukrainian firearms designer RPC Fort. The Fort-12 pistol is an attempt of the independent Ukraine (one of the former USSR republics) to develop its own police pistol to replace Soviet era, aging Makarov PM pistols. To accomplish this task, Ukrainian state-owned FORT factory purchased Czech machinery from Ceskб Zbrojovka Uherskэ Brod factory, and by the late 1990s developed its first pistol, the Fort-12. Currently, this gun is issued to the Ukrainian police and security forces and also sold on civilian market chambered for non-lethal rubber ammunition or tear gas ammunition. Early production Fort-12 pistols were reported as only marginally reliable, but at the present time most of the teething problems are gone, and Fort-12 pistol provides some improvements over the older Makarov PM in the ergonomics, accuracy and magazine capacity. The Fort-12's magazine is of double column type, and holds 12 rounds of ammunition, magazine release button is located at the base of the trigger guard, on the left side of the frame.\n
+		</text>
+	</string>
+	<string id="ars-glock18c_sk1">
+		<text>Glock 18C</text>
+	</string>
+	<string id="enc_arsenal_glock18c_sk1">
+		<text>%c[200,238,155,23]Type:Machine Pistol\n
+	Magazine Capacity: 17 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]A Glock 18C 9x19mm machine pistol.\n\nThe Glock 18 is a selective fire variant of the Glock 17, developed at the request of the Austrian counter-terrorist unit EKO Cobra. This machine pistol-class firearm is typically used with an extended 33-round capacity magazine. Early Glock 18s were ported to reduce muzzle rise during automatic fire. Another compensated variant was also produced, known as the Glock 18C. It has a keyhole opening cut into the forward portion of the slide, this opening provides a venting area to allow the four, progressively-larger (from back to front) compensator cuts machined into the barrel to accomplish their job, which is to afford more control over the rapid-firing machine pistol. The pistol’s rate of fire in fully automatic mode is approx. 1100-1200 rounds/min. Most of the other characteristics are similar to the Glock 17.\n
+		</text>
+	</string>
+	<string id="ars-glock18c_sk2">
+		<text>Glock 18C Expert</text>
+	</string>
+	<string id="enc_arsenal_glock18c_sk2">
+		<text>%c[200,238,155,23]Type:Machine Pistol\n
+	Magazine Capacity: 31 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]A Glock 18C 9x19mm machine pistol. This is the Expert variant, with a chromed slide and extended 33-round magazine.\n\nThe Glock 18 is a selective fire variant of the Glock 17, developed at the request of the Austrian counter-terrorist unit EKO Cobra. This machine pistol-class firearm is typically used with an extended 33-round capacity magazine. Early Glock 18s were ported to reduce muzzle rise during automatic fire. Another compensated variant was also produced, known as the Glock 18C. It has a keyhole opening cut into the forward portion of the slide, this opening provides a venting area to allow the four, progressively-larger (from back to front) compensator cuts machined into the barrel to accomplish their job, which is to afford more control over the rapid-firing machine pistol. The pistol’s rate of fire in fully automatic mode is approx. 1100-1200 rounds/min. Most of the other characteristics are similar to the Glock 17.\n
+		</text>
+	</string>
+	<string id="ars-gsh18">
+		<text>GSh-18</text>
+	</string>
+	<string id="enc_arsenal_gsh18">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 18 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]A GSh-18 9x19mm pistol.\n\nThe GSh-18 is a 9mm semi-automatic pistol developed in the early 1990s at the KBP Instrument Design Bureau in Tula. The pistol's name is derived from its designers - Gryazev and Shipunow, and the number 18 denotes the magazine capacity. The GSh-18 is a recoil-operated, locked breech pistol. The weapon has an unusual cam-rotated barrel with 10 locking lugs. The GSh-18 is striker-fired and features a pre-set trigger that pre-cocks the pistol when the slide recoils after firing a shot. The striker firing pin is then fully cocked by pulling the trigger back to the rear.\n
+		</text>
+	</string>
+	<string id="ars-m1911a1">
+		<text>Colt M1911A1</text>
+	</string>
+	<string id="enc_arsenal_m1911a1">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 7 Cartridges\n
+	Ammunition Caliber: .45 ACP\n
+	Attachable: .45 ACP Suppressor\n\n
+	%c[255,255,255,255]A Colt M1911A1 .45 pistol.\n\nThe M1911 is a single-action, semi-automatic pistol (handgun) chambered for the .45 ACP cartridge. It was designed by John M. Browning, and was the standard-issue side arm for the United States armed forces from 1911 to 1985, and is still carried by some U.S. forces. It was widely used in World War I, World War II, the Korean War and the Vietnam War. Its formal designation as of 1940 was Automatic Pistol, Caliber .45, M1911 for the original Model of 1911 or Automatic Pistol, Caliber .45, M1911A1 for the M1911A1, adopted in 1924. The designation changed to Pistol, Caliber .45, Automatic, M1911A1 in the Vietnam era. In total, the United States procured around 2.7 million M1911 and M1911A1 pistols during its service life.\n\nThe M1911 is the most well-known of John Browning's designs to use the short recoil principle in its basic design. Besides the pistol being widely copied itself, this operating system rose to become the pre-eminent type of the 20th century and of nearly all modern centerfire pistols.\n
+		</text>
+	</string>
+	<string id="ars-m1935">
+		<text>Beretta M1935</text>
+	</string>
+	<string id="enc_arsenal_m1935">
+		<text>%c[200,238,155,23]Type:Semi-Automatic Pistol\n
+	Magazine Capacity: 8 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]A Beretta M1935 semi-automatic pistol.\n\nThe Beretta M1935 is a compact .32 ACP caliber, blowback pistol that was manufactured by Beretta.The M1935 is a single-action semi-automatic blowback pistol that fires the .32 ACP ammunition. It is made out of carbon steel with plastic grips. It is fitted with a manual safety and when the last shot has been fired the slide is retained open by the empty magazine. The magazine capacity is 8 rounds. As this pistol was built for the Italian army, all parts were interchangeable, which simplified maintenance and manufacturing: a first at the time.\n
+		</text>
+	</string>
+	<string id="ars-m1935hp_mk3">
+		<text>Browing Hi-Power Mk.III</text>
+	</string>
+	<string id="enc_arsenal_m1935hp_mk3">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 14 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]A Browning Hi-Power MK. III 9x19mm pistol.\n\nThe Browning Hi-Power is a single-action, 9mm semi-automatic pistol. It is based on ideas conceived and patented in 1922 by American firearms inventor John Browning, and later patented by Fabrique Nationale (FN) of Herstal, Belgium. Browning died in 1926, before he had finished developing a production version. The design was fully developed and realized by Belgian arms designer Dieudonne Saive, working at FN. The Hi-Power pistol was named for its 13-round magazine capacity, which was almost twice that of contemporary designs such as the Luger or Mauser 1910. The Hi-Power had the first functional double-column magazine of 9mm rounds, and was capable of holding 13 cartridges, with a 14th loaded in the chamber. Flush-fit 15 round magazines are now available, as well as higher capacity magazines which extend past the end of the butt. The pistol is often referred to as an HP (for "Hi-Power") or P-35 (for its year of introduction). Another nickname is the "King of Nines." It is most often called the "Hi-Power".\n
+		</text>
+	</string>
+	<string id="ars-mp444-9x18">
+		<text>MR-444 Bagira (9x18mm)</text>
+	</string>
+	<string id="enc_arsenal_mp444-9x18">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 15 Cartridges\n
+	Ammunition Caliber: 9x18mm Makarov\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]An MR-444 'Baghira' semi-automatic pistol.\n\nThe MR-444 'Baghira' pistol is a modern pistol designed in Russia at the Izhevsk Mechanical plant; it was built to replace the Makarov pistols. This handgun is available in three main chamberings: 9x17 Short (.380 ACP), 9x18mm Makarov (PM and PMM), 9x19mm Parabellum. It also uses a detachable, box-type, double-column magazine. The frame of the pistol is made of strong thermosetting plastic, with the operational steel elements, which makes this a lightweight weapon.\n
+		</text>
+	</string>
+	<string id="ars-mp444-9x19">
+		<text>MR-444 Bagira (9x19mm)</text>
+	</string>
+	<string id="enc_arsenal_mp444-9x19">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 15 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]An MR-444 'Baghira' semi-automatic pistol.\n\nThe MR-444 'Baghira' pistol is a modern pistol designed in Russia at the Izhevsk Mechanical plant; it was built to replace the Makarov pistols. This handgun is available in three main chamberings: 9x17 Short (.380 ACP), 9x18mm Makarov (PM and PMM), 9x19mm Parabellum. It also uses a detachable, box-type, double-column magazine. The frame of the pistol is made of strong thermosetting plastic, with the operational steel elements, which makes this a lightweight weapon.\n
+		</text>
+	</string>
+	<string id="ars-oc33">
+		<text>OTs-33 Pernach</text>
+	</string>
+	<string id="enc_arsenal_oc33">
+		<text>%c[200,238,155,23]Type:Machine Pistol\n
+	Magazine Capacity: 27 Cartridges\n
+	Ammunition Caliber: 9x18mm Makarov\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]An OTs-33 'Pernach' machine pistol.\n\nThe OTs-33 'Pernach' Automatic Pistol was developed by Igor Stechkin. It was intended to replace the APS Automatic Pistol which was mainly used by special forces and was developed by the same weapon designer. The "Pernach" outperforms the APS Automatic pistol in its characteristics, simplified design and manufacturing process. Furthermore the "Pernach" is more reliable. The OTs-33 Automatic Pistol is a version of the OTs-23 "Drotik" Automatic Pistol chambered for the 9x18mm (PM, PMM) cartridge.\n
+		</text>
+	</string>
+	<string id="ars-p38">
+		<text>Walther P38</text>
+	</string>
+	<string id="enc_arsenal_p38">
+		<text>%c[200,238,155,23]Type: Pistol\n
+	Magazine Capacity: 8 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n\n
+	%c[255,255,255,255]A Walther P38 semi-automatic pistol.\n\nThe Walther P38 is a 9mm pistol that was developed by Walther as the service pistol of the Wehrmacht at the beginning of World War II. It was intended to replace the costly Luger P08, the production of which was scheduled to end in 1942. Production of the P38 continued until the end of the war and into the post war period. The early Walthers, until late 1941, were made to almost commercial standards of fit and polish. As the pressures of war required increased production the exterior finish declined but the operating components of the P38 remained remarkably well-made throughout the war, especially at Mauser. Total German production is estimated at more than 1,200,000 pistols. Production of the P38 resumed at a new Walther factory in Ulm, West Germany under the name Pistole 1 (P1) in 1958 for West German Police and the Bundeswehr. It remained in Walther production, in several revised iterations, until the early 1990s.\n
+		</text>
+	</string>
+	<string id="ars-p99">
+		<text>Walther P99</text>
+	</string>
+	<string id="enc_arsenal_p99">
+		<text>%c[200,238,155,23]Type:Pistol\n
+	Magazine Capacity: 16 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n
+	Attachable: 9mm Suppressor\n\n
+	%c[255,255,255,255]A Walther P99 semi-automatic pistol.\n\nThe P99 pistol was a rather radical step forward for the Walther company, made under new management. The development of a new pistol started in 1994 and the first production pistols were shown to public in 1997. The earliest pistols were made in 9mm, and a .40 Smith and Wesson version appeared in 1999. 9mm P99 pistols also are manufactured under Walther’s licence in Poland, and are standard police sidearms there.\n\nIn the Zone, the P99's reliability, accuracy, good ergonomics and large magazine capacity make it a popular sidearm among experienced stalkers and bandits alike.\n
+		</text>
+	</string>
+	<string id="ars-p220">
+		<text>SIG-Sauer P220</text>
+	</string>
+	<string id="enc_arsenal_p220">
+		<text>%c[200,238,155,23]Type: Pistol\n
+	Magazine Capacity: 7 Cartridges\n
+	Ammunition Caliber: .45 ACP\n
+	Attachable: .45 ACP Suppressor\n\n
+	%c[255,255,255,255]A SIG-Sauer P220 semi-automatic pistol.\n\nThe P220 is was designed in Switzerland by Swiss Arms AG It is manufactured in Eckernforde, Germany, by J.P. Sauer und Sohn GmbH. The P220 was initially imported to the United States as the Browning Double Action (BDA) and then as the P220. It was offered for sale in 9mm, .38 Super (a rare model), and .45 ACP. However, all modern P220 variants are only available in .45 ACP. The SIG P220 was developed for the Swiss Army as a replacement for the SIG P210, which had been developed during World War II; in service it is known as "Pistole 75" (P75). For development of the P220, SIG collaborated with J.P. Sauer and Sohn of Germany, thus, the P220 and all subsequent pistols from SIG are properly known as SIG-Sauer pistols. The P220 operates by the locked breech short-recoil method pioneered by John Browning. In 1975, Switzerland became the first nation to officially adopt the P220 as the "Pistole 75" (P75) chambered in 9mm Parabellum. Other nations to adopt it for military use include Japan and Denmark. It was succeeded by the SIG Sauer P226.\n
+		</text>
+	</string>
+	<string id="ars-p90">
+		<text>FN P90</text>
+	</string>
+	<string id="enc_arsenal_p90">
+		<text>%c[200,238,155,23]Type: Personal Defense Weapon\n
+	Magazine Capacity: 50 Cartriges\n
+	Ammunition Caliber: 5.7x28mm\n
+	Attachable: 5.7x28mm Suppressor\n\n
+	%c[255,255,255,255]An FN P90 personal defence weapon.\n\nThe FN P90 is a Belgian-designed personal defense weapon (PDW). The weapon's name is an abbreviation of Project 90, which specifies a weapon system of the 1990s. The P90 was originally designed as a compact but powerful firearm for vehicle drivers, operators of crew-served weapons, support personnel, special forces and anti-terrorist units. Developed between 1986–1987 by FN Herstal, the P90 features a compact bullpup design, ambidextrous grip and a polymer and alloy-based construction. The weapon contains several innovative features including the top-mounted magazine and proprietary 5.7x28mm ammunition, designed for greater penetration of body armour than conventional pistol ammunition.By 2003, 17,000 P90s were in use by military and police forces in over 25 countries worldwide. The PS90 sporting model is also popular among civilian shooters.\n
+		</text>
+	</string>
+	<string id="ars-pb">
+		<text>PB/6P9</text>
+	</string>
+	<string id="enc_arsenal_pb">
+		<text>%c[200,238,155,23]Type: Pistol\n
+	Magazine Capacity: 8 Cartridges\n
+	Ammunition Caliber: 9x18mm Makarov\n\n
+	%c[255,255,255,255]A PB/6P9 semi-automatic pistol.\n\nThe PB (Pistolet Besshumnyj - Silenced Pistol), also known for Soviet/Russian army as 6P9, has been developed by 1967 for Spetsnaz elements of the Soviet army, as well as for operatives of KGB. The pistol is based on the Makarov PM pistol, and features a unique integral two-part silencer. The rear part of the silencer is fixed around the barrel, which is drilled to decrease the muzzle velocity below the speed of sound. The front part of the silencer is quickly detachable, so pistol can be broken down into two parts for more convenient carry. Unlike many other integrally silenced pistols the PB can be safely fired with the front part of the silencer removed, but this will greatly increase the sound signature. Still, it is an useful emergency feature. Because the front part of the barrel is enclosed into the silencer, the slide is made very short and cannot contain the return spring. Instead, the return spring is located in the grip, under the right panel, and linked to the slide via the rocking lever. The double-action firing unit with external hammer and slide-mounted safety/decocker, as well as the magazine, are borrowed from Makarov PM pistol with no modification. PB has fixed sights. For carry, it is issued with a special holster, which has compartments for the gun and the detached front part of the silencer.\n
+		</text>
+	</string>
+	<string id="ars-pm">
+		<text>Makarov PM</text>
+	</string>
+	<string id="enc_arsenal_pm">
+		<text>%c[200,238,155,23]Type: Pistol\n
+	Magazine Capacity: 8 Cartridges\n
+	Ammunition Caliber: 9x18mm Makarov\n\n
+	%c[255,255,255,255]A Makarov PM semi-automatic pistol.\nDesigned in the late 1940s by Nikolai Fyodorovich Makarov to replace for the TT-33 as the Soviet service pistol, the Pistol Makarova (PM) was selected because of its simplicity (few moving parts), economy, easy manufacturing, accuracy, and reasonable killing power. For simplicity and economy, the Makarov pistol is of straight blowback operation, with the 9x18mm cartridge being the most powerful cartridge that its design could safely fire. It remained in service with Soviet military and police until the end of the U.S.S.R. in 1991. Today, the Makarov is a popular handgun for concealed carry in the U.S.; and variants of the Makarov remain in production in Russia and Bulgaria. The most common pistol in the Zone, by far.\n
+		</text>
+	</string>
+	<string id="ars-tt33">
+		<text>TT-33</text>
+	</string>
+	<string id="enc_arsenal_tt33">
+		<text>%c[200,238,155,23]Type: Pistol\n
+	Magazine Capacity: 8 Cartridges\n
+	Ammunition Caliber: 7.62x25mm Tokarev\n\n
+	%c[255,255,255,255]A TT-33 semi-automatic pistol.\n\nThe TT-33 was the standard sidearm of the Red Army from the early 1930s until its replacement in 1952 by the Makarov PM, and was widely used in World War II alongside the M1895 Nagant revolver. Production of the TT-33 in the USSR ended in 1954, but copies (licensed or otherwise) were also made by several other countries, including China. The TT was a formidable weapon for its time, its 7.62x25mm cartridge providing good penetration and a reasonably long effective range.\n
+		</text>
+	</string>
+	<string id="ars-usp45c">
+		<text>HK USP.45 Compact</text>
+	</string>
+	<string id="enc_arsenal_usp45c">
+		<text>%c[200,238,155,23]Type: Pistol\n
+	Magazine Capacity: 8 Cartridges\n
+	Ammunition Caliber: .45 ACP\n
+	Attachable: .45 ACP Suppressor\n\n
+	%c[255,255,255,255]A USP.45 Compact semi-automatic pistol.\n\nThe first USP Compact models appeared in 1994. These are scaled-down USPs, and are available in all the same cartridges as the full size version, and additionally the .357 SIG. Due to the smaller size of the frame, magazines for the Compact variant may have a handgrip extension to better accommodate the shooter's hand.\n
+		</text>
+	</string>
+	<string id="ars-sayga12k">
+		<text>Saiga-12K</text>
+	</string>
+	<string id="enc_arsenal_sayga12k">
+		<text>%c[200,238,155,23]Type: Semi-automatic Shotgun\n
+	Magazine Capacity: 8 Cartridges\n
+	Ammunition Caliber: 12 Gauge\n
+	Attachable: PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]The Saiga-12 is a semi automatic shotgun developed in 1992 by Izhmash. Its design is based on that of the Kalashnikov assault rifle, featuring a moderate part commonality, and as such is known as highly reliable, which is much sought after as semi automatic shotguns tend to be unreliable. The overall design is also cheap to manufacture, made almost entirely using stamped steel and is easy to maintain. The Saiga-12K, or "korotkaya", is a shortened variant of the Saiga-12, with a shorter barrel and profile.\n
+		</text>
+	</string>
+	<string id="ars-ppd40">
+		<text>PPD-40</text>
+	</string>
+	<string id="enc_arsenal_ppd40">
+		<text>%c[200,238,155,23]Type: Submachine Gun\n
+	Magazine Capacity: 71 Cartridges\n
+	Ammunition Caliber: 7.62x25mm Tokarev\n\n
+	%c[255,255,255,255]A PPD-40 submachine gun.\n\nDeveloped in 1934 in the Soviet Union by arms designer Vasily Degtyaryov, the PPD was a near direct copy of the German Bergmann MP28. The PPD was designed to chamber the new Soviet 7.62x25mm Tokarev pistol cartridge, and it first went into military service with the Red Army in 1935 as the PPD-34, although it was not produced in large quantities. It saw use with the NKVD secret police as well as border guards. In 1938 and 1940, modifications were designated PPD-34/38 and PPD-40 respectively, and introduced minor changes. Nevertheless, the PPD-40 was too complicated and expensive to mass-produce, and although it was used in action in the initial stages of World War II, it was, by the end of 1941, quickly phased out and replaced by the superior and cheaper PPSh-41.\n
+		</text>
+	</string>
+	<string id="ars-ppsh41">
+		<text>PPSh-41</text>
+	</string>
+	<string id="enc_arsenal_ppsh41">
+		<text>%c[200,238,155,23]Type: Submachine Gun\n
+	Magazine Capacity: 71 Cartridges\n
+	Ammunition Caliber: 7.62x25mm Tokarev\n\n
+	%c[255,255,255,255]A PPSH-41 submachine gun.\n\nThe PPSh-41 (Pistolet-Pulemyot Shpagina; Russian: Shpagin Machine Pistol) was one of the most mass produced weapons of its type of World War II. It was designed by Georgi Shpagin as an inexpensive alternative to the PPD-40, which was expensive and time consuming to build. The PPSh has a simple blow-back action, and fires the 7.62x25mm pistol round from a box or drum magazine. The impetus for the development of the PPSh came partly from the Winter War against Finland, where it was found that submachine guns were a highly effective tool for close-quarter fighting in forests or built-up urban areas. Over 6 million of these weapons were produced by the end of the war. The Soviets would often equip whole regiments and even entire divisions with the weapon, giving them unmatched short-range firepower.\n
+		</text>
+	</string>
+	<string id="ars-sr25_mk11_mod0">
+		<text>Knights Armament SR-25</text>
+	</string>
+	<string id="enc_arsenal_sr25_mk11_mod0">
+		<text>%c[200,238,155,23]Type: Semi-automatic Rifle\n
+	Magazine Capacity: 20 Cartridges\n
+	Ammunition Caliber: 7.62x51mm NATO\n
+	Attachable: 7.62mm Suppressor\n\n
+	%c[255,255,255,255]An SR-25 sniper rifle.\n\nThe SR-25 (Stoner Rifle-25) is a semi-automatic sniper rifle designed by Eugene Stoner and made by Knight's Armament Company. The SR-25 uses a rotating bolt and a direct impingement gas barrel. It is loosely based on Stoner's AR-10 (and therefore on the AR-15/M16), rebuilt in its original 7.62x51mm NATO caliber. Up to 60% of parts of the SR-25 are interchangeable with the AR15/M16 - everything but the receiver, the hammer, the barrel assembly and the carrier/bolt.\n
+		</text>
+	</string>
+	<string id="ars-hk417">
+		<text>HK 417</text>
+	</string>
+	<string id="enc_arsenal_hk417">
+		<text>%c[200,238,155,23]Type: Semi-automatic Rifle\n
+	Magazine Capacity: 20 Cartridges\n
+	Ammunition Caliber: 7.62x51mm NATO\n
+	Attachable: 7.62mm Suppressor\n\n
+	%c[255,255,255,255]An HK417 sniper rifle.\n\nA battle rifle rifle designed and manufactured in Germany by Heckler and Koch, the HK417 is chambered for the 7.62x51mm NATO (.308 Winchester) round. Similar in internal design to the HK416, the HK417 is a gas-operated, short-stroke piston design, claimed to be more reliable than the original direct impingement operation of the AR-10 design due to less fouling in the receiver. The early prototype HK417 utilized 20-round magazines from the G3 rifle family, which did not feature a bolt hold-open device. Later prototypes, however, switched to a polymer magazine with bolt hold-open. The magazine is similar to the G36 series transparent magazine, except without the pins for holding more than one magazine together. The HK417 is designed more for use as a "designated marksman" rifle than an assault rifle, with its increased cost, accuracy, decreased rate of fire and magazine capacity although fully automatic fire is still selectable.\n
+		</text>
+	</string>
+	<string id="ars-galatz">
+		<text>IMI Galil Sniper</text>
+	</string>
+	<string id="enc_arsenal_galatz">
+		<text>%c[200,238,155,23]Type: Semi-automatic Rifle\n
+	Magazine Capacity: 20 Cartridges\n
+	Ammunition Caliber: 7.62x51mm NATO\n
+	Attachable: 7.62mm Suppressor\n\n
+	%c[255,255,255,255]An IMI Galatz sniper rifle.\n\nThe 7.62mm Galil Sniper (or Galatz) is a derivative of the ARM that is used with high quality 7.62x51mm NATO ammunition for consistent accuracy. The precision rifle is a strictly semi-automatic rifle operated by a gas-piston system with a rotating bolt, and fed from a 25-round box magazine. The rifle uses a heavy profile match barrel that is heavier than that used in the ARM. It is fitted with a multi-functional muzzle device, which also acts as a flash suppressor. It can be replaced with a sound suppressor which requires the use of subsonic ammunition for maximum effectiveness. The weapon was modified with a two-stage trigger mechanism with an adjustable pull force, a wooden buttstock that folds to the right side of the weapon and a heavy-duty bipod, mounted to the forward base of the receiver housing that folds beneath the hand-guard when not in use. The buttstock is fully adjustable in length and height and features a variable height cheek riser. The rifle comes with mechanical iron sights and an adapter used to mount a telescopic day sight (Nimrod 6x40) or a night sight. The mount is quick-detachable and capable of retaining zero after remounting. The precision rifle is stored in a rugged transport case that also comes with an optical sight, mount, filters, two slings (for carrying and firing) and a cleaning kit. Recent production models feature synthetic plastic furniture and a skeletonized metal stock.\n
+		</text>
+	</string>
+	<string id="ars-svd">
+		<text>SVD</text>
+	</string>
+	<string id="enc_arsenal_svd">
+		<text>%c[200,238,155,23]Type: Semi-automatic Rifle\n
+	Magazine Capacity: 10 Cartridges\n
+	Ammunition Caliber: 7.62x54mmR\n
+	Attachable: SVD Suppressor, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]The SVD (Russian: Snayperskaya Vintovka Dragunova), "Dragunov sniper rifle", is a 7.62mm semi-automatic sniper rifle, developed in the former Soviet Union. It was selected as the winner of a contest that included three competing designs: the first was a rifle designed by Sergei Simonov (known as the SSV-58), the second – by Alexander Konstantinov (prototype designated 2B-W10) and the third rifle, the SVD-137 was a design by Evgeny Dragunov. Extensive testing of the rifles in variable environmental conditions resulted in E. F. Dragunov’s design being accepted into service in 1963. At the same time an initial pre-production batch of 200 rifles was assembled, and from 1964 serial production was carried out at Izhmash. Since then, the SVD has become the standard squad support weapon of several countries, including those of the former Warsaw Pact, among them Poland (since 1966). Licensed production of the rifle was established in China (Type 79 and Type 85) and Iraq (as the Al Kadesiah).\n
+		</text>
+	</string>
+	<string id="ars-vss">
+		<text>VSS 'Vintorez'</text>
+	</string>
+	<string id="enc_arsenal_vss">
+		<text>%c[200,238,155,23]Type: Semi-automatic Rifle\n
+	Magazine Capacity: 10 Cartridges\n
+	Ammunition Caliber: 9x39mm\n
+	Attachable: PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]A VSS 'Vintorez' suppressed sniper rifle.\n\nThe VSS 'Vintorez' is a suppressed sniper rifle developed in the late 1980s by TsNIITochMash and manufactured by the Tula Arsenal. It is issued primarily to Spetsnaz units for undercover or clandestine operations, a role made evident by its ability to be stripped down for transport in a specially fitted briefcase. The overall operating principle and sound suppression system used on the VSS are derived from the AS 'Val' assault rifle, with which it shares a 70% parts commonality. A compact, accurate and subtle weapon, the "Vintorez" is highly valued by stalkers throughout the Zone.\n
+		</text>
+	</string>
+	<string id="ars-val">
+		<text>AS 'Val'</text>
+	</string>
+	<string id="enc_arsenal_val">
+		<text>%c[200,238,155,23]Type: Assault Rifle\n
+	Magazine Capacity: 20 Cartridges\n
+	Ammunition Caliber: 9x39mm\n
+	Attachable: PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]An AS 'Val' suppressed assault rifle.\n\nThe AS "Val" is a Russian designed assault rifle featuring an integrated suppressor. It was developed in the late 1980s by TsNIITochMash and manufactured by the Tula Arsenal. The 'Val' is used by Russian Spetsnaz special forces and the MVD, FSB and select units of the Russian Army. Its effective range is approximately 300 m, as it uses heavy subsonic 9x39mm SP-6 (high performance armor piercing) ammunition, as well as the SP-5 ball round used by the VSS Vintorez. It can use the same 10 or 20-round magazines as the VSS. The 'Val' has two modes of fire, single fire and automatic fire at a cyclic rate of 900 RPM. According to its users the "Val" is reliable, accurate and well liked. It is closely related to the VSS 'Vintorez' sniper rifle, and has 70% parts commonality with that weapon.\n
+		</text>
+	</string>
+	<string id="ars-l85a2">
+		<text>Enfield L85A2</text>
+	</string>
+	<string id="enc_arsenal_l85a2">
+		<text>%c[200,238,155,23]Type: Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm NATO\n
+	Attachable: 5.56mm Suppressor\n\n
+	%c[255,255,255,255]An L85A2 assault rifle.\n\nThe L85 is a British 5.56mm bullpup assault rifle, part of the SA80 (Small Arms for the 1980s) family of firearms. It has been the standard issue service rifle of the British Armed Forces since 1987, replacing the SLR L1A1 variant of the FN FAL. The L85 has been plagued by reliability issues throughout its service life. In 2000, Heckler and Koch, at that time owned by Royal Ordnance, was contracted to upgrade the SA80 family of weapons. Two hundred thousand SA80s were re-manufactured at a cost of Ј400 each, producing the A2 variant of the L85. The improved L85A2 remains in service today. L85A2 rifles used by front line troops are equipped with a SUSAT (Sight Unit Small Arms, Trilux) optical sight, with a fixed 4x magnification and an illuminated aiming pointer (as of 2006 almost all British Army personnel deployed on operations have been issued SUSATs). Rifles used with other branches of the armed forces when not on operations are configured with fixed iron sights, consisting of a flip rear aperture and a forward post.\n
+		</text>
+	</string>
+	<string id="ars-l86">
+		<text>Enfield L86A1</text>
+	</string>
+	<string id="enc_arsenal_l86">
+		<text>%c[200,238,155,23]Type: Assault Rifle\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 5.56x45mm NATO\n
+	Attachable: None.\n\n
+	%c[255,255,255,255]An l86A1 assault rifle.\n\nThe L85 is a British 5.56mm bullpup assault rifle, part of the SA80 (Small Arms for the 1980s) family of firearms. The remainder of the family comprises the L86 Light Support Weapon, the short-barreled L22 carbine and the L98 Cadet rifle.The L86A1 LSW is magazine-fed automatic weapon originally intended to provide fire support at a fireteam level. It has a longer barrel than the L85A1 and a bipod, shoulder trap and rear pistol grip, together with a different type of handguard. The extended barrel provides an increased muzzle velocity and further stabilises the bullet, giving a greater effective range. The weapon is otherwise identical to the L85 version it is based on and the magazines and some internal parts are interchangeable.The L86A1 was upgraded to the L86A2 at the same time as L85A1 rifles were upgraded to L85A2 standards, undergoing the same set of modifications.\n
+		</text>
+	</string>
+	<string id="ars-mp5">
+		<text>HK MP5A3</text>
+	</string>
+	<string id="enc_arsenal_mp5">
+		<text>%c[200,238,155,23]Type: Submachine Gun\n
+	Magazine Capacity: 30 Cartridges\n
+	Ammunition Caliber: 9x19mm Parabellum\n
+	Attachable: 9mm Suppressor, ACOG Telescopic Sight\n\n
+	%c[255,255,255,255]An MP5A3 submachine gun.\n\nThe Heckler and Koch MP5 is a 9mm submachine gun of German design, developed in the 1960s by a team of engineers from the West German small arms manufacturer Heckler and Koch. Heckler and Koch, encouraged by the success of the G3 automatic rifle, developed a family of small arms consisting of four types of firearms (all based on a common G3 design layout and operating principle), where the first type was chambered in 7.62x51mm NATO, the second—using the 7.62x39mm M43 round, third—the intermediate 5.56x45mm NATO caliber and the fourth type—chambering the 9x19mm Parabellum pistol cartridge. The MP5 was created within the fourth group of firearms and was initially known as the HK54. The design eventually evolved into the MP5A2, which is now the primary version of the weapon.\n\nReknowned for its accuracy, handling and reliability, the MP5 is currently used by the armed forces and law enforcement units of over 40 countries. It remains one of the most widely deployed of all current submachine guns and has been developed into a family with numerous variants. This particular variant is the MP5A3, with a retractable buttstock and "SEF" trigger group.\n
+		</text>
+	</string>
+	<string id="ars-m1891-30">
+		<text>Mosin Nagant M1891/30</text>
+	</string>
+	<string id="enc_arsenal_m1891_30">
+		<text>%c[200,238,155,23]Type: Bolt-action Rifle\n
+	Magazine Capacity: 5 Cartridges\n
+	Ammunition Caliber: 7.62x54mmR\n\n
+	%c[255,255,255,255]A Mosin Nagant (M1891) bolt-action rifle.\n\nThe Mosin-Nagant is a bolt-action, internal magazine fed, military rifle that was used by the armed forces of the Russian Empire, the Soviet Union and various other Eastern bloc nations up until World War II.\n
+		</text>
+	</string>
+	<string id="ars-bizon">
+		<text>PP-19 Bizon</text>
+	</string>
+	<string id="enc_arsenal_bizon">
+		<text>%c[200,238,155,23]Type: Submachine Gun\n
+	Magazine Capacity: 64 Cartridges\n
+	Ammunition Caliber: 9x18mm Makarov
+	Attachable: 9mm Suppressor, PSO-1 Telescopic Sight\n\n
+	%c[255,255,255,255]A PP-19 Bizon submachine gun.\n\nThe PP-19 Bizon ("bison") is a 9mm submachine gun developed in the early 1990s at Izhmash by a team of engineers headed by Victor Kalashnikov (son of famed AK-47 designer Mikhail Kalashnikov).[1][2] Alexi Dragunov, youngest son of Evgeny Dragunov (responsible for the SVD sniper rifle), was also a member of the design team.\n
+		</text>
+	</string>
+	<string id="wpn-addon-sniper-scope">
+		<text>PSO-1 Sniper Scope</text>
+	</string>
+	<string id="enc_weapons1_wpn-addon-sniper-scope">
+		<text>A scope used for sniper rifles such as the SVD.</text>
+	</string>
+	<string id="ars-acog">
+		<text>Trijicon ACOG Telescopic Sight</text>
+	</string>
+	<string id="enc_arsenal_acog">
+		<text>The Advanced Combat Optical Gunsight (ACOG) is a detachable telescopic sight with 4x magnification. Originally designed for the M16 rifle series, it can be mounted on many different weapons via accessory rails such as the NATO-standard Picatinny rail.</text>
+	</string>
+	<string id="ars-aug_a1_scope">
+		<text>AUG-77 Scope</text>
+	</string>
+	<string id="enc_arsenal_aug_a1_scope">
+		<text>Detachable optical scope made specifically for the Steyr AUG-77.</text>
+	</string>
+	<string id="ars-g36_scope">
+		<text>G36 Scope</text>
+	</string>
+	<string id="enc_arsenal_g36_scope">
+		<text>Detachable optical scope made specifically for the G36.</text>
+	</string>
+	<string id="ars-scope1">
+		<text>Leupold Mark AR Telescopic Sight</text>
+	</string>
+	<string id="enc_arsenal_scope1">
+		<text>A Leupold Mark AR detachable telescopic sight with 3.3x magnification and a Mil-Dot reticle. Can be mounted on M16A1 and M16A2 assault rifles.</text>
+	</string>
+	<string id="ars-sil_9_p">
+		<text>9mm Sound Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_9_p">
+		<text>A sound suppressor for 9x18 and 9x19mm pistols and submachine guns.</text>
+	</string>
+	<string id="ars-sil_762_p">
+		<text>7.62mm Tokarev Sound Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_762_p">
+		<text>A sound suppressor made to fit 7.62x25mm pistols and submachine guns.</text>
+	</string>
+	<string id="ars-sil_9_pb">
+		<text>PB/6P9 Sound Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_9_pb">
+		<text>A sound suppressor made specifically for the PB/6P9 pistol.</text>
+	</string>
+	<string id="ars-sil_545_ar">
+		<text>5.45mm Sound Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_545_ar">
+		<text>A sound suppressor made to fit 5.45mm firearms.</text>
+	</string>
+	<string id="ars-sil_556_ar">
+		<text>5.56mm Sound Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_556_ar">
+		<text>A sound suppressor made to fit 5.56mm firearms.</text>
+	</string>
+	<string id="ars-sil_762_ar">
+		<text>7.62mm Sound Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_762_ar">
+		<text>A sound suppressor made to fit 7.62x39mm and 7.62x51mm firearms.</text>
+	</string>
+	<string id="ars-sil_762_pms">
+		<text>SVD Sound Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_762_pms">
+		<text>A sound suppressor made specifically for 7.62mm SVD rifle.</text>
+	</string>
+	<string id="ars-sil_1143_p">
+		<text>.45 ACP Sound Suppressor</text>
+	</string>
+	<string id="enc_arsenal_sil_1143_p">
+		<text>A sound suppressor made to fit .45 ACP FMJ pistols and submachine guns.</text>
+	</string>
+	<string id="ars-50_ae">
+		<text>.50 Action Express rounds</text>
+	</string>
+	<string id="ars-50_ae_s">
+		<text>.50 AE</text>
+	</string>
+	<string id="enc_arsenal_50_ae">
+		<text>A box of .50 AE (12.7x33mm) pistol cartridges. These cartridges are full metal jacket, and provide good stopping power against soft targets with good armor-piercing capability.\n\nThe .50 Action Express (AE, 12.7x33mm) is a large caliber handgun cartridge. It was developed in 1988 by Evan Whildin of Action Arms. The Magnum Research Desert Eagle was the first handgun chambered for the .50 AE. Among the few commercial handgun cartridges designed that exceed its ballistic performance are the .454 Casull, .460 SW Magnum and the .500 SW Magnum. The actual cartridge has a .547 inch (13.9mm) diameter base, with a rebated rim that is the same diameter as the .44 Magnum. The case length, at 1.285", is also identical to that of the .44 Magnum. This allows existing .44 Magnum Desert Eagle pistols to be upgraded to the new cartridge with only a barrel change. Original blueprints had been to use .510" diameter bullets (like the .50 BMG), but the polygonal rifling of the final prototype Desert Eagle allowed the .50 caliber bore plug to drop through, thus rendering the gun a destructive device under BATFE regulations. Nominal bullet diameter was reduced to the current 0.500 inch (12.7mm); The principal uses of the .50 AE are metallic silhouette shooting and hunting. Recoil of the .50 AE in the Desert Eagle pistol is substantial, although only marginally more severe than the .44 Magnum, as the auto mechanism smooths the recoil somewhat. The cartridge is quite loud as well, and a distinct flash is apparent, even in daylight. For these reasons, the .50 AE is not a cartridge for the beginner or novice. It is also quite expensive, at over $40 per box of 20 rounds.</text>
+	</string>
+	<string id="ars-7.62x25_p">
+		<text>7.62x25mm FMJ rounds</text>
+	</string>
+	<string id="ars-7.62x25_p_s">
+		<text>7.62x25 FMJ</text>
+	</string>
+	<string id="enc_arsenal_7.62x25_p">
+		<text>A box of 7.62x25mm pistol cartridges. These cartridges are full metal jacket, and provide good stopping power against soft targets with above average armor-piercing capability. (For a pistol cartridge)\n\nThe 7.62x25mm FMJ Tokarev cartridge is a bottle-necked pistol cartridge widely used in former Soviet and Soviet satellite states. The actual caliber of its bullet is 7.85mm (.309 in). This cartridge has excellent penetration and can easily defeat lighter ballistic vests (class I, IIA and II). Although most firearms chambered in this caliber were declared obsolete and removed from military inventories, some Police and Special Forces units in Russia and (mainly) in China still use it for its superior penetration, rather than the more popular 9mm Makarov ammunition in current use. The most notable use of this cartridge was in the Tokarev TT-33 pistol, along with several submachine guns, including the Soviet PPD-40 and PPSh-41, and the Czech vz. 52 pistol.</text>
+	</string>
+	<string id="ars-7.62x25_ps">
+		<text>7.62x25mm AP rounds</text>
+	</string>
+	<string id="ars-7.62x25_ps_s">
+		<text>7.62x25 AP</text>
+	</string>
+	<string id="enc_arsenal_7.62x25_ps">
+		<text>A box of 7.62x25mm pistol cartridges. These cartridges are armor-piercing, featuring improved penetration, but marginally reduced stopping power against soft targets.\n\nThe 7.62x25mm Tokarev cartridge is a bottle-necked pistol cartridge widely used in former Soviet and Soviet satellite states. The actual caliber of its bullet is 7.85mm (.309 in). This cartridge has excellent penetration and can easily defeat lighter ballistic vests (class I, IIA and II). Although most firearms chambered in this caliber were declared obsolete and removed from military inventories, some Police and Special Forces units in Russia and (mainly) in China still use it for its superior penetration, rather than the more popular 9mm Makarov ammunition in current use. The most notable use of this cartridge was in the Tokarev TT-33 pistol, along with several submachine guns, including the Soviet PPD-40 and PPSh-41, and the Czech vz. 52 pistol.</text>
+	</string>
+	<string id="ars-7.62x39_fmj">
+		<text>7.62x39mm M67 FMJ rounds</text>
+	</string>
+	<string id="ars-7.62x39_fmj_s">
+		<text>7.62x39 FMJ</text>
+	</string>
+	<string id="enc_arsenal_7.62x39_fmj">
+		<text>A box of 7.62x39mm M67 rifle cartridges. These cartridges are full metal jacket, and provide good stopping power against soft targets with moderate armor-piercing capability.\n\nThe Soviet 7.62x39mm M67 FMJ rifle cartridge was designed during World War II and first used in the SKS carbine. The cartridge was likely influenced by a variety of foreign developments, especially the pre-war German GeCo, 7.75x39mm experimental round, and possibly by the late-war German 7.92x33mm Kurz ("Kurz" meaning "short" in German). Shortly after the war, the world's most recognized assault rifle was designed for this cartridge: the AK-47. The cartridge remained the Soviet standard until the 1970s, and is still one of the most common intermediate rifle cartridges used around the world. Its replacement, the 5.45x39mm cartridge, is slightly less powerful but is more controllable in fully automatic fire due to the lower recoil. The change was in part a response to NATO switching from the 7.62x51mm NATO cartridge to 5.56x45mm NATO.</text>
+	</string>
+	<string id="ars-7.62x39_ap">
+		<text>7.62x39mm M67 AP rounds</text>
+	</string>
+	<string id="ars-7.62x39_ap_s">
+		<text>7.62x39 AP</text>
+	</string>
+	<string id="enc_arsenal_7.62x39_ap">
+		<text>A box of 7.62x39mm M67 rifle cartridges. These cartridges are armor-piercing, featuring improved penetration, but marginally reduced stopping power against soft targets.\n\nThe Soviet 7.62x39mm M67 AP rifle cartridge was designed during World War II and first used in the SKS carbine. The cartridge was likely influenced by a variety of foreign developments, especially the pre-war German GeCo, 7.75x39mm experimental round, and possibly by the late-war German 7.92x33mm Kurz ("Kurz" meaning "short" in German). Shortly after the war, the world's most recognized assault rifle was designed for this cartridge: the AK-47. The cartridge remained the Soviet standard until the 1970s, and is still one of the most common intermediate rifle cartridges used around the world. Its replacement, the 5.45x39mm cartridge, is slightly less powerful but is more controllable in fully automatic fire due to the lower recoil. The change was in part a response to NATO switching from the 7.62x51mm NATO cartridge to 5.56x45mm NATO.</text>
+	</string>
+	<string id="ars-7.62x51_fmj">
+		<text>7.62x51mm FMJ rounds</text>
+	</string>
+	<string id="ars-7.62x51_fmj_s">
+		<text>7.62x51 FMJ</text>
+	</string>
+	<string id="enc_arsenal_7.62x51_fmj">
+		<text>A box of 7.62x51mm NATO rifle cartridges. These cartridges are full metal jacket, and provide very good stopping power against soft targets with moderate armor-piercing capability.\n\n7.62x51mm NATO is a rifle cartridge developed in the 1950s as a standard firearm cartridge among NATO countries. The 7.62x51mm NATO cartridge was introduced to military service in rifles and machine guns. It was introduced in U.S. service in the M14 Rifle and M60 Machine gun in the late 1950s. Fabrique Nationale's FAL became the most popular 7.62mm NATO rifle in Europe and served well into the early 1980s. The M14 was superseded in U.S. service as the infantry adopted the 5.56x45mm M16. However, the M14 and many other firearms that use the 7.62x51 round remain in service, particularly designated marksman and sniper rifles and general purpose machine guns. While similar in appearance, the military 7.62x51 NATO cartridge is not identical to the commercial .308 Winchester. However, their interchange is not listed as unsafe in either combination. Some also confuse the round with the 7.62x39mm intermediate cartridge used in the AK-47/AKM and other weapons, because both may be referred to simply as "7.62". However, they are not interchangeable. These are full metal jacket cartridges, with good stopping power and penetration.</text>
+	</string>
+	<string id="ars-7.62x51_ap">
+		<text>7.62x51mm AP rounds</text>
+	</string>
+	<string id="ars-7.62x51_ap_s">
+		<text>7.62x51 AP</text>
+	</string>
+	<string id="enc_arsenal_7.62x51_ap">
+		<text>A box of 7.62x51mm NATO rifle cartridges. These cartridges are armor-piercing, featuring improved penetration, but marginally reduced stopping power against soft targets.\n\n7.62x51mm NATO is a rifle cartridge developed in the 1950s as a standard firearm cartridge among NATO countries. The 7.62x51mm NATO cartridge was introduced to military service in rifles and machine guns. It was introduced in U.S. service in the M14 Rifle and M60 Machine gun in the late 1950s. Fabrique Nationale's FAL became the most popular 7.62mm NATO rifle in Europe and served well into the early 1980s. The M14 was superseded in U.S. service as the infantry adopted the 5.56x45mm M16. However, the M14 and many other firearms that use the 7.62x51 round remain in service, particularly designated marksman and sniper rifles and general purpose machine guns. While similar in appearance, the military 7.62x51 NATO cartridge is not identical to the commercial .308 Winchester. However, their interchange is not listed as unsafe in either combination. Some also confuse the round with the 7.62x39mm intermediate cartridge used in the AK-47/AKM and other weapons, because both may be referred to simply as "7.62". However, they are not interchangeable. These are armor-piercing cartridges, with improved penetration, but marginally reduced stopping power.</text>
+	</string>
+</string_table>

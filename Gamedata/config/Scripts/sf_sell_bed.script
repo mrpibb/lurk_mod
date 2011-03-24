@@ -1,0 +1,51 @@
+--FACTION CHECK TEST
+
+--EXPENSIVE: Sidorivich
+
+function Expensive_Sleep_Three_Check(npc, actor)
+	if dactor:money() >= 400 then return true else
+	return false
+	end
+end
+
+function Expensive_Sleep_Three(npc, actor)
+dialogs.relocate_money(npc, 400, "in")
+sleep_manager.sleep_three_hours()
+end
+
+function Expensive_Sleep_Nine_Check(npc, actor)
+	if actor:money() >= 1000 then return true else
+	return false
+	end
+end
+
+function Expensive_Sleep_Nine(npc, actor)
+dialogs.relocate_money(npc, 1000, "in")
+sleep_manager.sleep_three_hours()
+end
+
+--AVERAGE: FACTION MEMBERS, BARMAN
+
+function Average_Sleep_Three_Check(npc, actor)
+	if actor:money() >= 250 then return true else
+	return false
+	end
+end
+
+function Average_Sleep_Three(npc, actor)
+	if actor:character_community() == npc:character_community() then sleep_manager.sleep_three_hours() else
+	dialogs.relocate_money(npc, 250, "in")
+	sleep_manager.sleep_three_hours()
+	end
+end
+
+function Average_Sleep_Nine_Check(npc, actor)
+	if actor:money() >= 700 then return true else
+	return false
+	end
+end
+
+function Average_Sleep_Nine(npc, actor)
+dialogs.relocate_money(npc, 700, "in")
+sleep_manager.sleep_nine_hours()
+end

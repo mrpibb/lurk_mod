@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<!--:::::::::::::::::-->
+<!--STALKER.aliVe 1.5 pre-->
+<!--:::::::::::::::::-->
+<!--:::::::::::::::::::::::::::::::::-->
+<!--only implements the aliVe dialogs-->
+<!--NOT any modified vanilla dialogs-->
+<!--:::::::::::::::::::::::::::::::::-->
+
+<!--:::::::::::::::::-->
+<!--MILITARY-->
+<!--:::::::::::::::::-->
+<!-- aliVe 1.4-->
+<string id="alive_cook_02">
+		<text>Mein Finger sagt...nein.</text>
+	</string>
+	<string id="alive_max_02">
+		<text>Ich habe wichtigeres zu tun, hast du sonst noch Fragen?</text>
+	</string>
+	
+<!-- aliVe 1.4 end-->
+
+<!--STALKER aliVe modified dialogs-->
+	<string id="alive_cook_0">
+		<text>Was hast du denn mit deinem Finger gemacht?</text>
+	</string>
+	<string id="alive_cook_01">
+		<text>Finger? Achso meinen Finger...Messer, ich bin...am schneiden und so.</text>
+	</string>
+	<string id="alive_cook_011">
+		<text>Das blutet wie verrьckt, willst du nicht mal zum Arzt damit?</text>
+	</string>
+	<string id="alive_cook_0110">
+		<text>Nein..Ja...Weiss nicht. Дrzte geben Spritzen und ich hasse Spritzen.</text>
+	</string>
+	<string id="alive_cook_01101">
+		<text>Na gut es ist deine Entscheidung.</text>
+	</string>
+	<string id="alive_cook_011010">
+		<text>Das geht entschieden zu kurz. Kurzgebratenes. Ich serviere es hдufig, der Begriff ist so schцn nichtssagend. Es kцnnte alles sein, meistens ist es das auch.</text>
+	</string>
+	
+	<string id="alive_cook_01102">
+		<text>Ich glaube du hast zuviel Zonenluft geschnuppert.</text>
+	</string>
+	<string id="alive_cook_011020">
+		<text>Die Zone...ich habe sie mir schon zu Weihnachten gewьnscht. Tolles Geschenk, nur etwas wenig...Salami und so.</text>
+	</string>
+	<string id="alive_cook_0110201">
+		<text>Ich denke du solltest mal zu einem Psychiater.</text>
+	</string>
+	<string id="alive_cook_01102010">
+		<text>Psyche mein Leibgericht, mit Pseudohundeleber und einem Spritzer Anti-Rad.</text>
+	</string>
+	
+	
+	<string id="alive_cook_0110202">
+		<text>Salami? Wer bist du denn?</text>
+	</string>
+	<string id="alive_cook_01102020">
+		<text>Koch. Salami mit Vodka mit abgelaufener Milch schmeckt wie eine dieser mutierten Ratten mit Energy Drink und kurzgebraten.</text>
+	</string>
+	<string id="alive_cook_011020201">
+		<text>Ahja, danke.</text>
+	</string>
+	<string id="alive_cook_011020202">
+		<text>Du hast wirklich den Verstand verlohren. Armer Kerl.</text>
+	</string>
+	
+	<string id="alive_cook_012">
+		<text>Hier nimm eine Bandage, damit stoppst du die Blutung.</text>
+	</string>
+	<string id="alive_cook_0120">
+		<text>Oh, danke. Es brennt...die Tentakel eines Blutsaugers. Rote Augen, Blut.</text>
+	</string>
+
+	<string id="alive_max_0">
+		<text>Bist du hier der Ausbilder?</text>
+	</string>
+	<string id="alive_max_01">
+		<text>Ausbilder? Nicht wirklich, wir sind hier bei der Fraktion und nicht bei den steifen Wдchtern. Ich halte die Fraktionsanhдnger auf Trab und sorge dafьr, dass sie bei einem Zusammentreffen mit Mutanten, oder schlimmer mit Wдchtern einen kьhlen Kopf bewahren und sich zur Wehr setzen kцnnen. Wir mьssen leider an unserer militдrischen Stдrke arbeiten, auch wenn der Waffenstillstand noch gilt, die Bedrohung durch die Wдchter ist immernoch prдsent. Wir dьrfen uns nicht ausruhen, sonst werden wir zum leichten Ziel dieser Fanatiker.</text>
+	</string>
+	<string id="alive_max_011">
+		<text>Die Wдchter wьrden niemals den Waffenstillstand brechen, sie sind sehr rechtschaffen und brechen keine Vereinbahrungen.</text>
+	</string>
+	<string id="alive_max_0110">
+		<text>Ich hoffe ihr habt recht, junger Loner. Denn zur Zeit sind wir zahlenmдЯig unterlegen, auch unsere Ausrьstung ist nicht ganz so gut, wie die der Wдchter. Ich hцrte sie besitzen eine Spezialeinheit die komplett aus Exoskelleten besteht. Wir haben gerade mal drei dieser stark gepanzerten Rьstungen. Dafьr besitzen wir eine Lieferung der neuen Scharfschьtzengewehre, damit ist unsere Basis gut verteidigt.</text>
+	</string>
+	<string id="alive_max_01101">
+		<text>Ich glaube die Wдchter kцnnten diesen Posten problemloЯ einnehmen</text>
+	</string>
+	<string id="alive_max_011010">
+		<text>Ich denke da haben wir unterschiedliche Ansichten, Loner. Komm am besten nicht wieder, Leute wie du werden hier nicht gerne gesehen.</text>
+	</string>
+	
+	<string id="alive_max_01102">
+		<text>Die Wдchter wьrden sich die Zдhne an eurer Verteidigung ausbeissen.</text>
+	</string>
+	<string id="alive_max_011020">
+		<text>Sag das nicht so leichtfertig. Es gab schon einige Angriffe auf diese Basis und viele Kцrper haben auf diesem Drecksboden gelegen, durchlцchert und leblos. Hol mich die Zone, wenn es nicht auch diesesmal ein harter Kampf werden wьrde. Aber wie schon gesagt, es ist Waffenstillstand.</text>
+	</string>
+	
+	<string id="alive_max_012">
+		<text>Ich glaube die Wдchter nutzen den Waffenstillstand, um sich neu zu formieren.</text>
+	</string>
+	<string id="alive_max_0120">
+		<text>Natьrlich tun sie das! Nur ein Frischling wьrde glauben sie wьrden tatenlos da sitzen. Aber wir sitzen auch nicht tatenlos da...na gut zur Zeit vielleicht schon, aber auch ein wenig Pause muss sein.</text>
+	</string>
+<!-- aliVe modified text passage END-->
+
+<!--:::::::::::::::::-->
+<!--GARBAGE-->
+<!--:::::::::::::::::-->
+	
+<!--STALKER aliVe modified dialogs-->
+<!-- aliVe 1.4 -->
+	<string id="alive_serij2_02">
+		<text>Lass uns nicht mehr drьber reden, ok</text>
+	</string>
+	<string id="alive_bes_02">
+		<text>Willst du mich verarschen? Hilf mir lieber gegen die Banditen!</text>
+	</string>
+<!-- aliVe 1.4 end-->
+
+	
+	<string id="alive_duty_0">
+		<text>Wer kommt hier eigentlich so durch?</text>
+	</string>
+	<string id="alive_duty_01">
+		<text>Keine so dummen Fragen Loner-Frischling! Sollte das eine Beleidigung gegen uns Wдchter sein, gegen uns die wir hier unser Leben riskieren, damit die Bar von solchem Gesocks wie euch Banditen und den dreckigen Mutanten sauber bleibt? Pass lieber auf was du sagst dreckiger Loner, sonst werden wir dir gleich mal zeigen wie es um die Kampfkraft der Wдchter bestellt ist!</text>
+	</string>
+
+<!-- aliVe 1.5 -->	
+	<string id="alive_duty_02">
+		<text>Du wagst es mich nocheinmal mit dieser Frage zu belдstigen? Scher dich weg Loner und sei froh das ich heute einen guten Tag hatte, fьr einen Tag in der Zone versteht sich.</text>
+	</string>
+<!-- aliVe 1.5  end -->
+
+	<string id="alive_duty_011">
+		<text>Nein nein, ihr habt mich total falsch verstanden... ich gehe jetzt lieber</text>
+	</string>
+	<string id="alive_duty_012">
+		<text>Hey bleibt ruhig, ich wollte lediglich wissen wer hier so passiert ist in der letzten Zeit.</text>
+	</string>
+	<string id="alive_duty_0121">
+		<text>Vor ein paar Tagen ist ein Kerl namens Sammler hier vorbei gekommen, und letzte Woche so ein Kerl in einer weiЯen Jacke mit Kapuze...wie hieЯ der noch..Nimel..Bimnel...ich glaube Nimble, oder so. Haben wir dir jetzt deine vorlauten Fragen beantwortet, neugieriger Loner.</text>
+	</string>
+	<string id="alive_duty_01210">
+		<text>Danke mehr wollte ich doch garnicht.</text>
+	</string>
+	<string id="alive_duty_01211">
+		<text>Wisst ihr was, ihr seid ein Dreckspack, tschьss.</text>
+	</string>
+	
+	<string id="alive_bes_0">
+		<text>Wir sind ein gutes Team, willst du nicht mit mir mitkommen?</text>
+	</string>
+	<string id="alive_bes_01">
+		<text>Ja wir sind ein gutes Team, aber die anderen Loner brauchen mich, vielleicht ein anderes mal Bruder. Wenn diese hartnдckigen Banditen es sich nicht stдndig im alten Sperrhдuschen gemьtlich machen wьrden, wдren hier noch mehr Loner auf Durchreise. Damit meine ich, wenn die verfluchten Banditen den Autofriedhof auch noch einnehmen wьrden, gдbe es hier garkein Durchkommen mehr. Ich mцchte mir garnicht Vorstellen wie sie die Reisenden mit den Banditen auf der anderen StraЯenseite in die Zange nehmen und sie alle niederschieЯen. Das darf nicht passieren!</text>
+	</string>
+	
+<!-- aliVe 1.5-->	<string id="alive_bes_03">
+		<text>Das hatten wird doch schon.</text>
+<!-- aliVe 1.5 end-->	</string>
+	
+	<string id="alive_bes_011">
+		<text>Schade das du nicht mitkommen willst, aber ich kann dich verstehen. Diesen Posten zu Halten ist in diesem hart umkдmpften Gebiet einfach wichtiger.</text>
+	</string>
+	<string id="alive_bes_012">
+		<text>Ach komm schon so wichtig ist dieser Posten nun auch wieder nicht, Hol in die Zone, lass uns zusammen weiterziehen.</text>
+	</string>
+	<string id="alive_bes_0121">
+		<text>Da muss ich dir wiedersprechen Bruder. Wir Loner mьssen einfach zusammenhalten, der Krieg zwischen der Freiheitsfraktion und den Wдchtern ist schon schlimm genug und so fordert die Zone schon genug Leben. Da mьssen wir ihr nicht auch noch bei helfen.</text>
+	</string>
+	<string id="alive_bes_01210">
+		<text>Na gut wie du meinst Bes, wir sehen uns Loner Kamerad und lass dich nicht von den Stiernacken erwischen.</text>
+	</string>
+
+
+
+	<string id="alive_serij_0">
+		<text>Glaubst du die Banditen werden nochmal versuchen den Hangar zu besetzen?</text>
+	</string>
+	<string id="alive_serij_01">
+		<text>Glauben? Sind wir hier im Religionsunterricht? Nein, wir sind in der scheiЯ Zone, mann! Diese Idioten werden es bestimmt wieder versuchen. Hol sie die Zone! Ach wie ich die Gegend hier hasse, wдre ich bloЯ nicht so Geldgeil *grins*. "Noch ein Artefakt" sage ich mir immer, aber es wird immer noch eines und noch eins und... Irgendwann muss man die Teile verkaufen. Eigentlich wollte ich ja zum Maulwurf, aber da das Banditengesocks mich jetzt sucht bleibe ich lieber hier. "Der Hangar", oder wie einige ihn nennen "der verlassene Hangar", die meinen damit irgendso ein Wortspiel, von wegen verlassen, obwohl er ja eigentlich immer besetzt ist und Verlass, da man sich darauf verlassen kann hier jemanden anzutreffen, finde ich aber total scheiЯe das Wortspiel, darum sag ich ja auch "der Hangar", ist ein guter Treffpunkt. Mann ist hierdrinn vor den meisten Gefahren sicher. Achja Thema Verkaufen: Glaub mir Loner-Frischling die Hдndler bescheiЯen dich, verkauf die Artefakte woanders. Ach hol mich die Zone, eigentlich kommt hier auch immer ein Kerl namens Sammler vorbei, das passt ja perfekt. Der Kerl zahlt nen guten Preis fьr Artefakte. Kannst du nicht mal die Wдchter fragen, ob "der Sammler" schon bei ihnen durchgekommen ist?</text>
+	</string>
+	
+<!-- aliVe 1.5-->
+<string id="alive_serij_02">
+		<text>Hцr zu, ich habe keine Zeit dir immer die selben Fragen zu beantworten, also nerv mich nicht, sondern geh lieber zum Wдchter Aussenposten und frag nach dem Kerl.</text>
+	</string>
+<!-- aliVe 1.5 end-->
+
+	<string id="alive_serij_011">
+		<text>Ja werde ich vielleicht mal machen, wir sehen uns.</text>
+	</string>
+	<string id="alive_serij_012">
+		<text>Ich spreche nicht gerne mit diesen hochnдsigen Idioten</text>
+	</string>
+	<string id="alive_serij_0121">
+		<text>Ich halte auch nicht viel von ihnen, wьrde ja auch selbst fragen, aber ich darf mich drauЯen nicht zeigen, sonst entdeckt mich das Banditenpack wieder. LoЯ Loner, mach das mal.</text>
+	</string>
+	<string id="alive_serij_01210">
+		<text>Ja wie schon gesagt, ich bin mir unschlьssig, bis dann Serij</text>
+	</string>
+	
+	<string id="alive_serij2_0">
+		<text>Sag mal wegen dem Wдchter Aussenposten</text>
+	</string>
+	<string id="alive_serij2_01">
+		<text>Was ist damit? Warst du da zufдllig? Hast du Informationen ьber einen Sammler der dort durchgekommen ist? Und wage es nicht dafьr jetzt auch noch Rubel zu verlangen, Frischlingsloner</text>
+	</string>
+	<string id="alive_serij2_011">
+		<text>Nein ich habe noch nicht mit den Wдchtern gesprochen.</text>
+	</string>
+	<string id="alive_serij2_012">
+		<text>Die Wдchter sagten er wдre bereits vor einigen Tagen vorbeigekommen</text>
+	</string>
+	<string id="alive_serij2_0121">
+		<text>Ach Hol mich die Zone, dann wirds ja noch dauern bis er wieder hier her kommt. Egal drauЯen ist es eh zu gefдhrlich im Moment. Hier fьr deine Laufarbeit, Frischling</text>
+	</string>
+	<string id="alive_serij2_01210">
+		<text>Na danke, jetzt mьsstest du nur noch aufhцren mich stдndig Frischling zu nennen und dann kцnnten wir sogar Zonen Brьder werden.</text>
+	</string>
+	<string id="alive_serij2_013">
+		<text>Rubel, Serij ich bin beeindruckt sehr gute Idee! LoЯ lass den Rubel rollen, oder du bekommst garnichts</text>
+	</string>
+	<string id="alive_serij2_0131">
+		<text>Ach verdammt, da lass ich mich von einem Frischling erpressen, hier hast du was. Was ist mit dem Sammler.</text>
+	</string>
+	<string id="alive_serij2_01310">
+		<text>Keine Ahnung, aber danke fьr das Geld. Na wer ist hier jetzt der Frischling, Frischling?</text>
+	</string>
+	<string id="alive_serij2_01311">
+		<text>Er soll vor einigen Tagen am Posten vorbeigekommen sein, mehr weiЯ ich auch nicht, tschьss.</text>
+	</string>
+	
+<!--:::::::::::::::::-->
+<!--ESCAPE-->
+<!--:::::::::::::::::-->
+<!-- aliVe 1.4 new-->
+<string id="alive_fox2_02">
+		<text>Seitdem du mir den Arztkoffer gebracht hast geht sie langsam weg. Danke nochmal fьr alles, Bruder.</text>
+	</string>
+<!-- aliVe 1.4 new end-->
+<!-- aliVe 1.4-->
+	<string id="alive_doctor_0">
+		<text>Bekommt man bei dir eigentlich auch Informationen ьber bestimmte Stalker?</text>
+	</string>
+	<string id="alive_doctor_01">
+		<text>Vielleicht Stalker, kommt auf dein Erspartes an. Das schцne ist, du wirst nirgends sonst solche Informationen bekommen, also wenn du mal jemanden ganz bestimmtes suchst komm zu mir. Versuche erst garnicht andere Quellen zu finden, du verschwendest deine Zeit. Die haben alle keine Ahung, vertrau dem guten Sidorowitsch.</text>
+	</string>
+	
+	<string id="alive_doctor_012">
+		<text>Vielleicht komme ich auf dich zurьck, wenn die Zeit reif ist.</text>
+	</string>
+	
+	<string id="alive_doctor_011">
+		<text>Ich will wissen wo der Doktor ist.</text>
+	</string>
+	<string id="alive_doctor_0110">
+		<text>Ah! Schцn, sagen wir 15.000ru fьr meine Mьhen.</text>
+	</string>
+	<string id="alive_doctor_01101">
+		<text>Hier du geiziges Arschloch und jetzt erzдhlst du mir wo dieser Doktor ist!</text>
+	</string>
+	<string id="alive_doctor_011010">
+		<text>Die Rubel dдmpfen dein vorlautes Geplapper. Aber eigentlich sollte ich dir die Info garnicht mehr geben, das hдttest du verdient...schonmal unter dem Agroprom Komplex geschaut? Dort soll es Katakomben geben, vielleicht ist er ja dort. Achja und Stalker, hoffentlich fressen die Blutsauger dich, lebendig versteht sich.</text>
+	</string>
+	
+	<string id="alive_doctor_01102">
+		<text>15.000ru ist ein wenig teuer, ich verschwende lieber meine Zeit und suche andere Quellen</text>
+	</string>
+	<string id="alive_doctor_011020">
+		<text>15.000ru ist genau richtig. Aber wie du meinst such nur, kommst ja eh wieder.</text>
+	</string>
+	
+	
+	
+	<string id="alive_wolf_02">
+		<text>Mit der neuen Ausrьstung haben wir denke ich ganz gute chancen, aber vielleicht kцnntest du auch den anderen Loner eine bessere Waffe ьberlassen. Sie haben leider nicht so viel Rubel wie ich, damit mьsstest du sie ihnen schon schenken.</text>
+	</string>
+	<string id="alive_wolf_020">
+		<text>Naja ich werde mal sehen, ob ich eine Waffe ьbrig habe.</text>
+	</string>
+	
+	
+<!-- aliVe 1.4 end-->
+
+<!--STALKER aliVe modified dialogs-->
+
+	<string id="alive_wolf_0">
+		<text>Wie steht es eigentlich um die Verteidigung hier, die Zone ist gefдhrlicher denn je, vielleicht solltet ihr euch mal neue und bessere Ausrьstung besorgen.</text>
+	</string>
+	<string id="alive_wolf_01">
+		<text>Ja du hast recht, aber wie sollen wir das schaffen? Die meisten Stalker die es bis zur Bar schaffen kцnnten und dort Ausrьstung besorgen kцnnten sind, wenn sie ersteinmal dort waren, nicht mehr allzu motiviert wieder hierher nach Kordon zu kommen. Das Innere der Zone reizt sie viel zu sehr, die Artefakte und die zu lьftenden Geheimnisse. Wenn denn ьberhaupt mal Loner bis zur Bar kommen, die verdammten Wдchter fьhren sich auf, als wenn ihnen die Zone gehцren wьrde und lassen kaum wen durch. Wenn du es natьrlich schaffen wьrdest mir eine Waffe zu liefern die der neuen lauernden Gefahr angemessen ist, sagen wir ein Kalashnikov-Sturmgewehr, eines der groЯen, also die AK-74 und nicht so eine MP-Variante wie ich sie in den Hдnden halte, dann wьrde ich mich natьrlich Erkenntlich zeigen.</text>
+	</string>
+	<string id="alive_wolf_010">
+		<text>Hey Wolf, hier ist eines der Gewehre das du haben wolltest, was ist mit meiner Belohnung?</text>
+	</string>
+		<string id="alive_wolf_0101">
+		<text>Danke fьr das Gewehr, es wird fьr uns sehr nьtzlich sein. Hier ist deine Belohnung Loner</text>
+	</string>
+	<string id="alive_wolf_01010">
+		<text>Ich kann euch hier ja nicht mit abgesдgten Schrotflinten gegen die Mдchte der Zone antreten lassen, bis bald</text>
+	</string>
+		<string id="alive_wolf_012">
+		<text>Naja ich schau mal was ich fьr dich tun kann Wolf</text>
+	</string>
+	
+	<string id="alive_wolf2_0">
+		<text>Schonmal wieder was von den Banditen gehцrt?</text>
+	</string>
+	<string id="alive_wolf2_01">
+		<text>Sie kommen immer mal wieder mit kleinen Schlдgertrupps, aber die sind zu schwach, um der Siedlung wirklich gefдhrlich zu werden. Letztens sind dabei allerdings 2 meiner Wachen getцtet worden, ich habe Glьck, dass der Zustrom von Glьcksrittern, die die Zone herausfordern wollen, fast unermьdlich ist. So habe ich jetzt wieder eine volle Wachmanschaft.</text>
+	</string>
+	<string id="alive_wolf2_011">
+		<text>Na dann wollen wir mal hoffen, dass das so bleibt nicht war Bruder.</text>
+	</string>
+	<string id="alive_wolf2_012">
+		<text>Hol mich die Zone wenn die nicht irgendwann nochmal einen grцЯeren Trupp aufbauen und uns angreifen. Ich habe in Garbage gesehen wie das ablдuft, die Banditen sind zahlreich und in groЯen Gruppen wirklich gefдhrlich.</text>
+	</string>
+	<string id="alive_wolf2_0120">
+		<text>Ach die werden uns schon nicht angreifen, was gibt es hier schon zu holen? Die wollen doch Rubel und Artefakte und keinen alten Tand.</text>
+	</string>
+	<string id="alive_wolf2_01201">
+		<text>Na gut, aber wenn sie diesen Punkt einnehmen wьrden, hдtten sie einen der Haupteinstiegspunkte in die Zone erobert. War das ein Schuss?</text>
+	</string>
+	<string id="alive_wolf2_01202">
+		<text>Glaube mir, ich bete fьr euch, dass diese Idioten das auch wissen.</text>
+	</string>
+	
+	<string id="alive_fox_0">
+		<text>Was ist loЯ Fuchs, du schaust so дngstlich aus?</text>
+	</string>
+	<string id="alive_fox_01">
+		<text>Ich glaube in der Zone geht irgendetwas vor. Nicht nur, dass es mich weiter innen fast erwischt hдtte, plцtzlich war eines dieser fast unsichtbaren Viecher direkt in unserer kleinen Loner Gruppe und hat 3 von uns erwischt bevor es plцtzlich wieder weg war, nein, ich habe so eines sogar schon hier in Kordon entdecken kцnnen! Das ist doch nicht normal, frьher haben die sich auch nicht so weit raus gewagt. Ich habe schon Angstausbrьche wenn es im Busch raschelt und dabei ist es doch meistens nur der Wind... meistens. Ich bleibe hier im Schutz des Hauses und versuche mich von der Verletzung zu erholen. Hier schenke ich dir, komme ja eh so schnell nicht wieder tiefer in die Zone, grьЯe den Professor von mir.</text>
+	</string>
+	<string id="alive_fox_010">
+		<text>Das ist doch eines der Augen von diesen fleischigen Mutanten, na gut, wenn du es nicht haben willst, ich kann es bestimmt gut verkaufen.</text>
+	</string>
+		<string id="alive_fox_012">
+		<text>Ich will kein Geschenk von dir. Ich will nur noch zu deinem Kontakt bei den Mьllhaufen.</text>
+	</string>
+	
+	<string id="alive_fox2_0">
+		<text>Wie schauts aus Fox, was macht die Verwundung?</text>
+	</string>
+	<string id="alive_fox2_01">
+		<text>Hol mich die Zone, diese drecks Wunde hat mir die Kretze gebracht und die geht einfach nicht weg! Ich kann soviel Wodka drьberschьtten wie ich will, sie bleibt da. Ja, ich habe sogar das Gefьhl, dass sie sich ausbreitet. Wдre ich bloЯ nie Richtung Yantar gelaufen, dort bekommt man nen Kollaps und wenn man Pech hat, wie ich, dann sogar diese verdammte Krankheit. Sag mal es gibt so Artzkoffer die sollen super gute Medikamente haben, kannst du mir so eines nicht bringen? Die sind so gelb, solls bei den Forscherleuten geben. Wenn du mir so ein Kцfferchen bringst gebe ich dir diese ausgezeichnete Waffe. Es ist eine automatik Pistole des Typs Berreta, ist echt gut mit der habe ich schon Stiernacken alt aussehen lassen. Nur Munition habe ich keine mehr, musst du dir bei Sidorovitsch, oder beim Barman kaufen. Also was ist?</text>
+	</string>
+	<string id="alive_fox2_011">
+		<text>Klar Fox, wenn ich so eines finde bist du der erste der es bekommt. Als Tausch versteht sich.</text>
+	</string>
+	<string id="alive_fox2_012">
+		<text>Schau mal was ich hier habe, her mit der Waffe.</text>
+	</string>
+	<string id="alive_fox2_0120">
+		<text>Ausgezeichnet Bruder, so muss das in der Zone gehen. Hier hast du die Waffe Loner Kamerad, ich hoffe sie ist dir ein genauso guter Begleiter wie sie mir war.</text>
+	</string>
+	<string id="alive_fox2_01201">
+		<text>Ja das hoffe ich auch, bis bald Loner.</text>
+	</string>
+
+	
+	<string id="alive_nimble_0">
+		<text>Was macht die Zone Nimble?</text>
+	</string>
+	<string id="alive_nimble_01">
+		<text>Sie fьhlt sich komisch an, anders als frьher. Irgendetwas scheint sich in den letzten Tagen geдndert zu haben und das lдsst mich schaudern. Ich habe in der Bar Geschichten ьber alte verstrahlte Stiernacken gehцrt, die sich gebьckt bewegen. Sie sollen Gasmasken tragen und entsetzlich weit springen kцnnen. Neulich soll ein Pack von diesen die Wдchter angegriffen haben, ich hoffe die haben die alle getцtet. Stell dir nur mal vor so ein grдssliches Monster wьrde bis nach Kordon kommen! Wir haben hier nicht die Ausrьstung und Erfahrung der Wдchter, es kдme einem Blutbad gleich. Darum geh ich jetzt in Richtung der Mьllhaufen, die Wдchter dort sind bestechlich. Ich werde ihnen wohl mal wieder die 1000 Rubel geben, um mich bei der Bar in Sicherheit zu begeben.</text>
+	</string>
+	<string id="alive_nimble_010">
+		<text>Hmm... ja mach was du willst. Irgendwie habe ich jetzt auch schon ein bisschen Angst, dass diese mutierten Stiernacken hier auftauchen.</text>
+	</string>
+		<string id="alive_nimble_012">
+		<text>Ach Nimble du hast einfach zu viel am Vodka genippt, geh nur zur Bar... mutierte Stiernacken....lдcherlich.</text>
+	</string>
+	
+<!--:::::::::::::::::-->
+<!--BAR-->
+<!--:::::::::::::::::-->
+	<string id="alive_hunter_0">
+		<text>Hey hast du schonmal von so komischen Stiernacken Mutanten gehцrt?</text>
+	</string>
+	<string id="alive_hunter_01">
+		<text>Gehцrt? Ich habe sie live erlebt, was fьr ein Kampf. Nur ich und meine gute alte Flinte und natьrlich diese miesen Kreaturen. Ha 20 waren es von diesen..дh was sagtest du?</text>
+	</string>
+	<string id="alive_hunter_011">
+		<text>Mutierten Stiernacken sagte ich und du bist dir sicher, dass du ihnen begegnet bist?</text>
+	</string>
+	<string id="alive_hunter_012">
+		<text>Au man, Geschichten kann ich mir auch wo anders anhцren... ich bin weg!</text>
+	</string>
+	<string id="alive_hunter_0110">
+		<text>Ja genau mutierten Stiernacken, wie du sagst. Also ich war auf dem Weg zu einem Informanten von mir, der wollte mir einen Codeknacker fьr die verschlossene Tьr in diesem komischen Gebдudekomplex relativ weit westlich im Dunklen Tal geben. Der ist echt kompetent, heist Provodnik und kann einem so ziemlich alles besorgen was man braucht. Das erinnert mich auch an das eine mal wo ich...</text>
+	</string>
+	<string id="alive_hunter_01101">
+		<text>HEY! Die mutierten Stiernacken, sofort!</text>
+	</string>
+	<string id="alive_hunter_011010">
+		<text>Ist ja gut Loner, nicht so hektisch. Also die 50 Stiernacken kamen auf mich zu...</text>
+	</string>
+	<string id="alive_hunter_0110101">
+		<text>Mann erzдhlst du ne ScheiЯe, Hol dich die Zone, das waren vorhin noch 20 der mutierten Stiernacken! Was fьr verschwendete Zeit.</text>
+	</string>
+	<string id="alive_hunter_0110102">
+		<text>*tief einatme* Ja...</text>
+	</string>
+	<string id="alive_hunter_01101020">
+		<text>Ich habe Panik bekommen und lief um mein leben, doch die waren schneller. Einer von denen sprang ьber seine Kompanen und riss mir das Licht vom Kopf. Ich habe an der Stelle wo mich seine Krallen erwischten sogar eine Narbe!</text>
+	</string>
+	<string id="alive_hunter_011010201">
+		<text>Ja klar, die mцchte ich mal sehen</text>
+	</string>
+	<string id="alive_hunter_0110102010">
+		<text>Wie du willst *Nimmt die Kapuze ab und zeigt auf seinen Hinterkopf*</text>
+	</string>
+	<string id="alive_hunter_01101020101">
+		<text>Das ist keine Narbe du Narr das ist nen Pickel und sonst ein Geschwьlst. Ehh, wiederlich...ich hau ab und kotze.</text>
+	</string>
+	<string id="alive_hunter_01101020102">
+		<text>Ja hol mich die Zone, du hast wirklich ne Wunde. Was hast du dann gemacht?</text>
+	</string>
+	<string id="alive_hunter_011010201020">
+		<text>Ach scheiЯe... ich lief um mein Leben und bin gerade wegs in einen Haufen der Fraktion gerannt. Die haben die alle weggeballert, was fьr ein Blutbad. Ich habe nicht mal einen erwischt, sonder lag auf dem Boden und habe geflennt, weil diese hдssliche Wunde so brannte. Spдter hat mich nen Kerl namens Koch aufgeweckt und mir ein paar Mittel gespritzt. Er sagte das ist gegen den Haarausfall der bald kommen wьrde. Naja und jetzt bin ich hier.</text>
+	</string>
+	<string id="alive_hunter_0110102010201">
+		<text>Naja hat sich das ganze Zugehцre ja zumindest ein wenig gelohnt. Ich bin weg, armer Kerl.</text>
+	</string>
+	<string id="alive_hunter_011010202">
+		<text>Na loЯ jetzt erzдhl schon zu Ende</text>
+	</string>
+	<string id="alive_hunter_0110102020">
+		<text>hmm, jetzt will ich nicht mehr.</text>
+	</string>
+	<string id="alive_hunter_01101020201">
+		<text>Ach dann Leck mich doch! Du nervst mich hier mit deiner Lьgengeschichte und dann hast du nicht mal den Anstand sie zuende zu erzдhlen? Ach, ich verschwinde von hier!</text>
+	</string>
+	<string id="alive_hunter_01102">
+		<text>Ja was war da? LoЯ erzдhl schon</text>
+	</string>
+	<string id="alive_hunter_011020">
+		<text>Na dieser Provodnik und ich, also wir Beide sind auf dem Weg zu einem gesuchten Verbrecher, um den kalt zumachen. Gab dafьr ne nette Belohnung und da sind plцtzlich diese...ehh Viecher aufgetaucht. Ja, so war das und diese Viecher wollten mich umbringen, aber ich war schneller. BAMM, BAMM, BAMM! Schon waren drei von denen Matsche, kannst dir nicht vorstellen wie das gespritzt hat. Echt voll eklig.</text>
+	</string>
+	<string id="alive_hunter_0110201">
+		<text>Aha das war ja ne tolle Geschichte, na dann bis zum nдchsten Kaffeekrдnzchen.</text>
+	</string>
+	<string id="alive_hunter_01103">
+		<text>Boah, bist du ne Laberbacke. Jaja, erzдhls deiner Flinte, tschьss</text>
+	</string>
+
+<!--:::::::::::::::::-->
+<!--AGROPROM-->
+<!--:::::::::::::::::-->
+<!-- aliVe 1.4 -->
+<string id="alive_maulwurf2_0">
+		<text>Was weisst du ьber den Militдrposten hier?</text>
+	</string>
+	<string id="alive_maulwurf2_01">
+		<text>Nicht viel, nur das die Patrouillen des Nachts abnehmen und sie dort angeblich einen Koffer mit geheimen Dokumenten aufbewahren. Ich habe schon darьber nachgedacht diesen Koffer zu stehlen, die Hдndler machen einem bestimmt einen ausgezeichneten Preis dafьr, aber mir sind meine Mдnner zu wichtig. Ein Kampf gegen die Stiernacken ist reiner Wahnsinn und sich dort reinzuschleichen ist schwer. Falls du dein Glьck herausfordern willst wьrde ich dir raten, dass du durch den Untergrund in die Basis schleichst. Ich habe dort keinen einzigen Menschen getroffen als ich vor einer Woche dort unten war. Aber das alles kann sich mitlerweile geдndert haben. Naja egal was du machst gib auf dich acht, Bruder.</text>
+	</string>
+	
+	<string id="alive_maulwurf_02">
+		<text>Wir haben doch schon darьber geredet, du kennst meinen Standpunkt und meine Devise: Loner leben lдnger.</text>
+	</string>
+
+<!-- aliVe 1.4 end-->
+	<string id="alive_maulwurf_0">
+		<text>Was hдltst du eigentlich vom Freiheitskampf gegen die Wдchter?</text>
+	</string>
+	<string id="alive_maulwurf_01">
+		<text>Ich bleibe neutral und das solltest du auch bleiben. Wenn die Wдchter herausfinden, dass du fьr die Freiheitsfraktion kдmpfst, werden die dich ohne zu Fragen ьber den Haufen ballern, glaube mir die sind dann noch schlimmer als die Stiernacken! Andererseits wenn du es dir mit der Fraktion verschдrzt, dann hockst du bald auch im scheiЯ "Hanger der Verlassenen". Der wird so genannt, weil die Leute die dort Zuflucht suchen bald vom Leben verlassen die Zone mit ihren leblosen Kцrpern schmьcken. Tja dann hockst du da drinne und hast schiss vor den Banditen, die ganz zufдllig und urplцtzlich wissen wo du bist, wer du bist und vorallem was du getan hast. Serij war schon immer viel zu leichtfertig was seinen Umgang angeht. Also bleibe wie ich ein Glьcksritter der Zone und lass dich ruhig als "dreckiger Loner" beschimpfen.</text>
+	</string>
+	<string id="alive_maulwurf_011">
+		<text>Was hat Serij denn so dummes gemacht?</text>
+	</string>
+	<string id="alive_maulwurf_0111">
+		<text>Hat dir Serij von den vielen Artefakten berichtet, die er besitzt? Jetzt rate mal woher er sie hat. Richtig Banditen, Serij ist ein Narr die Zone dermaЯen herrauszufordern. Ich wollte mich mit ihm treffen, um ihn ьber die geplante Rache der Fraktion an ihm aufzuklдren, aber naja... zu spдt. Er hat selbst Schuld, warum beleidigt er auch lauthals die Fraktion inmitten der Bar! Er hдtte lieber nicht soviel trinken sollen, der Narr.</text>
+	</string>
+	<string id="alive_maulwurf_01111">
+		<text>Serij hat also die Fraktion beleidigt und die haben aus Rache den Banditen erzдhlt, wer ihnen die Artefakte abgenommen hat?</text>
+	</string>
+	<string id="alive_maulwurf_011111">
+		<text>Richtig. Zum Kotzen, oder? Aber so lдuft das in der Zone, die einen werden gefressen und die anderen tappen in eine Anomalie.</text>
+	</string>
+	<string id="alive_maulwurf_0111111">
+		<text>Danke fьr die Information, Loner Bruder.</text>
+	</string>
+	<string id="alive_maulwurf_012">
+		<text>Wenn man sich den Wдchtern anschlieЯt hat man viele Vorteile, denk an die phantastische Ausrьstung.</text>
+	</string>
+	<string id="alive_maulwurf_013">
+		<text>Die Fraktion ist das einzig Wahre in der Zone, denn die Wдchter fьhren sich schlimmer auf als das Militдr. Ich werde einer der Fraktionskдmpfer.</text>
+	</string>
+	<string id="alive_maulwurf_01230">
+		<text>Na dann, wenn du das meinst nur zu. Ich bin nicht dein Papa, also mach was du willst, aber hol mich die Zone, wenn du mit der Einstellung nicht noch spдter Probleme bekommst.</text>
+	</string>
+	<string id="alive_maulwurf_012301">
+		<text>Ach du schwдtzt doch nur alter Mann!</text>
+	</string>
+	<string id="alive_maulwurf_012302">
+		<text>hmm...ja das werden wir sehen, Bruder.</text>
+	</string>
+	
+<!--:::::::::::::::::-->
+<!--YANTAR-->
+<!--:::::::::::::::::-->
+<!--alive 1.4new-->
+<string id="alive_bunker_0">
+		<text>Professor sie sind hier drauЯen ganz auf sich aleinegestellt?</text>
+	</string>
+	<string id="alive_bunker_01">
+		<text>Ich habe die Zusage des Wдchter Kommandanten, dass bald einige von ihnen zu meinem Schutz abkommandiert werden. Normalerweise nicht ihre Art, nicht wahr? Zahlt sich aus ihnen die ein oder andere Information ьber die Zone zu zustecken, aber die sollten schon vor einigen Tagen eintreffen, irgendetwas muss sie aufhalten. Die restliche ehemalige Verteidigung liegt tot in den Sьmpfen, alle sind sie gestorben. Tot liegen sie dort und schwemmen auf, verwesen, nur um bei der nдchsten Psy-Emission plцtzlich anzufangen zu zucken und dann stehen sie wieder auf. Mit grдsslich leerem Blick durchstreifen sie jetzt das umliegende Gebiet und feuern auf alles, was sich bewegt und noch Menschlich ist. Ьbrigens auch eine der Fragen, die mein Interesse wecken. Warum bekдmpfen sie sich nicht gegenseitig? Warum greifen sie keine anderen Mutanten an?</text>
+	</string>
+	
+	<string id="alive_bunker_02">
+		<text>Hцren sie, ich muss jetzt meine Experimente weiter voranntreiben. Haben sie sonst noch etwas wichtiges zu besprechen? Falls nicht ich habe gerade ein дuЯerst interessantes Experiment mit einem Laser...</text>
+	</string>
+<!--alive 1.4new end-->
+	<string id="alive_bunker_011">
+		<text>Sie kцnnen immerhin auch noch Waffen benutzen, sie scheinen noch einigermaЯen Intelligent zu sein.</text>
+	</string>
+	<string id="alive_bunker_0110">
+		<text>Ja, sie verfьgen zweifelsohne gewisse intelligente Zьge. Ich bin froh, dass zur Zeit bei der Brьcke eine Brenneranomalie den Weg zu Rostock und dem bei euch Stalkern so beliebten Bargebiet fьr diese Zombies abschirmt. Nicht vorzustellen was passieren wьrde, wenn die Zombies Richtung Wдchter Hauptquartier stapfen wьrden. Die Fraktion wьrde die geschwдchten Wдchter sofort angreifen, das Bargebiet wдre ein Meer von Leichnamen.</text>
+	</string>
+	<string id="alive_bunker_01101">
+		<text>Gibt es nicht eine Mцglichkeit diese Anomalie "auszuschalten"? Die Wдchter hдtten einige tote in ihren Reihen verdient.</text>
+	</string>
+	<string id="alive_bunker_011010">
+		<text>Ach sie sind also auch einer der Fraktionsanhдnger. Ich kenne wenige so gute Kunden, wie die Mдnner der Freiheit, doch auch sie sind mir einfach zu radikal. Die Zone ist nicht der Ort fьr solche Streitigkeiten.</text>
+	</string>
+	<string id="alive_bunker_0110101">
+		<text>Streitigkeiten mьssen dort ausgefochten werden wo sie entstehen, die Wдchter sind einfach viel zu herrisch aufgetreten, als dass es jetzt noch ein Zurьck gдbe.</text>
+	</string>
+	<string id="alive_bunker_0110102">
+		<text>Hmm..ja sie haben Recht. In der Zone sollten wir zusammenhalten, sonst werden wir von ihr geholt und dann sind alle vorherigen Streitigkeiten egal.</text>
+	</string>
+	
+	<string id="alive_bunker_01102">
+		<text>Ich stimme ihnen zu, diese dreckigen und hinterhдltigen Fraktionsanhдnger wьrden jede Schwдchung der sonst fьr sie zu mдchtigen Wдchter nutzen. Diese Anomalie muss bestehen bleiben.</text>
+	</string>
+	<string id="alive_bunker_011020">
+		<text>In ihnen steckt auch die Wдchter-Doktrin, schade eigentlich. Die Fraktionsanhдnger sind was meine Forschungen angehen wesentlich...hmm lassen sie es mich offener nennen, ja wesentlich offener eingestellt. Wobei ihr Wдchter mir einen guten Dienst leistet, ich will mich nicht bei ihnen beklagen, das liegt mir fern. Ihr Wдchter seid einfach genauso wie die Fraktion zu radikal eingestellt. Die Zone ist kein Ort fьr einen offenen Kampf zwischen Stalkern, die Zone ist schon ein stдndiger Kampf um das eigene Ьberleben.</text>
+	</string>
+	<string id="alive_bunker_0110201">
+		<text>Vielleicht haben sie Recht, die Zone ist ein gefдhrlicher Ort und die beiden Lager sollten sich nicht mehr so feindlich gesonnen sein.</text>
+	</string>
+	<string id="alive_bunker_0110202">
+		<text>Die Zone ist genau das Schlachtfeld, das sich diese reudige Freiheit ausgesucht hat. Wenn die einen Kampf wollen werden sie ihn bekommen.</text>
+	</string>
+	
+	
+	<string id="alive_bunker_01103">
+		<text>Ist die Anzahl der Zombies nicht auch irgendwann erschцpft?</text>
+	</string>
+	<string id="alive_bunker_011030">
+		<text>Genau das habe ich eigentlich auch vermutet. Doch unsere Videoьberwachung zeigt, dass immer wieder tцrichte Stalker versuchen die Schдtze des Labors zu bergen. Der Stalker neulich hat sich zumindest noch als Helfer angeboten und einen Forscher in das innere geleitet, wie hieЯ der Stalker nur noch...</text>
+	</string>
+	<string id="alive_bunker_0110301">
+		<text>Naja der Name ist ja ersteinmal uninteressant, was kцnnen sie mir noch so erzдhlen.</text>
+	</string>
+	
+	<string id="alive_bunker_012">
+		<text>Sie haben nur noch sich und den anderen Forscher? Mehr ist vom ehemaligen Forschungsteam nicht mehr ьbrig?</text>
+	</string>
+	<string id="alive_bunker_0120">
+		<text>Ja leider, ich kann kaum noch arbeiten, da mir die nцtigen Helfer fehlen. DeЯhalb belohne ich jeden der mir Artefakte und Mutanten-Teile ьberbringt mit guten Preisen.</text>
+	</string>
+	<string id="alive_bunker_01201">
+		<text>Das ist gut zu wissen</text>
+	</string>
+	
+	<string id="alive_bunker2_0">
+		<text>Doktor, brдuchten sie noch seltene Artefakte?</text>
+	</string>
+	<string id="alive_bunker2_01">
+		<text>Ich brдuchte noch einige sehr seltene Artefakte, um mein neuestes Projekt zu vollenden und in Testphase zu bringen. Falls sie zufдllig auf die Artefakte "Mamas Perlen" und "Batterie" stoЯen, kцnnte sie sie mir bitte ьberlassen? Ich benцtige diese Artefakte dringend, um die Testphase meines neuen Projektes einzuleiten. Vielleicht wьrde ich ihnen mein Projekt sogar zu Testzwecken ьberlassen, es ist nдmlich eine Waffe.</text>
+	</string>
+	<string id="alive_bunker2_011">
+		<text>Gut zu wissen Doktor, ich werde sehen was ich fьr sie tun kann</text>
+	</string>
+	<string id="alive_bunker2_012">
+		<text>Hier haben sie die Artefakte, her mit der Waffe.</text>
+	</string>
+
+</string_table>
