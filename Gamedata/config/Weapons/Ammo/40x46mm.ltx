@@ -1,0 +1,81 @@
+;---40x46mm High Explosive---
+[ammo_m209]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_m209"
+class			= A_M209
+cform			= skeleton
+visual			= weapons\ammo\ammo_m209.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_40x46mm_he
+inv_name_short		= name_ammo_40x46mm_he_s
+description		= desc_ammo_40x46mm_he
+
+cost				= 250
+box_size			= 1
+inv_weight		= 0.10
+
+k_dist			= 1
+k_disp			= 1
+k_hit			= 1
+k_impulse			= 1
+k_pierce			= 1
+impair			= 1
+buck_shot			= 0
+tracer			= off
+wm_size         	= 0.05
+
+inv_grid_width		= 1
+inv_grid_height	= 1
+inv_grid_x		= 5
+inv_grid_y		= 13
+
+kill_msg_x		= 61
+kill_msg_y		= 232
+kill_msg_width		= 19
+kill_msg_height	= 22
+
+can_be_unlimited	= true
+fake_grenade_name	= proj_40x46mm
+
+;---40x46mm HELLHOUND---
+[ammo_m209_hell]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_m209_hell"
+class			= A_M209
+cform			= skeleton
+visual			= weapons\ammo\ammo_m209.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_40x46mm_hellhound
+inv_name_short		= name_ammo_40x46mm_hellhound_s
+description		= desc_ammo_40x46mm_hellhound
+
+cost				= 500
+box_size			= 1
+inv_weight		= 0.15
+
+k_dist			= 1
+k_disp			= 1
+k_hit			= 1
+k_impulse			= 1
+k_pierce			= 1
+impair			= 1
+buck_shot			= 0
+tracer			= off
+wm_size         	= 0.05
+
+inv_grid_width		= 1
+inv_grid_height	= 1
+inv_grid_x		= 5
+inv_grid_y		= 13
+
+kill_msg_x		= 61
+kill_msg_y		= 232
+kill_msg_width		= 19
+kill_msg_height	= 22
+
+can_be_unlimited	= true
+fake_grenade_name	= proj_40x46mm_hell

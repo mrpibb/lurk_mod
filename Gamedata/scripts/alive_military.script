@@ -1,0 +1,843 @@
+--STALKER aliVe
+--by gannebamm www.oblivion-lost.de
+--MILITARY SCRIPTS - Leadership: Making people do what they don't like to do, and liking it. ^^
+--------------------------------------------------------------------- PREACONDITIONS :
+
+--MONEY
+
+local money_amount_x = 23426
+function cook2_check( actor, npc )
+	if db.actor:money() >= money_amount_x then 
+		return true
+	end
+	return false
+end
+
+local money_amount_x = 36247
+function max_check( actor, npc )
+	if db.actor:money() <= money_amount_x then 
+		return true
+	end
+	return false
+end
+
+--ITEM
+
+function cook1_check( actor, npc )
+	if actor:object("bandage") then 
+		return true
+	end
+	return false
+end
+
+function duty2_check( actor, npc )
+	if actor:object("wpn_abakan") then 
+		return false
+	end
+	return true
+end
+
+------------------------------------------------------------------- REWARDS & TRADES :
+
+--ITEM
+
+function cook1_item (trader, actor)
+	dialogs.relocate_item_section(trader, "bandage", "out")
+end
+
+
+--MONEY
+
+function sample_money (trader, actor)
+	dialogs.relocate_money(trader, x, "in")
+end
+--------------------------------------------------------------------------- SPAWNING :
+-- orig from PROTON @ GSC-FORUM : THX to you for youre help !
+-- edited by gannebamm
+
+--INITIALIZE CONSOLE
+local logf_console = nil
+
+function logf( fmt, ... )
+	logf_console = get_console()
+	logf = logf_main
+	logf_main( fmt, ... )
+end
+
+function logf_main( fmt, ... )
+    local c = select( "#", ... )
+    if c <= 0 then -- nothing to format
+        logf_console:execute( ":" .. string.gsub( fmt, " ", "\160" ) )
+    else
+        logf_console:execute( ":" .. string.gsub( string.format( fmt, ... ), " ", "\160" ) )
+    end
+end
+
+--'END of init console
+
+-- MUTANT / NPC SPAWNING
+-- LISTE VON MONSTERn DIE SPAWNEN :
+-- snork_weak / normal / snork_jumper (! sehr geiles TEIL!!!)
+-- sucker_weak / normal
+-- boar_strong / rest?
+-- dog_strong / rest ?
+-- flesh_strong / rest ?
+-- gigant_strong / rest ?
+-- m_poltergeist_strong_flame (attack) / m_poltergeist_normal_tele (doesnt attack!)
+-- tushkano_normal (is for all other NSCs and Mutants neutral, were not been attacked by others then the player!)
+-- pseudodog_strong / rest ?
+-- stalker_trader / Stalker with antigas Armor and bm-16 : roaming the zone
+----------------------------------- cook1a-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function cook1a_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+	logf("start adding duty raid -entrance-")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+			alife():create("gar_dolg_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("gar_dolg_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			
+		logf( "duty raid %i created -entrance-", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_cook1a_spawn ( actor, npc )
+
+	logf("init_spawn_cook1a() called")
+	local spawn_point1 = vector():set( -2, -4, 96 )
+	cook1a_spawn( spawn_point1, 3 )
+	
+	logf("init_spawn_cook1a() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END cook1a-aliVe-EBEN ^^ ----------------------
+----------------------------------- cook1b-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function cook1b_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+
+
+	logf("duty-raid -bridge-")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+		alife():create("mil_freedom_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("bar_dolg_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("bar_dolg_respawn_3", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("gar_dolg_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("gar_dolg_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		logf( "duty-raid -bridge- %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_cook1b_spawn ( actor, npc )
+
+	logf("init_spawn_cook1b() called")
+	local spawn_point1 = vector():set( -6, -4, 49 )
+	cook1b_spawn( spawn_point1, 1 )
+	
+	logf("init_spawn_cook1b() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END cook1b-aliVe-EBEN ^^ ----------------------
+----------------------------------- cook2a-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function cook2a_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 3
+
+	logf("start adding mil_freedom_respawn_1")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = 0
+		z_offset = 280
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("mil_freedom_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("mil_freedom_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+
+					
+		logf( "mil_freedom_respawn_1 %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_cook2a_spawn ( actor, npc )
+
+	logf("init_spawn_cook2a() called")
+    local spawn_point2 = db.actor:position()  --0,0,0 =actor
+	cook2a_spawn( spawn_point2, 2 )
+	
+	logf("init_spawn_cook2a() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END cook2a-aliVe-----------------------
+----------------------------------- cook2b-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function cook2b_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 3
+
+	logf("start adding mil_freedom_respawn_1")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = 0
+		z_offset = 260
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+
+			alife():create("dog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("dog_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+					
+		logf( "mil_freedom_respawn_1 %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_cook2b_spawn ( actor, npc )
+
+	logf("init_spawn_cook2b() called")
+    local spawn_point2 = db.actor:position()  -- 0,0,0 =actor
+	cook2b_spawn( spawn_point2, 4 )
+	
+	logf("init_spawn_cook2b() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END cook2b-aliVe-----------------------
+----------------------------------- cook3a-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function cook3a_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 3
+
+	logf("start adding duty-freedom fight")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = 16
+		z_offset = 148
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("mil_freedom_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("mil_freedom_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+					
+		logf( "duty-freedom fight %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_cook3a_spawn ( actor, npc )
+
+	logf("init_spawn_cook3a() called")
+    local spawn_point2 = db.actor:position()  --0,0,0 =actor
+	cook3a_spawn( spawn_point2, 3 )
+	
+	logf("init_spawn_cook3a() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END cook3a-aliVe-EBEN ^^ ----------------------
+----------------------------------- cook3b-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function cook3b_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 2
+
+	logf("start adding duty-freedom fight")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -38
+		z_offset = 126
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("gar_dolg_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("gar_dolg_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+					
+		logf( "dolg-freedom fight %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_cook3b_spawn ( actor, npc )
+
+	logf("init_spawn_cook3b() called")
+    local spawn_point2 = db.actor:position()  -- 0,0,0 =actor
+	cook3b_spawn( spawn_point2, 3 )
+	
+	logf("init_spawn_cook3b() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END cook3b-aliVe-EBEN ^^ ---------------------
+----------------------------------- cook4a-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function cook4a_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 3
+
+	logf("Duty VS Freedom village encounter")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -200
+		z_offset = 207
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("mil_freedom_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		alife():create("mil_freedom_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("gar_bandit_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("gar_bandit_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+					
+		logf( "Freedom side member %i", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_cook4a_spawn ( actor, npc )
+
+	logf("init_spawn_cook4a() called")
+    local spawn_point2 = db.actor:position()  -- 0,0,0 =actor
+	cook4a_spawn( spawn_point2, 3 )
+	
+	logf("init_spawn_cook4a() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END cook4a-aliVe-EBEN ^^ ----------------------
+----------------------------------- cook4b-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function cook4b_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 2
+
+	logf("Duty VS Freedom village encounter")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -153
+		z_offset = 243
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("gar_dolg_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		alife():create("gar_dolg_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("bar_dolg_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("bar_dolg_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+					
+		logf( "duty side member %i", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_cook4b_spawn ( actor, npc )
+
+	logf("init_spawn_cook4b() called")
+    local spawn_point2 = db.actor:position()  -- 0,0,0 =actor
+	cook4b_spawn( spawn_point2, 3 )
+	
+	logf("init_spawn_cook4b() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END cook4b-aliVe-EBEN ^^ ---------------------
+----------------------------------- max1-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function max1_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 2
+
+	logf("Killersquads")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -13
+		z_offset = 200
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("ros_killer_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		alife():create("ros_killer_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("ros_killer_respawn_3", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("ros_killer_respawn_4", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+					
+		logf( "killersquad member %i", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_max1_spawn ( actor, npc )
+
+	logf("init_spawn_max1() called")
+    local spawn_point2 = db.actor:position()  -- 0,0,0 =actor
+	max1_spawn( spawn_point2, 2 )
+	
+	logf("init_spawn_max1() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END max1-aliVe-EvENt ---------------------
+----------------------------------- max2a-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function max2a_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 2
+
+	logf("hunting1")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -83
+		z_offset = 313
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("pseudodog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+
+		logf( "Hunters %i", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_max2a_spawn ( actor, npc )
+
+	logf("init_spawn_max2a() called")
+    local spawn_point2 = db.actor:position()  -- 0,0,0 =actor
+	max2a_spawn( spawn_point2, 6 )
+	
+	logf("init_spawn_max2a() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END max2a-aliVe-Event ---------------------
+----------------------------------- max2b-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function max2b_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 2
+
+	logf("hunting2")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -70
+		z_offset = 310
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("flesh_normal", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		alife():create("flesh_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+
+		logf( "flesh rudel %i", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_max2b_spawn ( actor, npc )
+
+	logf("init_spawn_max2b() called")
+    local spawn_point2 = db.actor:position()  -- 0,0,0 =actor
+	max2b_spawn( spawn_point2, 2 )
+	
+	logf("init_spawn_max2b() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END max2b-aliVe-Event ---------------------
+----------------------------------- max3a-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function max3a_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 2
+
+	logf("banditsvsdogs")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -100
+		z_offset = 300
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("ros_bandit_respawn_4", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		alife():create("ros_bandit_respawn_3", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+
+		logf( "banditsvsdogs %i", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_max3a_spawn ( actor, npc )
+
+	logf("init_spawn_max3a() called")
+    local spawn_point2 = db.actor:position()  -- 0,0,0 =actor
+	max3a_spawn( spawn_point2, 2 )
+	
+	logf("init_spawn_max3a() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END max3a-aliVe-Event ---------------------
+----------------------------------- max3b-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function max3b_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 2
+
+	logf("banditsvsdogs2")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -120
+		z_offset = 300
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("dog_normal", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		alife():create("dog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+
+		logf( "banditsvsdogs dog %i", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_max3b_spawn ( actor, npc )
+
+	logf("init_spawn_max3b() called")
+    local spawn_point2 = db.actor:position()  -- 0,0,0 =actor
+	max3b_spawn( spawn_point2, 3 )
+	
+	logf("init_spawn_max3b() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END max3b-aliVe-Event ---------------------
+----------------------------------- skull-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function skull_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+
+
+	logf("Barrier Duty")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+			alife():create("bar_dolg_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("bar_dolg_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("bar_dolg_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("bar_dolg_respawn_3", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("gar_dolg_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("gar_dolg_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		logf( "Barrier Duty %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_skull_spawn ( actor, npc )
+
+	logf("init_spawn_skull() called")
+	local spawn_point1 = vector():set( 25, -22, 303 )
+	skull_spawn( spawn_point1, 2 )
+	
+	logf("init_spawn_skull() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END skull-aliVe-EBEN ^^ ----------------------

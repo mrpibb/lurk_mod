@@ -1,0 +1,132 @@
+;---7.62x39mm Standard---
+[ammo_7.62x39_fmj]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn				= "weapons\ammo\ammo_7.62x39_fmj"
+class				= AMMO
+cform				= skeleton
+visual				= weapons\Arsenal\ammo\ammo_762x39_fmj.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_7.62x39mm_stnd
+inv_name_short		= name_ammo_7.62x39mm_stnd_s
+description			= desc_ammo_7.62x39mm_stnd
+
+cost				= 450
+box_size			= 25
+inv_weight			= 0.75
+
+k_dist				= 300
+k_disp				= 1.1
+k_hit				= 0.85
+k_impulse			= 30
+k_pierce			= 1
+impair				= 1
+buck_shot			= 1
+tracer				= off
+wm_size         	= 0.07
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 27
+inv_grid_y			= 4
+
+;---7.62x39mm Hollowpoint---
+[ammo_7.62x39_ap]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn				= "weapons\ammo\ammo_7.62x39_ap"
+class				= AMMO
+cform				= skeleton
+visual				= weapons\Arsenal\ammo\ammo_762x39_ap.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_7.62x39mm_hp
+inv_name_short		= name_ammo_7.62x39mm_hp_s
+description			= desc_ammo_7.62x39mm_hp
+
+cost				= 700
+box_size			= 25
+inv_weight			= 0.75
+
+k_dist				= 300
+k_disp				= 1.65
+k_hit				= 0.95
+k_impulse			= 30
+k_pierce			= 0.75
+impair				= 1
+buck_shot			= 1
+tracer				= off
+wm_size         	= 0.07
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 25
+inv_grid_y			= 4
+
+;---7.62x39mm Armour Piercing---
+[ammo_7.62x39_ap2]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn				= "weapons\ammo\ammo_7.62x39_ap2"
+class				= AMMO
+cform				= skeleton
+visual				= weapons\Arsenal\ammo\ammo_762x39_ap.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_7.62x39mm_ap
+inv_name_short		= name_ammo_7.62x39mm_ap_s
+description			= desc_ammo_7.62x39mm_ap
+
+cost				= 700
+box_size			= 25
+inv_weight			= 0.75
+
+k_dist				= 300
+k_disp				= 0.55
+k_hit				= 0.80
+k_impulse			= 30
+k_pierce			= 1.75
+impair				= 1
+buck_shot			= 1
+tracer				= off
+wm_size         	= 0.07
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 25
+inv_grid_y			= 4
+
+;---7.62x39mm Incendiary---
+[ammo_7.62x39_inc]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn				= "weapons\ammo\ammo_7.62x39_inc"
+class				= AMMO
+cform				= skeleton
+visual				= weapons\Arsenal\ammo\ammo_762x39_ap.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_7.62x39mm_incen
+inv_name_short		= name_ammo_7.62x39mm_incen_s
+description			= desc_ammo_7.62x39mm_incen
+
+cost				= 1100
+box_size			= 25
+inv_weight			= 0.75
+
+k_dist				= 300
+k_disp				= 2.2
+k_hit				= 1.02
+k_impulse			= 30
+k_pierce			= 1
+impair				= 1
+buck_shot			= 1
+tracer				= on
+wm_size         	= 0.07
+explosive			= on
+
+inv_grid_width		= 2
+inv_grid_height		= 1
+inv_grid_x			= 25
+inv_grid_y			= 4

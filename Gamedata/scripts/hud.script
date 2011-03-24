@@ -1,0 +1,347 @@
+--[[------------------------------------------------------------------------------------------------
+ File       : hud.script
+ Description: HUD Masken Script mit abnehmbaren Masken, Bluteffekten und Blureffekten
+ Copyright  : Thunder Freak (c) 2009, Rudix (c) 2008, Russo (c) 2008
+ Author     : Thunder Freak (c) 2009
+ Last edit  : 17.03.2010 Thunder Freak)
+--]]------------------------------------------------------------------------------------------------
+
+local mycurrent_suithud
+local suit_condition
+
+local actor_last_health = 0
+local bloodtime = 0
+local bloodtimeb = 0
+local isbleeding = "no"
+local countblood = 0
+local m_blood = nil
+local isactcondset = "false"
+local radeffect = "false"
+local blurs = nil
+local blurval = 0
+local blurlt = 0
+local blurcyctime = 0 
+local blurlastphase = 0
+
+local xrbelt = nil
+local info_send = 0
+local info2_send = false
+local breath_time
+local init_breath = false
+local heartbeat_set
+
+function checkmysuithud()
+
+	local suithudtype, suithudname
+	if db.actor ~= nil then
+		local suittypes = {
+			exo 		= "hud_exo",
+			scientific 	= "hud_sci",
+			ecolog 		= "hud_sci",
+			protection 	= "hud_sci",
+			military 	= "hud_mil",
+			specops 	= "hud_mil",
+			killer 		= "hud_gas",
+			cs_heavy 	= "hud_kill",
+			bandit 		= "hud_bandit",
+			cs_light	= "hud_bandit"
+		}
+		bleedcondition()
+		atmen()
+		suithudtype = nil
+		
+		local csuithud = db.actor:get_current_outfit()
+		
+		if csuithud ~= nil then suithudname = csuithud:section() end
+		if suithudname ~= nil then
+
+			suit_condition = check_current_suit_condition()
+		
+			if suit_condition ~= nil then	
+				for i,v in pairs(suittypes) do
+					if string.find(suithudname, i) then
+						suithudtype = v .. "_" .. suit_condition
+						xrbelt = nil
+					end
+				end
+			
+			end
+		end
+		
+		if suithudtype == nil then
+			check_mask_on_belt()
+			xrbelt = inventory.belt["af_gasmaske1"]
+			if xrbelt == nil then xrbelt = inventory.belt["af_gasmaske2"] end
+			if xrbelt == nil then xrbelt = inventory.belt["af_gasmaske3"] end
+			
+			if xrbelt ~= nil and suit_condition ~= nil then suithudtype = "hud_gasmask_" .. suit_condition end
+		end
+		
+		setmysuithud(suithudtype)
+
+		init_blurs()
+		blood()
+		set_blood()
+	end
+end
+
+function check_mask_on_belt()
+	local beltset = 0
+	local x1belt = inventory.belt["af_gasmaske1"]
+	local x2belt = inventory.belt["af_gasmaske2"]
+	local x3belt = inventory.belt["af_gasmaske3"]
+	if x1belt ~= nil and x2belt ~= nil and x3belt ~= nil then
+		if x1belt ~= nil then beltset = x1belt end
+		if x2belt ~= nil then beltset = beltset + x2belt end
+		if x3belt ~= nil then beltset = beltset + x3belt end
+		if info_send == 1 and beltset == 1 then info_send = 0 end
+		if beltset > 1 and info_send == 0 then
+			local text = "Wieviel Masken willst Du noch aufsetzen?\\nGenuegt Dir eine nicht?"
+			db.actor:give_game_news(text, "ui\\ui_icon_gasmask", Frect():set(0,0,83,47), 1000, 5000)	
+			info_send = 1
+		end
+	end
+	
+end
+
+function check_current_suit_condition()
+	local suitname
+	local csuithud = db.actor:get_current_outfit()
+	if csuithud ~= nil then suitname = csuithud:section() end
+	if suitname ~= nil then
+		suit_condition = ""
+		local curcond = csuithud:condition()
+		if curcond >= 0.95 then
+			suit_condition = "blue"
+		elseif curcond >= 0.85 and curcond < 0.95 then
+			suit_condition = "green"
+		elseif curcond >= 0.70 and curcond < 0.85 then
+			suit_condition = "yellow"
+		elseif curcond >= 0.50 and curcond < 0.70 then
+			suit_condition = "red"
+		elseif curcond >= 0.27 and curcond < 0.50 then
+			suit_condition = "red2"
+		elseif curcond < 0.27 then
+			suit_condition = "red3"
+		end
+	end
+	return suit_condition
+end
+
+function setmysuithud(hudtype)
+	local chud = get_hud():GetCustomStatic(mycurrent_suithud)
+	if chud ~= nil and mycurrent_suithud ~= nil and hudtype == nil then 
+		get_hud():RemoveCustomStatic(mycurrent_suithud)
+		mycurrent_suithud = nil
+	end
+	if hudtype == nil and mycurrent_suithud == nil then return end
+	local new_hud = get_hud():GetCustomStatic(hudtype)
+	if new_hud == nil then
+		get_hud():RemoveCustomStatic(mycurrent_suithud)
+		get_hud():AddCustomStatic(hudtype)
+		
+	    if suit_condition ~= "green" and suit_condition ~= "blue" then
+			local snd_obj = xr_sound.get_safe_sound_object([[material\glass\glass_fall03hl]])
+			snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 9.0)
+	    end
+		mycurrent_suithud = hudtype
+	end
+end
+
+function atmen()
+	local verschnaufpause = {
+		[0] = "Brauch dringend mal eine Verschnaufpause",
+		[1] = "Mann, bin ich ausgepumpt.",
+		[2] = "Scheiss Zone! Hier muss man genau so hetzen wie in der Stadt.",
+		[4] = "Eine Rennerei ist das. Bin ausgelutscht wie'n alter Schuh."
+	}
+	local vol = 0
+	local ausdauer = db.actor.power
+	if init_breath == false then 
+		breath_time = time_global() + 2300 
+		heartbeat_set = time_global() + 7800
+		init_breath = true
+	end
+	if time_global() > breath_time and ausdauer < .9 then
+		local snd_obj = xr_sound.get_safe_sound_object([[characters_voice\human_03\stalker\states\breath\breath_1]])
+		snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(),  1 / (ausdauer / (1 - ausdauer)))
+		breath_time = time_global() + 2300
+	end
+	if ausdauer < .3 and time_global() > heartbeat_set then 
+		local snd_obj = xr_sound.get_safe_sound_object([[heart\2]])
+		snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 3.0)
+		heartbeat_set = time_global() + 7800
+	end
+	if ausdauer < .2 and info2_send == false then
+		db.actor:give_game_news(verschnaufpause[math.random(1, 4)], "ui\\ui_iconstotal", Frect():set(0,0,83,47), 2000, 6000)	
+		info2_send = true
+	end
+	if ausdauer > .2 then info2_send = false end
+end
+
+function init_blurs()
+	if mycurrent_suithud ~= nil and db.actor.power < .9 then
+		local zoom = 67.5 / device().fov
+		zoom = (zoom - 1) * 1.5 + 1
+		if zoom < 1.001 then
+			zoom = 1.001
+		end
+		local stretchy = 0.75 / (math.floor(device().aspect_ratio * 1000) / 1000)
+		if stretchy < 1 then stretchy = 1 end
+		local rect = {x = -768 * zoom + 768, y = (-512 * zoom + 512) * stretchy - (stretchy - 1) * 300, w = 1024 * zoom, h = 768 * zoom * stretchy}
+		
+		set_blurs(true, rect)
+	else
+		set_blurs(false)
+	end
+end
+
+function set_blurs(enabled,rect)
+	if (not blurs) or get_hud():GetCustomStatic("hud_blur1") == nil then
+
+		blurs = {}
+		for i = 1, 5 do
+			get_hud():AddCustomStatic("hud_blur" .. i)
+			blurs[i] = get_hud():GetCustomStatic("hud_blur" .. i):wnd()
+			blurs[i]:SetWidth(0)
+		end
+	end
+	
+	if not enabled then
+		for i = 1, 5 do
+			blurs[i]:SetWidth(0)
+		end
+		return
+	end
+
+	local power = db.actor.power
+	local period = 1.0 + power * power * 1.0 
+	local expirt = 0.3
+	local breathpower = 3
+	local delta = (time_global() - blurlt) / 1000 
+	local phase = (time_global() - blurcyctime) / 1000
+	
+	blurlt = time_global()
+	if phase > period then
+		phase = phase % period
+		blurcyctime = blurlt - phase * 1000
+	end
+	if blurlastphase > phase then
+		blurlastphase = 0
+	end
+	local blurdelta = delta * -0.7
+	if blurlastphase < expirt and phase < expirt then
+		blurdelta = blurdelta + (phase - blurlastphase) * breathpower
+	elseif blurlastphase < expirt then
+		blurdelta = blurdelta + (expirt - blurlastphase) * breathpower
+	end
+	blurlastphase = phase
+	blurval = blurval + blurdelta
+	if blurval > 0.999 then
+		blurval = 0.999
+	elseif blurval < 0 then
+		blurval = 0
+	end
+	local tm = math.floor(blurval * 3)
+	local tmn = (tm + 1)
+	local v = blurval * 3 - math.floor(blurval * 3)
+	v= 1 - v
+	local v1 = 1 - v
+	if tm ~= 0 then
+		blurs[tm]:SetColor(GetARGB(v * 255, 255, 255, 255))
+	end
+	if tmn ~= 0 then
+		blurs[tmn]:SetColor(GetARGB(v1 * 255, 255, 255, 255))
+	end
+	for i = 1,4 do
+		if i == tm or i == tmn then
+			blurs[i]:SetWndRect(Frect():set(rect.x, rect.y, rect.w, rect.h))
+		else
+			blurs[i]:SetWndRect(Frect():set(rect.x, rect.y, 0, 0))
+		end
+	end
+end
+
+
+function blood()
+	local radwidth = db.actor.radiation
+	if db.actor ~= nil and radwidth == 0 then
+		if db.actor:alive() then
+			local current_health = math.floor(db.actor.health * 100)
+			local cbloodtime = time_global()
+			if cbloodtime > bloodtime and isbleeding == "stopit" then
+				for i=1,5 do
+					if get_hud():GetCustomStatic("hud_blood" .. i) ~= nil then
+						get_hud():RemoveCustomStatic("hud_blood" .. i)
+						isbleeding = "no"
+					end
+				end
+			end
+			if cbloodtime > bloodtime then
+				bloodtime = time_global() + 1500
+				if actor_last_health > current_health and actor_last_health ~= 0 then isbleeding = "yes" end
+				actor_last_health = math.floor(db.actor.health * 100)
+			end
+		end
+	end
+end
+
+function set_blood()
+	local radwidth = db.actor.radiation
+	local cbloodtimed = time_global()
+	if db.actor ~= nil and cbloodtimed > bloodtimeb and isbleeding == "yes" and radwidth == 0 then
+		bloodtimeb = time_global() + 170
+		m_blood = {}
+		countblood = countblood + 1
+		get_hud():AddCustomStatic("hud_blood" .. countblood)
+		m_blood[countblood] = get_hud():GetCustomStatic("hud_blood" .. countblood):wnd()
+		local chudblood = "hud_blood" .. countblood
+		if countblood == 4 then
+			isbleeding = "stopit"
+			countblood = 0
+		end
+	end
+end
+
+function bleedcondition()
+	if db.actor.health < 0.31 and isactcondset ~= "true" then
+		level.add_pp_effector ("alcohol.ppe", 2012, true)
+		isactcondset = "true"
+	end
+	if db.actor.health > 0.30 and isactcondset ~= "false" then
+		level.remove_pp_effector (2012)
+		isactcondset = "false"
+	end
+	if db.actor.radiation > 0.3 and radeffect ~= "true" then
+		level.add_pp_effector ("alcohol.ppe", 2013, true)
+		radeffect = "true"
+	end
+	if db.actor.radiation == 0 and radeffect ~= "false" then
+		level.remove_pp_effector (2013)
+		radeffect = "false"
+	end
+end
+
+
+function check_blood()
+end
+
+
+
+local logf_console = nil
+function logf( fmt, ... )
+	logf_console = get_console()
+	logf = logf_main
+	logf_main( fmt, ... )
+end
+
+function logf_main( fmt, ... )
+    local c = select( "#", ... )
+    if c <= 0 then -- nothing to format
+      logf_console:execute( ":" .. string.gsub( fmt, " ", "\160" ) )
+    else
+      logf_console:execute( ":" .. string.gsub( fmt, " ", "\160" ) )
+    end
+end
+
+

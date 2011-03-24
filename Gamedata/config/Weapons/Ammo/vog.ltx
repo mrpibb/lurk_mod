@@ -1,0 +1,82 @@
+;---VOG-25 High Explosive---
+[ammo_vog-25]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_vog-25"
+class			= A_VOG25
+cform			= skeleton
+visual			= weapons\ammo\ammo_vog-25.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_vog25
+inv_name_short		= name_ammo_vog25_s
+description		= desc_ammo_vog25
+
+cost				= 250
+box_size			= 1
+inv_weight		= 0.10
+
+k_dist			= 1
+k_disp			= 1
+k_hit			= 1
+k_impulse			= 1
+k_pierce			= 1
+impair			= 1
+buck_shot			= 0
+tracer			= off
+wm_size         	= 0.05
+
+inv_grid_width		= 1
+inv_grid_height	= 1
+inv_grid_x		= 19
+inv_grid_y		= 9
+
+kill_msg_x		= 38
+kill_msg_y		= 233
+kill_msg_width		= 21
+kill_msg_height	= 22
+
+can_be_unlimited	= true
+fake_grenade_name	= proj_vog25
+
+;---VOG-25P Jumping Grenade---
+[ammo_vog-25p]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_vog-25p"
+class			= A_VOG25
+cform			= skeleton
+visual			= weapons\ammo\ammo_vog-25p.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_vog25p
+inv_name_short		= name_ammo_vog25p_s
+description		= desc_ammo_vog25p
+
+cost				= 500
+box_size			= 1
+inv_weight		= 0.10
+
+k_dist			= 1
+k_disp			= 1
+k_hit			= 1
+k_impulse			= 1
+k_pierce			= 1
+impair			= 1
+buck_shot			= 0
+tracer			= off
+wm_size         	= 0.05
+
+inv_grid_width		= 1
+inv_grid_height	= 1
+inv_grid_x		= 19
+inv_grid_y		= 10
+
+kill_msg_x		= 17
+kill_msg_y		= 232
+kill_msg_width		= 21
+kill_msg_height	= 22
+
+jump_height = 1
+can_be_unlimited	= true
+fake_grenade_name	= proj_vog25p

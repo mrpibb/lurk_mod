@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+<!--:::::::::::::::::-->
+<!--STALKER.aliVe 1.4-->
+<!--:::::::::::::::::-->
+<!--:::::::::::::::::::::::::::::::::-->
+<!--only implements the aliVe dialogs-->
+<!--NOT any modified vanilla dialogs-->
+<!--:::::::::::::::::::::::::::::::::-->
+
+<!--:::::::::::::::::-->
+<!--MILITARY-->
+<!--:::::::::::::::::-->
+<!-- aliVe 1.4-->
+
+<string id="alive_cook_02">
+		<text>My finger says... no.</text>
+	</string>
+	<string id="alive_max_02">
+		<text>I have better things to do. Any more questions?</text>
+	</string>
+<!-- aliVe 1.4 end-->
+
+<!--STALKER aliVe modified dialogs-->
+	<string id="alive_cook_0">
+		<text>What the hell did you do with that finger?</text>
+	</string>
+	<string id="alive_cook_01">
+		<text>Finger? Oh yeah, I was cutting something... and stuff...</text>
+	</string>
+	<string id="alive_cook_011">
+		<text>It's bleeding like hell, you better go to a medic with this.</text>
+	</string>
+	<string id="alive_cook_0110">
+		<text>No... well... Yeah you know... Doctors are weird. Scalpels, syringes and stuff.</text>
+	</string>
+	<string id="alive_cook_01101">
+		<text>Well, it's your decision.</text>
+	</string>
+	<string id="alive_cook_011010">
+		<text>Did you say precision? Cause I know what that means, got hit by a bullet in the back of my head once, but... can't remember how I repaired it. Or maybe it wasn't repaired? Could you take a look?</text>
+	</string>
+	
+	<string id="alive_cook_01102">
+		<text>I think you've been in the zone faaar too long.</text>
+	</string>
+	<string id="alive_cook_011020">
+		<text>Yeah the zone man... Have you heard of it? I heard it's creepy there...</text>
+	</string>
+	<string id="alive_cook_0110201">
+		<text>You sould definitely see a shrink or something.</text>
+	</string>
+	<string id="alive_cook_01102010">
+		<text>Yeah sometimes they shrink. If you just cook them long enough they start shrinking. Weird huh?</text>
+	</string>
+	
+	
+	<string id="alive_cook_0110202">
+		<text>And who would you be?</text>
+	</string>
+	<string id="alive_cook_01102020">
+		<text>I'm the cook. And I am the bringer of light, the holy avenger who will stop the evil alien invasion and save the planet from being turned into a huge pile of goo!</text>
+	</string>
+	<string id="alive_cook_011020201">
+		<text>Oh, nice to finally meet you.</text>
+	</string>
+	<string id="alive_cook_011020202">
+		<text>You really lost your mind. Poor guy.</text>
+	</string>
+	
+	<string id="alive_cook_012">
+		<text>Here, take this bandage, it'll stop the bleeding.</text>
+	</string>
+	<string id="alive_cook_0120">
+		<text>Oh thanks, it's burning like hell. Better take that roast out of the oven fast!</text>
+	</string>
+
+	<string id="alive_max_0">
+		<text>Are you the drill sergeant here?</text>
+	</string>
+	<string id="alive_max_01">
+		<text>Drill sergeant?. Hehe, not really. We are Freedom fighters and not some stiff militant "zone police" like the Duty scum. I'm just bringing our forces up to speed, showing them some tricks and sharing my experience with them. We have to keep improving our forces, Duty must not gain the advantage during the cease-fire. We can't rest or Duty will remove us from the zone, like they always say.</text>
+	</string>
+	<string id="alive_max_011">
+		<text>Duty would never break the cease-fire. They're righteous, honorable and true to their word.</text>
+	</string>
+	<string id="alive_max_0110">
+		<text>Bah, you're the only one with that opinion around here, so you better tone it down. Still, I hope you're right. We lost some people and are not at full strength and we're in need of better equipment. I heard there's a squad of Duty special forces, fully equipped with exo-suits. We only have three of these suits. But I guess they will be taken down before they even enter the base. A brandnew supply of sniper rifles and grenade launchers came in yesterday.</text>
+	</string>
+	<string id="alive_max_01101">
+		<text>I think Duty will take this base in no time.</text>
+	</string>
+	<string id="alive_max_011010">
+		<text>Again, you're the only one here who thinks so. Better get lost, before I break your kneecaps.</text>
+	</string>
+	
+	<string id="alive_max_01102">
+		<text>Duty will have a hard time to try and take this base.</text>
+	</string>
+	<string id="alive_max_011020">
+		<text>You betcha! It'll be Armageddon when they try to set foot on this ground. We'll see how long the cease-fire will be in effect.</text>
+	</string>
+	
+	<string id="alive_max_012">
+		<text>I think Duty is using the cease-fire to reform and gather new troops.</text>
+	</string>
+	<string id="alive_max_0120">
+		<text>I bet they do. You have to be a rookie, thinking that they're just sitting there, doing nothing.</text>
+	</string>
+<!-- aliVe modified text passage END-->
+
+<!--:::::::::::::::::-->
+<!--GARBAGE-->
+<!--:::::::::::::::::-->
+
+<!--STALKER aliVe modified dialogs-->
+<!-- aliVe 1.4 -->
+	<string id="alive_serij2_02">
+		<text>Let's change the subject, OK?</text>
+	</string>
+	<string id="alive_bes_02">
+		<text>Are you kidding me? Help me with the bandits already!</text>
+	</string>
+<!-- aliVe 1.4 end-->
+
+	
+	<string id="alive_duty_0">
+		<text>Hey, what kind of people are coming through here?</text>
+	</string>
+	<string id="alive_duty_01">
+		<text>Too many, doesn't make our work any easier. The Duty base and especially the 100 Rad Bar is a save haven for Stalkers, so everyone who wants to have a calm night is coming here. Looking for anyone in particular?</text>
+	</string>
+	
+<!-- aliVe 1.5 -->	
+	<string id="alive_duty_02">
+		<text>Stop bothering me with that subject. Get out of here, you're lucky that I have a good day, if there's anything like that in the zone.</text>
+	</string>
+<!-- aliVe 1.5  end -->
+	
+	<string id="alive_duty_011">
+		<text>No I'm just curious, nevermind.</text>
+	</string>
+	<string id="alive_duty_012">
+		<text>Anyone odd or suspicious?</text>
+	</string>
+	<string id="alive_duty_0121">
+		<text>A couple of days ago, there was someone called "Sammler", strange name isn't it? He was pretty weird. And there was this Stalker named "Nimble", white jacket and hood. He was heading towards the cordon.</text>
+	</string>
+	<string id="alive_duty_01210">
+		<text>Ok, thanks for the information.</text>
+	</string>
+	<string id="alive_duty_01211">
+		<text>Yawn, gotta go.</text>
+	</string>
+	
+	
+	<string id="alive_bes_0">
+		<text>We're a good team, why don't you join me?</text>
+	</string>
+	<string id="alive_bes_01">
+		<text>Hehe, yes we are. But the others need me here, maybe some other time. If the bandits wouldn't have their camp nearby, more people could get through here, without the danger of being robbed, killed or captured. I mean, if the bandits took the car park too, there would be no way through here at all. You couldn't make a single step without walking right into a bandit ambush. Can't let that happen.</text>
+	</string>
+	
+<!-- aliVe 1.5-->	<string id="alive_bes_03">
+		<text>We already talked about that, remember?</text>
+<!-- aliVe 1.5 end-->	</string>
+	
+	<string id="alive_bes_011">
+		<text>You're right. This place is dangerous enough and needs a clean up once in a while.</text>
+	</string>
+	<string id="alive_bes_012">
+		<text>Come on, you can't make this pile of waste safe. Out here, you'll get yourself killed sooner or later. Let's stick together and double our chances!</text>
+	</string>
+	<string id="alive_bes_0121">
+		<text>Yeah, that's what you think. We loners have to stick together and try to make living in the damn zone easier. Duty has it's own problems with Freedom. They fight relentlessly for what they think is right, but it doesn't help at all. It's up to us if you ask me.</text>
+	</string>
+	<string id="alive_bes_01210">
+		<text>Alright, whatever. See you around, Bes.</text>
+	</string>
+
+
+
+	<string id="alive_serij_0">
+		<text>Do you think the bandits will attack the hangar again soon?</text>
+	</string>
+	<string id="alive_serij_01">
+		<text>Do I think? I know it! They want this hangar, it's a good shelter, from the creatures of the zone and the zone itself. It's really desperate out here, fighting for ruined buildings that would be razed right away outside of the zone. Living in this place, having to look out for mutants, anomalies and people who want your loot is really pissing me off. If it wasn't for the money I'd try to get through the army cordon and as far away from this place as possible. But as long as there are people who buy artifacts for ridiculous amounts of money, I'll take advantage of that. Take Sammler for instance, they say he's been almost everywhere in the zone, collecting and buying artifacts. I bet he's selling them to the scientists for good profit. And I hear he's paying well. I hope he'll visit this dump sooner or later, I'd be one happy Stalker. Maybe you could ask the guards at the Duty outpost if he came through there?</text>
+	</string>
+	
+<!-- aliVe 1.5-->
+<string id="alive_serij_02">
+		<text>Listen I don't have time to answer the same questions over and over again, so do me a favor and go ask about this guy at the Duty outpost.</text>
+	</string>
+<!-- aliVe 1.5 end-->
+	
+	<string id="alive_serij_011">
+		<text>I'll try, see you.</text>
+	</string>
+	<string id="alive_serij_012">
+		<text>I don't like talking to those arrogant idiots.</text>
+	</string>
+	<string id="alive_serij_0121">
+		<text>Me neither, I hate those militant Duty dogs and they don't like me either. I guess they'd shoot me on sight. So please do me that favor, would you?</text>
+	</string>
+	<string id="alive_serij_01210">
+		<text>Like I said, I'm undecided. Bye.</text>
+	</string>
+	
+	<string id="alive_serij2_0">
+		<text>About the Duty outpost...</text>
+	</string>
+	<string id="alive_serij2_01">
+		<text>What about it? Did you get some information about this Sammler guy and if he came through there? But don't ask me for any rubels, rookie!</text>
+	</string>
+	<string id="alive_serij2_011">
+		<text>No, I didn't talk to them.</text>
+	</string>
+	<string id="alive_serij2_012">
+		<text>They told me, he came through the gate a couple of days ago.</text>
+	</string>
+	<string id="alive_serij2_0121">
+		<text>Damnit, it'll be some time before he comes back here then. Whatever, here's something for your efforts, rookie.</text>
+	</string>
+	<string id="alive_serij2_01210">
+		<text>Thanks, but stop calling me rookie!</text>
+	</string>
+	<string id="alive_serij2_013">
+		<text>Rubels, very nice idea. Come on, spit it out, or you won't get anything from me!</text>
+	</string>
+	<string id="alive_serij2_0131">
+		<text>Damn I can't believe it, blackmailed by a rookie. Here take it, now talk!</text>
+	</string>
+	<string id="alive_serij2_01310">
+		<text>No idea, but thanks for the money. Who's the rookie now, rookie?</text>
+	</string>
+	<string id="alive_serij2_01311">
+		<text>They told me, he came through the gate a couple of days ago, that's all I know. Bye.</text>
+	</string>
+
+	
+<!--:::::::::::::::::-->
+<!--ESCAPE-->
+<!--:::::::::::::::::-->
+<!-- aliVe 1.4 new-->
+<string id="alive_fox2_02">
+		<text>It's slowly getting better, since you brought me that medkit. Thanks again brother!</text>
+	</string>
+<!-- aliVe 1.4 new end-->
+
+	<string id="alive_doctor_0">
+		<text>Do you also sell information?</text>
+	</string>
+	<string id="alive_doctor_01">
+		<text>That depends. Ask away, if you can afford it. Knowledge is often more important than firearms or even artifacts. If you know the right people and the right places, you can get along pretty well in the zone. So if you need a piece of a puzzle or have to find someone, maybe I can help you.</text>
+	</string>
+	
+	<string id="alive_doctor_012">
+		<text>Okay, maybe I'll take you up on that.</text>
+	</string>
+	
+	<string id="alive_doctor_011">
+		<text>I need to know about a man named 'Doctor'. Where could I find him?</text>
+	</string>
+	<string id="alive_doctor_0110">
+		<text>I see, still at Strelok's heels. I can tell you where to find Doctor, but it's not the kind of information I can give you for free. 15.000 RU.</text>
+	</string>
+	<string id="alive_doctor_01101">
+		<text>That's what I call overpriced... Here you go, now tell me where I can find Doctor!</text>
+	</string>
+	<string id="alive_doctor_011010">
+		<text>Just trying to make a living, that's all, hehe. Doctor is not easy to find, since he's one of Strelok's group. If they don't want to be found, they propably won't. But they have a meeting place, so you're lucky. Go to the Agroprom and look for him in Strelok's stash. Doctor should be there.</text>
+	</string>
+	
+	<string id="alive_doctor_01102">
+		<text>15.000?! I don't have that kind of money. Maybe I'll be back later.</text>
+	</string>
+	<string id="alive_doctor_011020">
+		<text>Okay, but don't waste your time to ask elsewhere, this kind of information isn't easy to find. And some might even kill you for asking, so watch out.</text>
+	</string>
+	
+	
+	
+	<string id="alive_wolf_02">
+		<text>With the new equipment we definitely have better chances. But there are still more rookies than guns. Maybe you could give them some spare weapons, if you have any. They just don't have enough money to buy some.</text>
+	</string>
+	<string id="alive_wolf_020">
+		<text>I'll think about it when I have some spare guns.</text>
+	</string>
+
+	
+<!-- aliVe 1.4 end-->
+
+<!--STALKER aliVe modified dialogs-->	
+
+	<string id="alive_wolf_0">
+		<text>Wolf, how do you manage to defend this camp? Only you, plus a bunch of rookies with sawed off shotguns.</text>
+	</string>
+	<string id="alive_wolf_01">
+		<text>You're right, it's tough. I can only give crap to the rooks, mostly pistols and those shotguns. The problem is, that stalkers who get into the zone deep enough, almost never come back. Many get killed because they are too curious and greedy, others just don't have any reason to come back. We could really use some more firepower... Hey how about you help me out? Bring me an AK-74, either buy it from a trader or grab it from the cold hands of its former owner, it doesn't matter. It'll be worth it, I promise Marked One.</text>
+	</string>
+	<string id="alive_wolf_010">
+		<text>Hey Wolf, here's the AK-74.</text>
+	</string>
+		<string id="alive_wolf_0101">
+		<text>Thanks, Marked One. I'll put it to good use, I assure you. Here's your reward.</text>
+	</string>
+	<string id="alive_wolf_01010">
+		<text>Thanks, I'm glad I could help.</text>
+	</string>
+	<string id="alive_wolf_012">
+		<text>I'll see what I can do.</text>
+	</string>
+	
+	<string id="alive_wolf2_0">
+		<text>Heard anything about bandit activity in this region?</text>
+	</string>
+	<string id="alive_wolf2_01">
+		<text>They come in small raiding partys, but nothing we can't handle. I recently lost two guys though, a real shame. These guys here often have no idea what hit them. But there are enough replacements, since new faces arrive here almost every day.</text>
+	</string>
+	<string id="alive_wolf2_011">
+		<text>Let's hope they don't gather their forces then.</text>
+	</string>
+	<string id="alive_wolf2_012">
+		<text>I'm worried. I'm afraid, they're going to try and wipe us out completely. I've seen it in the Garbage, organized Bandit raids are really dangerous.</text>
+	</string>
+	<string id="alive_wolf2_0120">
+		<text>Why should they attack this camp, there are much more profitable places.</text>
+	</string>
+	<string id="alive_wolf2_01201">
+		<text>Right, but if they manage to take this camp, they'd control one of the main entrances to the zone... Sssh quiet! I heard something...</text>
+	</string>
+	<string id="alive_wolf2_01202">
+		<text>Believe me Marked One, I hope those scumbags know that too.</text>
+	</string>
+	
+	
+	<string id="alive_fox_0">
+		<text>Are you alright? You look really stressed out.</text>
+	</string>
+	<string id="alive_fox_01">
+		<text>I was in the Yantar marshes with three other guys, when suddenly something attacked us. It was one of those horrible things, big, almost invisible and hungry. It moved so fast and simply slaughtered the other three. They had no chance. I was retreating slowly and then started running, when I saw the beast feeding on their blood. I managed to get away and kept running until I reached the 100 Rads Bar. I tell you, there's something going on in the zone, because in the bar I heard that these horrible things have also been sighted here now. It was a shitty day, and the trip wasn't even worth it. This is the only thing I took with me. Here you can have it, I won't need it. I feel really bad, I think I catched something in the swamp...</text>
+	</string>
+	<string id="alive_fox_010">
+		<text>Thanks for the... thing. But... wait did you hear that?</text>
+	</string>
+		<string id="alive_fox_012">
+		<text>No man, I don't want that thing and I don't want to catch your disease, I'm out of here.</text>
+	</string>
+	
+	<string id="alive_fox2_0">
+		<text>Hey Fox, how's your injury?</text>
+	</string>
+	<string id="alive_fox2_01">
+		<text>The wounds are healing fine, but this disease I caught in Yantar hit me really bad, some kind of fever I think. Standard medkits don't help a bit. I need one of those scientific medkits, but I won't make it to the scientists' lab in Yantar. Could you help me please? I'll give you an automatic pistol, you won't find it anywhere else in the zone!</text>
+	</string>
+	<string id="alive_fox2_011">
+		<text>If I find one, you can have it. I hope you'll keep your word.</text>
+	</string>
+	<string id="alive_fox2_012">
+		<text>I've got one of those medkits for you.</text>
+	</string>
+	<string id="alive_fox2_0120">
+		<text>Oh man, I thought you'd never show up. I hope it's not too late. Take my gun, it's yours.</text>
+	</string>
+	<string id="alive_fox2_01201">
+		<text>Be well.</text>
+	</string>
+
+	
+	<string id="alive_nimble_0">
+		<text>Hey Nimble, how's life?</text>
+	</string>
+	<string id="alive_nimble_01">
+		<text>I'm worried. The zone is changing again. I heard stories of dangerous mutants, that normally only roam deep in the zone. Horrible creatures, not human, not animals. They say that these mutants can jump extremely far and rip everything to shreds with their claws. I've never seen something like that out here near the cordon yet, but apparently the bar was attacked by some of them recently.</text>
+	</string>
+	<string id="alive_nimble_010">
+		<text>Doesn't sound too good. Anyway, gotta go.</text>
+	</string>
+		<string id="alive_nimble_012">
+		<text>Don't believe everything some crazy stalker tells you.</text>
+	</string>
+<!--:::::::::::::::::-->
+<!--BAR-->
+<!--:::::::::::::::::-->
+	
+<!--STALKER aliVe modified dialogs-->
+	<string id="alive_hunter_0">
+		<text>That's a nasty scar you got there...</text>
+	</string>
+	<string id="alive_hunter_01">
+		<text>Pretty cool, huh? Makes me look a lot more dangerous, I like that.</text>
+	</string>
+	<string id="alive_hunter_011">
+		<text>Uh, well... yeah you look... well... where did you get that scar anyway?</text>
+	</string>
+	<string id="alive_hunter_012">
+		<text>I don't have time for this childish chat, bye.</text>
+	</string>
+	<string id="alive_hunter_0110">
+		<text>There was a battle at the west gate, you know, the border to the wild territory. There were strange creatures coming towards the guard post. Horrible things, not human, not animals.</text>
+	</string>
+	<string id="alive_hunter_01101">
+		<text>Strange creatures? What were they?</text>
+	</string>
+	<string id="alive_hunter_011010">
+		<text>I don't know, never seen anything like that before! They were sort of crawling and jumping. They looked kinda like humans with gasmasks, but it was their movement that really scared me. And the noises, I still can't sleep.</text>
+	</string>
+	<string id="alive_hunter_0110101">
+		<text>Sounds like a good story, but I think you made it up. Don't have time for this.</text>
+	</string>
+	<string id="alive_hunter_0110102">
+		<text>You're kidding me, right?</text>
+	</string>
+	<string id="alive_hunter_01101020">
+		<text>I kid you not man, it happened. They were charging at us from the wild territory, starting to rip the Duty guards to shreds. These things are unbelievably strong and have really sharp claws. One of them attacked the guard right next to me and it fucking tore his head off! I've never seen so much blood before!</text>
+	</string>
+	<string id="alive_hunter_011010201">
+		<text>Oh my God... what did you do?</text>
+	</string>
+	<string id="alive_hunter_0110102010">
+		<text>Well, I was petrified at first. But when I came to my senses, I took my shotgun and started to pump round after round into that thing. It went down after about four shots. I killed two more of them, before I ran out of ammo. I pulled out my knife and...</text>
+	</string>
+	<string id="alive_hunter_01101020101">
+		<text>Your knife? So you say that you fought a creature that can rip a man's head off with just a knife and you're still alive... Tell that to a rookie and brag with that scar. Bye.</text>
+	</string>
+	<string id="alive_hunter_01101020102">
+		<text>Ouch, bad situation. Go on.</text>
+	</string>
+	<string id="alive_hunter_011010201020">
+		<text>Well, I wouldn't be here, if a Dutyer didn't help me out. When I stuck my knife in the creature's chest it kinda went berserk and I got hit in the face. That's where I got the scar. I went down and thought I was gonna die right there, but then one of the last guards still alive opened fire and killed the thing. I tell you, backup is a nice thing to have in the zone!</text>
+	</string>
+	<string id="alive_hunter_0110102010201">
+		<text>Amazing story, I hope I'll never run into these creatures. Gotta go now, take care.</text>
+	</string>
+	<string id="alive_hunter_011010202">
+		<text>Disgusting!</text>
+	</string>
+	<string id="alive_hunter_0110102020">
+		<text>Yeah, it's giving me nightmares. Blood and guts all over the place, I'm telling you...</text>
+	</string>
+	<string id="alive_hunter_01101020201">
+		<text>Alright alright, I don't wanna hear this, gotta go.</text>
+	</string>
+	<string id="alive_hunter_01102">
+		<text>What were you doing in the wild territory?</text>
+	</string>
+	<string id="alive_hunter_011020">
+		<text>I was looking for artifacts and hunting some bloodsuckers. I met a guy there, his name was Gordon. That son of a bitch pretended to be a friend, but as soon as we found some artifacts, he clubbed me over the head with that crowbar he had with him. When I woke up, he was gone and all my stuff with him. He also took the rifle that my father gave me. Little scumbag, I hope he dies in an anomaly!</text>
+	</string>
+	<string id="alive_hunter_0110201">
+		<text>What kind of a name is "Gordon" anyway? What a douche! Anyhow, take care.</text>
+	</string>
+	<string id="alive_hunter_01103">
+		<text>Sounds like a long story, I don't have time for this, sorry.</text>
+	</string>
+
+<!--:::::::::::::::::-->
+<!--AGROPROM-->
+<!--:::::::::::::::::-->
+
+<!--STALKER aliVe modified dialogs-->
+<!-- aliVe 1.4 -->
+<string id="alive_maulwurf2_0">
+		<text>Mole, can you tell me anything interesting about the military base here?</text>
+	</string>
+	<string id="alive_maulwurf2_01">
+		<text>Not much. You know the military, they guard every entrance and they have patrols along the streets. It's damn hard to get inside the compound, they'll shoot you on sight. But if you ask me... it'd be worth it. I heard they keep secret documents in that base and I bet the traders would pay a great deal. But if you are smart, you don't go in there through the front gate, guns blazing. There is an underground passage that leads right into the base. I've been down there some time ago, it was creepy as hell, but empty so far. Don't rely on it though!</text>
+	</string>
+	
+	<string id="alive_maulwurf_02">
+		<text>We already discussed that. You know my point of view, Loners just live longer.</text>
+	</string>
+	
+<!-- aliVe 1.4 end-->
+	<string id="alive_maulwurf_0">
+		<text>Mole, why are you a loner? Why not join Duty or Freedom?</text>
+	</string>
+	<string id="alive_maulwurf_01">
+		<text>I'm staying neutral and that's what you should do too. Joining a faction has its advantages, but at a cost. The opposing faction's territory will be off limits for you and that makes getting through the zone as hard as it can get. If you survive the dangers of the zone itself, you still have to fight the faction in their own area. Shit, have you ever seen the Freedom base?</text>
+	</string>
+	<string id="alive_maulwurf_011">
+		<text>Never. Is it big?</text>
+	</string>
+	<string id="alive_maulwurf_0111">
+		<text>It's huge! They've got tanks for god's sake! Watchtowers, concrete walls, minefields and so on... it's an independent army of anarchists. You don't want them to be your enemy, trust me.</text>
+	</string>
+	<string id="alive_maulwurf_01111">
+		<text>Why not join Freedom then?</text>
+	</string>
+	<string id="alive_maulwurf_011111">
+		<text>Nah. I don't share their interests. I don't want the zone to be open for anyone. I don't like this place, it's like an evil, distorted version of the outside world. Can't be good to open it up and let it do its thing. I heard it's even expanding, can you imagine? Besides... If Duty hears that you joined Freedom, you'll have a hard time to get to the bar, won't you?</text>
+	</string>
+	<string id="alive_maulwurf_0111111">
+		<text>Thanks for the advice Mole. Take care.</text>
+	</string>
+	<string id="alive_maulwurf_012">
+		<text>Joining Duty is worth it. Their equipment is top of the notch!</text>
+	</string>
+	<string id="alive_maulwurf_013">
+		<text>Freedom has a fortress and many members who will look out for you. Plus they're not as stiff and arrogant as the Dutyers. I think joining them would be a good idea.</text>
+	</string>
+	<string id="alive_maulwurf_01230">
+		<text>Well, do as you like Marked One. I'm not your father. But think about it carefully, or the zone will claim your life sooner than you'd like.</text>
+	</string>
+	<string id="alive_maulwurf_012301">
+		<text>You're right, I'll choose carefully, if at all.</text>
+	</string>
+	<string id="alive_maulwurf_012302">
+		<text>I've made my choice. You can't stop me.</text>
+	</string>
+	
+<!--:::::::::::::::::-->
+<!--YANTAR-->
+<!--:::::::::::::::::-->
+<!--alive 1.4new-->
+<string id="alive_bunker_0">
+		<text>Professor, do you think the small bunch of Duty soldiers will be enough to protect you from the Zone?</text>
+	</string>
+	<string id="alive_bunker_01">
+		<text>No, but the rest of their men are dead, rotting in the swamps. Their bodies drift through the marshes, spreading the stench of decay. But then the next psi emission hits Yantar and soon the corpses start twitching and moving. When they're back on their feet, you can see their empty eyes, nothing human left in them. They start stalking the area, attacking everyone who's not yet one of them. That's indeed one question that catched my interest. Why don't they attack other mutants?</text>
+	</string>
+	<string id="alive_bunker_02">
+		<text>Listen, I really have to continue with my experiment. Is there anything else you want? If not, please excuse me, I'm working on a really fascinating project with a laser...</text>
+	</string>
+<!--alive 1.4new end-->
+	<string id="alive_bunker_011">
+		<text>Yes, there has to be some intelligence left in them, they also still use weapons.</text>
+	</string>
+	<string id="alive_bunker_0110">
+		<text>Yes Yes, there's evidence of intelligence. I'm glad that the cluster of burner anomalies blocks the path from Yantar to the wild territory and the Duty base. It would be devastating, if the zombies reached their base. Freedom would quickly take advantage of the situation and attack Duty's weakened position. It would end in a bloodbath.</text>
+	</string>
+	<string id="alive_bunker_01101">
+		<text>I wouldn't mind if the number of Duty soldiers was reduced a bit. Is there a way to disable or destroy those burner anomalies?</text>
+	</string>
+	<string id="alive_bunker_011010">
+		<text>So you're a follower of Freedom too. They are excellent customers and great help for my research. But their radical beliefs and the resulting war with Duty don't belong into the zone.</text>
+	</string>
+	<string id="alive_bunker_0110101">
+		<text>Dutyiers are the ones who are radical. They are stubborn and narrow sighted. The war has to be fought to show them that they are wrong.</text>
+	</string>
+	<string id="alive_bunker_0110102">
+		<text>I guess you're right, we need to work together in the zone or we won't survive.</text>
+	</string>
+	
+	<string id="alive_bunker_01102">
+		<text>I agree, those Freedom dogs would shamelessly use Duty's misery to gain the advantage. That can't happen, the anomalies are important for the Duty faction.</text>
+	</string>
+	<string id="alive_bunker_011020">
+		<text>So you're a supporter of Duty too? That's a shame, Freedom has serious flaws in their radical doctrine, but they are a lot more open minded, concerning my research. Don't get me wrong, you Dutyers do a great job in protecting people from the zone's dangers, I can't  complain. But just like Freedom, you people are just too narrow minded. The zone is not the place for war, it's a unique phenomenon and dangerous enough without the faction wars.</text>
+	</string>
+	<string id="alive_bunker_0110201">
+		<text>Maybe you're right and the zone isn't the place for the factions to fight it out.</text>
+	</string>
+	<string id="alive_bunker_0110202">
+		<text>Freedom chose the zone to fight in, Duty is just giving them what they asked for.</text>
+	</string>
+	
+	
+	<string id="alive_bunker_01103">
+		<text>Are the waves of zombies ever going to end?</text>
+	</string>
+	<string id="alive_bunker_011030">
+		<text>Not as long as there are all those greedy stalkers who try to loot the lab. At least one of them helped a scientist to get inside the lab. What was his name again...</text>
+	</string>
+	<string id="alive_bunker_0110301">
+		<text>Nevermind the name. What else can you tell me?</text>
+	</string>
+	
+	<string id="alive_bunker_012">
+		<text>So the original scientific team is down to just Kruglov and you?</text>
+	</string>
+	<string id="alive_bunker_0120">
+		<text>Unfortunately yes. My work becomes harder and harder because I'm really low on workers. That's why I pay quite good for artifacts and mutant parts.</text>
+	</string>
+	<string id="alive_bunker_01201">
+		<text>Good to know.</text>
+	</string>
+	
+	<string id="alive_bunker2_0">
+		<text>Professor, do you still need artifacts?</text>
+	</string>
+	<string id="alive_bunker2_01">
+		<text>I need several rare artifacts to finish my latest project and start testing. If you come across the artifacts called "Mama's Beads" and "Battery", I would be grateful if you bring them by. I really need those to start the test cycles of my new project. Maybe I could give it to you for testing purposes. It is a weapon.</text>
+	</string>
+	<string id="alive_bunker2_011">
+		<text>Good to know, professor. I'll see what I can do for you.</text>
+	</string>
+	<string id="alive_bunker2_012">
+		<text>Here are the artifacts. Can I have the weapon?</text>
+	</string>
+
+</string_table>

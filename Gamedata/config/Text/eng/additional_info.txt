@@ -1,0 +1,18 @@
+Only one word has changed in the stable_dialogs_military.xml. So, no need to translate or merge the whole thing.
+
+The line that changed is:
+
+<string id="mil_guard_arsenal_dialog_1000">
+	<text>Halt! Access to the arsenal is restricted to Freedom leaders only.</text>
+</string>
+------------------------------------------------------------
+
+On suit added to string_table_outfit.xml
+
+<string id="bandit_outfit_name_master">
+	<text>Bandit long black coat</text>
+</string>
+
+<string id="bandit_outfit_description_master">
+	<text>A long black coat, liked and used by many experienced bandits. It doesn't give very good protection, but makes you look classy.</text>
+</string>

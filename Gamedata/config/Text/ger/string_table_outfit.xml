@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+	<string id="bandit_outfit_description">
+		<text>Traditional outfit of a bandit - a leather jacket with Kevlar elements. Provides protection highly insufficient for the Zone's severe conditions.</text>
+	</string>
+	<string id="bandit_outfit_description_m">
+		<text>Common weak bandit body armor with mail plates sewn in its backing. Almost everyone can make one, but not everyone by far will have enough patience to.</text>
+	</string>
+	<string id="bandit_outfit_name">
+		<text>Bandit jacket</text>
+	</string>
+	<string id="bandit_outfit_name_m">
+		<text>Mail jacket</text>
+	</string>
+	<string id="dolg_outfit_description">
+		<text>Produced by one of Kiev's defense research institutes and commissioned by the Duty faction. It is as simple and reliable as the standard PSZ-9 model, but due to the new materials, it provides good protection from various harmful impacts, including firearm damage. The vest still needs some work because it has no breathing protection system.</text>
+	</string>
+	<string id="dolg_outfit_description_m1">
+		<text>Duty armor suit with enhanced protection against bites and cuts.</text>
+	</string>
+	<string id="dolg_outfit_name">
+		<text>PSZ-9d Duty Armor</text>
+	</string>
+	<string id="dolg_outfit_name_m1">
+		<text>Hunter PSZ-9d</text>
+	</string>
+	<string id="dolg_scientific_outfit_description">
+		<text>A wonderful protective suit for the Zone. Stalkers appreciate it because it combines excellent anomaly-proof and bullet-proof qualities. It includes the PSZ-9d suit, a closed cycle breathing system and an integrated system of anomalous field suppression. It provides quality bullet and splinter protection.</text>
+	</string>
+	<string id="dolg_scientific_outfit_name">
+		<text>PSZ-9Md Universal Protection</text>
+	</string>
+	<string id="ecolog_outfit_description">
+		<text>A SSP-99 chemical protection suit specially designed for the Zone conditions. It is used by scientific expeditions and the eco-Stalkers who cooperate with them. It has an integrated air-filtering and air-conditioning system. It is heat- and electricity-resistant, provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments. It is not designed for combat, so it provides neither bullet, nor splinter protection.</text>
+	</string>
+	<string id="ecolog_outfit_name">
+		<text>SSP-99 Ecologist</text>
+	</string>
+	<string id="exo_outfit_description">
+		<text>A military exoskeleton prototype. It never went into serial production, because of extreme cost and some design flaws. It is however produced in small batches in small illegal factories outside of the Ukraine. This is a third generation exoskeleton. The design defects which used to decrease its mobility were eliminated and the armor was reinforced. It provides excellent bullet and splinter protection. It has a low level of anomaly protection.</text>
+	</string>
+	<string id="exo_outfit_description_m1">
+		<text>Basic device for night vision is replaced by a more modern model with a digital filtration of the signal sent.</text>
+	</string>
+	<string id="exo_outfit_name">
+		<text>Exoskeleton</text>
+	</string>
+	<string id="killer_outfit_description">
+		<text>Stalker suit from the Merc faction. Its design is based on the suit used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof suits.</text>
+	</string>
+	<string id="killer_outfit_description_m1">
+		<text>There is chain mail sewn into the lining of the coat, which raises the level of protection against firearm attacks and monster bites. A PNV is also included in the set.</text>
+	</string>
+	<string id="killer_outfit_name">
+		<text>Merc suit</text>
+	</string>
+	<string id="killer_outfit_name_m1">
+		<text>Reinforced suit</text>
+	</string>
+	<string id="military_outfit_description">
+		<text>This Skat-9M bulletproof military suit is designed for assault operations in areas of anomalous activity. It includes a PSZ-12p heavy military bulletproof suit, an integrated compensation suit, and a Sphere-12M helmet. It provides perfect protection from bullets and splinters and it doesn't decrease the soldier's mobility. It has a balanced system of anomaly protection.</text>
+	</string>
+	<string id="military_outfit_name">
+		<text>Military armored suit</text>
+	</string>
+	<string id="monolit_outfit_description">
+		<text>Stalker suit from the Monolith faction. The producer is unknown. Its protective properties are slightly lower than those of the PSZ-9a military bulletproof vest. Its structure is similar to the suit popular with neutral Stalkers which combines a bulletproof vest and a radiation protection suit. It provides good protection from gunfire. Its level of anomaly protection is low due to the absence of an air filtering system.</text>
+	</string>
+	<string id="monolit_outfit_name">
+		<text>Monolith suit</text>
+	</string>
+	<string id="novice_outfit_description_m">
+		<text>They took this coat off of the body of one of the Stalkers who died in the anomaly "Fruit Punch." Having laid a long time in the anomaly, the coat obtained the ability to speed up metabolism.</text>
+	</string>
+	<string id="novice_outfit_name_m">
+		<text>Skinner anomaly</text>
+	</string>
+	<string id="outfit_soldier_description">
+		<text>An ordinary thick jacket, one of the many. It slightly increases bullet and splinter protection. It does not protect from anomalies and other effects.</text>
+	</string>
+	<string id="outfit_soldier_name">
+		<text>Leather jacket</text>
+	</string>
+	<string id="protection_outfit_description">
+		<text>High quality modified SSP-99 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body.</text>
+	</string>
+	<string id="protection_outfit_name">
+		<text>SSP-99M suit</text>
+	</string>
+	<string id="scientific_outfit_description">
+		<text>This suit was produced by one of Kiev's defense research institutes and represents an excellent alternative to Stalker hand-made suits. It is an excellent combination of an bulletproof vest, a closed cycle breathing system and an integrated system of anomalous field suppression. Due to the perfect balance of the materials, it is a good choice. The only disadvantage is its price.</text>
+	</string>
+	<string id="scientific_outfit_name">
+		<text>SEVA suit</text>
+	</string>
+	<string id="specnaz_outfit_description_m1">
+		<text>The fabric of the suit is saturated with a streptozoidal lotion, which speeds up the healing of wounds.</text>
+	</string>
+	<string id="specnaz_outfit_name_m1">
+		<text>Healing Berill</text>
+	</string>
+	<string id="specops_outfit_description">
+		<text>A Berill-5M special forces suit modified for the Zone environment. It includes a PSZ-9a military bulletproof vest with beryllium coating and a Sphere-08 helmet. It is designed for assault operations in areas with high background radiation. Its level of anomaly protection is low.</text>
+	</string>
+	<string id="specops_outfit_name">
+		<text>Berill-5M armored suit</text>
+	</string>
+	<string id="stalker_outfit_description">
+		<text>Stalker suit manufactured by "folk craftsmen." It is an effective combination of a light military bulletproof vest and of a rubberized fabric suit. It is reinforced with inserted Kevlar plates and provides good protection from weak gunfire. All in all it is highly inefficient for carrying out deep raids and serious operations in the knots of the Zone.</text>
+	</string>
+	<string id="stalker_outfit_description_m1">
+		<text>Rumor has it that the Stalker called Ghost never carries a first aid kit with him. Everything heals on him like on a dog. They say that he has an unusual suit that he got from an anomaly.</text>
+	</string>
+	<string id="stalker_outfit_description_m2">
+		<text>The former owner of this thing was a real tourist and, it seems, often went on very difficult hiking trips - on the verge of human endurance. He knew how to correctly distribute the weight that he carried, and which things to give preference to. The coat pockets and the educated choice of the backpack allow its owner to carry a heavy weight.</text>
+	</string>
+	<string id="stalker_outfit_name">
+		<text>Stalker suit</text>
+	</string>
+	<string id="stalker_outfit_name_m1">
+		<text>Ghost Suit</text>
+	</string>
+	<string id="stalker_outfit_name_m2">
+		<text>Tourist Suit</text>
+	</string>
+	<string id="svoboda_heavy_outfit_description">
+		<text>Reinforced Stalker suit produced by the gunsmiths of the Freedom faction. It is made up of a medium military bulletproof vest plated with reinforcing zirconium elements which provide good protection from rifle bullets and splinters from medium and long range. The material of the suit consists of two layers: specially treated leather and fabric with asbestos yarn. The suit provides good protection from radiation and various weak anomalies.</text>
+	</string>
+	<string id="svoboda_heavy_outfit_name">
+		<text>Guardian of Freedom suit</text>
+	</string>
+	<string id="svoboda_light_outfit_description">
+		<text>Light Stalker suit produced by the gunsmiths of the Freedom faction. It consists of a light military bulletproof vest with reinforcing Kevlar plates. It can protect from weak weapons. The fabric of the suit is treated with a special mixture which increases anomaly activity resistance.</text>
+	</string>
+	<string id="svoboda_light_outfit_name">
+		<text>Wind of Freedom suit</text>
+	</string>
+	<string id="mp_exo_outfit_description">
+		<text>The exoskeleton protects marvelously from bullet and splinter fire, however it lowers mobility. It is vulnerable to armor-piercing bullets.</text>
+	</string>
+	<string id="mp_exo_outfit_name">
+		<text>Exoskeleton PNB-4UZ</text>
+	</string>
+	<string id="mp_military_outfit_description">
+		<text>This Army bulletproof suit was created for carrying out storming operations. Provides an excellent source of protection from bullet and splinter fire without lowering the mobility of the soldier. Vulnerable to armor-piercing bullets.</text>
+	</string>
+	<string id="mp_military_outfit_name">
+		<text>Army bulletproof suit</text>
+	</string>
+	<string id="mp_scientific_outfit_description">
+		<text>This particular bodysuit is designed for carrying out research in the Zone. It has a breathing system with a closed cycle, as well as a built-in system for nullifying the activity of anomalous fields, thanks to which it protects marvelously from anomalies. Very vulnerable due to the weak protection. Has a built-in container for transporting artifacts.</text>
+	</string>
+	<string id="mp_scientific_outfit_name">
+		<text>Scientific bodysuit</text>
+	</string>
+	
+	
+<!-- ################ -->
+<!-- LURK ARMOR START -->
+<!-- ################ -->
+	
+	<string id="lurk_name_outfit_mercenary">
+		<text>Mercenary Suit</text>
+	</string>
+	<string id="lurk_desc_outfit_mercenary">
+		<text>
+%c[255,203,50,0]Bullet Protection: 20%\n
+%c[255,203,50,0]Explosion Protection: 25%\n
+%c[255,178,75,0]Rupture Resistance: 30%\n
+%c[255,203,50,0]Impact Resistance: 20%\n
+%c[255,178,75,0]Radiation Protection: 30%\n
+%c[255,178,75,0]Burn Resistance: 30%\n
+%c[255,203,50,0]Chemical Burn Resistance: 20%\n
+%c[255,178,75,0]Shock Resistance: 30%\n
+%c[default]A suit of protective armor worn by the mercenary faction. Consists of several layers of flexible nylon, reinforced with weaved kevlar, boron carbide and ceramic plates, providing a balance of protection from projectiles and anomalies, and ease of mobility.</text>
+	</string>
+
+	<string id="lurk_name_outfit_monolith">
+		<text>Monolith Suit</text>
+	</string>
+	<string id="lurk_desc_outfit_monolith">
+		<text>
+%c[255,152,100,0]Bullet Protection: 40%\n
+%c[255,152,100,0]Explosion Protection: 40%\n
+%c[255,152,100,0]Rupture Resistance: 40%\n
+%c[255,127,125,0]Impact Resistance: 50%\n
+%c[255,127,125,0]Radiation Protection: 50%\n
+%c[255,127,125,0]Burn Resistance: 50%\n
+%c[255,127,125,0]Chemical Burn Resistance: 50%\n
+%c[255,102,150,0]Shock Resistance: 60%\n
+%c[default]This armor is standard issue to the Monolith faction. It is crafted with fanatical precision and attention to detail, and decorated with only a single sewn image of the Monolith on the sleeve. The materials used in the armour are light yet durable, and are unidentifiable to all of the scientists of the Zone. What is known of this suit is that it provides good physical and elemental protection.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_military">
+		<text>Beryl-5M Armor</text>
+	</string>
+	<string id="lurk_desc_outfit_military">
+		<text>
+%c[255,178,75,0]Bullet Protection: 35%\n
+%c[255,152,100,0]Explosion Protection: 40%\n
+%c[255,152,100,0]Rupture Resistance: 40%\n
+%c[255,203,50,0]Impact Resistance: 20%\n
+%c[255,178,75,0]Radiation Protection: 30%\n
+%c[255,178,75,0]Burn Resistance: 30%\n
+%c[255,178,75,0]Chemical Burn Resistance: 30%\n
+%c[255,178,75,0]Shock Resistance: 30%\n
+%c[255,0,0,255]Basic Nightvision.\n
+%c[default]This suit is standard issue to the Ukrainian military. Its construction consists of multiple interwoven ceramic plates over the torso designed to protect against physical damage, an impact-treated protective polymer covering other reigons of the body, and a kevlar helmet with an intergrated light amplification system.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_specops">
+		<text>PZAD-23 Armor</text>
+	</string>
+	<string id="lurk_desc_outfit_specops">
+		<text>
+%c[255,152,100,0]Bullet Protection: 40%\n
+%c[255,77,175,0]Explosion Protection: 70%\n
+%c[255,77,175,0]Rupture Resistance: 70%\n
+%c[255,52,200,0]Impact Resistance: 80%\n
+%c[255,77,175,0]Radiation Protection: 70%\n
+%c[255,102,150,0]Burn Resistance: 60%\n
+%c[255,127,125,0]Chemical Burn Resistance: 50%\n
+%c[255,77,175,0]Shock Resistance: 70%\n
+%c[255,0,0,255]Basic Nightvision.\n
+%c[default]This suit is issued to the elite forces of Spetsnaz within the Ukrainian military. It is designed with mobility in mind with flexible woven fabrics, but also utilizes high-tech protection, such as reinforced ballistic plates, fine-mesh kevlar and ceramics divided into overlapping segments to absorb impacts, and a gel layer in the helmet to protect the cranium from harsh blows.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_stalker">
+		<text>Stalker Suit</text>
+	</string>
+	<string id="lurk_desc_outfit_stalker">
+		<text>
+%c[255,178,75,0]Bullet Protection: 30%\n
+%c[255,178,75,0]Explosion Protection: 30%\n
+%c[255,152,100,0]Rupture Resistance: 40%\n
+%c[255,127,125,0]Impact Resistance: 50%\n
+%c[255,127,125,0]Radiation Protection: 50%\n
+%c[255,127,125,0]Burn Resistance: 50%\n
+%c[255,127,125,0]Chemical Burn Resistance: 50%\n
+%c[255,127,125,0]Shock Resistance: 50%\n
+%c[255,0,0,255]Basic Nightvision.\n
+%c[default]A suit created by a crafter working within the Zone, designed with the general Stalker in mind. As production is not regulated, most suits have small differences depending upon the crafter's preferences, but generally they all provide good protection from weapons and anomalies.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_scientific">
+		<text>SEVA Suit</text>
+	</string>
+	<string id="lurk_desc_outfit_scientific">
+		<text>
+%c[255,152,100,0]Bullet Protection: 40%\n
+%c[255,127,125,0]Explosion Protection: 50%\n
+%c[255,127,125,0]Rupture Resistance: 50%\n
+%c[255,127,125,0]Impact Resistance: 50%\n
+%c[255,0,255,0]Radiation Protection: 90%\n
+%c[255,52,200,0]Burn Resistance: 80%\n
+%c[255,77,175,0]Chemical Burn Resistance: 70%\n
+%c[255,0,255,0]Shock Resistance: 90%\n
+%c[255,80,80,255]Advanced Nightvision.\n
+%c[default]The SEVA (Special Environment Ventilating Armor) suit is an armor developed as a prototype for the Ukrainian military scientists to survive while scouting and documenting the Zone. It utilizes a ballistic protection suit combined with a self-replenishing closed oxygen supply and boron carbide fibres, to protect the wearer from a range of threats. The suit was developed in limited supply, so it is very rare and expensive.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_exo">
+		<text>XKEP Exoskeleton Armor</text>
+	</string>
+	<string id="lurk_desc_outfit_exo">
+		<text>
+%c[255,102,150,0]Bullet Protection: 60%\n
+%c[255,52,200,0]Explosion Protection: 80%\n
+%c[255,52,200,0]Rupture Resistance: 80%\n
+%c[255,0,255,0]Impact Resistance: 90%\n
+%c[255,0,255,0]Radiation Protection: 90%\n
+%c[255,52,200,0]Burn Resistance: 80%\n
+%c[255,77,175,0]Chemical Burn Resistance: 70%\n
+%c[255,0,255,0]Shock Resistance: 90%\n
+%c[255,0,0,255]Basic Nightvision.\n
+%c[255,0,0,255]Movement Restriction.\n
+%c[255,0,0,255]+20KG Inventory Capacity.\n
+%c[default]This armor is a prototype heavy suit for Ukrainian explosive ordinance disposal teams. It features a highly protective construction from large blocks of kevlar and steel, plating for exposed body parts, and a gel impact layer to absorb the deadly impact of an explosion. The exoskeleton also has pneumatic joints to help ease the burden upon the wearer, but this restricts mobility, disallowing rapid movement such as sprinting.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_freedomlight">
+		<text>Guardian of Freedom Suit</text>
+	</string>
+	<string id="lurk_desc_outfit_freedomlight">
+		<text>
+%c[255,178,75,0]Bullet Protection: 30%\n
+%c[255,203,50,0]Explosion Protection: 25%\n
+%c[255,178,75,0]Rupture Resistance: 30%\n
+%c[255,127,125,0]Impact Resistance: 50%\n
+%c[255,127,125,0]Radiation Protection: 50%\n
+%c[255,178,75,0]Burn Resistance: 30%\n
+%c[255,127,125,0]Chemical Burn Resistance: 50%\n
+%c[255,127,125,0]Shock Resistance: 50%\n
+%c[default]This suit is crafted by and issued to Freedom members. It is light and somewhat ragtag, cobbled together from a number of different materials and occasionally held together with tape, and is adorned with colorful anti-establishmentarian symbols and slogans.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_freedomheavy">
+		<text>Angel of Freedom Suit</text>
+	</string>
+	<string id="lurk_desc_outfit_freedomheavy">
+		<text>
+%c[255,152,100,0]Bullet Protection: 40%\n
+%c[255,152,100,0]Explosion Protection: 45%\n
+%c[255,127,125,0]Rupture Resistance: 50%\n
+%c[255,102,150,0]Impact Resistance: 60%\n
+%c[255,127,125,0]Radiation Protection: 50%\n
+%c[255,127,125,0]Burn Resistance: 50%\n
+%c[255,127,125,0]Chemical Burn Resistance: 50%\n
+%c[255,127,125,0]Shock Resistance: 50%\n
+%c[255,0,0,255]Basic Nightvision.\n
+%c[default]This suit is crafted by Freedom and worn by officers and high ranking members of the faction. Consisting of a military vest overlaid with a reinforced protective exoskeleton painted in bright colors, it functions well at protecting the user from the Zone's dangers, and offering a high margin of maneuverability.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_dutylight">
+		<text>PZD-9 Duty Armor</text>
+	</string>
+	<string id="lurk_desc_outfit_dutylight">
+		<text>
+%c[255,152,100,0]Bullet Protection: 40%\n
+%c[255,152,100,0]Explosion Protection: 40%\n
+%c[255,127,125,0]Rupture Resistance: 50%\n
+%c[255,127,125,0]Impact Resistance: 50%\n
+%c[255,127,125,0]Radiation Protection: 50%\n
+%c[255,127,125,0]Burn Resistance: 50%\n
+%c[255,127,125,0]Chemical Burn Resistance: 50%\n
+%c[255,127,125,0]Shock Resistance: 50%\n
+%c[255,0,0,255]Basic Nightvision.\n
+%c[default]This suit is standard issue to Duty soldiers. Commissioned and produced by the Kiev Defense Research Institute (KDRI), it utilizes a modified Ukrainian ballistic vest, reinforced with kevlar mesh and ceramic plating, and features a light amplification unit.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_dutyheavy">
+		<text>PAZD Duty Universal Protection Suit</text>
+	</string>
+	<string id="lurk_desc_outfit_dutyheavy">
+		<text>
+%c[255,152,100,0]Bullet Protection: 40%\n
+%c[255,127,125,0]Explosion Protection: 50%\n
+%c[255,127,125,0]Rupture Resistance: 50%\n
+%c[255,127,125,0]Impact Resistance: 50%\n
+%c[255,0,255,0]Radiation Protection: 90%\n
+%c[255,52,200,0]Burn Resistance: 80%\n
+%c[255,77,175,0]Chemical Burn Resistance: 70%\n
+%c[255,0,255,0]Shock Resistance: 90%\n
+%c[255,80,80,255]Advanced Nightvision.\n
+%c[default]A suit issued to the scientists and ecologists of Duty who study the Zone. It is based on a modified version of the standard PZD-9 armor, including a closed circuit oxygen filter, and boron carbide weave to protect the wearer from radiation and anomalies as well as firearms and physical impacts.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_ecologist">
+		<text>SRIZA Hazard Suit</text>
+	</string>
+	<string id="lurk_desc_outfit_ecologist">
+		<text>
+%c[255,203,50,0]Bullet Protection: 20%\n
+%c[255,152,100,0]Explosion Protection: 40%\n
+%c[255,229,25,0]Rupture Resistance: 15%\n
+%c[255,127,125,0]Impact Resistance: 50%\n
+%c[255,0,255,0]Radiation Protection: 90%\n
+%c[255,0,255,0]Burn Resistance: 90%\n
+%c[255,0,255,0]Chemical Burn Resistance: 90%\n
+%c[255,0,255,0]Shock Resistance: 90%\n
+%c[255,80,80,255]Advanced Nightvision.\n
+%c[default]A suit developed by the Scientific Research Institute of the Zone of Alienation (SRIZA). It is constructed from a polymer body coat, threaded with hafnium to absorb and reflect anomalous hazards, and uses a closed circuit breathing filter to reduce the effects of radiation.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_protection">
+		<text>PKL Protective Armor</text>
+	</string>
+	<string id="lurk_desc_outfit_protection">
+		<text>
+%c[255,152,100,0]Bullet Protection: 40%\n
+%c[255,102,150,0]Explosion Protection: 60%\n
+%c[255,127,125,0]Rupture Resistance: 50%\n
+%c[255,127,125,0]Impact Resistance: 50%\n
+%c[255,0,255,0]Radiation Protection: 90%\n
+%c[255,0,255,0]Burn Resistance: 90%\n
+%c[255,0,255,0]Chemical Burn Resistance: 90%\n
+%c[255,0,255,0]Shock Resistance: 90%\n
+%c[255,80,80,255]Advanced Nightvision.\n
+%c[default]The PKL suit uses a reinforced scientific hazard suit reinforced with kevlar and ceramic plating to protect the wearer from projectiles and other physical impacts, alongside anomalies and other hazards.</text>
+	</string>
+	
+	<string id="lurk_name_outfit_militarystalker">
+		<text>Military Stalker Armor</text>
+	</string>
+	<string id="lurk_desc_outfit_militarystalker">
+		<text>
+%c[255,0,255,0]Bullet Protection: 100%\n
+%c[255,0,255,0]Explosion Protection: 100%\n
+%c[255,0,255,0]Rupture Resistance: 100%\n
+%c[255,0,255,0]Impact Resistance: 100%\n
+%c[255,0,255,0]Radiation Protection: 100%\n
+%c[255,0,255,0]Burn Resistance: 100%\n
+%c[255,0,255,0]Chemical Burn Resistance: 100%\n
+%c[255,0,255,0]Shock Resistance: 100%</text>
+	</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</string_table>

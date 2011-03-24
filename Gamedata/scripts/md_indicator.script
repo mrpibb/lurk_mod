@@ -1,0 +1,97 @@
+--------Health and Stamina Screen Effects by MarteenDee------------
+--Script based on Denizsi Dynamic Hud Elements by Cihan Beþiktepe--
+
+------------------------------------------------------------------------------------------- 
+--called from bind_stalker.script
+--c1 and c0 are alpha/color values from 0 to 255
+--hp1 and hp0 are obj values in range 0.0 to 1.0 or in any range obj may have
+--xxx_var is any unique named dynamic value for math test
+--xa xr xg xb are texture tint and alpha settings -- might be anything from 0 to 255
+--or might be calculated through return_argb_csx function
+--return_argb_csx function might be used in all local values not only to change opacity 
+--accordlingly to the obj value but also to change channel colour intensity
+--texture is called from ui_custom_msgs.xml
+--------------------------------------------------------------------------------------------
+function return_argb_csx(c1,c0,hp1,hp0,obj)
+	dbh = obj
+	if dbh < hp0 then
+		return c0
+	elseif dbh <= hp1 and dbh >= hp0 then
+		hpx = 1 / (hp1 - hp0)
+		dbh = dbh - hp0
+		return math.floor((dbh * hpx) * (c1 - c0)) + c0
+	else
+		return c1
+	end
+end
+------------------------------------------------------------------------
+function wounded(obj,img_xml_ref)
+	if blood_var == nil then
+		blood_var = 0
+		local hud = get_hud()
+		hud:AddCustomStatic(img_xml_ref, true)
+	else
+		if blood_var ~= obj then
+			if obj >= 0 then
+				local hud = get_hud()
+				hud = hud:GetCustomStatic(img_xml_ref):wnd()
+				local xa = return_argb_csx(0,255,0.7,0.0,obj)
+				local xr = 255
+				local xg = 50
+				local xb = 75
+				hud:SetColor(GetARGB(xa,xr,xg,xb,obj))
+				blood_var = obj
+			end
+		end
+	end
+end
+------------------------------------------------------------------------
+function power(obj,img_xml_ref)
+	if speed_var == nil then
+		speed_var = 0
+		local hud = get_hud()
+		hud:AddCustomStatic(img_xml_ref, true)
+	else
+		if speed_var ~= obj then
+			if obj >= 0 then
+				local hud = get_hud()
+				hud = hud:GetCustomStatic(img_xml_ref):wnd()
+				local xa = return_argb_csx(0,200,0.5,0.1,obj)
+				local xr = 0
+				local xg = 0
+				local xb = 0
+				hud:SetColor(GetARGB(xa,xr,xg,xb,obj))
+				speed_var = obj
+			end
+		end
+	end
+end
+-------------------------------------------------------------------------------
+function irradiated(obj,img_xml_ref)
+	if geiger_var == nil then
+		geiger_var = 0
+		local hud = get_hud()
+		hud:AddCustomStatic(img_xml_ref, true)
+		hud = hud:GetCustomStatic(img_xml_ref):wnd()
+				local xa = 0
+				local xr = 0
+				local xg = 0
+				local xb = 0
+				hud:SetColor(GetARGB(xa,xr,xg,xb,obj))
+				geiger_var = obj
+	else
+		if geiger_var ~= obj then
+			 if obj >= 0 then
+				 local hud = get_hud()
+				 hud = hud:GetCustomStatic(img_xml_ref):wnd()
+				 local xa = return_argb_csx(150,0,0.8,0.1,obj)
+				 local xr = 28
+				 local xg = 28
+				 local xb = 5
+				 hud:SetColor(GetARGB(xa,xr,xg,xb,obj))
+				 geiger_var = obj
+			end	
+     	end
+	end
+end
+-------------------------------------------------------------------------------

@@ -1,0 +1,13 @@
+function main()
+local actor = db.actor
+local actor_id = actor:id()
+local actor_position = actor:position()
+
+	local function drop_item(item)
+		if item ~= nil then
+			alife():release(alife():object(item:id()), true)
+		end
+	end
+	
+db.actor:inventory_for_each(drop_item)
+end

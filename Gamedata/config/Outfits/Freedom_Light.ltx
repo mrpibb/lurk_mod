@@ -1,0 +1,62 @@
+[freedom_light_base]
+; delete full_scale_icon	next update- obsolete, use  full_icon_name instead !!!
+
+additional_inventory_weight		= 0	; +max_walk_weight
+additional_inventory_weight2	= 0	;	+40 kg
+full_icon_name					= npc_icon_without_outfit
+
+
+[svoboda_light_lurk_outfit]:freedom_light_base
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn 			= "outfit\svoboda_light_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\svoboda_light_suit
+actor_visual	= actors\hero\stalker_svoboda_light.ogf
+
+ef_equipment_type	= 3
+
+inv_name			= lurk_name_outfit_freedomlight
+inv_name_short		= lurk_name_outfit_freedomlight
+description			= lurk_desc_outfit_freedomlight
+inv_weight			= 3.0
+inv_grid_width		= 3
+inv_grid_height		= 4
+inv_grid_x			= 34
+inv_grid_y			= 20
+full_icon_name		= npc_icon_svoboda_light_outfit
+
+cost				= 50000
+slot				= 6
+full_scale_icon		= 10,11			;икБEБE сталБEра БEБEстюБE БEБEБEый рост
+
+immunities_sect			= sect_svoboda_light_outfit_immunities
+
+nightvision_sect	= effector_nightvision_tactical_bad
+
+; LOW RESISTANCE
+burn_protection 			= 0.1
+strike_protection 			= 0.1
+shock_protection 			= 0.0
+wound_protection			= 0.1
+radiation_protection 			= 0.25
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.05
+explosion_protection 			= 0.1
+fire_wound_protection  			= 0.10
+
+power_loss = 0.77
+bones_koeff_protection = gilet_mask_damage
+
+[sect_svoboda_light_outfit_immunities]
+burn_immunity				= 0.0001			;БEэффициеыQБEимБEыGтета саБEго БEстюБE
+strike_immunity				= 0.00001
+shock_immunity				= 0.0001
+wound_immunity				= 0.00001
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.0001
+explosion_immunity			= 0.0001
+fire_wound_immunity			= 0.075

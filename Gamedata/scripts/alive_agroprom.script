@@ -1,0 +1,235 @@
+--STALKER aliVe
+--by gannebamm www.oblivion-lost.de
+--AGROPROM SCRIPTS
+--------------------------------------------------------------------- PREACONDITIONS :
+------------------------------------------------------------------- REWARDS & TRADES :
+--------------------------------------------------------------------------- SPAWNING :
+-- orig from PROTON @ GSC-FORUM : THX to you for youre help !
+-- edited by gannebamm
+
+--INITIALIZE CONSOLE
+local logf_console = nil
+
+function logf( fmt, ... )
+	logf_console = get_console()
+	logf = logf_main
+	logf_main( fmt, ... )
+end
+
+function logf_main( fmt, ... )
+    local c = select( "#", ... )
+    if c <= 0 then -- nothing to format
+        logf_console:execute( ":" .. string.gsub( fmt, " ", "\160" ) )
+    else
+        logf_console:execute( ":" .. string.gsub( string.format( fmt, ... ), " ", "\160" ) )
+    end
+end
+
+--'END of init console
+
+-- MUTANT / NPC SPAWNING
+-- LISTE VON MONSTERn DIE SPAWNEN :
+-- snork_weak / normal
+-- sucker_weak / normal
+-- boar_strong / rest?
+-- dog_strong / rest ?
+-- flesh_strong / rest ?
+-- gigant_strong / rest ?
+-- m_poltergeist_strong_flame / m_poltergeist_normal_tele (doesnt attack!)
+-- tushkano_normal (is for all other NSCs and Mutants neutral, were not been attacked by others then the player!)
+-- pseudodog_strong / rest ?
+-- stalker_trader / Stalker with antigas Armor and bm-16 : roaming the zone
+----------------------------------- MAULWURF-alive-EVENT 1 -------------------------------
+--' BEGINN of SPAWNfunction
+function maulwurf1_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+
+	--' logf("start adding fleshs")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -38
+		z_offset =  99
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y,
+                    position.z + z_offset
+                )
+
+		alife():create("flesh_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("flesh_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "fleshs %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_maulwurf1_spawn ( actor, npc )
+
+	--' logf("init_spawn_maulwurf1() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point1 = db.actor:position()
+	--'specific location : 
+	maulwurf1_spawn( spawn_point1, 2 )
+	
+	--' logf("init_spawn_maulwurf1() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END maulwurf1-alive-EVENT ---------------------------------
+----------------------------------- MAULWURF-alive-EVENT 2 -------------------------------
+--' BEGINN of SPAWNfunction
+function maulwurf2_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 10, 10 --' x and y coordinates
+        local height = 0
+
+	--' logf("start adding stalkers")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = math.random(-(area_longitude),(area_longitude))
+		z_offset = math.random(-(area_latitude),(area_latitude))
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("gar_stalker_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("gar_stalker_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "stalkers %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_maulwurf2_spawn ( actor, npc )
+
+	--' logf("init_spawn_maulwurf2() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point2 = vector():set( 29, 1, -3 ) -- inmitten Agroproms, kämpfen gegen die Specnaz
+	maulwurf2_spawn( spawn_point2, 3 )
+	
+	--' logf("init_spawn_maulwurf2() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END maulwurf2-alive-EVENT ---------------------------------
+----------------------------------- MAULWURF-alive-EVENT 3 -------------------------------
+--' BEGINN of SPAWNfunction
+function maulwurf3_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+
+	--' logf("start adding pdog_strong")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+		alife():create("pseudodog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "pdog_strong %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_maulwurf3_spawn ( actor, npc )
+
+	--' logf("init_spawn_maulwurf3() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point3 = vector():set( -109, 1, -180 ) --Bei den Militärs
+	maulwurf3_spawn( spawn_point3, 4 )
+	
+	--' logf("init_spawn_maulwurf3() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END maulwurf1-alive-EVENT ---------------------------------
+----------------------------------- MAULWURF-alive-EVENT 4 -------------------------------
+--' BEGINN of SPAWNfunction
+function maulwurf4_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local height = 3
+
+	--' logf("start adding boarchim")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = -38
+		z_offset =  99
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("boar_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("chimera_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "boarchim %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_maulwurf4_spawn ( actor, npc )
+
+	--' logf("init_spawn_maulwurf4() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point4 = db.actor:position()
+	maulwurf4_spawn( spawn_point4, 1 )
+	
+	--' logf("init_spawn_maulwurf4() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END maulwurf4-alive-EVENT ---------------------------------
