@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>
+
+<!--:::::::::::::::::-->
+<!--STALKER.aliVe 1.4-->
+<!--:::::::::::::::::-->
+<!--:::::::::::::::::::::::::::::::::-->
+<!--only implements the aliVe dialogs-->
+<!--NOT any modified vanilla dialogs-->
+<!--:::::::::::::::::::::::::::::::::-->
+
+<!--:::::::::::::::::-->
+<!--::::YANTAR::::-->
+<!--:::::::::::::::::-->
+<dialog id="alive_bunker">
+        <phrase_list>
+           <phrase id="0">
+                <text>alive_bunker_0</text>
+				<next>01</next>
+				<next>02</next>
+            </phrase>
+			<!--aliVe 1.4 new-->
+			<phrase id="02">
+                <text>alive_bunker_02</text>
+				<has_info>esc_zombie_rise2</has_info>
+            </phrase>
+			<!--aliVe 1.4 new end-->
+			<phrase id="01">
+                <text>alive_bunker_01</text>
+				<dont_has_info>esc_zombie_rise2</dont_has_info>
+				<next>011</next>
+				<next>012</next>
+            </phrase>
+			<phrase id="011">
+                <text>alive_bunker_011</text>
+				<next>0110</next>
+            </phrase>
+			<phrase id="0110">
+                <text>alive_bunker_0110</text>
+				<next>01101</next>
+				<next>01102</next>
+				<next>01103</next>
+            </phrase>
+			<phrase id="01101">
+                <text>alive_bunker_01101</text>
+				<next>011010</next>
+            </phrase>
+			<phrase id="011010">
+                <text>alive_bunker_011010</text>
+				<next>0110101</next>
+				<next>0110102</next>
+            </phrase>
+			<phrase id="0110101">
+				<action>alive_yantar.init_bunker1_spawn</action>
+				<!--aliVe 1.4 new--><give_info>esc_zombie_rise2</give_info><!--aliVe 1.4 new-->
+                <text>alive_bunker_0110101</text>
+            </phrase>
+			<phrase id="0110102">
+                <text>alive_bunker_0110102</text>
+            </phrase>
+			
+			
+			<phrase id="01102">
+                <text>alive_bunker_01102</text>
+				<next>011020</next>
+            </phrase>
+			<phrase id="011020">
+                <text>alive_bunker_011020</text>
+				<action>alive_yantar.init_bunker2_spawn</action>
+				<!--aliVe 1.4 new--><give_info>esc_zombie_rise2</give_info><!--aliVe 1.4 new-->
+				<next>0110201</next>
+				<next>0110202</next>
+            </phrase>
+			<phrase id="0110201">
+                <text>alive_bunker_0110201</text>
+            </phrase>
+			<phrase id="0110202">
+                <text>alive_bunker_0110202</text>
+            </phrase>
+			
+			<phrase id="01103">
+                <text>alive_bunker_01103</text>
+				<next>011030</next>
+            </phrase>
+			<phrase id="011030">
+                <text>alive_bunker_011030</text>
+				<action>alive_yantar.init_bunker3_spawn</action>
+				<!--aliVe 1.4 new--><give_info>esc_zombie_rise2</give_info><!--aliVe 1.4 new-->
+				<next>0110301</next>
+            </phrase>
+			<phrase id="0110301">
+                <text>alive_bunker_0110301</text>
+            </phrase>
+			
+			<phrase id="012">
+                <text>alive_bunker_012</text>
+				<precondition>alive_yantar.bunker_check2</precondition>
+				<next>0120</next>
+            </phrase>
+			<phrase id="0120">
+                <text>alive_bunker_0120</text>
+				<action>alive_yantar.init_bunker4_spawn</action>
+				<!--aliVe 1.4 new--><give_info>esc_zombie_rise2</give_info><!--aliVe 1.4 new-->
+				<next>01201</next>
+            </phrase>
+			<phrase id="01201">
+                <text>alive_bunker_01201</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+	<dialog id="alive_bunker2">
+        <phrase_list>
+           <phrase id="0">
+                <text>alive_bunker2_0</text>
+				<next>01</next>
+            </phrase>
+			<phrase id="01">
+                <text>alive_bunker2_01</text>
+				<next>011</next>
+				<next>012</next>
+            </phrase>
+			<phrase id="011">
+                <text>alive_bunker2_011</text>
+			</phrase>
+			<phrase id="012">
+                <text>alive_bunker2_012</text>
+				<precondition>alive_yantar.bunker_check1</precondition>
+				<action>alive_yantar.bunker_trade</action>
+			</phrase>
+        </phrase_list>
+    </dialog>
+	
+<!--:::::::::::::::::-->
+<!--::::AGROPROM::::-->
+<!--:::::::::::::::::-->
+<!-- aliVe 1.4 -->
+<dialog id="alive_maulwurf2">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_maulwurf2_0</text>
+                <next>01</next>
+            </phrase>
+			<phrase id="01">
+                <text>alive_maulwurf2_01</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+<!-- aliVe 1.4 end -->
+	<dialog id="alive_maulwurf">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_maulwurf_0</text>
+                <next>01</next>
+				<!-- aliVe 1.4 --><next>02</next><!-- aliVe 1.4 -->
+            </phrase>
+			<!-- aliVe 1.4 -->
+			<phrase id="02">
+                <text>alive_maulwurf_02</text>
+<has_info>test_info_4</has_info>
+            </phrase>
+			<!-- aliVe 1.4 end -->
+			
+            <phrase id="01">
+                <text>alive_maulwurf_01</text>
+				<!-- aliVe 1.4 --><dont_has_info>test_info_4</dont_has_info><!-- aliVe 1.4 -->
+                <next>011</next>
+				<next>012</next>
+				<next>013</next>
+            </phrase>
+            <phrase id="011">
+                <text>alive_maulwurf_011</text>
+                <next>0111</next>
+            </phrase>
+            <phrase id="0111">
+                <text>alive_maulwurf_0111</text>
+                <next>01111</next>
+            </phrase>
+			<phrase id="01111">
+                <text>alive_maulwurf_01111</text>
+                <next>011111</next>
+            </phrase>
+			<phrase id="011111">
+                <text>alive_maulwurf_011111</text>
+				<action>alive_agroprom.init_maulwurf1_spawn</action>
+				<!-- aliVe 1.4 --><give_info>test_info_4</give_info><!-- aliVe 1.4 -->
+            </phrase>
+			<phrase id="0111111">
+                <text>alive_maulwurf_0111111</text>
+<!-- aliVe 1.4 --><give_info>test_info_4</give_info><!-- aliVe 1.4 -->
+            </phrase>
+            <phrase id="012">
+                <text>alive_maulwurf_012</text>
+				<action>alive_agroprom.init_maulwurf2_spawn</action>
+				<!-- aliVe 1.4 --><give_info>test_info_4</give_info><!-- aliVe 1.4 -->
+				<next>01230</next>
+            </phrase>
+			<phrase id="013">
+                <text>alive_maulwurf_013</text>
+				<action>alive_agroprom.init_maulwurf3_spawn</action>
+				<!-- aliVe 1.4 --><give_info>test_info_4</give_info><!-- aliVe 1.4 -->
+				<next>01230</next>
+            </phrase>
+			<phrase id="01230">
+                <text>alive_maulwurf_01230</text>
+				<next>012301</next>
+				<next>012302</next>
+            </phrase>
+			<phrase id="012301">
+                <text>alive_maulwurf_012301</text>
+				<action>alive_agroprom.init_maulwurf4_spawn</action>
+				<!-- aliVe 1.4 --><give_info>test_info_4</give_info><!-- aliVe 1.4 -->
+            </phrase>
+			<phrase id="012302">
+                <text>alive_maulwurf_012302</text>
+				<action>alive_agroprom.init_maulwurf5_spawn</action>
+				<!-- aliVe 1.4 --><give_info>test_info_4</give_info><!-- aliVe 1.4 -->
+            </phrase>
+        </phrase_list>
+    </dialog>
+	
+<!--:::::::::::::::::-->
+<!--::::BAR::::-->
+<!--:::::::::::::::::-->
+	<dialog id="alive_hunter">
+        <phrase_list>
+        <phrase id="0">
+                <text>alive_hunter_0</text>
+				<next>01</next> 
+        </phrase>
+        <phrase id="01">
+                <text>alive_hunter_01</text>
+                <next>011</next>
+				<next>012</next>
+        </phrase>
+		<phrase id="012">
+                <text>alive_hunter_012</text>
+                <action>dialogs.break_dialog</action>
+		</phrase>
+			<phrase id="011">
+                <text>alive_hunter_011</text>
+				<next>0110</next>
+            </phrase>
+			<phrase id="0110">
+                <text>alive_hunter_0110</text>
+				<next>01101</next>
+				<next>01102</next>
+				<next>01103</next>
+			</phrase>
+			<phrase id="01103">
+                <text>alive_hunter_01103</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="01101">
+                <text>alive_hunter_01101</text>
+				<next>011010</next>
+			</phrase>
+			<phrase id="011010">
+                <text>alive_hunter_011010</text>
+				<next>0110101</next>
+				<next>0110102</next>
+			</phrase>
+			<phrase id="0110101">
+                <text>alive_hunter_0110101</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="0110102">
+                <text>alive_hunter_0110102</text> 
+				<next>01101020</next>
+			</phrase>
+			<phrase id="01101020">
+                <text>alive_hunter_01101020</text>
+				<next>011010201</next>
+				<next>011010202</next>
+			</phrase>
+			<phrase id="011010201">
+                <text>alive_hunter_011010201</text>
+				<next>0110102010</next> 
+			</phrase>
+			<phrase id="0110102010">
+                <text>alive_hunter_0110102010</text> 
+				<next>01101020101</next>
+				<next>01101020102</next>
+			</phrase>
+			<phrase id="01101020101">
+                <text>alive_hunter_01101020101</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="01101020102">
+                <text>alive_hunter_01101020102</text>
+				<precondition>alive_bar.hunter_check</precondition>
+				<next>011010201020</next>
+			</phrase>
+			<phrase id="011010201020">
+                <text>alive_hunter_011010201020</text>
+				<next>0110102010201</next>
+			</phrase>
+			<phrase id="0110102010201">
+                <text>alive_hunter_0110102010201</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="011010202">
+                <text>alive_hunter_011010202</text>
+				<next>0110102020</next>
+			</phrase>
+			<phrase id="0110102020">
+                <text>alive_hunter_0110102020</text>
+				<next>01101020201</next> 
+			</phrase>
+			<phrase id="01101020201">
+                <text>alive_hunter_01101020201</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="01102">
+                <text>alive_hunter_01102</text> 
+			    <next>011020</next>
+			</phrase>
+			<phrase id="011020">
+                <text>alive_hunter_011020</text> 
+			    <next>0110201</next>
+			</phrase>
+			<phrase id="0110201">
+                <text>alive_hunter_0110201</text>
+			    <action>dialogs.break_dialog</action>
+			</phrase>
+        </phrase_list>
+    </dialog>
+
+	
+<!--:::::::::::::::::-->
+<!--::::ESCAPE::::-->
+<!--:::::::::::::::::-->	
+<!-- aliVe 1.4-->
+<dialog id="alive_doctor" priority="2">
+        <phrase_list>
+		
+            <phrase id="0">
+                <text>alive_doctor_0</text>
+                <next>01</next>
+            </phrase>
+			
+			<phrase id="01">
+                <text>alive_doctor_01</text>
+                <next>011</next>
+				<next>012</next>
+            </phrase>
+			
+			<phrase id="012">
+                <text>alive_doctor_012</text>
+            </phrase>
+			
+			<phrase id="011">
+                <text>alive_doctor_011</text>
+				<has_info>yan_has_ghost_pda</has_info>
+				<dont_has_info>esc_find_doctor_start</dont_has_info>
+                <next>0110</next>
+            </phrase>
+			
+			<phrase id="0110">
+                <text>alive_doctor_0110</text>
+				<next>01101</next>
+				<next>01102</next>
+            </phrase>
+			
+			<phrase id="01101">
+                <text>alive_doctor_01101</text>
+				<precondition>alive_escape.trader_check</precondition>
+				<action>alive_escape.trader_money</action>
+				<next>011010</next>
+            </phrase>
+			<phrase id="011010">
+                <text>alive_doctor_011010</text>
+				<give_info>esc_find_doctor_start</give_info>
+            </phrase>
+			
+			<phrase id="01102">
+                <text>alive_doctor_01102</text>
+				<next>011020</next>
+            </phrase>
+			<phrase id="011020">
+                <text>alive_doctor_011020</text>
+            </phrase>
+			
+			
+        </phrase_list>
+</dialog>
+<!-- aliVe 1.4 end-->
+
+
+<dialog id="alive_wolf" priority="2">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_wolf_0</text>
+                <next>01</next>
+				<next>02</next>
+            </phrase>
+			
+			<!-- aliVe 1.4-->
+			 <phrase id="02">
+                <text>alive_wolf_02</text>
+	<has_info>esc_matugalnik_off</has_info>
+                <next>020</next>
+            </phrase>
+			<phrase id="020">
+                <text>alive_wolf_020</text>
+            </phrase>
+			<!-- aliVe 1.4-->
+			
+            <phrase id="01">
+                <text>alive_wolf_01</text>
+<!-- aliVe 1.4-->	<dont_has_info>esc_matugalnik_off</dont_has_info> <!-- aliVe 1.4-->
+                <next>010</next>
+				<next>012</next>
+            </phrase>
+            <phrase id="010">
+                <text>alive_wolf_010</text>
+				<precondition>alive_escape.wolf_check</precondition>
+				<next>0101</next>
+            </phrase>
+			 <phrase id="0101">
+                <text>alive_wolf_0101</text>
+			<!-- aliVe 1.4-->	<give_info>esc_matugalnik_off</give_info><!-- aliVe 1.4-->
+				<action>alive_escape.wolf_item</action>
+				<action>alive_escape.wolf_money</action>
+				<next>01010</next>
+            </phrase>
+				<phrase id="01010">
+                <text>alive_wolf_01010</text>
+            </phrase>
+			<phrase id="012">
+                <text>alive_wolf_012</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+	
+	<dialog id="alive_wolf2" priority="2">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_wolf2_0</text>
+                <next>01</next>
+            </phrase>
+			 <phrase id="01">
+                <text>alive_wolf2_01</text>
+                <next>011</next>
+				<next>012</next>
+            </phrase>
+			<phrase id="011">
+                <text>alive_wolf2_011</text>
+            </phrase>
+			<phrase id="012">
+                <text>alive_wolf2_012</text>
+				<has_info>escape_stalker_done</has_info>
+				<next>0120</next>
+            </phrase>
+			<phrase id="0120">
+                <text>alive_wolf2_0120</text>
+				<next>01201</next>
+				<next>01202</next>
+            </phrase>
+			<phrase id="01201">
+                <text>alive_wolf2_01201</text>
+				<action>alive_escape.init_wolfa_spawn2</action>
+				<action>alive_escape.init_wolfb_spawn2</action>
+				<action>alive_escape.wolf2_check</action>
+				<action>dialogs.break_dialog</action>
+            </phrase>
+			<phrase id="01202">
+                <text>alive_wolf2_01202</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+	<dialog id="alive_fox" priority="2">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_fox_0</text>
+                <next>01</next>
+            </phrase>
+            <phrase id="01">
+                <text>alive_fox_01</text>
+                <next>010</next>
+				<next>012</next>
+            </phrase>
+            <phrase id="010">
+                <text>alive_fox_010</text>
+				<action>alive_escape.fox_item</action>
+				<precondition>alive_escape.fox_check</precondition>
+				<action>alive_escape.init_fox_spawn</action>
+				<action>dialogs.break_dialog</action>
+            </phrase>
+			<phrase id="012">
+                <text>alive_fox_012</text>
+				<action>dialogs.break_dialog</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+	
+	<dialog id="alive_fox2" priority="2">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_fox2_0</text>
+                <next>01</next>
+				<next>02</next>
+            </phrase>
+			<phrase id="01">
+                <text>alive_fox2_01</text>
+				<dont_has_info>test_info_5</dont_has_info>
+				<next>011</next>
+				<next>012</next>
+            </phrase>
+			
+			<phrase id="02">
+                <text>alive_fox2_02</text>
+				<has_info>test_info_5</has_info>
+            </phrase>
+			
+			<phrase id="011">
+                <text>alive_fox2_011</text>
+            </phrase>
+			<phrase id="012">
+                <text>alive_fox2_012</text>
+				<precondition>alive_escape.fox2_check</precondition>
+				<next>0120</next>
+            </phrase>
+			<phrase id="0120">
+                <text>alive_fox2_0120</text>
+				<action>alive_escape.fox_weapon</action>
+				<give_info>test_info_5</give_info>
+				<next>01201</next>
+            </phrase>
+			<phrase id="01201">
+                <text>alive_fox2_01201</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+	
+		<dialog id="alive_nimble" priority="2">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_nimble_0</text>
+                <next>01</next>
+            </phrase>
+            <phrase id="01">
+                <text>alive_nimble_01</text>
+                <next>010</next>
+				<next>012</next>
+            </phrase>
+            <phrase id="010">
+                <text>alive_nimble_010</text>
+				<!-- aliVe 1.4-->	<dont_has_info>escape_dynamite_start</dont_has_info><!-- aliVe 1.4-->
+				<!-- aliVe 1.4-->	<give_info>escape_dynamite_start</give_info><!-- aliVe 1.4-->
+				<precondition>alive_escape.nimble_check</precondition>
+				<action>alive_escape.init_nimble_spawn</action>
+				<action>dialogs.break_dialog</action>
+            </phrase>
+			<phrase id="012">
+                <text>alive_nimble_012</text>
+				<action>dialogs.break_dialog</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+	
+<!--:::::::::::::::::-->
+<!--::::GARBAGE::::-->
+<!--:::::::::::::::::-->	
+		<dialog id="alive_duty">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_duty_0</text>
+				<next>01</next>
+<!--aliVe 1.5-->				<next>02</next> <!--aliVe 1.5-->
+            </phrase>
+			
+	<!--aliVe 1.5-->		<phrase id="02">
+	<!--aliVe 1.5-->		<text>alive_duty_02</text>
+	<!--aliVe 1.5-->		<has_info>escape_dynamite_meet</has_info>
+    <!--aliVe 1.5-->        </phrase>
+			
+			<phrase id="01">
+                <text>alive_duty_01</text>
+<!--aliVe 1.5-->			<dont_has_info>escape_dynamite_meet</dont_has_info> <!--aliVe 1.5-->
+                <next>011</next>
+				<next>012</next>
+            </phrase>
+			<phrase id="011">
+                <text>alive_duty_011</text>
+				<action>dialogs.break_dialog</action>
+            </phrase>
+			<phrase id="012">
+                <text>alive_duty_012</text>
+				<has_info>garbage_meetstalker_done</has_info>
+                <next>0121</next>
+			</phrase>
+			<phrase id="0121">
+                <text>alive_duty_0121</text>
+				<!-- aliVe 1.4-->	<give_info>escape_dynamite_meet</give_info><!-- aliVe 1.4-->
+				<next>01210</next>
+				<next>01211</next>
+			</phrase>
+			<phrase id="01210">
+                <text>alive_duty_01210</text>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="01211">
+                <text>alive_duty_01211</text>
+				<action>alive_garbage.init_duty_spawn</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+        </phrase_list>
+    </dialog>
+
+		<dialog id="alive_bes">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_bes_0</text>
+				<next>01</next>
+				<next>02</next>
+<!-- aliVe 1.5-->				<next>03</next> <!-- aliVe 1.5-->
+            </phrase>
+			
+			<!-- aliVe 1.4-->
+			<phrase id="02">
+                <text>alive_bes_02</text>
+				<!-- aliVe 1.5-->	<dont_has_info>gar_test_info2</dont_has_info> <!-- aliVe 1.5-->
+				<dont_has_info>gar_hellcar_dialog_end</dont_has_info>
+            </phrase>
+			<!-- aliVe 1.4end-->
+			
+<!-- aliVe 1.5-->			<phrase id="03">
+<!-- aliVe 1.5-->				<text>alive_bes_03</text>
+<!-- aliVe 1.5-->				<has_info>gar_test_info2</has_info>
+<!-- aliVe 1.5-->					</phrase>
+			
+            <phrase id="01">
+                <text>alive_bes_01</text>
+				<has_info>gar_bandits_killed</has_info>
+				<!-- aliVe 1.5-->	<dont_has_info>gar_test_info2</dont_has_info> <!-- aliVe 1.5-->
+                <next>011</next>
+				<next>012</next>
+            </phrase>
+			
+			<phrase id="011">
+                <text>alive_bes_011</text>
+				<action>alive_garbage.bes_check</action>
+				<action>alive_garbage.init_bes2a_spawn</action>
+				<action>alive_garbage.init_bes2b_spawn</action>
+		<!-- aliVe 1.5 hotfix#1-->		<!-- aliVe 1.5--><give_info>gar_test_info2</give_info><!-- aliVe 1.5--><!-- aliVe 1.5 hotfix#1-->
+            </phrase>
+			<phrase id="012">
+                <text>alive_bes_012</text>
+			<!-- aliVe 1.5-->	<dont_has_info>gar_test_info2</dont_has_info> <!-- aliVe 1.5-->
+                <next>0121</next>
+			</phrase>
+			<phrase id="0121">
+                <text>alive_bes_0121</text>
+				<action>alive_garbage.init_bes_spawn</action>
+				<next>01210</next>
+			</phrase>
+			<phrase id="01210">
+                <text>alive_bes_01210</text>
+				<!-- aliVe 1.5--><give_info>gar_test_info2</give_info><!-- aliVe 1.5-->
+				<action>dialogs.break_dialog</action>
+			</phrase>
+        </phrase_list>
+    </dialog>
+
+	<dialog id="alive_serij">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_serij_0</text>
+				<next>01</next>
+<!-- aliVe 1.5-->			<next>02</next> <!-- aliVe 1.5-->	
+            </phrase>
+			
+<!-- aliVe 1.5-->			<phrase id="02">
+<!-- aliVe 1.5-->                <text>alive_serij_02</text>
+<!-- aliVe 1.5 hotfix#1-->                <has_info>bar_arena_bloodsucker_defeated</has_info><!-- aliVe 1.5-->
+<!-- aliVe 1.5-->            </phrase>
+			
+            <phrase id="01">
+                <text>alive_serij_01</text>
+<!-- aliVe 1.5 hotfix#1-->                <dont_has_info>bar_arena_bloodsucker_defeated</dont_has_info><!-- aliVe 1.5-->
+				<next>011</next>
+				<next>012</next>
+            </phrase>
+			<phrase id="011">
+                <text>alive_serij_011</text>
+<!-- aliVe 1.5 hotfix#1-->				<give_info>bar_arena_bloodsucker_defeated</give_info><!-- aliVe 1.5-->
+            </phrase>
+			<phrase id="012">
+                <text>alive_serij_012</text>
+                <next>0121</next>
+			</phrase>
+			<phrase id="0121">
+                <text>alive_serij_0121</text>
+				<action>alive_garbage.init_serij_spawn</action>
+				<next>01210</next>
+			</phrase>
+			<phrase id="01210">
+                <text>alive_serij_01210</text>
+<!-- aliVe 1.5-->				<give_info>bar_arena_bloodsucker_defeated</give_info><!-- aliVe 1.5-->
+			</phrase>
+        </phrase_list>
+    </dialog>
+	
+	<dialog id="alive_serij2">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_serij2_0</text>
+				<next>01</next>
+				<next>02</next>
+            </phrase>
+			
+			<!-- aliVe 1.4-->
+			<phrase id="02">
+                <text>alive_serij2_02</text>
+	<has_info>test_info_1</has_info>
+            </phrase>
+			<!-- aliVe 1.4-->
+			
+            <phrase id="01">
+                <text>alive_serij2_01</text>
+<!-- aliVe 1.4-->	<dont_has_info>test_info_1</dont_has_info><!-- aliVe 1.4-->
+                <next>011</next>
+				<next>012</next>
+				<next>013</next>
+            </phrase>
+			<phrase id="011">
+                <text>alive_serij2_011</text>
+            </phrase>
+			<phrase id="012">
+                <text>alive_serij2_012</text>
+				<!-- aliVe 1.4-->	<has_info>escape_dynamite_meet</has_info><!-- aliVe 1.4-->
+				<!-- aliVe 1.4-->	<give_info>test_info_1</give_info><!-- aliVe 1.4-->
+                <next>0121</next>
+			</phrase>
+			<phrase id="0121">
+                <text>alive_serij2_0121</text>
+				<action>alive_garbage.serij2_money</action>
+				<next>01210</next>
+			</phrase>
+			<phrase id="01210">
+                <text>alive_serij2_01210</text>
+			</phrase>
+			<phrase id="013">
+                <text>alive_serij2_013</text>
+                <next>0131</next>
+			</phrase>
+			<phrase id="0131">
+                <text>alive_serij2_0131</text>
+				<action>alive_garbage.serij_money</action>
+				<next>01310</next>
+				<next>01311</next>
+			</phrase>
+			<phrase id="01310">
+                <text>alive_serij2_01310</text>
+				<!-- aliVe 1.4-->	<give_info>test_info_1</give_info><!-- aliVe 1.4-->
+				<action>alive_garbage.init_serij2_spawn</action>
+			</phrase>
+			<phrase id="01311">
+                <text>alive_serij2_01311</text>
+				<!-- aliVe 1.4-->	<has_info>escape_dynamite_meet</has_info><!-- aliVe 1.4-->
+				<!-- aliVe 1.4-->	<give_info>test_info_1</give_info><!-- aliVe 1.4-->
+			</phrase>
+        </phrase_list>
+    </dialog>
+
+<!--:::::::::::::::::-->
+<!--::::MILITARY::::-->
+<!--:::::::::::::::::-->
+<dialog id="alive_cook">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_cook_0</text>
+                <next>01</next>
+				<next>02</next>
+            </phrase>
+            <phrase id="01">
+                <text>alive_cook_01</text>
+				<!-- aliVe 1.4--><dont_has_info>test_info_2</dont_has_info><!-- aliVe 1.4-->
+                <next>011</next>
+				<next>012</next>
+            </phrase>
+			<!-- aliVe 1.4-->
+			<phrase id="02">
+                <text>alive_cook_02</text>
+				<has_info>test_info_2</has_info>
+            </phrase>
+			<!-- aliVe 1.4end-->
+			<phrase id="012">
+                <text>alive_cook_012</text>
+				<precondition>alive_military.cook1_check</precondition>
+				<next>0120</next>
+            </phrase>
+            <phrase id="0120">
+				<action>alive_military.cook1_item</action>
+				<action>alive_military.init_cook1a_spawn</action>
+				<action>alive_military.init_cook1b_spawn</action>
+				<!-- aliVe 1.4--><give_info>test_info_2</give_info><!-- aliVe 1.4-->
+                <text>alive_cook_0120</text>
+            </phrase>
+			
+			
+			<phrase id="011">
+                <text>alive_cook_011</text>
+                <next>0110</next>
+            </phrase>
+			<phrase id="0110">
+                <text>alive_cook_0110</text>
+                <next>01101</next>
+				<next>01102</next>
+            </phrase>
+			<phrase id="01101">
+                <text>alive_cook_01101</text>
+				<action>alive_military.init_cook3a_spawn</action>
+				<action>alive_military.init_cook3b_spawn</action>
+				<!-- aliVe 1.4--><give_info>test_info_2</give_info><!-- aliVe 1.4-->
+                <next>011010</next>
+            </phrase>
+			<phrase id="011010">
+                <text>alive_cook_011010</text>
+            </phrase>
+			
+			<phrase id="01102">
+                <text>alive_cook_01102</text>
+                <next>011020</next>
+            </phrase>
+			<phrase id="011020">
+                <text>alive_cook_011020</text>
+				<action>alive_military.init_cook2a_spawn</action>
+				<action>alive_military.init_cook2b_spawn</action>
+				<!-- aliVe 1.4--><give_info>test_info_2</give_info><!-- aliVe 1.4-->
+                <next>0110201</next>
+				<next>0110202</next>
+            </phrase>
+			<phrase id="0110201">
+                <text>alive_cook_0110201</text>
+                <next>01102010</next>
+            </phrase>
+			<phrase id="01102010">
+                <text>alive_cook_01102010</text>
+            </phrase>
+			
+			<phrase id="0110202">
+                <text>alive_cook_0110202</text>
+				<preacondition>alive_military.cook2_check</preacondition>
+                <next>01102020</next>
+            </phrase>
+			<phrase id="01102020">
+                <text>alive_cook_01102020</text>
+                <next>011020201</next>
+				<next>011020202</next>
+            </phrase>
+			<phrase id="011020201">
+                <text>alive_cook_011020201</text>
+				<action>alive_military.init_cook4a_spawn</action>
+				<action>alive_military.init_cook4b_spawn</action>
+				<!-- aliVe 1.4--><give_info>test_info_2</give_info><!-- aliVe 1.4-->
+            </phrase>
+			<phrase id="011020202">
+                <text>alive_cook_011020202</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+	<dialog id="alive_max">
+        <phrase_list>
+            <phrase id="0">
+                <text>alive_max_0</text>
+                <next>01</next>
+				<next>02</next>
+            </phrase>
+			
+			
+			<!-- aliVe 1.4-->
+			<phrase id="02">
+                <text>alive_max_02</text>
+				<!-- aliVe 1.4--><has_info>test_info_3</has_info><!-- aliVe 1.4-->
+            </phrase>
+			<!-- aliVe 1.4end-->
+			
+			
+            <phrase id="01">
+                <text>alive_max_01</text>
+				<!-- aliVe 1.4--><dont_has_info>test_info_3</dont_has_info><!-- aliVe 1.4-->
+                <next>011</next>
+				<next>012</next>
+            </phrase>
+			<phrase id="011">
+                <text>alive_max_011</text>
+                <next>0110</next>
+            </phrase>
+			<phrase id="0110">
+                <text>alive_max_0110</text>
+				<action>alive_military.init_max1_spawn</action>
+				<!-- aliVe 1.4--><give_info>test_info_3</give_info><!-- aliVe 1.4-->
+                <next>01101</next>
+				<next>01102</next>
+            </phrase>
+			<phrase id="01101">
+                <text>alive_max_01101</text>
+                <next>011010</next>
+            </phrase>
+			<phrase id="011010">
+                <text>alive_max_011010</text>
+            </phrase>
+			
+			<phrase id="01102">
+                <text>alive_max_01102</text>
+				<action>alive_military.init_max3a_spawn</action>
+				<action>alive_military.init_max3b_spawn</action>
+				<!-- aliVe 1.4--><give_info>test_info_3</give_info><!-- aliVe 1.4-->
+                <next>011020</next>
+            </phrase>
+			<phrase id="011020">
+                <text>alive_max_011020</text>
+            </phrase>
+			
+			<phrase id="012">
+                <text>alive_max_012</text>
+				<preacondition>alive_military.max_check</preacondition>
+				<action>alive_military.init_max2a_spawn</action>
+				<action>alive_military.init_max2b_spawn</action>
+				<!-- aliVe 1.4--><give_info>test_info_3</give_info><!-- aliVe 1.4-->
+                <next>0120</next>
+            </phrase>
+			<phrase id="0120">
+                <text>alive_max_0120</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+</game_dialogs>

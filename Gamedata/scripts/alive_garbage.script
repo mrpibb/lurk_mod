@@ -1,0 +1,352 @@
+--STALKER aliVe BETA
+--by gannebamm www.oblivion-lost.de
+--GARBAGE SCRIPTS
+--------------------------------------------------------------------- PREACONDITIONS :
+
+--MONEY
+
+local money_amount_x = 6800
+function duty_check( actor, npc )
+	if db.actor:money() >= money_amount_x then 
+		return true
+	end
+	return false
+end
+
+--ITEM
+
+function bes_check( actor, npc )
+	if actor:object("wpn_mp5") then 
+		return false
+	end
+	return true
+end
+
+------------------------------------------------------------------- REWARDS & TRADES :
+--MONEY
+
+function duty_money (trader, actor)
+	dialogs.relocate_money(trader, 6800, "out")
+end
+
+function serij_money (trader, actor)
+	dialogs.relocate_money(trader, 400, "in")
+end
+
+function serij2_money (trader, actor)
+	dialogs.relocate_money(trader, 850, "in")
+end
+--------------------------------------------------------------------------- SPAWNING :
+-- orig from PROTON @ GSC-FORUM : THX to you for youre help !
+-- edited by gannebamm
+
+--INITIALIZE CONSOLE
+local logf_console = nil
+
+function logf( fmt, ... )
+	logf_console = get_console()
+	logf = logf_main
+	logf_main( fmt, ... )
+end
+
+function logf_main( fmt, ... )
+    local c = select( "#", ... )
+    if c <= 0 then -- nothing to format
+        logf_console:execute( ":" .. string.gsub( fmt, " ", "\160" ) )
+    else
+        logf_console:execute( ":" .. string.gsub( string.format( fmt, ... ), " ", "\160" ) )
+    end
+end
+
+--'END of init console
+
+-- MUTANT / NPC SPAWNING
+-- LISTE VON MONSTERn DIE SPAWNEN :
+-- snork_weak / normal
+-- bloodsucker_weak / normal
+-- boar_strong / rest?
+-- dog_strong / rest ?
+-- flesh_strong / rest ?
+-- gigant_strong / rest ?
+-- m_poltergeist_strong_flame / m_poltergeist_normal_tele (doesnt attack!)
+-- tushkano_normal (is for all other NSCs and Mutants neutral, were not been attacked by others then the player!)
+-- pseudodog_strong / rest ?
+----------------------------------- SERIJ1-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function serij_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+	logf("start adding pseudo_RUDEL")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+		alife():create("pseudodog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("pseudodog_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		logf( "pseudo_RUDEL %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_serij_spawn ( actor, npc )
+
+	logf("init_spawn_serij() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point = vector():set( 70, 1, -135 ) -- bandit_stroyka
+	serij_spawn( spawn_point, 2 )
+	
+	logf("init_spawn_serij() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END SERIJ1-aliVe-EVENT ---------------------------------
+
+----------------------------------- SERIJ2-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function serij2_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+	--' logf("start adding m_poltergeist_strong_flame")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+		
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+		alife():create("m_poltergeist_strong_flame", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "m_poltergeist_strong_flame %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_serij2_spawn ( actor, npc )
+
+	--' logf("init_serij2_spawn() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point = vector():set( 249, -2, -4 ) -- Pseudo Forest
+	serij2_spawn( spawn_point, 2 )
+	
+	--' logf("init_serij2_spawn() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END SERIJ2-aliVe-EVENT ---------------------------------
+----------------------------------- BES-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bes_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+	--' logf("start adding BS")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+		alife():create("bloodsucker_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("bloodsucker_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "BS %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bes_spawn ( actor, npc )
+
+	--' logf("init_bes_spawn() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point1 = vector():set( -204, 1, -27 )  -- bandit_large_lager
+	bes_spawn( spawn_point1, 1 )
+	
+	--' logf("init_bes_spawn() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END BES-aliVe-EVENT ---------------------------------
+----------------------------------- bes2a-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bes2a_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+	--' logf("Doggie")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+			alife():create("pseudodog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			
+		--' logf( "Doggie %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bes2a_spawn ( actor, npc )
+
+	--' logf("init_spawn_bes2a() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point1 = vector():set( -181, 1, -4 )  -- bandit_post
+	bes2a_spawn( spawn_point1, 2 )
+
+	--' logf("init_spawn_bes2a() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END bes2a-aliVe-EBEN ^^ ----------------------
+----------------------------------- bes2b-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bes2b_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+	--' logf("init bandit spawn")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+		alife():create("gar_bandit_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("agr_bandit_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("gar_bandit_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+			alife():create("esc_bandit_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "Banditspawn %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bes2b_spawn ( actor, npc )
+
+	--' logf("init_spawn_bes2b() called")
+	local spawn_point1 = vector():set( 74, 1, -258 )
+	bes2b_spawn( spawn_point1, 1 )
+	
+	--' logf("init_spawn_bes2b() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END bes2b-aliVe-EBEN ^^ ----------------------
+----------------------------------- duty-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function duty_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+	--' logf("start adding something really tough ^^")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+					)
+
+		alife():create("dog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("pseudodog_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "something really tough ^^ %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_duty_spawn ( actor, npc )
+
+	--' logf("init_duty_spawn() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point = vector():set( 80, 0, 120 ) --somewhere ive forgotten ^^
+	duty_spawn( spawn_point, 2 )
+	
+	--' logf("init_duty_spawn() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END duty-aliVe-EVENT ---------------------------------

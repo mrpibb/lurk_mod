@@ -1,0 +1,432 @@
+--STALKER aliVe BETA
+--by gannebamm www.oblivion-lost.de
+--DARK VALLEY SCRIPTS
+--------------------------------------------------------------------- PREACONDITIONS :
+
+--MONEY
+
+local money_amount_x = 19200
+function bullet_check2( actor, npc )
+	if db.actor:money() <= money_amount_x then 
+		return false
+	end
+	return true
+end
+
+local money_amount_x = 5200
+function bullet_check2( actor, npc )
+	if db.actor:money() <= money_amount_x then 
+		return true
+	end
+	return false
+end
+
+local money_amount_x = 10200
+function rob_check2( actor, npc )
+	if db.actor:money() <= money_amount_x then 
+		return false
+	end
+	return true
+end
+
+--ITEM
+
+function bullet_check1( actor, npc )
+	if actor:object("mutant_flesh_eye") then 
+		return false
+	end
+	return true
+end
+
+function rob_check1( actor, npc )
+	if actor:object("wpn_spas12") then
+		return true
+	end
+	return false
+end
+
+---------------------------------------------------------------------------- REWARDS :
+--------------------------------------------------------------------------- SPAWNING :
+-- orig from PROTON @ GSC-FORUM : THX to you for youre help !
+-- edited by gannebamm
+
+--INITIALIZE CONSOLE
+local logf_console = nil
+
+function logf( fmt, ... )
+	logf_console = get_console()
+	logf = logf_main
+	logf_main( fmt, ... )
+end
+
+function logf_main( fmt, ... )
+    local c = select( "#", ... )
+    if c <= 0 then -- nothing to format
+        logf_console:execute( ":" .. string.gsub( fmt, " ", "\160" ) )
+    else
+        logf_console:execute( ":" .. string.gsub( string.format( fmt, ... ), " ", "\160" ) )
+    end
+end
+--btw i do not understand at least one little tiny piece of the code above, but it works ^^  PROTON=LUA-GOD
+--'END of init console
+
+-- MUTANT / NPC SPAWNING
+-- LISTE VON MONSTERn DIE SPAWNEN :
+-- snork_weak / normal / snork_jumper <- JUMP JUMP JUMP ^^ neuer liebling rofl
+-- sucker_weak / normal
+-- boar_strong / rest?
+-- dog_strong / rest ?
+-- flesh_strong / rest ?
+-- gigant_strong / rest ?
+-- m_poltergeist_strong_flame / m_poltergeist_normal_tele (doesnt attack!)
+-- tushkano_normal (is for all other NSCs and Mutants neutral, were not been attacked by others then the player!)
+-- pseudodog_strong / rest ?
+-- stalker_trader / Stalker with antigas Armor and bm-16 : roaming the zone
+--
+----------------------------------- bullet1-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bullet1_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+        local height = 0
+
+	--' logf("start adding gigant_strong")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y + height,
+                    position.z
+                )
+
+		alife():create("gigant_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "gigant_strong %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bullet1_spawn ( actor, npc )
+
+	--' logf("init_spawn_bullet1() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point1 = vector():set( 57, 2, -98 ) --'specific location
+	bullet1_spawn( spawn_point1, 2 )
+	
+	--' logf("init_spawn_bullet1() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END bullet1-aliVe-EBEN ^^ ----------------------
+
+----------------------------------- bullet2-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bullet2_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 480, 480 --' x and y coordinates
+        local height = 10
+
+	--' logf("BURN BURN BURN ^^")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = math.random(-(area_longitude),(area_longitude))
+		z_offset = math.random(-(area_latitude),(area_latitude))
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("m_poltergeist_strong_flame", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "burner %i on map", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bullet2_spawn ( actor, npc )
+
+	--' logf("init_spawn_bullet2() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point2 = vector():set( 0, 0, 0 ) --'specific location
+	bullet2_spawn( spawn_point2, 4 )
+	
+	--' logf("init_spawn_bullet2() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END bullet2-aliVe-EVENT ----------------------
+
+----------------------------------- bullet3-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bullet3_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local area_longitude, area_latitude = 0, 0 --' x and y coordinates
+        local height = 5
+
+	--' logf("start adding pseudodog_strong")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = math.random(-(area_longitude),(area_longitude))
+		z_offset = math.random(-(area_latitude),(area_latitude))
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("pseudodog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "pseudodog_strong %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bullet3_spawn ( actor, npc )
+
+	--' logf("init_spawn_bullet3() called")
+	--' Spawn MONSTER/NPC at a specific location	
+	local spawn_point3 = vector():set( 10, 0, -150 ) --'specific location
+	bullet3_spawn( spawn_point3, 3 )
+	
+	--' logf("init_spawn_bullet3() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END bullet3-aliVe-EVENT ----------------------
+----------------------------------- bullet4-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function bullet4_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local height = 0
+
+	--' logf("start adding dog_strong")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = 0
+		z_offset = 0
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("dog_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("dog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "dog_strong %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_bullet4_spawn ( actor, npc )
+
+	--' logf("init_spawn_bullet4() called")
+	local spawn_point4 = vector():set( 83, 1, -41)
+	-- local spawn_point4 = db.actor:position()  -- Spieler als (0,0,0)
+	--' Spawn MONSTER/NPC at a specific location	
+	bullet4_spawn( spawn_point4, 3 )
+	
+	--' logf("init_spawn_bullet4() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END bullet4-aliVe-EVENT ----------------------
+
+----------------------------------- rob1-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function rob1_spawn( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local height = 1
+
+	--' logf("adding snorkys")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		x_offset = 0
+		z_offset = 35
+
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("snork_jumper", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("snork_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "snorkyboyz %i are behind you!", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_rob1_spawn ( actor, npc )
+
+	--' logf("init_spawn() called")
+	   local spawn_point = db.actor:position()
+	
+	--' Spawn MONSTER/NPC at a specific location	
+	--local spawn_point = vector():set( 83, 1, -41) --'specific location
+	rob1_spawn( spawn_point, 2)
+	
+	--' logf("init_spawn() completed")
+	
+end
+------------------------------ END rob1-aliVe-EVENT ----------------------
+
+----------------------------------- rob2-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function rob2_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+        local height = 0
+
+	--' logf("start adding gigant_strong")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y + height,
+                    position.z
+                )
+
+		alife():create("gigant_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "gigant_strong %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_rob2_spawn ( actor, npc )
+
+	--' logf("init_rob2_spawn() called")
+	-- Spawn MONSTER/NPC at a specific location	
+	local spawn_point = vector():set( -68, 2, -480 ) --'Direkt bei der Schweine Farm [versetzt 1.4]
+	rob2_spawn( spawn_point, 2)
+	
+	--' logf("init_rob2_spawn() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END rob2-aliVe-EVENT ----------------------
+----------------------------------- rob3-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function rob3_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+        local height = 0
+
+	--' logf("never read console log, it will hurt you!")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y + height,
+                    position.z
+                )
+
+		alife():create("bar_stalker_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("bar_stalker_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("gar_stalker_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("bar_stalker_respawn_4", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "stalkergroup %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_rob3_spawn ( actor, npc )
+
+	--' logf("init_rob3() called")
+	-- Spawn MONSTER/NPC at a specific location	
+	local spawn_point = vector():set( -68, 2, -480 ) --'specific location
+	rob3_spawn( spawn_point, 1)
+	
+	--' logf("init_rob3() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END rob3-aliVe-EVENT ----------------------
+---DAS ENDE NAHT !! OH NEIN ES IST DA...schade...weiter gehts in, ja wo eigentlich?-------
+-- Die Eastereggs vom gannebamm dem langweilig ist: der hat sich schon so lang geweilt, dass er jetzt
+-- über 3m groß ist und Basketball-Star wird. Und dann Kauft er GSC und macht, dass die nen
+-- SP SDK rausbringen und alle die doof sind feuert er und und und...

@@ -1,0 +1,60 @@
+[military_base]
+; delete full_scale_icon	next update- obsolete, use  full_icon_name instead !!!
+
+additional_inventory_weight		= 0		; +max_walk_weight
+additional_inventory_weight2	= 0		;	+40 kg
+full_icon_name					= npc_icon_without_outfit
+
+
+[military_lurk_outfit]:military_base
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn 			= "outfit\military_outfit"
+;$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\stalker_comander_suit
+actor_visual	= actors\hero\stalker_commander.ogf	
+
+ef_equipment_type	= 4
+
+inv_name			= lurk_name_outfit_specops
+inv_name_short		= lurk_name_outfit_specops
+description			= lurk_desc_outfit_specops
+inv_weight			= 12.0
+slot				= 6
+inv_grid_width		= 3
+inv_grid_height		= 4
+inv_grid_x			= 34
+inv_grid_y			= 16
+full_icon_name		= npc_icon_military_outfit
+nightvision_sect	= effector_nightvision_tactical_best
+
+cost				= 150000
+full_scale_icon		= 10,6		;икБEБE сталБEра БEБEстюБE БEБEБEый рост
+
+immunities_sect			= sect_military_outfit_immunities
+
+; MEDIUM RESISTANCE
+burn_protection 			= 0.1
+strike_protection 			= 0.25
+shock_protection 			= 0.0
+wound_protection			= 0.25
+radiation_protection 			= 0.5
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.1
+explosion_protection 			= 0.25
+fire_wound_protection  			= 0.3175
+
+bones_koeff_protection =	armor_helmet_damage
+
+[sect_military_outfit_immunities]
+burn_immunity				= 0.0001			;БEэффициеыQБEимБEыGтета саБEго БEстюБE
+strike_immunity				= 0.00001
+shock_immunity				= 0.0001
+wound_immunity				= 0.00001
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.0001
+explosion_immunity			= 0.0001
+fire_wound_immunity			= 0.05

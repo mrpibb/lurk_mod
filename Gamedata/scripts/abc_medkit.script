@@ -1,0 +1,158 @@
+-- Shortened Creds: ABC Mod made this, LURK team just cleaned up the indentions.
+
+-- Should the use of the same medkit accumulate over the previous one?
+multiple_medkit = "yes"
+
+-- How many minutes should take to complete the healing process.
+hp_fullhealth_time = 0.125
+
+--0.25
+
+-- Health update time in MS. 1000 = 1 Second.
+hupd_time = 50
+
+-- Time modulation
+time_mod=0
+
+-- HP Healed. No higher than 1.
+hp_med_kit = 0.65
+hp_med_army = 0.75
+hp_med_sci = 0.80
+
+-- Is Army faster than Normal?
+army_fast = "yes"
+
+-- Is Science faster than Normal?
+sci_fast = "yes"
+
+-- Is Science faster than Army?
+sci_fast_than_army = "yes"
+
+-- Should medkit_scientic anti-radiation process be progressive?
+sci_antirad = "yes"
+
+-- EOF
+
+
+local med_kit, med_band, med_army, med_sci, medused, medid, medname
+local objdtc = 0
+function chk_medlot_object(obj)
+	if db.actor ~= nil then  
+	local objdt = time_global() 
+		if obj ~= nil and obj ~= "load" then
+		medname = obj:section()
+			if medname == "medkit" or medname == "medkit_army" or medname == "medkit_scientic" then
+				if objdtc == 0 then objdtc = time_global() + 350 end
+			med_used = "yes"
+			med_id = obj:id() 	
+			end	
+		end
+	if med_used == "yes" and objdt > objdtc then
+	objdtc = 0
+	med_used = "no" 
+		if level.object_by_id(med_id) == nil then
+			if medname == "medkit" then  med_kit = "yes" end
+			if medname == "medkit_army" then  med_kit = "yes" end
+			if medname == "medkit_scientic" then  med_kit = "yes" end
+			time_mod=0
+		end	
+	end
+	new_medkit()
+	end
+end
+
+local time_mkit, time_army, time_sci, count_mkit, count_army, count_sci
+function new_medkit()
+	if db.actor ~= nil and level.present() then
+	local cgametimemed = time_global()
+	local hft = (hp_fullhealth_time * 60000) / hupd_time
+		--normal
+		if med_kit == "yes" then
+			if time_mkit == nil then time_mkit = time_global() + hupd_time end
+			if cgametimemed > time_mkit then
+			time_mkit = time_global() + hupd_time
+			local player_hp = db.actor.health
+				if player_hp < 1 then
+					if count_mkit == nil then count_mkit = 0 end
+					if count_mkit < (hft + 1) then
+					db.actor.health = (hp_med_kit/(hft + time_mod))
+					count_mkit = count_mkit + 1
+					--abort("TimeMod: "..time_mod)
+					--abort("Health: "..hp_med_kit/(hft + time_mod))
+					time_mod = math.clamp(time_mod+0.23,0,35)
+					else
+					med_kit = nil
+					time_mkit = nil
+					count_mkit = nil
+					end
+				else
+				med_kit = nil
+				time_mkit = nil
+				count_mkit = nil
+				end
+			end
+		end
+		--army
+		if med_army == "yes" then
+			if time_army == nil then time_army = time_global() + hupd_time end
+			if cgametimemed > time_army then
+			time_army = time_global() + hupd_time
+			local player_hp = db.actor.health
+				if player_hp < 1 then
+					if count_army == nil then count_army = 0 end
+					if count_army < (hft + 1) then
+					local mamf = 0
+						if army_fast == "yes" then mamf = (hp_med_army/hft) / 4 end
+					db.actor.health = (hp_med_army/hft) + mamf
+					count_army = count_army + 1
+					time_mod = math.clamp(time_mod+0.23,0,35)
+					else
+					med_kit = nil
+					time_mkit = nil
+					count_mkit = nil
+					end
+				else
+				med_kit = nil
+				time_mkit = nil
+				count_mkit = nil
+				end
+			end
+		end
+		--science
+		if med_sci == "yes" then
+			if time_sci == nil then time_sci = time_global() + hupd_time end
+			if cgametimemed > time_sci then
+			time_sci = time_global() + hupd_time
+			local player_hp = db.actor.health
+				if player_hp < 1 then
+					if count_sci == nil then count_sci = 0 end
+					if count_sci < (hft + 1) then
+					local mamf = 0
+					local sfta = 4
+					if sci_fast_than_army == "yes" then sfta = 2 end
+					if sci_fast == "yes" then mamf = (hp_med_army/hft) / sfta end
+				db.actor.health = (hp_med_sci/hft) + mamf
+					if sci_antirad == "yes" then db.actor.radiation = -(hp_med_sci/hft) end
+				count_sci = count_sci + 1
+				time_mod = math.clamp(time_mod+0.23,0,35)
+				else
+					med_kit = nil
+					time_mkit = nil
+					count_mkit = nil
+					end
+				else
+				med_kit = nil
+				time_mkit = nil
+				count_mkit = nil
+			end
+		end
+	end
+ end
+end
+
+function math.clamp (value,mini,maxi)
+local clamped = value
+	if clamped < mini then clamped = mini end
+	if clamped > maxi then clamped = maxi end
+return clamped
+end

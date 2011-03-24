@@ -1,0 +1,33 @@
+--Critical injury visualisation script
+--Author: Unknown (please contact me at marteendee(at)wp(dot)pl to claim any credits)
+--Fixed and adopted for L.U.R.K. -- MarteenDee --
+-----------------------------------------------------------------------------------------------------------
+lite_treshold = 0.005 -- how much health should decline from the previous update for ppe to appear 
+crit_treshold = 0.30 -- how much health should decline from the previous updates for camera effect
+drop_item_on_crit_prob = 0.0 -- possibility threshold to drop weapon 
+effector_power_coeff = 0.7 
+prev_health = -1 
+chk_h_t = 0 
+------------------------------------------------------------------------------------------------------------
+	function critical_hit_update() 
+		if (chk_h_t or 0) < time_global() then 
+			chk_h_t = time_global()+1000 
+		if prev_health > (db.actor.health + lite_treshold) then 
+			level.add_pp_effector("fire_hit.ppe", 2011, false) 
+			local effector_power = (prev_health - db.actor.health)*100*effector_power_coeff 
+			level.set_pp_effector_factor(2011, effector_power) 
+		if prev_health > db.actor.health + crit_treshold then 
+			level.add_cam_effector("camera_effects\\fusker.anm", 999, false, "") 
+			local snd_obj = xr_sound.get_safe_sound_object([[actor\pain_3]]) 
+			snd_obj:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0) 
+		if math.random() < drop_item_on_crit_prob then 
+			local active_item = db.actor:active_item() 
+		if active_item and active_item:section() ~= "bolt" and active_item:section()~= "wpn_knife" then 
+			db.actor:drop_item(active_item) 
+						end 
+					end 
+				end 
+			end 
+			prev_health = db.actor.health 
+		end 
+	end 

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="list_trader_repair_0">
+		<text>Reparaturkosten der Waffe im ersten Slot: </text>
+	</string>
+	<string id="list_trader_repair_1">
+		<text>Reparaturkosten der Waffe im zweiten Slot: </text>
+	</string>
+	<string id="list_trader_repair_2">
+		<text>Reparaturkosten der Schutzkleidung: </text>
+	</string>
+
+<!--********************************-->
+<!-- Sidorovich Repair dialog start -->
+<!--********************************-->
+	<string id="escape_trader_repair_0">
+		<text>Sidorovich, kannst du Waffen reparieren ... und vielleicht auch Schutzkleidung?</text>
+	</string>
+	<string id="escape_trader_repair_1">
+		<text>Ahh! Klar kann ich, also was willst du repariert haben? Aber ich muss dich warnen - das wird nicht billig. Je mehr Schaden, desto hцher die Kosten.\n \nReparaturliste:</text>
+	</string>
+	<string id="escape_trader_repair_2">
+		<text>Repariere die Waffe im ersten Slot.</text>
+	</string>
+	<string id="escape_trader_repair_3">
+		<text>Repariere die Waffe im zweiten Slot.</text>
+	</string>
+	<string id="escape_trader_repair_4">
+		<text>Repariere die Schutzkleidung.</text>
+	</string>
+	<string id="escape_trader_repair_5">
+		<text>Mist, ich hab nicht genug Geld. Ich komme spдter nochmal vorbei.</text>
+	</string>
+	<string id="escape_trader_repair_6">
+		<text>Warte, ich mach es sofort...\n \nFertig!!!</text>
+	</string>
+	<string id="escape_trader_repair_7">
+		<text>Ehh! Gezeichneter, ich sehe dass du wohl in einige haarige Situationen geraten bist... irgendwo hatte ich doch noch Platten fьr Rьstungen... Ahh! Da sind sie ja...\n \nOk! Hier hast du sie, wie neu!</text>
+	</string>
+	<string id="escape_trader_repair_8">
+		<text>Excellente Arbeit. Sag, wie hast du dir diese Kunst angeeignet? Du behдlst das wohl lieber fьr dich? Wie auch immer, wir sehen uns.</text>
+	</string>
+	<string id="escape_trader_repair_9">
+		<text>Die Arbeit eines Meisters, da ist mein Geld gut angelegt. Danke, bye.</text>
+	</string>
+	<string id="escape_trader_repair_10">
+		<text>Kannst du mir noch etwas reparieren?</text>
+	</string>
+	<string id="escape_trader_repair_11">
+		<text>Ok, lass mal sehen.\n \nReparaturliste:</text>
+	</string>
+	
+<!--****************************-->
+<!-- Barist Repair dialog start -->
+<!--****************************-->
+	<string id="bar_trader_repair_0">
+		<text>Barman, kannst du was von meiner Ausrьstung reparieren?</text>
+	</string>
+	<string id="bar_trader_repair_1">
+		<text>Um ehrlich zu sein, ich kann's nicht. Aber in der Kьche sitzt ein Stalker der seine Schulden bei mir abarbeitet, der ist ein grossartiger Waffenschmied. Der kann alle Waffen und Schutzkleidungen reparieren, ich gebe ihm deinen Auftrag. Also, was soll er fьr dich reparieren?\n \nReparaturliste:</text>
+	</string>
+	<string id="bar_trader_repair_2">
+		<text>Die Waffe im ersten Slot.</text>
+	</string>
+	<string id="bar_trader_repair_3">
+		<text>Die Waffe im zweiten Slot.</text>
+	</string>
+	<string id="bar_trader_repair_4">
+		<text>Meine Schutzkleidung.</text>
+	</string>
+	<string id="bar_trader_repair_5">
+		<text>Ich habe jetzt nicht genug Geld. Vielleicht nдchstes Mal.</text>
+	</string>
+	<string id="bar_trader_repair_6">
+		<text>Hier nimm, repariert und geцlt!</text>
+	</string>
+	<string id="bar_trader_repair_7">
+		<text>Das war's, er hat alles gefixt!</text>
+	</string>
+	<string id="bar_trader_repair_8">
+		<text>Ahh! Wie neu! Dein Waffenschmied ist wirklich ein Meister! Grьss ihn von mir.</text>
+	</string>
+	<string id="bar_trader_repair_9">
+		<text>Absolut, excellente Arbeit!</text>
+	</string>
+	<string id="bar_trader_repair_10">
+		<text>Kann er mir noch etwas reparieren?</text>
+	</string>
+	<string id="bar_trader_repair_11">
+		<text>Natьrlich, er hat im Moment nicht allzu viel zu tun.\n \nReparaturliste:</text>
+	</string>
+	
+<!--****************************-->
+<!-- Doctor Repair dialog start -->
+<!--****************************-->
+	<string id="yantar_trader_repair_0">
+		<text>Kannst du meine Ausrьstung reparieren?</text>
+	</string>
+	<string id="yantar_trader_repair_1">
+		<text>Ja, falls nцtig unterbreche ich dafьr meine Untersuchungen. Aber ich habe nicht alle Werkzeuge, reparieren ist nur ein Hobby, es wird also nicht billig.\n \nReparaturliste:</text>
+	</string>
+	<string id="yantar_trader_repair_2">
+		<text>Repariere die Waffe im ersten Slot.</text>
+	</string>
+	<string id="yantar_trader_repair_3">
+		<text>Repariere die Waffe im zweiten Slot.</text>
+	</string>
+	<string id="yantar_trader_repair_4">
+		<text>Repariere die Schutzkleidung.</text>
+	</string>
+	<string id="yantar_trader_repair_5">
+		<text>Oh nein, Geld ist alle. Vielleicht demnдchst.</text>
+	</string>
+	<string id="yantar_trader_repair_6">
+		<text>Warte einen Augenblick...\n \nSieht aus als wдre alles fertig, hier, nimm es!</text>
+	</string>
+	<string id="yantar_trader_repair_7">
+		<text>Platten fьr Rьstung sind hier schwer zu finden, aber ich habe einen Vorrat. Warte hier...\n \nNach bestem Wissen und Gewissen.</text>
+	</string>
+	<string id="yantar_trader_repair_8">
+		<text>Gut gemacht! Du wьrdest einen sehr guten Waffenschmied abgeben.</text>
+	</string>
+	<string id="yantar_trader_repair_9">
+		<text>Du kannst ruhigen Gewissens sein, die Arbeit ist jeden Rubel wert!</text>
+	</string>
+	<string id="yantar_trader_repair_10">
+		<text>Kannst du mir noch etwas reparieren?</text>
+	</string>
+	<string id="yantar_trader_repair_11">
+		<text>Wenn ich mich beeile kann ich damit fertig werden, bevor die Daten fertig berechnet sind.\n \nReparaturliste:</text>
+	</string>
+
+<!--***************************-->
+<!-- Screw Repair dialog start -->
+<!--***************************-->
+	<string id="mil_trader_repair_0">
+		<text>Sorry Mann, ich bin hier um meine Ausrьstung reparieren zu lassen... wie sind deine Tarife? </text>
+	</string>
+	<string id="mil_trader_repair_1">
+		<text>Ahahah... keine Sorge, ich werde dich nicht bis auf's Hemd ausziehen, ich bin nicht "der Unnachgiebige" fьr den mich alle halten. Was soll ich also fьr dich reparieren? Das wird aber trotzdem nicht billig, je mehr Verfall desto mehr musst du ausgeben. Nun?\n \nReparaturliste:</text>
+	</string>
+	<string id="mil_trader_repair_2">
+		<text>Repariere die Waffe im ersten Slot.</text>
+	</string>
+	<string id="mil_trader_repair_3">
+		<text>Repariere die Waffe im zweiten Slot.</text>
+	</string>
+	<string id="mil_trader_repair_4">
+		<text>Repariere die Schutzkleidung.</text>
+	</string>
+	<string id="mil_trader_repair_5">
+		<text>Ich habe jetzt nicht genug Cash... lass es uns ein anderes Mal reparieren. </text>
+	</string>
+	<string id="mil_trader_repair_6">
+		<text>Ich habe einiges ersetzt, habe gereinigt und eingeцlt...\n \nNutze und hab Spass!</text>
+	</string>
+	<string id="mil_trader_repair_7">
+		<text>Gezeichneter, hast du eine Markierung "Bitte hier treffen" auf dir?!? Ok, gib her... ich reparier's dir...\n \nNur fьr dich: extrafrische Platten aus dem Kьhlschrank! Und ich habe auch deine Markierung ьberdeckt... Ehhh na los! Mach nicht so'n Gesicht... du musst wissen, ich mache gern ein Spдsschen!...</text>
+	</string>
+	<string id="mil_trader_repair_8">
+		<text>Fast wie neu! Excellente Arbeit!</text>
+	</string>
+	<string id="mil_trader_repair_9">
+		<text>Du Scherzkeks... Trotzdem... du hast den Schutzanzug perfekt repariert... Nichtdestotrotz hдttest du die beiden Platten die da noch auf dem Tisch ьbrig sind einbauen kцnnen... du machst deinem Namen alle Ehre!</text>
+	</string>
+	<string id="mil_trader_repair_10">
+		<text>Kannst du mir noch etwas reparieren?</text>
+	</string>
+	<string id="mil_trader_repair_11">
+		<text>Sicherlich, solange du nicht vergisst zu zahlen, ich repariere nдmlich nicht auf Pump.\n \nReparaturliste:</text>
+	</string>
+
+<!--********************-->
+<!-- Repair dialogs end -->
+<!--********************-->
+
+</string_table>

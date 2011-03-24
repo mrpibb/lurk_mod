@@ -1,0 +1,33 @@
+;---2mm EC Standard---
+[ammo_gauss]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn				= "weapons\ammo\ammo_gauss"
+class				= AMMO
+cform				= skeleton
+visual				= weapons\ammo\ammo_gauss.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_2mmec
+inv_name_short		= name_ammo_2mmec_s
+description			= desc_ammo_2mmec
+
+cost				= 2000
+box_size			= 10
+inv_weight			= 0.50
+
+k_dist				= 1000
+k_disp				= 1
+k_hit				= 1.75
+k_impulse			= 0
+k_pierce			= 3.0
+impair				= 1
+buck_shot			= 1
+tracer				= off
+wm_size         	= 0.20
+explosive			= on
+
+inv_grid_width		= 1
+inv_grid_height		= 1
+inv_grid_x			= 4
+inv_grid_y			= 14

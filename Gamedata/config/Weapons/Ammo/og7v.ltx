@@ -1,0 +1,34 @@
+;---OG-7B RPG---
+[ammo_og-7b]:identity_immunities
+GroupControlSection	= spawn_group
+;discovery_dependency = 
+$spawn			= "weapons\ammo\ammo_og-7b"
+class			= A_VOG25
+cform			= skeleton
+visual			= weapons\ammo\ammo_og-7b.ogf
+$prefetch			= 64
+
+inv_name			= name_ammo_og7v
+inv_name_short		= name_ammo_og7v_s
+description		= desc_ammo_og7v
+
+cost				= 750
+box_size			= 1
+inv_weight		= 1.5
+
+k_dist			= 1
+k_disp			= 1
+k_hit			= 1
+k_impulse			= 1
+k_pierce			= 1
+impair			= 1
+buck_shot			= 0
+tracer			= off
+wm_size         	= 0.05
+
+inv_grid_width		= 3
+inv_grid_height	= 1
+inv_grid_x		= 15
+inv_grid_y		= 19
+
+can_be_unlimited	= true

@@ -1,0 +1,65 @@
+[exoskeleton_base]
+; delete full_scale_icon	next update- obsolete, use  full_icon_name instead !!!
+
+additional_inventory_weight		= 0		; +max_walk_weight
+additional_inventory_weight2	= 0		;	+40 kg
+full_icon_name					= npc_icon_without_outfit
+
+
+
+[exo_lurk_outfit]:exoskeleton_base
+GroupControlSection	= spawn_group
+discovery_dependency = 
+$spawn 			= "outfit\exo_outfit"
+$prefetch 		= 32
+class			= E_STLK
+cform           = skeleton
+visual          = equipments\exoskelet	
+actor_visual	= actors\hero\stalker_exoskeleton.ogf
+
+ef_equipment_type	= 5
+
+inv_name			= lurk_name_outfit_exo
+inv_name_short		= lurk_name_outfit_exo
+description			= lurk_desc_outfit_exo
+inv_weight			= 15.0
+slot				= 6
+inv_grid_width		= 4
+inv_grid_height		= 4
+inv_grid_x			= 34
+inv_grid_y			= 4
+full_icon_name		= npc_icon_exo_outfit
+nightvision_sect	= effector_nightvision_tactical_best
+
+cost				= 200000
+full_scale_icon		= 2,11			;икБEБE сталБEра БEБEстюБE БEБEБEый рост
+
+immunities_sect			= sect_exo_outfit_immunities
+
+; MEDIUM RESISTANCE
+burn_protection 			= 0.2
+strike_protection 			= 0.7
+shock_protection 			= 0.0
+wound_protection			= 0.7
+radiation_protection 			= 0.75
+telepatic_protection 			= 0.0
+chemical_burn_protection 		= 0.0
+explosion_protection 			= 0.5
+fire_wound_protection  			= 0.45
+
+;заБEещение режиБE Sprint дл€ јБEерБE
+sprint_allowed					= false
+bones_koeff_protection			= exo_helmet_damage
+additional_inventory_weight		= 20
+additional_inventory_weight2	= 20 ; 40+
+
+[sect_exo_outfit_immunities]
+burn_immunity				= 0.0001			;БEэффициеыQБEимБEыGтета саБEго БEстюБE
+strike_immunity				= 0.00001
+shock_immunity				= 0.0001
+wound_immunity				= 0.00001
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.0001
+explosion_immunity			= 0.0001
+fire_wound_immunity			= 0.05

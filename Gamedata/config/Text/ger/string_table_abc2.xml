@@ -1,0 +1,23 @@
+<string_table>
+	<string id="enc_equipment_abc_bag">
+		<text>Schlafsack hergestellt von der ABC Company.</text>
+	</string>
+	<string id="abc_bag">
+		<text>Schlafsack</text>
+	</string>
+	<string id="unlimited_time_id">
+		<text>Unbegrenzt</text>
+	</string>
+	<string id="one_hour_id">
+		<text>1 Stunde</text>
+	</string>
+	<string id="tree_hours_id">
+		<text>3 Stunden</text>
+	</string>
+	<string id="nine_hours_id">
+		<text>9 Stunden</text>
+	</string>
+	<string id="sleep_cap_id">
+		<text>Schlafen für:</text>
+	</string>
+</string_table>

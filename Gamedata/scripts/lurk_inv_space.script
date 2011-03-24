@@ -1,0 +1,32 @@
+totalspace=0
+maxspace=90
+
+function start(obj)
+reset=true
+object=obj
+iterate()
+end
+
+function iterate()
+	if object ~= nil then
+	db.actor:iterate_inventory(getallinv, nil)
+	else abort("Object returned NIL")
+	end
+end
+
+function getallinv(temp,item)
+itemspace=	system_ini():r_float(item:section(),"inv_grid_height") * system_ini():r_float(item:section(),"inv_grid_width")
+
+	if reset == true then
+	totalspace=0
+	reset=false
+	end
+
+totalspace=	totalspace+itemspace
+
+	if totalspace > maxspace then
+	db.actor:drop_item(object)
+	news_manager.send_tip(db.actor, "-%c[255,255,50,50]Your backpack doesn't have room for that!", nil, nil, 1000)
+	end
+end
+

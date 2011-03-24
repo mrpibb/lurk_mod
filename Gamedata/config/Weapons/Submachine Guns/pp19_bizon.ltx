@@ -1,0 +1,257 @@
+;;; Rewritten by Panzerdraco for L.U.R.K Mod.
+;;; A line with one or more ";"'s before it indicates a comment, and won't be read by the script.
+
+;-----PP-19 BIZON-----;
+;-----Base Setup-----;
+[wpn_bizon]:identity_immunities
+$spawn                   	= "weapons\bizon"
+$npc                     	= on
+$prefetch 		         	= 8
+scheduled                	= off
+cform                    	= skeleton
+class                    	= WP_LR300
+min_radius               	= 0
+max_radius               	= 75
+
+inv_name	        		= name_wpn_pp19bizon_9x18mm
+inv_name_short				= name_wpn_pp19bizon_9x18mm
+description					= desc_wpn_pp19bizon_9x18mm
+
+cost						= 5500
+inv_weight					= 2.10
+
+visual                   	= arsenal_mod\wpn_bizon.ogf
+
+ef_main_weapon_type			= 2
+ef_weapon_type				= 6
+
+holder_range_modifier		= 1
+holder_fov_modifier			= 1
+
+hand_dependence		    	= 1
+single_handed				= 0
+
+sprint_allowed				= true
+
+slot 			         	= 2
+animation_slot			 	= 8
+
+inv_grid_width				= 3
+inv_grid_height				= 1
+inv_grid_x					= 25 
+inv_grid_y					= 38
+
+kill_msg_x					= 72
+kill_msg_y					= 82
+kill_msg_width				= 56
+kill_msg_height				= 23
+
+ammo_limit		         	= 210
+ammo_current		     	= 90
+ammo_elapsed		     	= 30
+
+ph_mass						= 3
+
+
+;-----Ballistics, Handling & Accuracy-----;
+hit_power                	= 0.97
+hit_impulse		        	= 1
+hit_type 					= fire_wound
+
+silencer_hit_power       		= 0.87
+silencer_hit_impulse	 		= 1
+silencer_fire_distance   		= 1
+silencer_bullet_speed	 		= 225
+
+fire_distance            	= 1
+bullet_speed				= 300
+rpm                      	= 650
+
+ammo_mag_size				= 64
+ammo_class					= ammo_9x18_fmj, ammo_9x18_pbp, ammo_9x18_pmm, ammo_9x18_inc
+fire_modes					= 1, -1
+	
+tri_state_reload			= off
+
+control_inertion_factor		= 1.0f
+
+fire_dispersion_base		= 1.10
+handling_factor				= 1.00
+use_aim_bullet				= true
+time_to_aim					= 0.50
+
+PDM_disp_base 				= 1.75
+PDM_disp_vel_factor 		= 0.50
+PDM_disp_accel_factor 		= 1.50
+PDM_crouch	 				= 0.50
+PDM_crouch_no_acc 			= 0.50
+
+cam_relax_speed        	 	= 0.0
+cam_relax_speed_ai      	= 360
+cam_dispersion         	 	= 0.40
+cam_step_angle_horz			= 1.50
+cam_dispersion_inc			= 0.15
+cam_dispertion_frac			= 1.00
+cam_max_angle				= 180.0
+cam_max_angle_horz			= 180.0
+
+fire_dispersion_condition_factor 	= 2.000
+misfire_probability 				= 0.0095
+misfire_condition_k					= 0.15
+condition_shot_dec 					= 0.00060
+
+
+;-----Sights & Attachments-----;
+;--Scope & Sight--
+zoom_enabled				= true
+
+scope_status				= 2
+scope_name 					= wpn_addon_scope
+scope_x 					= 42
+scope_y 					= 3
+
+scope_zoom_factor = 70;	    	= 90.0
+;max_zoom_factor			= 5
+;scope_texture				= wpn\wpn_crosshair_g36
+
+;--Silencer--
+silencer_status				= 2
+
+silencer_name  				= wpn_addon_sil_9_p
+silencer_x 					= 130
+silencer_y 					= -15
+
+;--Grenade Launcher--
+grenade_launcher_status		= 0
+grenade_vel					= 75
+grenade_class				= ammo_vog-25, ammo_vog-25p
+launch_speed				= 75
+
+grenade_launcher_name 		= wpn_addon_grenade_launcher
+grenade_launcher_x 			= 105
+grenade_launcher_y 			= 18
+
+
+;-----Sounds, Particles, Muzzleflash & Miscellaneous-----;
+
+snd_draw					= wpn\SMG\Bizon\bizon_draw
+snd_holster					= wpn\rifle_holster
+snd_shoot					= wpn\SMG\Bizon\bizon_shoot
+snd_empty					= wpn\smg_empty
+snd_reload					= wpn\SMG\Bizon\bizon_reload
+snd_silncer_shot			= wpn\SMG\Bizon\bizon_shoot_sil, 0.5
+
+rpm_empty_click 	 		= 200
+
+light_disabled				= false
+
+light_color					= 0.6,0.5,0.3				; params for light during the fire
+light_range					= 5							; radius
+light_var_color				= 0.05						
+light_var_range				= 0.5
+light_time 					= 0.2
+
+silencer_light_color		= 0.6,0.5,0.3
+silencer_light_range		= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 		= 0.2
+
+flame_particles				= weapons\generic_weapon05
+smoke_particles				= weapons\generic_shoot_00
+
+silencer_smoke_particles 	= weapons\generic_shoot_00
+
+shell_point		 			= 0.0, 0.188, 0.082
+shell_dir		 			= 0.0, 1.0, 0.0
+shell_particles	 			= weapons\generic_shells
+
+normal                   	= 0, 1, 0
+position         	    	= -0.026, -0.145, 0.034
+orientation              	= 0, 0, 0
+
+direction                	= 0, 0, 1
+
+fire_point            		= 0.0, 0.194, 0.303
+
+weapon_remove_time			= 1000
+
+strap_position         		= -0.16,-0.36,0.15
+strap_orientation      		= -10,-5,10
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+
+hud                      	= wpn_bizon_hud
+[wpn_bizon_hud]
+shell_point          		= 0.00, 0.00, -0.6
+shell_dir		 			= 0.0, 0.0, 0.0
+
+fire_point               	= 0,0,-0.5
+fire_bone                	= muzzle
+orientation              	= 0, 0, 0
+position            		= 0.10,-0.06,-0.05
+visual                   	= arsenal_mod\wpn_bizon_hud.ogf
+
+anim_idle					= idle
+anim_idle_aim				= idle_aim
+anim_reload					= reload
+anim_draw					= draw
+anim_holster				= holster
+anim_shoot					= shoot
+anim_idle_sprint			= idle_sprint
+
+zoom_hide_crosshair			= true
+zoom_rotate_time			= 0.25
+zoom_offset					= -0.104,0.06,-0.05
+zoom_rotate_x				= 0.0
+zoom_rotate_y				= 0.0
+
+
+;-----PP-19 BIZON 9x19MM-----;
+;-----Base Setup-----;
+[wpn_bizon_9x19]:wpn_bizon
+
+inv_name	        		= name_wpn_pp19bizon_9x19mm
+inv_name_short				= name_wpn_pp19bizon_9x19mm
+description					= desc_wpn_pp19bizon_9x19mm
+
+inv_grid_x					= 25 
+inv_grid_y					= 79
+
+cost						= 7500
+
+ammo_mag_size				= 53
+ammo_class					= ammo_9x19_fmj, ammo_9x19_pbp, ammo_9x19_ap, ammo_9x19_hydra
+bullet_speed				= 380
+
+silencer_name  				= wpn_addon_sil_919_p
+
+cam_dispersion         	 	= 0.60
+
+
+;-----PP-19 BIZON 7.62x25MM-----;
+;-----Base Setup-----;
+[wpn_bizon_762x25]:wpn_bizon
+
+inv_name	        		= name_wpn_pp19bizon_7.62x25mm
+inv_name_short				= name_wpn_pp19bizon_7.62x25mm
+description					= desc_wpn_pp19bizon_7.62x25mm
+
+inv_grid_x					= 25 
+inv_grid_y					= 80
+
+cost						= 6000
+
+ammo_mag_size				= 35
+ammo_class					= ammo_7.62x25_p, ammo_7.62x25_ps, ammo_7.62x25_ap, ammo_7.62x25_inc
+bullet_speed				= 430
+
+silencer_name  				= wpn_addon_sil_762_p
+silencer_light_color		= 0.0,0.0,0.0
+silencer_light_range		= 0.00
+silencer_light_var_color	= 0.00
+silencer_light_var_range	= 0.0
+silencer_light_time 		= 0.0
+
+cam_dispersion         	 	= 0.30

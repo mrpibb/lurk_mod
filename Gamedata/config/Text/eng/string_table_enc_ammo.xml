@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+
+	<string id="Ammo">
+		<text>Ammunition</text>
+	</string>
+
+<!-- ####################### -->
+<!-- PISTOL & SMG AMMUNITION TABLE -->
+<!-- ####################### -->
+	
+	
+<!-- 9x18mm PM Ammunition -->
+	<string id="name_ammo_9x18mm_stnd">
+		<text>9x18mm Standard</text>
+	</string>
+	<string id="name_ammo_9x18mm_stnd_s">
+		<text>9x18mm</text>
+	</string>
+	<string id="name_ammo_9x18mm_hp">
+		<text>9x18mm Hollowpoint</text>
+	</string>
+	<string id="name_ammo_9x18mm_hp_s">
+		<text>9x18mm HP</text>
+	</string>
+	<string id="name_ammo_9x18mm_ap">
+		<text>9x18mm Armour Piercing</text>
+	</string>
+	<string id="name_ammo_9x18mm_ap_s">
+		<text>9x18mm AP</text>
+	</string>
+	<string id="name_ammo_9x18mm_incen">
+		<text>9x18mm Incendiary</text>
+	</string>
+	<string id="name_ammo_9x18mm_incen_s">
+		<text>9x18mm INCEN</text>
+	</string>
+	
+	<string id="desc_ammo_9x18mm_stnd">
+	<text>%c[200,238,155,23]
+	Damage: 45.\n
+	Armour Piercing: 90%.\n
+	Accuracy: 100%.\n
+	Recoil: 100%.\n
+	Velocity: 320m/s.\n
+	%c[default]The standard cartridge for 9x18mm Makarov, or 9x18mm PM, caliber. Designed by Nikolay Makarov for the Makarov PM pistol in 1943, it remains in service to present day in many former USSR states, including Russia, Belarus and Ukraine.</text>
+	</string>
+	
+	<string id="desc_ammo_9x18mm_hp">
+		<text>%c[200,238,155,23]
+	Damage: 50.\n
+	Armour Piercing: 67%.\n
+	Accuracy: 50%.\n
+	Recoil: 100%.\n
+	Velocity: 320m/s.\n
+	%c[default]A hollowpoint cartridge for 9x18mm Makarov, or 9x18mm PM, caliber. Designed by Nikolay Makarov for the Makarov PM pistol in 1943, it remains in service to present day in many former USSR states, including Russia, Belarus and Ukraine. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_9x18mm_ap">
+		<text>%c[200,238,155,23]
+	Damage: 42.\n
+	Armour Piercing: 157%.\n
+	Accuracy: 150%.\n
+	Recoil: 100%.\n
+	Velocity: 320m/s.\n
+	%c[default]An armour piercing cartridge for 9x18mm Makarov, or 9x18mm PM, caliber. Designed by Nikolay Makarov for the Makarov PM pistol in 1943, it remains in service to present day in many former USSR states, including Russia, Belarus and Ukraine. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_9x18mm_incen">
+		<text>%c[200,238,155,23]
+	Damage: 54.\n
+	Armour Piercing: 90%.\n
+	Accuracy: 25%.\n
+	Recoil: 100%.\n
+	Velocity: 320m/s.\n
+	%c[default]An incendiary cartridge for 9x18mm Makarov, or 9x18mm PM, caliber. Designed by Nikolay Makarov for the Makarov PM pistol in 1943, it remains in service to present day in many former USSR states, including Russia, Belarus and Ukraine. The bullet is packed with explosive material, causing the bullet to explode on impact.</text>
+	</string>
+
+	
+<!-- 9x19mm Parabellum Ammunition -->
+	<string id="name_ammo_9x19mm_stnd">
+		<text>9x19mm Standard</text>
+	</string>
+	<string id="name_ammo_9x19mm_stnd_s">
+		<text>9x19mm</text>
+	</string>
+	<string id="name_ammo_9x19mm_hp">
+		<text>9x19mm Hollowpoint</text>
+	</string>
+	<string id="name_ammo_9x19mm_hp_s">
+		<text>9x19mm HP</text>
+	</string>
+	<string id="name_ammo_9x19mm_ap">
+		<text>9x19mm Armour Piercing</text>
+	</string>
+	<string id="name_ammo_9x19mm_ap_s">
+		<text>9x19mm AP</text>
+	</string>
+	<string id="name_ammo_9x19mm_hydra">
+		<text>9x19mm Hydra-Shok</text>
+	</string>
+	<string id="name_ammo_9x19mm_hydra_s">
+		<text>9x19mm HYDRA</text>
+	</string>
+
+	<string id="desc_ammo_9x19mm_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 50.\n
+	Armour Piercing: 110%.\n
+	Accuracy: 110%.\n
+	Recoil: 120%.\n
+	Velocity: 400m/s.\n
+	%c[default]The standard cartridge for the German 9x19mm Parabellum, or 9mm Luger, caliber. Designed in 1901 by Georg Luger for the Luger P08, the cartridge soon gained popularity, and entered service with almost all organized militaries in the world.</text>
+	</string>
+	
+	<string id="desc_ammo_9x19mm_hp">
+		<text>%c[200,238,155,23]
+	Damage: 56.\n
+	Armour Piercing: 82%.\n
+	Accuracy: 55%.\n
+	Recoil: 120%.\n
+	Velocity: 400m/s.\n
+	%c[default]A hollowpoint cartridge for the German 9x19mm Parabellum, or 9mm Luger, caliber. Designed in 1901 by Georg Luger for the Luger P08, the cartridge soon gained popularity, and entered service with almost all organized militaries in the world. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_9x19mm_ap">
+		<text>%c[200,238,155,23]
+	Damage: 47.\n
+	Armour Piercing: 192%.\n
+	Accuracy: 165%.\n
+	Recoil: 120%.\n
+	Velocity: 400m/s.\n
+	%c[default]An armour piercing cartridge for the German 9x19mm Parabellum, or 9mm Luger, caliber. Designed in 1901 by Georg Luger for the Luger P08, the cartridge soon gained popularity, and entered service with almost all organized militaries in the world. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_9x19mm_hydra">
+		<text>%c[200,238,155,23]
+	Damage: 58.\n
+	Armour Piercing: 137%.\n
+	Accuracy: 137%.\n
+	Recoil: 120%.\n
+	Velocity: 400m/s.\n
+	%c[default]A Federal Cartridge Hydra-Shok cartridge for the German 9x19mm Parabellum, or 9mm Luger, caliber. Designed in 1901 by Georg Luger for the Luger P08, the cartridge soon gained popularity, and entered service with almost all organized militaries in the world. The Hydra-Shok bullet combines a hollowpoint with an armour-piercing penetrator, and advanced ballistics.</text>
+	</string>
+	
+	
+<!-- 7.62x25mm Ammunition -->
+	<string id="name_ammo_7.62x25mm_stnd">
+		<text>7.62x25mm Standard</text>
+	</string>
+	<string id="name_ammo_7.62x25mm_stnd_s">
+		<text>7.62x25mm</text>
+	</string>
+	<string id="name_ammo_7.62x25mm_hp">
+		<text>7.62x25mm Hollowpoint</text>
+	</string>
+	<string id="name_ammo_7.62x25mm_hp_s">
+		<text>7.62x25mm HP</text>
+	</string>
+	<string id="name_ammo_7.62x25mm_ap">
+		<text>7.62x25mm Armour Piercing</text>
+	</string>
+	<string id="name_ammo_7.62x25mm_ap_s">
+		<text>7.62x25mm AP</text>
+	</string>
+	<string id="name_ammo_7.62x25mm_incen">
+		<text>7.62x25mm Incendiary</text>
+	</string>
+	<string id="name_ammo_7.62x25mm_incen_s">
+		<text>7.62x25mm INCEN</text>
+	</string>
+
+	<string id="desc_ammo_7.62x25mm_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 44.\n
+	Armour Piercing: 130%.\n
+	Accuracy: 120%.\n
+	Recoil: 90%.\n
+	Velocity: 450m/s.\n
+	%c[default]The standard cartridge for the 7.62x25mm Tokarev caliber. Developed by the Soviet Union in 1930, it was used widely in handguns and submachine guns throughout the USSR, and was found to have excellent penetrating abilities. After the disbanding of the Soviet Union, countries such as China and Vietnam adopted it for various roles.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x25mm_hp">
+		<text>%c[200,238,155,23]
+	Damage: 49.\n
+	Armour Piercing: 97%.\n
+	Accuracy: 60%.\n
+	Recoil: 90%.\n
+	Velocity: 450m/s.\n
+	%c[default]A hollowpoint cartridge for the 7.62x25mm Tokarev caliber. Developed by the Soviet Union in 1930, it was used widely in handguns and submachine guns throughout the USSR, and was found to have excellent penetrating abilities. After the disbanding of the Soviet Union, countries such as China and Vietnam adopted it for various roles. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x25mm_ap">
+		<text>%c[200,238,155,23]
+	Damage: 41.\n
+	Armour Piercing: 227%.\n
+	Accuracy: 180%.\n
+	Recoil: 90%.\n
+	Velocity: 450m/s.\n
+	%c[default]An armour piercing cartridge for the 7.62x25mm Tokarev caliber. Developed by the Soviet Union in 1930, it was used widely in handguns and submachine guns throughout the USSR, and was found to have excellent penetrating abilities. After the disbanding of the Soviet Union, countries such as China and Vietnam adopted it for various roles. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x25mm_incen">
+		<text>%c[200,238,155,23]
+	Damage: 52.\n
+	Armour Piercing: 130%.\n
+	Accuracy: 30%.\n
+	Recoil: 90%.\n
+	Velocity: 450m/s.\n
+	%c[default]An incendiary cartridge for the 7.62x25mm Tokarev caliber. Developed by the Soviet Union in 1930, it was used widely in handguns and submachine guns throughout the USSR, and was found to have excellent penetrating abilities. After the disbanding of the Soviet Union, countries such as China and Vietnam adopted it for various roles. The bullet is packed with explosive material, causing the bullet to explode on impact.</text>
+	</string>
+	
+	
+<!-- 5.7x28mm Ammunition -->
+	<string id="name_ammo_5.7x28mm_stnd">
+		<text>5.7x28mm Standard</text>
+	</string>
+	<string id="name_ammo_5.7x28mm_stnd_s">
+		<text>5.7x28mm</text>
+	</string>
+	<string id="name_ammo_5.7x28mm_hp">
+		<text>5.7x28mm Hollowpoint</text>
+	</string>
+	<string id="name_ammo_5.7x28mm_hp_s">
+		<text>5.7x28mm HP</text>
+	</string>
+	<string id="name_ammo_5.7x28mm_ap">
+		<text>5.7x28mm Armour Piercing</text>
+	</string>
+	<string id="name_ammo_5.7x28mm_ap_s">
+		<text>5.7x28mm AP</text>
+	</string>
+	<string id="name_ammo_5.7x28mm_incen">
+		<text>5.7x28mm Incendiary</text>
+	</string>
+	<string id="name_ammo_5.7x28mm_incen_s">
+		<text>5.7x28mm INCEN</text>
+	</string>
+
+	<string id="desc_ammo_5.7x28mm_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 42.\n
+	Armour Piercing: 145%.\n
+	Accuracy: 125%.\n
+	Recoil: 75%.\n
+	Velocity: 600m/s.\n
+	%c[default]The standard cartridge for the 5.7x28mm caliber. Developed by Fabrique Nationale de Herstal in 1994 for the P90 submachine gun and the Five-seveN pistol, the caliber is intended to defeat body armour with low recoil and high velocity.</text>
+	</string>
+	
+	<string id="desc_ammo_5.7x28mm_hp">
+		<text>%c[200,238,155,23]
+	Damage: 47.\n
+	Armour Piercing: 108%.\n
+	Accuracy: 62%.\n
+	Recoil: 75%.\n
+	Velocity: 600m/s.\n
+	%c[default]A hollowpoint cartridge for the 5.7x28mm caliber. Developed by Fabrique Nationale de Herstal in 1994 for the P90 submachine gun and the Five-seveN pistol, the caliber is intended to defeat body armour with low recoil and high velocity. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_5.7x28mm_ap">
+		<text>%c[200,238,155,23]
+	Damage: 39.\n
+	Armour Piercing: 253%.\n
+	Accuracy: 187%.\n
+	Recoil: 75%.\n
+	Velocity: 600m/s.\n
+	%c[default]An armour piercing cartridge for the 5.7x28mm caliber. Developed by Fabrique Nationale de Herstal in 1994 for the P90 submachine gun and the Five-seveN pistol, the caliber is intended to defeat body armour with low recoil and high velocity. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_5.7x28mm_incen">
+		<text>%c[200,238,155,23]
+	Damage: 50.\n
+	Armour Piercing: 145%.\n
+	Accuracy: 31%.\n
+	Recoil: 75%.\n
+	Velocity: 600m/s.\n
+	%c[default]An incendiary cartridge for the 5.7x28mm caliber. Developed by Fabrique Nationale de Herstal in 1994 for the P90 submachine gun and the Five-seveN pistol, the caliber is intended to defeat body armour with low recoil and high velocity. The bullet is packed with explosive material, causing the bullet to explode on impact.</text>
+	</string>
+	
+
+<!-- .40 SW Ammunition -->
+	<string id="name_ammo_.40sw_stnd">
+		<text>.40 SW Standard</text>
+	</string>
+	<string id="name_ammo_.40sw_stnd_s">
+		<text>.40 SW </text>
+	</string>
+	<string id="name_ammo_.40sw_hp">
+		<text>.40 SW Hollowpoint</text>
+	</string>
+	<string id="name_ammo_.40sw_hp_s">
+		<text>.40 SW HP</text>
+	</string>
+	<string id="name_ammo_.40sw_ap">
+		<text>.40 SW Armour Piercing</text>
+	</string>
+	<string id="name_ammo_.40sw_ap_s">
+		<text>.40 SW AP</text>
+	</string>
+	<string id="name_ammo_.40sw_hydra">
+		<text>.40 SW Hydra-Shok</text>
+	</string>
+	<string id="name_ammo_.40sw_hydra_s">
+		<text>.40 SW HYDRA</text>
+	</string>
+
+	<string id="desc_ammo_.40sw_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 65.\n
+	Armour Piercing: 100%.\n
+	Accuracy: 100%.\n
+	Recoil: 175%.\n
+	Velocity: 350m/s.\n
+	%c[default]The standard cartridge for the .40 SW caliber. Developed by Smith and Wesson in 1990 on request for the FBI, who wanted a more controllable caliber to replace their 10mm Auto firearms, it quickly gained a reputation as an excellent law enforcement and self defense caliber.</text>
+	</string>
+	
+	<string id="desc_ammo_.40sw_hp">
+		<text>%c[200,238,155,23]
+	Damage: 72.\n
+	Armour Piercing: 75%.\n
+	Accuracy: 50%.\n
+	Recoil: 175%.\n
+	Velocity: 350m/s.\n
+	%c[default]A hollowpoint cartridge for the .40 SW caliber. Developed by Smith and Wesson in 1990 on request for the FBI, who wanted a more controllable caliber to replace their 10mm Auto firearms, it quickly gained a reputation as an excellent law enforcement and self defense caliber. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.40sw_ap">
+		<text>%c[200,238,155,23]
+	Damage: 61.\n
+	Armour Piercing: 175%.\n
+	Accuracy: 150%.\n
+	Recoil: 175%.\n
+	Velocity: 350m/s.\n
+	%c[default]An armour piercing cartridge for the .40 SW caliber. Developed by Smith and Wesson in 1990 on request for the FBI, who wanted a more controllable caliber to replace their 10mm Auto firearms, it quickly gained a reputation as an excellent law enforcement and self defense caliber. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.40sw_hydra">
+		<text>%c[200,238,155,23]
+	Damage: 75.\n
+	Armour Piercing: 125%.\n
+	Accuracy: 125%.\n
+	Recoil: 175%.\n
+	Velocity: 350m/s.\n
+	%c[default]A Federal Cartridge Hydra-Shok cartridge for the .40 SW caliber. Developed by Smith and Wesson in 1990 on request for the FBI, who wanted a more controllable caliber to replace their 10mm Auto firearms, it quickly gained a reputation as an excellent law enforcement and self defense caliber. The Hydra-Shok bullet combines a hollowpoint with an armour-piercing penetrator, and advanced ballistics.</text>
+	</string>
+	
+<!-- .357 SIG Ammunition -->
+	<string id="name_ammo_.357sig_stnd">
+		<text>.357 SIG Standard</text>
+	</string>
+	<string id="name_ammo_.357sig_stnd_s">
+		<text>.357 SIG</text>
+	</string>
+	<string id="name_ammo_.357sig_hp">
+		<text>.357 SIG Hollowpoint</text>
+	</string>
+	<string id="name_ammo_.357sig_hp_s">
+		<text>.357 SIG HP</text>
+	</string>
+	<string id="name_ammo_.357sig_ap">
+		<text>.357 SIG Armour Piercing</text>
+	</string>
+	<string id="name_ammo_.357sig_ap_s">
+		<text>.357 SIG AP</text>
+	</string>
+	<string id="name_ammo_.357sig_hydra">
+		<text>.357 SIG Hydra-Shok</text>
+	</string>
+	<string id="name_ammo_.357sig_hydra_s">
+		<text>.357 SIG HYDRA</text>
+	</string>
+
+	<string id="desc_ammo_.357sig_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 70.\n
+	Armour Piercing: 110%.\n
+	Accuracy: 110%.\n
+	Recoil: 200%.\n
+	Velocity: 500m/s.\n
+	%c[default]The standard cartridge for the .357 SIG caliber. Designed and developed by SIG Sauer in 1994 by necking down the .40 SW caliber, it was found to have very good performance and penetration, and was adopted in various law enforcement and civilian self-defense applications.</text>
+	</string>
+	
+	<string id="desc_ammo_.357sig_hp">
+		<text>%c[200,238,155,23]
+	Damage: 78.\n
+	Armour Piercing: 82%.\n
+	Accuracy: 55%.\n
+	Recoil: 200%.\n
+	Velocity: 500m/s.\n
+	%c[default]A hollowpoint cartridge for the .357 SIG caliber. Designed and developed by SIG Sauer in 1994 by necking down the .40 SW caliber, it was found to have very good performance and penetration, and was adopted in various law enforcement and civilian self-defense applications. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.357sig_ap">
+		<text>%c[200,238,155,23]
+	Damage: 66.\n
+	Armour Piercing: 192%.\n
+	Accuracy: 165%.\n
+	Recoil: 200%.\n
+	Velocity: 500m/s.\n
+	%c[default]An armour piercing cartridge for the .357 SIG caliber. Designed and developed by SIG Sauer in 1994 by necking down the .40 SW caliber, it was found to have very good performance and penetration, and was adopted in various law enforcement and civilian self-defense applications. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.357sig_hydra">
+		<text>%c[200,238,155,23]
+	Damage: 81.\n
+	Armour Piercing: 132%.\n
+	Accuracy: 137%.\n
+	Recoil: 200%.\n
+	Velocity: 500m/s.\n
+	%c[default]A Federal Cartridge Hydra-Shok cartridge for the .357 SIG caliber. Designed and developed by SIG Sauer in 1994 by necking down the .40 SW caliber, it was found to have very good performance and penetration, and was adopted in various law enforcement and civilian self-defense applications. The Hydra-Shok bullet combines a hollowpoint with an armour-piercing penetrator, and advanced ballistics.</text>
+	</string>
+
+<!-- .45 ACP Ammunition -->
+	<string id="name_ammo_.45acp_stnd">
+		<text>.45 ACP Standard</text>
+	</string>
+	<string id="name_ammo_.45acp_stnd_s">
+		<text>.45 ACP </text>
+	</string>
+	<string id="name_ammo_.45acp_hp">
+		<text>.45 ACP Hollowpoint</text>
+	</string>
+	<string id="name_ammo_.45acp_hp_s">
+		<text>.45 ACP HP</text>
+	</string>
+	<string id="name_ammo_.45acp_ap">
+		<text>.45 ACP Armour Piercing</text>
+	</string>
+	<string id="name_ammo_.45acp_ap_s">
+		<text>.45 ACP AP</text>
+	</string>
+	<string id="name_ammo_.45acp_hydra">
+		<text>.45 ACP Hydra-Shok</text>
+	</string>
+	<string id="name_ammo_.45acp_hydra_s">
+		<text>.45 ACP HYDRA</text>
+	</string>
+
+	<string id="desc_ammo_.45acp_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 75.\n
+	Armour Piercing: 90%.\n
+	Accuracy: 95%.\n
+	Recoil: 250%.\n
+	Velocity: 300m/s.\n
+	%c[default]The standard cartridge for the .45 ACP, or .45 Auto, caliber. Developed by John Browning in 1905 in association with Colt to replace the underpowered .45 Colt caliber used by the US Cavalry. After thorough testing, it entered service in the Colt M1911, which soon became the standard sidearm for the entire U.S. Military.</text>
+	</string>
+	
+	<string id="desc_ammo_.45acp_hp">
+		<text>%c[200,238,155,23]
+	Damage: 84.\n
+	Armour Piercing: 67%.\n
+	Accuracy: 47%.\n
+	Recoil: 250%.\n
+	Velocity: 300m/s.\n
+	%c[default]A hollowpoint cartridge for the .45 ACP, or .45 Auto, caliber. Developed by John Browning in 1905 in association with Colt to replace the underpowered .45 Colt caliber used by the US Cavalry. After thorough testing, it entered service in the Colt M1911, which soon became the standard sidearm for the entire U.S. Military. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.45acp_ap">
+		<text>%c[200,238,155,23]
+	Damage: 71.\n
+	Armour Piercing: 157%.\n
+	Accuracy: 142%.\n
+	Recoil: 250%.\n
+	Velocity: 300m/s.\n
+	%c[default]An armour piercing cartridge for the .45 ACP, or .45 Auto, caliber. Developed by John Browning in 1905 in association with Colt to replace the underpowered .45 Colt caliber used by the US Cavalry. After thorough testing, it entered service in the Colt M1911, which soon became the standard sidearm for the entire U.S. Military. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.45acp_hydra">
+		<text>%c[200,238,155,23]
+	Damage: 87.\n
+	Armour Piercing: 112%.\n
+	Accuracy: 118%.\n
+	Recoil: 250%.\n
+	Velocity: 300m/s.\n
+	%c[default]A Federal Cartridge Hydra-Shok cartridge for the .45 ACP, or .45 Auto, caliber. Developed by John Browning in 1905 in association with Colt to replace the underpowered .45 Colt caliber used by the US Cavalry. After thorough testing, it entered service in the Colt M1911, which soon became the standard sidearm for the entire U.S. Military. The Hydra-Shok bullet combines a hollowpoint with an armour-piercing penetrator, and advanced ballistics.</text>
+	</string>
+	
+<!-- .357 Magnum Ammunition -->
+	<string id="name_ammo_.357mag_stnd">
+		<text>.357 Magnum Standard</text>
+	</string>
+	<string id="name_ammo_.357mag_stnd_s">
+		<text>.357 Magnum</text>
+	</string>
+	<string id="name_ammo_.357mag_hp">
+		<text>.357 Magnum Hollowpoint</text>
+	</string>
+	<string id="name_ammo_.357mag_hp_s">
+		<text>.357 Magnum HP</text>
+	</string>
+	<string id="name_ammo_.357mag_ap">
+		<text>.357 Magnum Armour Piercing</text>
+	</string>
+	<string id="name_ammo_.357mag_ap_s">
+		<text>.357 Magnum AP</text>
+	</string>
+	<string id="name_ammo_.357mag_hydra">
+		<text>.357 Magnum Hydra-Shok</text>
+	</string>
+	<string id="name_ammo_.357mag_hydra_s">
+		<text>.357 Magnum HYDRA</text>
+	</string>
+
+	<string id="desc_ammo_.357mag_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 90.\n
+	Armour Piercing: 90%.\n
+	Accuracy: 90%.\n
+	Recoil: 300%.\n
+	Velocity: 500m/s.\n
+	%c[default]The standard cartridge for the .357 Magnum caliber. Developed in 1934 by Elmer Keith, Phillip Sharpe and Colonel D. B. Wesson and based upon the earlier Smith and Wesson .38 Special cartridge, it gained a reputation for sheer stopping power and is popular in law enforcement.</text>
+	</string>
+	
+	<string id="desc_ammo_.357mag_hp">
+		<text>%c[200,238,155,23]
+	Damage: 100.\n
+	Armour Piercing: 67%.\n
+	Accuracy: 45%.\n
+	Recoil: 300%.\n
+	Velocity: 500m/s.\n
+	%c[default]A hollowpoint cartridge for the .357 Magnum caliber. Developed in 1934 by Elmer Keith, Phillip Sharpe and Colonel D. B. Wesson and based upon the earlier Smith and Wesson .38 Special cartridge, it gained a reputation for sheer stopping power and is popular in law enforcement. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.357mag_ap">
+		<text>%c[200,238,155,23]
+	Damage: 85.\n
+	Armour Piercing: 157%.\n
+	Accuracy: 135%.\n
+	Recoil: 300%.\n
+	Velocity: 500m/s.\n
+	%c[default]An armour piercing cartridge for the .357 Magnum caliber. Developed in 1934 by Elmer Keith, Phillip Sharpe and Colonel D. B. Wesson and based upon the earlier Smith and Wesson .38 Special cartridge, it gained a reputation for sheer stopping power and is popular in law enforcement. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.357mag_hydra">
+		<text>%c[200,238,155,23]
+	Damage: 104.\n
+	Armour Piercing: 1012%.\n
+	Accuracy: 112%.\n
+	Recoil: 300%.\n
+	Velocity: 500m/s.\n
+	%c[default]A Federal Cartridge Hydra-Shok cartridge for the .357 Magnum caliber. Developed in 1934 by Elmer Keith, Phillip Sharpe and Colonel D. B. Wesson and based upon the earlier Smith and Wesson .38 Special cartridge, it gained a reputation for sheer stopping power and is popular in law enforcement. The Hydra-Shok bullet combines a hollowpoint with an armour-piercing penetrator, and advanced ballistics.</text>
+	</string>
+	
+<!-- .44 Magnum Ammunition -->
+	<string id="name_ammo_.44mag_stnd">
+		<text>.44 Magnum Standard</text>
+	</string>
+	<string id="name_ammo_.44mag_stnd_s">
+		<text>.44 Magnum</text>
+	</string>
+	<string id="name_ammo_.44mag_hp">
+		<text>.44 Magnum Hollowpoint</text>
+	</string>
+	<string id="name_ammo_.44mag_hp_s">
+		<text>.44 Magnum HP</text>
+	</string>
+	<string id="name_ammo_.44mag_ap">
+		<text>.44 Magnum Armour Piercing</text>
+	</string>
+	<string id="name_ammo_.44mag_ap_s">
+		<text>.44 Magnum AP</text>
+	</string>
+	<string id="name_ammo_.44mag_hydra">
+		<text>.44 Magnum Hydra-Shok</text>
+	</string>
+	<string id="name_ammo_.44mag_hydra_s">
+		<text>.44 Magnum HYDRA</text>
+	</string>
+
+	<string id="desc_ammo_.44mag_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 100.\n
+	Armour Piercing: 85%.\n
+	Accuracy: 90%.\n
+	Recoil: 350%.\n
+	Velocity: 450m/s.\n
+	%c[default]The standard cartridge for the .44 Magnum caliber. Designed by Elmer Keith in 1952 through adjustment of the .44 Special caliber, it was an instant success, quickly adopted for many carbines, rifles and pistols.</text>
+	</string>
+	
+	<string id="desc_ammo_.44mag_hp">
+		<text>%c[200,238,155,23]
+	Damage: 112.\n
+	Armour Piercing: 63%.\n
+	Accuracy: 45%.\n
+	Recoil: 350%.\n
+	Velocity: 450m/s.\n
+	%c[default]A hollowpoint cartridge for the .44 Magnum caliber. Designed by Elmer Keith in 1952 through adjustment of the .44 Special caliber, it was an instant success, quickly adopted for many carbines, rifles and pistols. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.44mag_ap">
+		<text>%c[200,238,155,23]
+	Damage: 95.\n
+	Armour Piercing: 148%.\n
+	Accuracy: 135%.\n
+	Recoil: 350%.\n
+	Velocity: 450m/s.\n
+	%c[default]An armour piercing cartridge for the .44 Magnum caliber. Designed by Elmer Keith in 1952 through adjustment of the .44 Special caliber, it was an instant success, quickly adopted for many carbines, rifles and pistols. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_.44mag_hydra">
+		<text>%c[200,238,155,23]
+	Damage: 116.\n
+	Armour Piercing: 102%.\n
+	Accuracy: 112%.\n
+	Recoil: 350%.\n
+	Velocity: 450m/s.\n
+	%c[default]A Federal Cartridge Hydra-Shok cartridge for the .44 Magnum caliber. Designed by Elmer Keith in 1952 through adjustment of the .44 Special caliber, it was an instant success, quickly adopted for many carbines, rifles and pistols. The Hydra-Shok bullet combines a hollowpoint with an armour-piercing penetrator, and advanced ballistics.</text>
+	</string>
+	
+
+<!-- ################# -->
+<!-- RIFLE AMMUNITION START -->
+<!-- #################-->
+	
+<!-- 5.45x39mm Ammunition -->
+	<string id="name_ammo_5.45x39mm_stnd">
+		<text>5.45x39mm Standard</text>
+	</string>
+	<string id="name_ammo_5.45x39mm_stnd_s">
+		<text>5.45x39mm</text>
+	</string>
+	<string id="name_ammo_5.45x39mm_hp">
+		<text>5.45x39mm Hollowpoint</text>
+	</string>
+	<string id="name_ammo_5.45x39mm_hp_s">
+		<text>5.45x39mm HP</text>
+	</string>
+	<string id="name_ammo_5.45x39mm_ap">
+		<text>5.45x39mm Armour Piercing</text>
+	</string>
+	<string id="name_ammo_5.45x39mm_ap_s">
+		<text>5.45x39mm AP</text>
+	</string>
+	<string id="name_ammo_5.45x39mm_incen">
+		<text>5.45x39mm Incendiary</text>
+	</string>
+	<string id="name_ammo_5.45x39mm_incen_s">
+		<text>5.45x39mm INCEN</text>
+	</string>
+
+	<string id="desc_ammo_5.45x39mm_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 68.\n
+	Armour Piercing: 120%.\n
+	Accuracy: 100%.\n
+	Recoil: 125%.\n
+	Velocity: 915m/s.\n
+	%c[default]The standard cartridge for the 5.45x39mm caliber. Developed by the Soviet Union in 1972, to both replace the difficult to control 7.62x39mm caliber, and to challenge the NATO 5.56x45mm caliber. The bullet has a unique tumbling characteristic which causes increased tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_5.45x39mm_hp">
+		<text>%c[200,238,155,23]
+	Damage: 76.\n
+	Armour Piercing: 90%.\n
+	Accuracy: 50%.\n
+	Recoil: 125%.\n
+	Velocity: 915m/s.\n
+	%c[default]A hollowpoint cartridge for the 5.45x39mm caliber. Developed by the Soviet Union in 1972, to both replace the difficult to control 7.62x39mm caliber, and to challenge the NATO 5.56x45mm caliber. The bullet has a unique tumbling characteristic which causes increased tissue damage. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_5.45x39mm_ap">
+		<text>%c[200,238,155,23]
+	Damage: 64.\n
+	Armour Piercing: 210%.\n
+	Accuracy: 150%.\n
+	Recoil: 125%.\n
+	Velocity: 915m/s.\n
+	%c[default]An armour piercing cartridge for the 5.45x39mm caliber. Developed by the Soviet Union in 1972, to both replace the difficult to control 7.62x39mm caliber, and to challenge the NATO 5.56x45mm caliber. The bullet has a unique tumbling characteristic which causes increased tissue damage. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_5.45x39mm_incen">
+		<text>%c[200,238,155,23]
+	Damage: 81.\n
+	Armour Piercing: 120%.\n
+	Accuracy: 25%.\n
+	Recoil: 125%.\n
+	Velocity: 915m/s.\n
+	%c[default]An incendiary cartridge for the 5.45x39mm caliber. Developed by the Soviet Union in 1972, to both replace the difficult to control 7.62x39mm caliber, and to challenge the NATO 5.56x45mm caliber. The bullet has a unique tumbling characteristic which causes increased tissue damage. The bullet is packed with explosive material, causing the bullet to explode on impact.</text>
+	</string>
+	
+<!-- 5.56x45mm NATO Ammunition -->
+	<string id="name_ammo_5.56x45mm_stnd">
+		<text>5.56x45mm NATO Standard</text>
+	</string>
+	<string id="name_ammo_5.56x45mm_stnd_s">
+		<text>5.56x45mm</text>
+	</string>
+	<string id="name_ammo_5.56x45mm_hp">
+		<text>5.56x45mm NATO Hollowpoint</text>
+	</string>
+	<string id="name_ammo_5.56x45mm_hp_s">
+		<text>5.56x45mm HP</text>
+	</string>
+	<string id="name_ammo_5.56x45mm_ap">
+		<text>5.56x45mm NATO Armour Piercing</text>
+	</string>
+	<string id="name_ammo_5.56x45mm_ap_s">
+		<text>5.56x45mm AP</text>
+	</string>
+	<string id="name_ammo_5.56x45mm_incen">
+		<text>5.56x45mm NATO Incendiary</text>
+	</string>
+	<string id="name_ammo_5.56x45mm_incen_s">
+		<text>5.56x45mm INCEN</text>
+	</string>
+
+	<string id="desc_ammo_5.56x45mm_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 72.\n
+	Armour Piercing: 130%.\n
+	Accuracy: 110%.\n
+	Recoil: 150%.\n
+	Velocity: 950m/s.\n
+	%c[default]The standard cartridge for the 5.56x45mm NATO caliber. Developed by Remington Arms by modifying the .223 Remington caliber, it was first adopted by the U.S. Military for use in the M16 rifle series, before becoming the standard caliber for all NATO countries.</text>
+	</string>
+	
+	<string id="desc_ammo_5.56x45mm_hp">
+		<text>%c[200,238,155,23]
+	Damage: 80.\n
+	Armour Piercing: 97%.\n
+	Accuracy: 55%.\n
+	Recoil: 150%.\n
+	Velocity: 950m/s.\n
+	%c[default]A hollowpoint cartridge for the 5.56x45mm NATO caliber. Developed by Remington Arms by modifying the .223 Remington caliber, it was first adopted by the U.S. Military for use in the M16 rifle series, before becoming the standard caliber for all NATO countries. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_5.56x45mm_ap">
+		<text>%c[200,238,155,23]
+	Damage: 68.\n
+	Armour Piercing: 227%.\n
+	Accuracy: 165%.\n
+	Recoil: 150%.\n
+	Velocity: 950m/s.\n
+	%c[default]An armour piercing cartridge for the 5.56x45mm NATO caliber. Developed by Remington Arms by modifying the .223 Remington caliber, it was first adopted by the U.S. Military for use in the M16 rifle series, before becoming the standard caliber for all NATO countries. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_5.56x45mm_incen">
+		<text>%c[200,238,155,23]
+	Damage: 86.\n
+	Armour Piercing: 130%.\n
+	Accuracy: 27%.\n
+	Recoil: 150%.\n
+	Velocity: 950m/s.\n
+	%c[default]An incendiary cartridge for the 5.56x45mm NATO caliber. Developed by Remington Arms by modifying the .223 Remington caliber, it was first adopted by the U.S. Military for use in the M16 rifle series, before becoming the standard caliber for all NATO countries. The bullet is packed with explosive material, causing the bullet to explode on impact.</text>
+	</string>
+	
+	
+<!-- 7.62x39mm Ammunition -->
+	<string id="name_ammo_7.62x39mm_stnd">
+		<text>7.62x39mm Standard</text>
+	</string>
+	<string id="name_ammo_7.62x39mm_stnd_s">
+		<text>7.62x39mm</text>
+	</string>
+	<string id="name_ammo_7.62x39mm_hp">
+		<text>7.62x39mm Hollowpoint</text>
+	</string>
+	<string id="name_ammo_7.62x39mm_hp_s">
+		<text>7.62x39mm HP</text>
+	</string>
+	<string id="name_ammo_7.62x39mm_ap">
+		<text>7.62x39mm Armour Piercing</text>
+	</string>
+	<string id="name_ammo_7.62x39mm_ap_s">
+		<text>7.62x39mm AP</text>
+	</string>
+	<string id="name_ammo_7.62x39mm_incen">
+		<text>7.62x39mm Incendiary</text>
+	</string>
+	<string id="name_ammo_7.62x39mm_incen_s">
+		<text>7.62x39mm INCEN</text>
+	</string>
+
+	<string id="desc_ammo_7.62x39mm_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 85.\n
+	Armour Piercing: 100%.\n
+	Accuracy: 90%.\n
+	Recoil: 225%.\n
+	Velocity: 700m/s.\n
+	%c[default]The standard cartridge for the 7.62x39mm caliber. Developed for the SKS Carbine by the Soviet Union in 1943, the caliber was adopted for the AK-47 assault rifle after the war, and became one of the most prolific cartridges in the world.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x39mm_hp">
+		<text>%c[200,238,155,23]
+	Damage: 95.\n
+	Armour Piercing: 75%.\n
+	Accuracy: 45%.\n
+	Recoil: 225%.\n
+	Velocity: 700m/s.\n
+	%c[default]A hollowpoint cartridge for the 7.62x39mm caliber. Developed for the SKS Carbine by the Soviet Union in 1943, the caliber was adopted for the AK-47 assault rifle after the war, and became one of the most prolific cartridges in the world. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x39mm_ap">
+		<text>%c[200,238,155,23]
+	Damage: 80.\n
+	Armour Piercing: 175%.\n
+	Accuracy: 135%.\n
+	Recoil: 225%.\n
+	Velocity: 700m/s.\n
+	%c[default]An armour piercing cartridge for the 7.62x39mm caliber. Developed for the SKS Carbine by the Soviet Union in 1943, the caliber was adopted for the AK-47 assault rifle after the war, and became one of the most prolific cartridges in the world. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x39mm_incen">
+		<text>%c[200,238,155,23]
+	Damage: 102.\n
+	Armour Piercing: 100%.\n
+	Accuracy: 22%.\n
+	Recoil: 225%.\n
+	Velocity: 700m/s.\n
+	%c[default]An incendiary cartridge for the 7.62x39mm caliber. Developed for the SKS Carbine by the Soviet Union in 1943, the caliber was adopted for the AK-47 assault rifle after the war, and became one of the most prolific cartridges in the world. The bullet is packed with explosive material, causing the bullet to explode on impact.</text>
+	</string>
+
+
+<!-- 9x39mm Ammunition -->
+	<string id="name_ammo_9x39mm_stnd">
+		<text>9x39mm Standard</text>
+	</string>
+	<string id="name_ammo_9x39mm_stnd_s">
+		<text>9x39mm</text>
+	</string>
+	<string id="name_ammo_9x39mm_hp">
+		<text>9x39mm Hollowpoint</text>
+	</string>
+	<string id="name_ammo_9x39mm_hp_s">
+		<text>9x39mm HP</text>
+	</string>
+	<string id="name_ammo_9x39mm_ap">
+		<text>9x39mm Armour Piercing</text>
+	</string>
+	<string id="name_ammo_9x39mm_ap_s">
+		<text>9x39mm AP</text>
+	</string>
+	<string id="name_ammo_9x39mm_incen">
+		<text>9x39mm Incendiary</text>
+	</string>
+	<string id="name_ammo_9x39mm_incen_s">
+		<text>9x39mm INCEN</text>
+	</string>
+
+	<string id="desc_ammo_9x39mm_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 90.\n
+	Armour Piercing: 150%.\n
+	Accuracy: 110%.\n
+	Recoil: 200%.\n
+	Velocity: 200m/s.\n
+	%c[default]The standard cartridge for the 9x39mm caliber. Developed by the Soviet Union in 1980 for covert warfare by adjusting the 7.62x39mm caliber, it combines a heavy bullet with subsonic velocity to achieve effective, if somewhat limited, stealth usage.</text>
+	</string>
+	
+	<string id="desc_ammo_9x39mm_hp">
+		<text>%c[200,238,155,23]
+	Damage: 100.\n
+	Armour Piercing: 112%.\n
+	Accuracy: 55%.\n
+	Recoil: 200%.\n
+	Velocity: 200m/s.\n
+	%c[default]A hollowpoint cartridge for the 9x39mm caliber. Developed by the Soviet Union in 1980 for covert warfare by adjusting the 7.62x39mm caliber, it combines a heavy bullet with subsonic velocity to achieve effective, if somewhat limited, stealth usage. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_9x39mm_ap">
+		<text>%c[200,238,155,23]
+	Damage: 85.\n
+	Armour Piercing: 262%.\n
+	Accuracy: 165%.\n
+	Recoil: 200%.\n
+	Velocity: 200m/s.\n
+	%c[default]An armour piercing cartridge for the 9x39mm caliber. Developed by the Soviet Union in 1980 for covert warfare by adjusting the 7.62x39mm caliber, it combines a heavy bullet with subsonic velocity to achieve effective, if somewhat limited, stealth usage. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_9x39mm_incen">
+		<text>%c[200,238,155,23]
+	Damage: 108.\n
+	Armour Piercing: 150%.\n
+	Accuracy: 27%.\n
+	Recoil: 200%.\n
+	Velocity: 200m/s.\n
+	%c[default]An incendiary cartridge for the 9x39mm caliber. Developed by the Soviet Union in 1980 for covert warfare by adjusting the 7.62x39mm caliber, it combines a heavy bullet with subsonic velocity to achieve effective, if somewhat limited, stealth usage. The bullet is packed with explosive material, causing the bullet to explode on impact.</text>
+	</string>
+	
+	
+<!-- 7.62x51mm Ammunition -->
+	<string id="name_ammo_7.62x51mm_stnd">
+		<text>7.62x51mm NATO Standard</text>
+	</string>
+	<string id="name_ammo_7.62x51mm_stnd_s">
+		<text>7.62x51mm</text>
+	</string>
+	<string id="name_ammo_7.62x51mm_hp">
+		<text>7.62x51mm NATO Hollowpoint</text>
+	</string>
+	<string id="name_ammo_7.62x51mm_hp_s">
+		<text>7.62x51mm HP</text>
+	</string>
+	<string id="name_ammo_7.62x51mm_ap">
+		<text>7.62x51mm NATO Armour Piercing</text>
+	</string>
+	<string id="name_ammo_7.62x51mm_ap_s">
+		<text>7.62x51mm AP</text>
+	</string>
+	<string id="name_ammo_7.62x51mm_incen">
+		<text>7.62x51mm NATO Incendiary</text>
+	</string>
+	<string id="name_ammo_7.62x51mm_incen_s">
+		<text>7.62x51mm INCEN</text>
+	</string>
+
+	<string id="desc_ammo_7.62x51mm_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 95.\n
+	Armour Piercing: 130%.\n
+	Accuracy: 115%.\n
+	Recoil: 250%.\n
+	Velocity: 850m/s.\n
+	%c[default]The standard cartridge for the 7.62x51mm NATO caliber. Developed by the United States from the .308 Winchester caliber, it replaced the difficult to control .30-06 caliber used by the M1 Garand. It was first used in the M14 rifle.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x51mm_hp">
+		<text>%c[200,238,155,23]
+	Damage: 106.\n
+	Armour Piercing: 97%.\n
+	Accuracy: 57%.\n
+	Recoil: 250%.\n
+	Velocity: 850m/s.\n
+	%c[default]A hollowpoint cartridge for the 7.62x51mm NATO caliber. Developed by the United States from the .308 Winchester caliber, it replaced the difficult to control .30-06 caliber used by the M1 Garand. It was first used in the M14 rifle. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x51mm_ap">
+		<text>%c[200,238,155,23]
+	Damage: 90.\n
+	Armour Piercing: 227%.\n
+	Accuracy: 172%.\n
+	Recoil: 250%.\n
+	Velocity: 850m/s.\n
+	%c[default]An armour piercing cartridge for the 7.62x51mm NATO caliber. Developed by the United States from the .308 Winchester caliber, it replaced the difficult to control .30-06 caliber used by the M1 Garand. It was first used in the M14 rifle. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x51mm_incen">
+		<text>%c[200,238,155,23]
+	Damage: 114.\n
+	Armour Piercing: 130%.\n
+	Accuracy: 28%.\n
+	Recoil: 250%.\n
+	Velocity: 850m/s.\n
+	%c[default]An incendiary cartridge for the 7.62x51mm NATO caliber. Developed by the United States from the .308 Winchester caliber, it replaced the difficult to control .30-06 caliber used by the M1 Garand. It was first used in the M14 rifle. The bullet is packed with explosive material, causing the bullet to explode on impact.</text>
+	</string>
+	
+	
+<!-- 7.62x54mmR Ammunition -->
+	<string id="name_ammo_7.62x54mmR_stnd">
+		<text>7.62x54mmR Standard</text>
+	</string>
+	<string id="name_ammo_7.62x54mmR_stnd_s">
+		<text>7.62x54mmR</text>
+	</string>
+	<string id="name_ammo_7.62x54mmR_hp">
+		<text>7.62x54mmR Hollowpoint</text>
+	</string>
+	<string id="name_ammo_7.62x54mmR_hp_s">
+		<text>7.62x54mmR HP</text>
+	</string>
+	<string id="name_ammo_7.62x54mmR_ap">
+		<text>7.62x54mmR Armour Piercing</text>
+	</string>
+	<string id="name_ammo_7.62x54mmR_ap_s">
+		<text>7.62x54mmR AP</text>
+	</string>
+	<string id="name_ammo_7.62x54mmR_incen">
+		<text>7.62x54mmR Incendiary</text>
+	</string>
+	<string id="name_ammo_7.62x54mmR_incen_s">
+		<text>7.62x54mmR INCEN</text>
+	</string>
+
+	<string id="desc_ammo_7.62x54mmR_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 115.\n
+	Armour Piercing: 110%.\n
+	Accuracy: 120%.\n
+	Recoil: 350%.\n
+	Velocity: 800m/s.\n
+	%c[default]The standard cartridge for the 7.62x54mmR caliber. Developed by Russia in 1891 and used in the Mosin Nagant bolt action rifle, it was used throughout the Tsarist and Soviet eras, and remains one of the oldest calibers still in military use today.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x54mmR_hp">
+		<text>%c[200,238,155,23]
+	Damage: 128.\n
+	Armour Piercing: 82%.\n
+	Accuracy: 60%.\n
+	Recoil: 350%.\n
+	Velocity: 800m/s.\n
+	%c[default]A hollowpoint cartridge for the 7.62x54mmR caliber. Developed by Russia in 1891 and used in the Mosin Nagant bolt action rifle, it was used throughout the Tsarist and Soviet eras, and remains one of the oldest calibers still in military use today. The bullet expands on impact, decreasing ballistic penetration and increasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x54mmR_ap">
+		<text>%c[200,238,155,23]
+	Damage: 109.\n
+	Armour Piercing: 192%.\n
+	Accuracy: 180%.\n
+	Recoil: 350%.\n
+	Velocity: 800m/s.\n
+	%c[default]An armour piercing cartridge for the 7.62x54mmR caliber. Developed by Russia in 1891 and used in the Mosin Nagant bolt action rifle, it was used throughout the Tsarist and Soviet eras, and remains one of the oldest calibers still in military use today. The bullet is hard-tipped, increasing penetration while decreasing tissue damage.</text>
+	</string>
+	
+	<string id="desc_ammo_7.62x54mmR_incen">
+		<text>%c[200,238,155,23]
+	Damage: 138.\n
+	Armour Piercing: 110%.\n
+	Accuracy: 30%.\n
+	Recoil: 350%.\n
+	Velocity: 800m/s.\n
+	%c[default]An incendiary cartridge for the 7.62x54mmR caliber. Developed by Russia in 1891 and used in the Mosin Nagant bolt action rifle, it was used throughout the Tsarist and Soviet eras, and remains one of the oldest calibers still in military use today. The bullet is packed with explosive material, causing the bullet to explode on impact.</text>
+	</string>
+	
+
+<!-- #################### -->
+<!-- SHOTGUN AMMUNITION START -->
+<!-- ####################-->
+	
+<!-- 12GA Shot Ammunition -->
+	<string id="name_ammo_buckshot_stnd">
+		<text>12GA Buckshot Standard</text>
+	</string>
+	<string id="name_ammo_buckshot_stnd_s">
+		<text>12GA SHOT</text>
+	</string>
+	<string id="name_ammo_buckshot_magnum">
+		<text>12GA Buckshot Magnum</text>
+	</string>
+	<string id="name_ammo_buckshot_magnum_s">
+		<text>12GA SHOT MAG</text>
+	</string>
+	<string id="name_ammo_buckshot_flechette">
+		<text>12GA Buckshot Flechette</text>
+	</string>
+	<string id="name_ammo_buckshot_flechette_s">
+		<text>12GA SHOT FLECH</text>
+	</string>
+
+	<string id="desc_ammo_buckshot_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 42.\n
+	Pellets: 8.\n
+	Armour Piercing: 75%.\n
+	Recoil: 400%.\n
+	Velocity: 250m/s.\n
+	%c[default]The standard shotshell for 12 Gauge buckshot. A shotshell contains gunpowder, a wad and a load of either pellets or a slug, designed to be fired from a smoothbore shotgun barrel.</text>
+	</string>
+	
+	<string id="desc_ammo_buckshot_magnum">
+		<text>%c[200,238,155,23]
+	Damage: 42.\n
+	Pellets: 12.\n
+	Armour Piercing: 75%.\n
+	Recoil: 400%.\n
+	Velocity: 250m/s.\n
+	%c[default]A lengthened "magnum" shell for 12 Gauge buckshot. A shotshell contains gunpowder, a wad and a load of either pellets or a slug, designed to be fired from a smoothbore shotgun barrel. The shell is longer and holds more pellets than normal loads.</text>
+	</string>
+	
+	<string id="desc_ammo_buckshot_flechette">
+		<text>%c[200,238,155,23]
+	Damage: 40.\n
+	Pellets: 8.\n
+	Armour Piercing: 127%.\n
+	Recoil: 400%.\n
+	Velocity: 250m/s.\n
+	%c[default]A flechette loaded shotshell for 12 Gauge buckshot. A shotshell contains gunpowder, a wad and a load of either pellets or a slug, designed to be fired from a smoothbore shotgun barrel. The shell contains small dart-like projectiles which penetrate armour better than standard shot.</text>
+	</string>
+	
+	
+<!-- 12GA Slug Ammunition -->
+	<string id="name_ammo_shotslug_stnd">
+		<text>12GA Slug Standard</text>
+	</string>
+	<string id="name_ammo_shotslug_stnd_s">
+		<text>12GA SLUG</text>
+	</string>
+	<string id="name_ammo_shotslug_dart">
+		<text>12GA Slug Dart</text>
+	</string>
+	<string id="name_ammo_shotslug_dart_s">
+		<text>12GA SLUG DART</text>
+	</string>
+	<string id="name_ammo_shotslug_frag">
+		<text>12GA FRAG-12</text>
+	</string>
+	<string id="name_ammo_shotslug_frag_s">
+		<text>12GA FRAG-12</text>
+	</string>
+
+	<string id="desc_ammo_shotslug_stnd">
+		<text>%c[200,238,155,23]
+	Damage: 100.\n
+	Armour Piercing: 120%.\n
+	Accuracy: 110%.\n
+	Recoil: 400%.\n
+	Velocity: 250m/s.\n
+	%c[default]The standard slug shell for 12 Gauge. A shotshell contains gunpowder, a wad and a load of either pellets or a slug, designed to be fired from a smoothbore shotgun barrel.</text>
+	</string>
+	
+	<string id="desc_ammo_shotslug_dart">
+		<text>%c[200,238,155,23]
+	Damage: 94.\n
+	Armour Piercing: 210%.\n
+	Accuracy: 137%.\n
+	Recoil: 400%.\n
+	Velocity: 250m/s.\n
+	%c[default]A dart load slug shell for 12 Gauge. A shotshell contains gunpowder, a wad and a load of either pellets or a slug, designed to be fired from a smoothbore shotgun barrel. The dart slug has a hard, pointed tip to penetrate armour.</text>
+	</string>
+	
+	<string id="desc_ammo_shotslug_frag">
+		<text>%c[200,238,155,23]
+	Damage: 125.\n
+	Armour Piercing: 120%.\n
+	Accuracy: 165%.\n
+	Recoil: 400%.\n
+	Velocity: 250m/s.\n
+	%c[default]An experimental explosive shell for 12 Gauge. A shotshell contains gunpowder, a wad and a load of either pellets or a slug, designed to be fired from a smoothbore shotgun barrel. The FRAG-12 is an experimental shotgun grenade slug which possesses stabilizing fins and explodes on impact.</text>
+	</string>
+
+	
+<!-- ################## -->
+<!-- GAUSS AMMUNITION START -->
+<!-- ##################-->
+
+	
+	<string id="name_ammo_2mmec">
+		<text>2mm Electromagnetic Cell</text>
+	</string>
+	<string id="name_ammo_2mmec_s">
+		<text>2mm EC</text>
+	</string>
+	
+	<string id="desc_ammo_2mmec">
+		<text>%c[200,238,155,23]
+	Damage: 175.\n
+	Armour Piercing: 300%.\n
+	Accuracy: 100%.\n
+	Recoil: 0%.\n
+	Velocity: 2000m/s.\n
+	%c[default]The standard caliber used in experimental XM-E31 Linear Accelerator Rifles. It contains a small projectile mounted on a battery, which is used to power the Linear Accelerator's electromagnetic rail system, which then propells the projectile to relativistic velocities. The resulting impact is devastating, punching through solid metal and deteriorating it to a molecular level in an instant.</text>
+	</string>
+	
+	
+<!-- ######################## -->
+<!-- RIFLE GRENADE AMMUNITION START -->
+<!-- ########################-->
+	
+	
+<!-- 40x46mm Rifle Grenade Ammunition -->
+	<string id="name_ammo_40x46mm_he">
+		<text>40x46mm High Explosive</text>
+	</string>
+	<string id="name_ammo_40x46mm_he_s">
+		<text>40x46mm HE</text>
+	</string>
+	<string id="name_ammo_40x46mm_hellhound">
+		<text>40x46mm MEI Hellhound</text>
+	</string>
+	<string id="name_ammo_40x46mm_hellhound_s">
+		<text>40x46mm HELL</text>
+	</string>
+
+	<string id="desc_ammo_40x46mm_he">
+		<text>%c[200,238,155,23]
+	6m Blast Radius.\n
+	15m Fragmentation Radius.\n
+	Velocity: 75m/s.\n
+	%c[default]The standard 40x46mm rifle grenade. The 40x46mm grenade is a low velocity grenade cartridge, designed to be used in handheld grenade launchers and underslung rifle grenade launchers. Its main use is clearing out buildings, however it is also effective in outdoor enviroments.</text>
+	</string>
+	
+	<string id="desc_ammo_40x46mm_hellhound">
+		<text>%c[200,238,155,23]
+	10m Blast Radius.\n
+	20m Fragmentation Radius.\n
+	Velocity: 75m/s.\n
+	%c[default]A Martin Electronics Inc. "HELLHOUND" 40x46mm rifle grenade. The 40x46mm grenade is a low velocity grenade cartridge, designed to be used in handheld grenade launchers and underslung rifle grenade launchers. Its main use is clearing out buildings, however it is also effective in outdoor enviroments. The "HELLHOUND" grenade is a longer and far more powerful version of the standard 40x46mm grenade, and almost doubles the effective radius of the explosion.</text>
+	</string>
+	
+	
+<!-- VOG-25 Rifle Grenade Ammunition -->
+	<string id="name_ammo_vog25">
+		<text>VOG-25 High Explosive</text>
+	</string>
+	<string id="name_ammo_vog25_s">
+		<text>VOG-25 HE</text>
+	</string>
+	<string id="name_ammo_vog25p">
+		<text>VOG-25P Jumping Grenade</text>
+	</string>
+	<string id="name_ammo_vog25p_s">
+		<text>VOG-25P</text>
+	</string>
+	
+	<string id="desc_ammo_vog25">
+		<text>%c[200,238,155,23]
+	5m Blast Radius.\n
+	14m Fragmentation Radius.\n
+	Velocity: 75m/s.\n
+	%c[default]The standard VOG-25 Russian rifle grenade. The VOG-25 grenade is a 40mm caseless grenade, which has its own propellant within the charge itself. The grenade is designed to be used in Russian underslung grenade launchers, and has an effectiveness rivalling that of the traditional 40mm grenade.</text>
+	</string>
+	
+	<string id="desc_ammo_vog25p">
+		<text>%c[200,238,155,23]
+	8m Blast Radius.\n
+	22m Fragmentation Radius.\n
+	Velocity: 75m/s.\n
+	%c[default]A special "jumping" VOG-25 Russian rifle grenade. The VOG-25 grenade is a 40mm caseless grenade, which has its own propellant within the charge itself. The grenade is designed to be used in Russian underslung grenade launchers, and has an effectiveness rivalling that of the traditional 40mm grenade. VOG-25P grenades have a secondary charge which activates after impact, boosting the grenade to several metres in the air before detonating, increasing the effective lethal radius.</text>
+	</string>
+	
+	
+<!-- ######################## -->
+<!-- HAND GRENADE AMMUNITION START -->
+<!-- ########################-->
+	
+	
+	<string id="name_grenade_f1">
+		<text>F-1 Hand Grenade</text>
+	</string>
+	<string id="name_grenade_rgd5">
+		<text>RGD-5 Hand Grenade</text>
+	</string>
+	
+	<string id="desc_grenade_f1">
+		<text>%c[200,238,155,23]
+	3.6 Second Fuse Time.\n
+	8m Blast Radius.\n
+	20m Fragmentation Radius.\n
+	%c[default]The Soviet F-1 Hand Grenade, also known as the "Limonka" or "Lemon Grenade", is an anti-personnel grenade. The grenade dates back to World War II, and was redesigned soon after. It has a uniform ribbed steel design, which helps produce fragmentation and allow for better throwing grip.</text>
+	</string>
+	
+	<string id="desc_grenade_rgd5">
+		<text>%c[200,238,155,23]
+	3.2 Second Fuse Time.\n
+	5m Blast Radius.\n
+	10m Fragmentation Radius.\n
+	%c[default]The Soviet RDG-5 Hand Grenade is a post World War II anti-personnel fragmentation grenade. The grenade is egg shaped and has no external ribbing, except for a joint where the two halves of the grenade are welded. Even though the grenade is of inferior design to that of other defensive grenades, it is very cheap to produce and is still manufactured in Russia, Bulgaria, China, Georgia and Poland.</text>
+	</string>
+	
+	
+<!-- ####################### -->
+<!-- RPGL GRENADE AMMUNITION START -->
+<!-- #######################-->
+	
+	
+	<string id="name_ammo_og7v">
+		<text>OG-7V Rocket Propelled Grenade</text>
+	</string>
+	<string id="name_ammo_og7v_s">
+		<text>OG-7V</text>
+	</string>
+	
+	<string id="desc_ammo_og7v">
+		<text>%c[200,238,155,23]
+	8m Blast Radius.\n
+	16m Fragmentation Radius.\n
+	Engine Velocity: 115m/s.\n
+	%c[default]The OG-7V Rocket-Propelled Grenade is a highly explosive fragmentation grenade with both a warhead and a propellant, allowing it to reach velocities of 115 m/s, and to a maximum distance of 920m, whereupon it self detonates. Upon being launched, the grenade releases its "casing" and four stabilizing fins extend to help increase accuracy.</text>
+	</string>
+
+</string_table>

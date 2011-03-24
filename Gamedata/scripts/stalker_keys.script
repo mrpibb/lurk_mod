@@ -1,0 +1,66 @@
+--[[
+STALKER Keys MOD v0.1
+by HeEr0 [todor@mailshack.com]
+--]]
+
+local ltxfile	= "keys.ltx"
+local ltxsect	= "keycode"
+local ltxval	= "val"
+local ini 		= nil
+
+-----------------------------------------------------------------------------------------------------------------
+function keyproc()
+
+	-- acquire the ini file
+	ini = ini_file(ltxfile)
+	if ini ~= nil then
+
+		-- check if the needed section exists
+		if ini:section_exist(ltxsect) == true then
+
+			--[[
+			example of using antirad with J key
+			you can find all the keycodes in the mod documentation
+			--]]
+			use_antirad(iskeydown(74))
+
+		end
+
+		ini = nil
+	end
+end
+
+-----------------------------------------------------------------------------------------------------------------
+function iskeydown(keycode)
+
+	if (keycode > 0) and (keycode < 255) then
+
+		-- check if the needed value exists
+		local newval = ltxval..keycode
+		if ini:line_exist(ltxsect, newval) == true then
+
+			-- Read the key value (in an unsigned 32-bit numeric variable)
+			local val = ini:r_u32(ltxsect,newval)
+			if val > 0 then
+				return true
+			end
+		end
+	end
+
+	return false
+end
+
+-----------------------------------------------------------------------------------------------------------------
+local antiradused = false
+function use_antirad(keydown)
+
+	-- make sure we take just one antirad per key down
+	if keydown == true then
+		if antiradused == false then
+			db.actor:eat(db.actor:object("antirad"))
+			antiradused = true
+		end
+	else
+		antiradused = false
+	end
+end

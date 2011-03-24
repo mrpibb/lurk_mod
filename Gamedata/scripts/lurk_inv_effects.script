@@ -1,0 +1,130 @@
+--[[
+LURK INVENTORY EFFECTS
+
+Look at the bottom to see how to set up the callback.
+]]--
+
+objectinuse=0
+objectused=0
+
+--If/then statements for finding the item.
+function start(obj)
+snd = xr_sound.get_safe_sound_object([[$no_sound]])
+	if (db.actor~=nil) and (obj~=nil) then
+	slotinuse=db.actor:active_slot()
+	slot_div=1
+		if obj:section() == "medkit" or obj:section() == "medkit_army" or obj:section() == "medkit_scientic" then
+		snd= xr_sound.get_safe_sound_object([[lurk_inv_sounds\inv_medkit]])
+		holster_time=time_global()+1650
+			if (objectinuse==1) then
+			holster_time=holster_time+1650
+			end
+		soundhub()
+			
+		elseif obj:section() == "antirad" then
+		snd= xr_sound.get_safe_sound_object([[lurk_inv_sounds\inv_pills]])
+		holster_time=time_global()+1650
+			if (objectinuse==1) then
+			holster_time=holster_time+1650
+			end
+		soundhub()
+		
+		elseif obj:section() == "bandage" then
+		snd= xr_sound.get_safe_sound_object([[lurk_inv_sounds\inv_bandage]])
+		holster_time=time_global()+1000
+			if (objectinuse==1) then
+			holster_time=holster_time+1000
+			end
+		soundhub()
+			
+		elseif obj:section() == "vodka" then
+		snd= xr_sound.get_safe_sound_object([[lurk_inv_sounds\inv_vodka]])
+		holster_time=time_global()+4000
+			if (objectinuse==1) then
+			holster_time=holster_time+4000
+			end
+		soundhub()
+			
+		elseif obj:section() == "energy_drink" then
+		snd= xr_sound.get_safe_sound_object([[lurk_inv_sounds\inv_softdrink]])
+		holster_time=time_global()+4000
+			if (objectinuse==1) then
+			holster_time=holster_time+4000
+			end
+		soundhub()
+			
+		elseif obj:section() == "bread" or obj:section() == "conserva" or obj:section() == "kolbasa" then
+		snd= xr_sound.get_safe_sound_object([[lurk_inv_sounds\inv_food]])
+		holster_time=time_global()+5000
+			if (objectinuse==1) then
+			holster_time=holster_time+5000
+			end
+		soundhub()
+		end
+	
+	end
+end
+
+--Other stuff executes from here.
+function soundhub()
+	if db.actor:alive() then
+	snd:play_no_feedback(db.actor, sound_object.s2d, 0, vector(), 1.0)
+	snd = xr_sound.get_safe_sound_object([[$no_sound]])
+		if (objectinuse==0) then
+		db.actor:hide_weapon()
+		objectinuse=1
+			if slotinuse == 1 then
+			slot_div = ((holster_time-time_global())/1.5)
+			else
+			slot_div = 0
+			end
+		end
+	objectused=objectused+1
+	weapontimer()
+	end
+end
+
+--Holster time. Its set up as additive: A food and a drink taken together will apply instantly, but your gun is holstered for 9 seconds.
+function weapontimer()
+	if (holster_time~=nil) and (time_global()>(holster_time-slot_div)) and level.present() then
+	objectused=objectused-1
+		if (objectused==0) then
+		db.actor:restore_weapon()
+		objectinuse=0
+		holster_time=nil
+		end
+	end
+end
+
+--Message for time remaining and math.Round function. Not used.
+--[[
+function message()
+news_manager.send_tip(db.actor, tostring(math.Round((holster_time - time_global())/1000)).."s", nil, nil, 1000)
+end
+
+--Math.round
+function math.Round(num)
+local floored = math.floor(num)
+	if (num - floored) >= 0.5 then
+	return math.ceil(num)
+	else
+	return floored
+	end
+end
+]]--
+
+--HOW TO APPLY
+--[[
+*In actor_binder():net_destroy()*
+self.object:set_callback(callback.use_object, nil)
+
+*In actor_binder():reinit()*
+self.object:set_callback(callback.use_object, self.use_object, self)
+
+*Somewhere in the script*
+function actor_binder:use_object(obj)
+lurk_inv_effects.start(obj)
+end
+
+*SomeFaggot and Gmod4Ever were here...*
+]]--

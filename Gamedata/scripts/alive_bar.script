@@ -1,0 +1,324 @@
+--STALKER aliVe
+--by gannebamm www.oblivion-lost.de
+--BAR SCRIPTS - btw. wer das liest ist doof ^^ -
+--------------------------------------------------------------------- PREACONDITIONS :
+
+--MONEY
+
+local money_amount_x = 46800
+function hunter_check( actor, npc )
+	if db.actor:money() >= money_amount_x then 
+		return true
+	end
+	return false
+end
+
+local money_amount_x = 12671
+function duty3_check( actor, npc )
+	if db.actor:money() >= money_amount_x then 
+		return true
+	end
+	return false
+end
+
+local money_amount_x = 12671
+function duty4_check( actor, npc )
+	if db.actor:money() <= money_amount_x then 
+		return true
+	end
+	return false
+end
+
+
+
+--ITEM
+
+function duty1_check( actor, npc )
+	if actor:object("wpn_mp5") then 
+		return false
+	end
+	return true
+end
+
+function duty2_check( actor, npc )
+	if actor:object("wpn_abakan") then 
+		return false
+	end
+	return true
+end
+
+------------------------------------------------------------------- REWARDS & TRADES :
+--------------------------------------------------------------------------- SPAWNING :
+-- orig from PROTON @ GSC-FORUM : THX to you for youre help !
+-- edited by gannebamm
+
+--INITIALIZE CONSOLE
+local logf_console = nil
+
+function logf( fmt, ... )
+	logf_console = get_console()
+	logf = logf_main
+	logf_main( fmt, ... )
+end
+
+function logf_main( fmt, ... )
+    local c = select( "#", ... )
+    if c <= 0 then -- nothing to format
+        logf_console:execute( ":" .. string.gsub( fmt, " ", "\160" ) )
+    else
+        logf_console:execute( ":" .. string.gsub( string.format( fmt, ... ), " ", "\160" ) )
+    end
+end
+
+--'END of init console
+
+-- MUTANT / NPC SPAWNING
+-- LISTE VON MONSTERn DIE SPAWNEN :
+-- snork_weak / normal / snork_jumper (! sehr geiles TEIL!!!)
+-- sucker_weak / normal
+-- boar_strong / rest?
+-- dog_strong / rest ?
+-- flesh_strong / rest ?
+-- gigant_strong / rest ?
+-- m_poltergeist_strong_flame (attack) / m_poltergeist_normal_tele (doesnt attack!)
+-- tushkano_normal (is for all other NSCs and Mutants neutral, were not been attacked by others then the player!)
+-- pseudodog_strong / rest ?
+-- stalker_trader / Stalker with antigas Armor and bm-16 : roaming the zone
+----------------------------------- dutypost-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function duty1a_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+
+
+	--' logf("dutypost")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+			alife():create("pseudodog_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("dog_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "dutypost %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_duty1a_spawn ( actor, npc )
+
+	--' logf("init_spawn_duty1a() called")
+	local spawn_point1 = vector():set( 212, 2, -25 )
+	duty1a_spawn( spawn_point1, 1 )
+	
+	--' logf("init_spawn_duty1a() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END dutypost-aliVe-EBEN ^^ ----------------------
+----------------------------------- dutypost-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function duty1b_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+
+
+	--' logf("dutypost")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+			alife():create("pseudodog_normal", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("dog_strong", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "dutypost %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_duty1b_spawn ( actor, npc )
+
+	--' logf("init_spawn_duty1b() called")
+	local spawn_point1 = vector():set( 210, 2, -16)
+	duty1b_spawn( spawn_point1, 1 )
+	
+	--' logf("init_spawn_duty1b() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END dutypost-aliVe- -----------------------------
+----------------------------------- dutypost-aliVe-EVENT -------------------------------
+--' BEGINN of SPAWNfunction
+function duty1c_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos
+
+
+
+	--' logf("dutypost")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+
+
+		new_pos = vector():set(
+                    position.x,
+                    position.y,
+                    position.z
+                )
+
+			alife():create("dog_weak", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+				alife():create("dog_normal", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "Dutypost %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_duty1c_spawn ( actor, npc )
+
+	--' logf("init_spawn_duty1c() called")
+	local spawn_point1 = vector():set( 229, 2, -38)
+	duty1c_spawn( spawn_point1, 1 )
+	
+	--' logf("init_spawn_duty1c() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END dutypost-aliVe- -----------------------------
+----------------------------------- DUTY-aliVe-EVENT 2 -------------------------------
+--' BEGINN of SPAWNfunction
+function duty2_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local height = 5
+
+	--' logf("start adding snork_jumper")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		
+		x_offset = -125 -- bei der Westsperre
+		z_offset = 30 -- bei der Westsperre : DUTYS KNÜHPEHLN ^^
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("snork_jumper", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "snork_jumper %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_duty2_spawn ( actor, npc )
+
+	--' logf("init_duty2_spawn() called")
+	local spawn_point2 = db.actor:position()  -- Wäre ein spawn abhängig vom Spieler
+	duty2_spawn( spawn_point2, 3 )
+	
+	--' logf("init_duty2_spawn() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END duty2-aliVe-EVENT ---------------------------------
+----------------------------------- DUTY3-aliVe-EVENT 3 -------------------------------
+--' BEGINN of SPAWNfunction
+function duty3_spawn ( position, total )
+
+	--' Spawn MONSTER/NPC
+	local index
+	local new_pos, x_offset, z_offset
+
+        local height = 5
+
+	--' logf("start adding freedom")
+	for index = 1, total do -- spawns MONSTER/NPC numbering from index to total (1...total)
+		
+		x_offset = -125 -- bei der Westsperre
+		z_offset = 30 -- bei der Westsperre : DUTYS KNÜHPEHLN ^^
+		new_pos = vector():set(
+                    position.x + x_offset,
+                    position.y + height,
+                    position.z + z_offset
+                )
+
+		alife():create("mil_freedom_respawn_2", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		alife():create("mil_freedom_respawn_1", 
+					new_pos,
+					db.actor:level_vertex_id() ,	
+					db.actor:game_vertex_id() )
+		--' logf( "freedom %i created", index )
+	end
+
+end
+--' END OF SPAWNfunction
+
+--'BEGINN OF SPAWNinit function
+--'set amount of spawns and the coordinates for spawns
+--'see below
+function init_duty3_spawn ( actor, npc )
+
+	--' logf("init_duty3_spawn() called")
+	local spawn_point3 = db.actor:position()  -- Wäre ein spawn abhängig vom Spieler
+	duty3_spawn( spawn_point3, 1 )
+	
+	--' logf("init_duty3_spawn() completed")
+	
+end
+--' END OF SPAWNinit function
+------------------------------ END duty3-aliVe-EVENT ---------------------------------

@@ -1,0 +1,23 @@
+<string_table>
+	<string id="enc_equipment_abc_bag">
+		<text>Sleeping Bag made by the ABC company.</text>
+	</string>
+	<string id="abc_bag">
+		<text>Sleeping Bag</text>
+	</string>
+	<string id="unlimited_time_id">
+		<text>Unlimited</text>
+	</string>
+	<string id="one_hour_id">
+		<text>1 hour</text>
+	</string>
+	<string id="tree_hours_id">
+		<text>3 hours</text>
+	</string>
+	<string id="nine_hours_id">
+		<text>9 hours</text>
+	</string>
+	<string id="sleep_cap_id">
+		<text>Sleep for:</text>
+	</string>
+</string_table>
