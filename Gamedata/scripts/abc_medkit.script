@@ -52,8 +52,8 @@ function chk_medlot_object(obj)
 	med_used = "no" 
 		if level.object_by_id(med_id) == nil then
 			if medname == "medkit" then  med_kit = "yes" end
-			if medname == "medkit_army" then  med_kit = "yes" end
-			if medname == "medkit_scientic" then  med_kit = "yes" end
+			if medname == "medkit_army" then  med_army = "yes" end
+			if medname == "medkit_scientic" then  med_sci = "yes" end
 			time_mod=0
 		end	
 	end

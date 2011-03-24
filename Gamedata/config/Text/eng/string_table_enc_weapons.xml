@@ -417,7 +417,7 @@
 		<text>PPSh-41</text>
 	</string>
 	<string id="desc_wpn_ppsh41_7.62x25mm">
-		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 71 Cartridges.\nRounds Per Minute: 900RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x25mm Tokarev.\n
+		<text>%c[250,150,150,250]Type: Submachine Gun.\n%c[250,75,150,0]Ballistics: 7/10.\n%c[250,50,175,0]Accuracy: 8/10.\n%c[250,100,125,0]Handling: 6/10.\n%c[250,75,150,0]Reliability: 7/10.\n%c[250,150,150,250]Magazine Capacity: 71 Cartridges.\nRounds Per Minute: 900RPM.\nFiring Modes: Semi Automatic, Automatic.\nAmmunition Caliber: 7.62x25mm Tokarev.\nAttachable: 7.62x25mm Suppressor.\n
 	%c[default]The PPSh-41 is a submachine gun developed by Georgi Shpagin of the Soviet Union in 1941 as an inexpensive and improved alternative to the PPD-40. The PPSh-41 became one of the most mass produced weapons of World War II, with factories producing roughly 3000 submachine guns a day, and was issued to the bulk of the Soviet forces, who quickly outgunned German troops, the most of which still used Karabiner 98k rifles. It became admired by the Soviet forces as a simple, reliable and low recoil weapon.</text>
 	</string>
 	
